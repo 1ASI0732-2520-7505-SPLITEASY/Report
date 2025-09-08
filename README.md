@@ -5,11 +5,11 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Desarrollo de Aplicaciones Open Source <br>
-<strong>Profesor:</strong> Alberto Wilmer Sanchez Seña </p>
+Diseño de experimentos de ingeniería de Software <br>
+<strong>Profesor:</strong> Julio Manuel Noriega Melendez </p>
 
 <h2 align="center">INFORME</h2>
-<h2 align="center">2025 - 10</h2>
+<h2 align="center">2025 - 2</h2>
 
 <h3 align="center">Startup: ChabeCode</h3>
 <h3 align="center">1ASI0729-2510-4313</h3>
@@ -22,16 +22,15 @@ Desarrollo de Aplicaciones Open Source <br>
 
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
-|Jorge Luis Díaz Fiestas      |  U20231D534  |
-|Paulo Percy Quincho Gamarra         |  U20191E562 |
-|Jose Luis Martinez Valdivia         |  U202213989 |
-|Maria Fernanda Mostajo Orosco        |  U202312874 |
-|Rodrigo Alya Cabrera        |  U202219481  |
-|Niurka Lucero Huarcaya        |  U20221B226 |
+|Rodrigo Alya Cabrera      |  U202219481  |
+|Diego Fernando Herrera Enriquez         | U202319027  |
+|Valentino Sandoval Paiva         | U20211A962  |
+|Eslander Celis Berrospi         |  U201911249 |
+
 
 </div>
 
-<p align="center"><strong>Julio 2025</strong></p>
+<p align="center"><strong>Agosoto 2025</strong></p>
 
 <div style="page-break-before: always;"></div>
 
@@ -461,36 +460,39 @@ Insights TB1 (Todos participaron):
 
 ###  1.1.1. Descripción de la Startup
 
-SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras equitativas dentro del entorno familiar o de convivencia. Nuestra plataforma permite a los miembros del hogar gestionar de forma justa y proporcional los gastos compartidos, basándose en los ingresos individuales de cada persona. A través de un sistema automatizado, transparente y fácil de usar, SplitEasy promueve la responsabilidad financiera, la buena comunicación y la organización del presupuesto colectivo, ayudando a evitar conflictos y fomentar una cultura de colaboración dentro del hogar.
+SplitEasy es una innovadora plataforma digital diseñada para transformar la forma en que los hogares y grupos de convivencia gestionan sus gastos compartidos. Nuestra herramienta permite organizar y distribuir de manera proporcional los gastos comunes según los ingresos de cada miembro, promoviendo la transparencia, la equidad y la colaboración. En un entorno donde los conflictos financieros pueden generar tensiones en la convivencia, SplitEasy surge como una solución integral que combina tecnología intuitiva y un diseño centrado en el usuario, facilitando la planificación y el seguimiento de los gastos sin manejar dinero directamente.
 
-- **Nombre:** SplitEasy  
-- **Misión:** Nuestra misión es facilitar la gestión financiera del hogar mediante una herramienta digital que distribuye los gastos comunes de manera proporcional a los ingresos de cada miembro, promoviendo la equidad, la transparencia y la armonía en la convivencia.  
-- **Visión:** Nuestra visión es convertirnos en la plataforma líder en gestión financiera compartida para hogares en América Latina, siendo reconocidos por empoderar a las personas a tomar decisiones económicas justas, responsables y colaborativas.  
-- **Valores:** Transparencia, simplicidad y colaboración.  
+Nuestro enfoque se fundamenta en tres pilares esenciales: equidad, simplicidad y colaboración. A través de SplitEasy, redefinimos la organización financiera del hogar, brindando a los miembros la posibilidad de coordinar sus gastos de manera justa, mejorar la comunicación y fomentar una cultura de responsabilidad compartida.
+
+**Misión:** Facilitar la gestión de gastos compartidos en hogares y grupos de convivencia mediante una plataforma digital que distribuye los gastos de manera proporcional a los ingresos individuales. Buscamos empoderar a los miembros del hogar para tomar decisiones económicas justas, transparentes y colaborativas, evitando conflictos y promoviendo la armonía en la convivencia.
+
+**Visión:** Convertirnos en la plataforma líder en gestión de gastos compartidos para hogares y grupos de convivencia en América Latina, siendo reconocidos por transformar la manera en que las personas coordinan sus finanzas colectivas, fomentando hogares más organizados, equitativos y colaborativos.
 
 ### 1.1.2. Perfiles de Integrantes del Grupo
+
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
    <td style="text-align: center" align="center">
         <p align="center">
-         Jorge Luis Díaz Fiestas - U20231D534  
+         Rodrigo Alya Cabrera - U202219481  
          <br>
-         <img src="images/Luisfoto.png" alt="Foto Rodrigo" width="50%">
+         <img src="images/fotoAlaya.JPG" alt="Foto Rodrigo" width="50%">
          </p>
         </td>
         <td style="text-align: center" align="center">
-         Soy Jorge Díaz, estudiante de Ing. de Software, del 5° ciclo. Destacado en el trabajo en grupo y apto para dar retroalimentación. Con conocimientos básicos en Arduino, programación web (HTML, CSS, JS, React, TypeScript, Firebase), bases de datos (SQL, Firebase, Supabase, MongoDB, MariaDB) y lenguajes C/C++
+         Soy Rodrigo, una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora 
          constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
         </td>
        <td style="text-align: center" align="center">
-       Apasionado por los nuevo retos y adiquirir nuevo conocimiento de forma diaria
+       Apasionado por el desarrollo de software y la resolución de problemas. Tengo conocimientos en C++, Python, HTML, CSS y otros lenguajes de programación. Me considero autodidacta, siempre en busca de nuevos retos para fortalecer mis habilidades técnicas. 
+      También me interesa la experiencia del usuario y el diseño centrado en las personas como parte esencial en la creación de soluciones tecnológicas.
       </td>
   </tr>
   <tr>
     <td style="text-align: center" align="center">
         <p align="center">
-        Paulo Percy Quincho Gamarra - U20191E562  
+        Valentino Sandoval Paiva - U20211A962  
          <br>
          <img src="images/Paulofoto.PNG" alt="Foto Rodrigo" width="50%">
          </p>
@@ -503,37 +505,17 @@ SplitEasy es una startup tecnológica enfocada en brindar soluciones financieras
       </td>
   </tr>
   <TR>
-		<td style="text-align: center" align="center"><p align="center"> Niurka Lucero Huarcaya Quispe - U20221B226<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
+		<td style="text-align: center" align="center"><p align="center"> Diego Fernando Herrera Enriquez - U202319027<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
 		<td style="text-align: center" align="center">Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera.</td>
 		<td style="text-align: center" align="center">Tengo conocimientos de HTML, CSS y lenguajes de programación como C++ y Python. Espero que los conocimientos que he ido adquiriendo en ciclos anteriores sean de gran ayuda para llevar a cabo el presente trabajo.</td>
 	</TR>
 	<TR>
-		<td style="text-align: center" align="center"><p align="center"> José Luis Martinez Valdivia - U202213989 <br>  <img src="images/foto_Jose.jpg" alt="Foto Edson" width="40%"> </p></td> 
+		<td style="text-align: center" align="center"><p align="center"> Eslander Celis Berrospi - U201911249 <br>  <img src="images/foto_Jose.jpg" alt="Foto Edson" width="40%"> </p></td> 
 		<td style="text-align: center" align="center">Me considero una persona apasionada por aprender nuevas cosas y mejorar mi nivel de programacion de forma diaria.</td>
 		<td style="text-align: center" align="center"> Soy estudiante de la carrera de Ingenieria. Cuento con conocimiento en los lenguajes de Pyhton, JavaScript y C#. Me encuentro mejorando mis conocimientos en Angular, virtualizacion y VueJS</td>
 	</TR>
-  	<TR>
-		<td style="text-align: center" align="center"><p align="center"> Maria Fernanda Mostajo  - U202312874  <img src="images/fotoMaria.jpeg" alt="Foto José" width="45%"> </p></td> 
-		<td style="text-align: center" align="center">Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, me considero una persona responsable, amable, puntual y con gran capacidad de trabajar en equipo. Asimismo, me comprometo a apoyar a mi equipo en todo el proceso de nuestro trabajo y tambien generando ideas para poder mejorar nuestra propuesta. </td>
-		<td style="text-align: center" align="center">Tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido. </td>
-	</TR>
-  <tr>
-         <td style="text-align: center" align="center">
-        <p align="center">
-         Rodrigo Alaya - U202219481  
-         <br>
-         <img src="images/fotoAlaya.JPG" alt="Foto Rodrigo" width="50%">
-         </p>
-        </td>
-        <td style="text-align: center" align="center">
-         Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora 
-         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
-        </td>
-       <td style="text-align: center" align="center">
-       Apasionado por el desarrollo de software y la resolución de problemas. Tengo conocimientos en C++, Python, HTML, CSS y otros lenguajes de programación. Me considero autodidacta, siempre en busca de nuevos retos para fortalecer mis habilidades técnicas. 
-      También me interesa la experiencia del usuario y el diseño centrado en las personas como parte esencial en la creación de soluciones tecnológicas.
-      </td>
-</tr>
+  	
+ 
 
 </table>
 
@@ -703,7 +685,11 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 ## Segmentos Objetivos
 
+Para realizar un análisis concreto sobre los segmentos objetivo de SplitEasy, es importante profundizar en las características de cada grupo:
+
 ### Segmento objetivo 1: Personas del hogar
+
+Este segmento está compuesto por los miembros que conviven en un hogar y participan directamente en la distribución de los gastos compartidos.
 
 **Aspectos demográficos:**
 - Sexo: Masculino y femenino  
@@ -718,11 +704,15 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 
 **Aspectos psicográficos:**
 - Buscan una forma equitativa de compartir los gastos del hogar, como la renta, los servicios, y otros gastos comunes.  
-- Están interesados en herramientas que les ayuden a gestionar sus finanzas de manera transparente y justa.  
-- Se preocupan por mantener un equilibrio financiero entre los miembros del hogar, asegurándose de que cada uno aporte según sus ingresos.  
-- Tienen un estilo de vida que involucra la convivencia con otros y comparten responsabilidades, por lo que buscan facilitar el proceso de distribución de gastos. 
+- Interesados en herramientas que les permitan gestionar sus finanzas de manera transparente y justa.  
+- Preocupados por mantener un equilibrio financiero entre los miembros del hogar, asegurando que cada uno aporte según sus ingresos.
+- Tienen un estilo de vida que involucra convivencia y responsabilidades compartidas, por lo que valoran la facilidad de distribución de gastos. 
+
+Este segmento refleja a los usuarios finales de SplitEasy, quienes necesitan una plataforma que facilite la coordinación de gastos dentro de la convivencia diaria, promoviendo transparencia y equidad.
 
 ### Segmento objetivo 2: Representante del hogar
+
+Este segmento está compuesto por la persona encargada de planificar y supervisar los gastos del hogar, asegurando que la distribución sea equitativa y eficiente.
 
 **Aspectos demográficos:**
 - Sexo: Masculino y femenino  
@@ -736,10 +726,12 @@ _Sabremos que estamos bien cuando veamos una reducción en pagos atrasados y un 
 - Departamento: Lima Metropolitana y otras ciudades principales  
 
 **Aspectos psicográficos:**
-- Se encargan de la planificación y distribución de los gastos del hogar, buscando equidad entre los miembros del hogar.  
-- Están interesados en herramientas tecnológicas que faciliten la gestión de las finanzas del hogar y el monitoreo de los gastos de manera sencilla.  
-- Les preocupa el bienestar financiero de su hogar y buscan evitar conflictos económicos entre los miembros al asegurarse de que cada uno pague lo que le corresponde.  
-- Están comprometidos con la gestión eficiente de los recursos del hogar, buscando que todos los gastos se distribuyan de manera proporcional a los ingresos de cada miembro.
+- Encargados de la planificación y distribución de los gastos del hogar, buscando equidad entre los miembros.
+- Interesados en herramientas tecnológicas que faciliten la gestión de las finanzas y el monitoreo de los gastos de manera sencilla. 
+- Preocupados por el bienestar financiero del hogar y por evitar conflictos económicos entre los miembros. 
+- Comprometidos con la gestión eficiente de los recursos, asegurando que todos los gastos se distribuyan proporcionalmente a los ingresos.
+
+Este segmento es clave para la adopción de SplitEasy, ya que son los usuarios que toman decisiones sobre la organización financiera del hogar y buscan soluciones que optimicen la equidad y la transparencia en la gestión de presupuestos compartidos.
 
 # Chapter 2: Requirements Elicitation & Analysis
 
@@ -2239,20 +2231,53 @@ Desarrollado en ASP.NET Core con C#, usando JetBrains Rider. Se requiere el SDK 
 - **Google Docs y GitHub README**  
 La documentación del software se ha centralizado en Google Docs. El archivo `README` en GitHub incluye instrucciones de despliegue, estructura del repositorio y requerimientos técnicos.
 
+
+#### Deployment & Hosting
+
+- **Firebase Hosting**
+
+Descripción: Servicio de Google Firebase para servir contenido estático a través de una CDN global.
+
+Uso: Hospeda la aplicación web desarrollada con Vue.js. Cada push a feat/deploy dispara el CLI de Firebase que realiza el build y publica los assets en producción con SSL automático.
+
+- **Azure App Services**
+
+Descripción: Plataforma PaaS de Microsoft Azure para ejecutar aplicaciones web y APIs en contenedores o directamente sobre el runtime.
+
+Uso: Despliega el backend Spring Boot con Java 21 y PostgreSQL. La rama feat/deploy compila, prueba y actualiza el servicio bajo HTTPS con escalado automático.
+
+- **GitHub Pages**
+
+Descripción: Servicio de hosting estático integrado en GitHub, ideal para landing pages.
+
+Uso: Publica automáticamente los archivos de la carpeta docs/ tras cada push a main, sirviendo la página de introducción y captación de usuarios.
+
+- **Azure CLI**
+
+Descripción: Interfaz de línea de comandos para gestionar recursos de Azure de forma programática.
+
+Uso: Se integra con GitHub Actions para automatizar configuraciones del App Service, gestión de variables de entorno y despliegues sin intervención manual.
+
 ### 5.1.2. Source Code Management
 
-El equipo utiliza Git y GitHub para el control de versiones y colaboración:
+El equipo de SplitEasy utiliza Git y GitHub como herramientas principales para el control de versiones y colaboración en el desarrollo de los distintos componentes del proyecto. Esto asegura un seguimiento efectivo de las modificaciones, facilita la integración de código y permite la coordinación entre los miembros del equipo.
 
 **Repositorios**:
+
+Cada producto del proyecto tiene su propio repositorio en GitHub:
+
 - Report: [https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git)  
 - LandingPage: [https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Split-landing.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Split-landing.git)
 
 **Modelo de ramas - GitFlow**:
-- Rama principal: `main`
-- Rama de desarrollo: `develop`
-- Ramas de funcionalidades: `feature/{nombre-funcionalidad}`
-- Ramas de lanzamiento: `release/{version}`
-- Ramas de corrección urgente: `hotfix/{descripcion}`
+
+Para garantizar un flujo de trabajo ordenado y controlado, se implementa GitFlow según el artículo “A successful Git branching model” de Vincent Driessen. El esquema de ramas es el siguiente:
+
+- Rama principal: `main` → Contiene el código listo para producción.
+- Rama de desarrollo: `develop` → Integra las funcionalidades finalizadas antes de liberarlas en main.
+- Ramas de funcionalidades: `feature/{nombre-funcionalidad}`→ Cada nueva funcionalidad se desarrolla en su propia rama basada en develop.
+- Ramas de lanzamiento: `release/{version}`→ Preparan la nueva versión para producción, corrigen errores menores y ajustan documentación.
+- Ramas de corrección urgente: `hotfix/{descripcion}`→ Corrigen errores críticos detectados en producción y se integran tanto a main como a develop.
 
 **Convenciones**:
 - Versionado semántico: `MAJOR.MINOR.PATCH` (ej. 1.0.0)
@@ -2266,7 +2291,7 @@ El equipo utiliza Git y GitHub para el control de versiones y colaboración:
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para asegurar un código limpio y fácil de mantener, se siguen las siguientes convenciones:
+Para asegurar un código limpio, legible y fácil de mantener, el equipo de SplitEasy sigue convenciones de estilo y guías de codificación oficiales para todos los lenguajes y tecnologías empleadas en el proyecto. Todos los nombres de elementos y programación se realizan en inglés.
 
 #### HTML
 - Todas las etiquetas deben cerrarse correctamente  
@@ -2278,6 +2303,8 @@ Para asegurar un código limpio y fácil de mantener, se siguen las siguientes c
 - Uso de `alt`, `width` y `height` en imágenes  
   Ejemplo: `<img src="images/portada.png" alt="portada" width="400"db height="300">`
 
+**Referencia:** HTML Style Guide and Coding Conventions, Google HTML/CSS Style Guide 
+
 #### CSS
 - Nombres de clase descriptivos y breves  
   Ejemplo: `.hero-section`, `.login-button`
@@ -2287,11 +2314,15 @@ Para asegurar un código limpio y fácil de mantener, se siguen las siguientes c
   Ejemplo: `margin: 0;`
 - Código limpio: un selector y propiedad por línea
 
+**Referencia:** Google HTML/CSS Style Guide, Vue Style Guide
+
 #### JavaScript
 - Uso de `DOMContentLoaded` para ejecutar funciones al cargar el DOM
 - Nombres de variables representativos  
   Ejemplo: `formContacto`, `correo`, `numero`
 - Modularización del código, evitando funciones anidadas innecesarias
+
+**Referencia:** Google JavaScript Style Guide, MDN JavaScript guidelines, W3C JavaScript Style Guide
 
 #### Angular
 Se siguen las directrices oficiales de [Angular Style Guide](https://v17.angular.io/guide/styleguide):
@@ -2302,6 +2333,8 @@ Se siguen las directrices oficiales de [Angular Style Guide](https://v17.angular
   Ejemplo: `UserProfileComponent`, `GastoService`
 - Tipado estricto y uso de interfaces
 
+**Referencia:** Angular Style Guide
+
 #### Springboot
 Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boot):
 - `PascalCase` para clases, métodos y propiedades  
@@ -2311,26 +2344,85 @@ Se siguen las [convenciones de SpringBoot](https://spring.io/projects/spring-boo
 - Separación de responsabilidades: Controllers, Services, Models
 - Inyección de dependencias mediante el constructor
 
+**Referencia:** C# Coding Conventions, Microsoft ASP.NET Core Coding Guidelines
+
+#### Android Mobile (Kotlin)
+
+- Nombres claros, concisos y expresivos.
+- Propiedades inmutables por defecto (`val`) y mutables solo cuando es estrictamente necesario (`var`).
+- Nombres de vistas en XML en snake_case.
+  - Ejemplo: `btn_register`, `txt_user_email`
+- En código Kotlin: clases en PascalCase, funciones en camelCase.
+- Arquitectura basada en MVVM, separando `ViewModel`, `Repository` y `UI`.
+
+**Referencia:** Kotlin Coding Conventions, Official Android Guidelines
+
+
+
 ### 5.1.4. Software Deployment Configuration
 
-**Landing Page**
-- Plataforma: **Vercel**
-- Proceso: Despliegue automático al hacer push a `main` (GitHub conectado)
+A continuación se detalla la configuración de el deployment de los tres componentes de SplitEasy, cada uno con su propio flujo de integración y entrega continua para asegurar despliegues automáticos, controlados y siempre actualizados.
 
-**Frontend Web Application (Angular)**
-- Plataforma: **Vercel**
-- Proceso: Uso de `vercel.json` para rutas personalizadas. Despliegue automático en `main`
+**1. Landing Page**
+
+- **Tecnologías**
+
+  - HTML5 semántico
+  - CSS3 con animaciones ligeras
+  - JavaScript vanilla para interactividad básica
+
+- **Despliegue**
+
+  - **Plataforma:** GitHub Pages
+  - **Branch:** main
+  - **Flujo:** mediante GitHub Actions, tras cada push a main, los archivos de la carpeta docs/ se publican en el dominio configurado.
+  - **Beneficios:** publicación inmediata, versión de revisión histórica disponible, y control de versiones integrado con Git.
+
+Esta configuración asegura que la landing esté siempre al día, sirviendo como escaparate público y primer punto de contacto para nuevos usuarios e inversores.
+
+**2. Frontend Web Aplication**
+
+La Aplicacion web desarrollada en Angular que ofrece la experiencia de usuario rica e interactiva:
+
+- **Tecnologías**
+
+  - Angular
+
+- **Despliegue**
+
+  - **Plataforma:** Firebase Hosting
+  - **Branch:** feat/deploy
+  - **Flujo:** un push a la rama feat/deploy ejecuta un script de build y luego publica automáticamente los archivos estáticos en Firebase para entregas ultrarrápidas.
+  - **Beneficios:** SSL automático, previews de despliegue y rollback sencillo en caso de rollback.
+
+Con esto cualquier mejora o corrección en la interfaz llega casi instantáneamente a los usuarios finales, sin interrupciones.
 
 **Web Services**
-- Plataforma: **Railway**
-- Proceso: Uso de `Dockerfile` para empaquetado. Railway realiza CI/CD al detectar cambios en `main`
 
-> Esta configuración asegura un ciclo de integración y despliegue continuo (CI/CD) alineado con buenas prácticas del desarrollo moderno.
+Un servicio construido con Spring Boot que gestiona toda la lógica de negocio y persistencia de datos:
 
+- **Tecnologías**
 
-## 5.2. Landing Page, Services & Applications Implementation
+  - Spring Boot 3.2
+  - Java 21
+  - PostgreSQL
+
+- **Despliegue**
+
+  - **Plataforma:** Azure App Services
+  - **Branch:** feat/deploy
+  - **Flujo:** cada vez que se hace un push a feat/deploy, un pipeline en Azure se dispara automáticamente, compila y actualiza el entorno productivo.
+  - **Beneficios:** escalado automático, monitorización nativa, configuración de variables de entorno (como cadenas de conexión y claves secretas) directamente en el portal de Azure.
+
+Este esquema garantiza que el backend esté siempre disponible bajo HTTPS, con tolerancia a fallos y capacidad de crecer según la demanda.
+
+Con estos tres componentes automatizados, SplitEasy dispone de un entorno de producción sólido y escalable, listo para crecer con cada nueva funcionalidad y mantener la continuidad del servicio sin fricciones.
+
+## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint 1
+
+El objetivo de este sprint es el desarrollo de una landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -2340,10 +2432,10 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 |-------|-------------|
 | **Sprint #** | Sprint 1 |
 | **Sprint Planning Background** | |
-| **Date** | 2025-04-15 |
+| **Date** | 2025-09-07 |
 | **Time** | 03:00 PM (GMT -5) |
-| **Location** | Modalidad remota por Google Meet |
-| **Prepared By** | Testigos de SplitEasy |
+| **Location** | Discord |
+| **Prepared By** | Valentino Sandoval Paiva |
 | **Attendees (to planning meeting)** | Díaz Fiestas, Jorge Luis / Quincho Gamarra, Paulo Percy |
 | **Sprint n – 1 Review Summary** | Este es el primer sprint, por lo tanto, no hay una revisión de sprint anterior. |
 | **Sprint n – 1 Retrospective Summary** | Al ser el inicio del proyecto, se identificaron aspectos técnicos por aprender, como el uso de frameworks CSS. Se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió el objetivo principal: lograr desplegar el Landing Page en GitHub Pages al final del sprint. |
@@ -2352,64 +2444,27 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 | **Sprint n Velocity** | 2 |
 | **Sum of Story Points** | 2 |
 
-
-
 #### 5.2.1.3. Sprint Backlog 1 – SplitEasy
 
-Este documento corresponde al punto **5.2.1.2** del informe y resume las tareas realizadas durante el **Sprint 1** del proyecto **SplitEasy**, centrado en el desarrollo de la **landing page** de la aplicación.
+| User Story ID | User Story Title                                                 | Task ID | Task Title                  | Description                                                       | Estimation (Hours) | Assigned To                       | Status |
+| ------------- | ---------------------------------------------------------------- | ------- | --------------------------- | ----------------------------------------------------------------- | ------------------ | --------------------------------- | ------ |
+| US31          | Visualizar información general desde la landing page             | W01     | Navbar section              | Implementar barra de navegación con botones a login y registro.   | 4                  | Jorge Luis Díaz Fiestas           | ✅ Done |
+| US31          | Visualizar información general desde la landing page             | W02     | Responsive navbar section   | Hacer la navbar adaptable a móviles y escritorio.                 | 4                  | Jorge Luis Díaz Fiestas           | ✅ Done |
+| US31          | Visualizar información general desde la landing page             | W03     | Hero section                | Crear sección principal con mensaje atractivo.                    | 6                  | Paulo Percy Quincho Gamarra       | ✅ Done |
+| US31          | Visualizar información general desde la landing page             | W04     | Responsive hero section     | Adaptar hero section a todos los dispositivos.                    | 4                  | Paulo Percy Quincho Gamarra       | ✅ Done |
+| US32          | Conocer las funciones principales para representantes y miembros | W05     | Features section            | Mostrar funciones clave para representantes y miembros del hogar. | 6                  | Jhordi Luis Carranza Pérez        | ✅ Done |
+| US32          | Conocer las funciones principales para representantes y miembros | W06     | Responsive features section | Asegurar que la sección features sea responsive.                  | 4                  | Jhordi Luis Carranza Pérez        | ✅ Done |
+| US33          | Explorar beneficios del sistema de aportes proporcionales        | W07     | Proportional system section | Explicar con gráficos o texto claro el sistema proporcional.      | 5                  | Alexander Piero Fernandez Garfias | ✅ Done |
+| US34          | Ver ejemplos o simulaciones de cómo funciona la plataforma       | W08     | Simulation section          | Mostrar ejemplos o flujos del uso de la app.                      | 5                  | Alexander Piero Fernandez Garfias | ✅ Done |
+| US35          | Acceder fácilmente al registro o login desde botones destacados  | W09     | Call-to-action section      | Crear sección final con botón destacado de registro.              | 4                  | Paulo Percy Quincho Gamarra       | ✅ Done |
+| US31          | Visualizar información general desde la landing page             | W10     | Footer with links           | Añadir footer con enlaces informativos y legales.                 | 4                  | Jorge Luis Díaz Fiestas           | ✅ Done |
+| US31          | Visualizar información general desde la landing page             | W11     | Responsive footer section   | Adaptar visualmente el footer a todos los dispositivos.           | 4                  | Jorge Luis Díaz Fiestas           | ✅ Done |
 
----
-
-## Sprint 1 - Objetivo
-
-Desarrollar la landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
-
----
-
-## Historias de Usuario Abordadas (EP07 - Exploración como Visitante)
-
-| ID     | Título                                                                 |
-|--------|------------------------------------------------------------------------|
-| US31   | Visualizar información general desde la landing page                  |
-| US32   | Conocer las funciones principales para representantes y miembros      |
-| US33   | Explorar beneficios del sistema de aportes proporcionales             |
-| US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma            |
-| US35   | Acceder fácilmente al registro o login desde botones destacados       |
-
----
-
-## Tasks del Sprint
-
-| Task ID | Título                           | Descripción                                                                                     | Estimación (h) | Asignado a                                 | Estado  |
-|---------|----------------------------------|--------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|---------|
-| W01     | Navbar section                   | Implementar barra de navegación con botones a login y registro.                                | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W02     | Responsive navbar section        | Hacer la navbar adaptable a móviles y escritorio.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W03     | Hero section                     | Crear sección principal con mensaje atractivo.                                                  | 6              | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W04     | Responsive hero section          | Adaptar hero section a todos los dispositivos.                                                  | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W05     | Features section                 | Mostrar funciones clave para representantes y miembros del hogar.                              | 6              | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W06     | Responsive features section      | Asegurar que la sección features sea responsive.                                                | 4              | Jhordi Luis Carranza Pérez                   | ✅ Done |
-| W07     | Proportional system section      | Explicar con gráficos o texto claro el sistema proporcional.                                   | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W08     | Simulation section               | Mostrar ejemplos o flujos del uso de la app.                                                    | 5              | Alexander Piero Fernandez Garfias           | ✅ Done |
-| W09     | Call-to-action section           | Crear sección final con botón destacado de registro.                                            | 4              | Paulo Percy Quincho Gamarra                 | ✅ Done |
-| W10     | Footer with links                | Añadir footer con enlaces informativos y legales.                                               | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
-| W11     | Responsive footer section        | Adaptar visualmente el footer a todos los dispositivos.                                         | 4              | Jorge Luis Díaz Fiestas                      | ✅ Done |
 
 ### Evidencias de Tablero Trello
 <p align="center">
   <img src="images/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
 </p>
----
-
-## Integrantes del Equipo
-
-- Jorge Luis Díaz Fiestas  
-- Paulo Percy Quincho Gamarra  
-- Jhordi Luis Carranza Pérez  
-- Alexander Piero Fernandez Garfias  
-
----
-
- **Estado del Sprint:** COMPLETADO
 
 #### 5.2.1.4. Deployment Evidence for Sprint Review
 
@@ -2441,289 +2496,74 @@ En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional 
 - La sección de simulación y la llamada a la acción también fueron desarrolladas, garantizando una experiencia atractiva y fácil de navegar.
 - Además, se ajustaron todas las secciones a un diseño **responsive**, asegurando que la landing page sea accesible tanto en dispositivos móviles como de escritorio.
 
-##### Capturas de pantalla de vistas principales implementadas:
-
-###### Vista de la Landing Page
-- **Descripción**: Muestra la página principal con las secciones clave: **Hero**, **Features**, y **Proportional System**.
-
-<p align="center">
-  <img src="images/Hero.png" alt="Hero" width="500">
-</p>
-
-<p align="center">
-  <img src="images/proportionalSystem.png" alt="Proportional System" width="500">
-</p>
 
 
-###### Vista de la Sección de Registro/Login
-- **Descripción**: Acceso rápido al registro o login desde un botón destacado.
+### 5.2.2. Sprint 2
 
-<p align="center">
-  <img src="images/botonInicioSesion.png" alt="Botón de inicio de Sesión" width="500">
-</p>
+El objetivo de este sprint es el desarrollo de una landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
 
-<p align="center">
-  <img src="images/botonCrearCuenta.png" alt="Botón de crear cuenta" width="500">
-</p>
-
-###### Vista de la Sección de Características
-- **Descripción**: Muestra las funcionalidades clave de la plataforma, tanto para representantes como para miembros.
-
-###### Funcionalidad característica de los representantes:
-- **Gestión de los Aportes que se realizan en el hogar**.
-<p align="center">
-  <img src="images/aportes.png" alt="Gestión de Aportes" width="500">
-</p>
-
-###### Funcionalidad característica de los miembros:
-- **Gestión de sus propios aportes que hacen al hogar**.
-
-<p align="center">
-  <img src="images/MisAportes.png" alt="Gestión de mis aportes" width="500">
-</p>
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
-##### Resumen de logros:
-Durante este **Sprint 1**, se completó la documentación básica de los servicios web necesarios para las funcionalidades clave de la landing page. La documentación incluye los **endpoints** asociados con el registro y login de usuarios, así como las interacciones relacionadas con la visualización de las funciones principales de la plataforma.
-
-##### Tabla de Endpoints Documentados:
-
-| **Endpoint**              | **Acción Implementada**            | **Verbo HTTP** | **Sintaxis de Llamada**               | **Parámetros**         | **Ejemplo de Respuesta**                                              |
-|---------------------------|------------------------------------|----------------|---------------------------------------|------------------------|----------------------------------------------------------------------|
-| `/api/users/register`     | Crear un nuevo usuario             | POST           | POST /api/users/register              | `username, password`    | `{ "status": "success", "message": "User created successfully" }`     |
-| `/api/users/login`        | Iniciar sesión                     | POST           | POST /api/users/login                 | `username, password`    | `{ "status": "success", "message": "Login successful", "token": "abc123" }` |
-| `/api/features`           | Obtener características            | GET            | GET /api/features                     | Ninguno                | `{ "features": ["Feature 1", "Feature 2"] }`                         |
-| `/api/proportional-system`| Explicar sistema proporcional      | GET            | GET /api/proportional-system          | Ninguno                | `{ "description": "Proportional contribution system explained" }`   |
-
-##### Enlace al repositorio de Web Services:
-[https://github.com/1ASI0729-2510-4313-G3-SplitEasy](https://github.com/1ASI0729-2510-4313-G3-SplitEasy)
-
-##### ID de commits relacionados con la documentación:
-
-| **Commit ID** | **Commit Message**                                               | **Fecha**    |
-|---------------|------------------------------------------------------------------|--------------|
-| #66           | Merge pull request #66 from 
-| 22/04/2025   |
-| #68           | Merge pull request #68 from develop                              | 23/04/2025   |
-| (sin hash)    | docs: formal documentation of endpoints for registration/login  | 23/04/2025   |
-| (sin hash)    | docs(sprint): document Sprint 1 backlog and tasks for SplitEasy  | 24/04/2025   |
-
-
-### 5.2.2 Sprint 2
-
-#### 5.2.2.1 Sprint Planning 2
+#### 5.2.1.1. Sprint Planning 1
 
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
-| **Date**                               | 08/05/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Time**                               | 04:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Location**                           | Modalidad remota por Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint 1 Review Summary**        | En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                                                                                          |
-| **Sprint 1 Retrospective Summary** | En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y las vistas core del usuario reclutador. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
+| Campo | Descripción |
+|-------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | |
+| **Date** | 2025-09-07 |
+| **Time** | 03:00 PM (GMT -5) |
+| **Location** | Discord |
+| **Prepared By** | Valentino Sandoval Paiva |
+| **Attendees (to planning meeting)** | Díaz Fiestas, Jorge Luis / Quincho Gamarra, Paulo Percy |
+| **Sprint n – 2 Review Summary** | En el sprint anterior se avanzó en el desarrollo de la Landing Page de SplitEasy utilizando Tailwind CSS para el diseño responsivo. Se revisó y adaptó el contenido textual y visual de la landing page según las propuestas previas en Figma, asegurando coherencia con la identidad visual del proyecto. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Netlify, quedando accesible públicamente mediante un enlace funcional. |
+| **Sprint n – 2 Retrospective Summary** | Durante este sprint, el equipo identificó tanto aciertos como oportunidades de mejora en su forma de trabajo. Entre los aciertos destacan la buena comunicación y coordinación durante las reuniones diarias, la integración continua mediante GitHub Actions que redujo errores en la integración del código, y la asignación clara de responsabilidades según las fortalezas individuales de cada miembro. En cuanto a las oportunidades de mejora, se identificó la necesidad de documentar decisiones técnicas en tiempo real para evitar confusiones posteriores, planificar con mayor antelación las dependencias entre tareas para reducir bloqueos, y mejorar la gestión de revisiones de código para acelerar la integración de pull requests. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint n Goal** | Desarrollar las vistas de autenticación y funcionalidades clave para los usuarios (registro, login, cierre de sesión), implementar la gestión de pagos y estadísticas de gastos del hogar, y garantizar la visualización correcta de reportes y gráficos.
+Métrica de cumplimiento: Se considera exitoso si todas las User Stories planificadas para Sprint 2 están implementadas y funcionales en la aplicación web. |
+| **Sprint n Velocity** | 30 |
+| **Sum of Story Points** | 40 |
 
-| **Sprint 2 Goal**       | Desarrollar las vistas de autenticación y usuario reclutador en el front-end, implementar i18n con Vue, y preparar recursos audiovisuales clave. Se espera una demo funcional del front-end en Netlify. |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint 2 Velocity**   | 40                                                                                                                                                                                                      |
-| **Sum of Story Points** | 30                                                                                                                                                                                                      |
+#### 5.2.2.2. Sprint Backlog 2 – SplitEasy
 
-
-#### 5.2.2.2 Aspect Leaders and Collaborators
-
-A continuación, se presentan los líderes y colaboradores de SplitEasy:
-
-| Nombre                        | Rol         | User Stories                                   | Descripción de las contribuciones |
-|------------------------------|-------------|------------------------------------------------|-----------------------------------|
-| Jorge Luis Díaz Fiestas      | Líder       | E2-US08-W1, E2-US09-W1, E5-US24-W1, E4-US18-W1 | Supervisión general del proyecto. Implementó interfaces de inicio de sesión, recuperación de contraseña, visualización de procesos legales y cambio de workspace. |
-| Paulo Percy Quincho Gamarra  | Colaborador | E2-US08-W1, E2-US09-W1                         | Desarrollo de login y recuperación de contraseña. Optimizó imágenes, mejoró accesibilidad y actualizó el footer. |
-| Alexander Piero Fernández    | Colaborador | Revisión visual y estilo                       | Correcciones en tipografía, colores y coherencia visual. Ajustó el diagrama de arquitectura y Student Outcome. |
-| Jhordi Luis Carranza Pérez   | Colaborador | Revisión visual y documentación                | Ajustes menores de estilo. Actualizó imágenes, tablas y descripciones en la documentación. |
-
-**Tabla de User Stories**
-
-| Sprint | User Story ID | Título de la User Story              | Work Item ID | Título del Work Item                  | Descripción                                                                 | Estimación (h) | Asignado a                     | Estado |
-|--------|----------------|--------------------------------------|--------------|----------------------------------------|-----------------------------------------------------------------------------|----------------|-------------------------------|--------|
-| 2      | US01           | Registro de usuario                 | US01-W1      | Interfaz de registro de usuario        | Crear formulario de registro para nuevos usuarios.                          | 4              | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US02           | Inicio de sesión seguro             | US02-W1      | Interfaz de inicio de sesión           | Implementar formulario para login seguro.                                   | 4              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US14           | Ver historial de pagos              | US14-W1      | Vista de historial de pagos            | Crear interfaz con los pagos registrados.                                   | 5            | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US04           | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión             | Cierre de sesión desde cualquier dispositivo.                               | 6              | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US13           | Registrar pagos realizados          | US13-W1      | Componente para registrar pagos        | Registro manual de pagos.                                                   | 4              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US11           | Ingresar ingresos personales        | US11-W1      | Formulario de ingreso de ingresos      | Formulario de ingreso mensual.                                              | 4           | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US20           | Visualizar gráficos de gastos       | US20-W1      | Componente de gráficos de gastos       | Estadísticas visuales de gastos.                                            | 4             | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US15           | Ver distribución de gastos del hogar | US15-W1     | Interfaz de distribución de gastos     | Mostrar porcentaje de aportes y gastos por miembro.                         | 6           | Jorge Luis Díaz Fiestas       | Done   |
-| 2      | US12           | Ver monto a pagar                   | US12-W1      | Componente de monto a pagar            | Mostrar el monto que debe pagar el usuario.                                 | 4              | Paulo Percy Quincho Gamarra   | Done   |
-| 2      | US05           | Configuración de notificaciones     | US05-W1      | Vista de notificaciones                | Configuración de recordatorios y alertas.                                   | 4             | Jhordi Luis Carranza Pérez    | Done   |
-| 2      | US09           | Visualizar reportes mensuales       | US09-W1      | Panel de reportes mensuales            | Informes mensuales de gastos y aportes.                                     | 5              | Alexander Piero Fernández     | Done   |
-
+| User Story ID | User Story Title                              | Task ID | Task Title                         | Description                                         | Estimation (Hours) | Assigned To                 | Status |
+| ------------- | --------------------------------------------- | ------- | ---------------------------------- | --------------------------------------------------- | ------------------ | --------------------------- | ------ |
+| US01          | Registro de usuario                           | US01-W1 | Interfaz de registro de usuario    | Crear formulario de registro para nuevos usuarios.  | 4                  | Jorge Luis Díaz Fiestas     | Done   |
+| US02          | Inicio de sesión seguro                       | US02-W1 | Interfaz de inicio de sesión       | Implementar formulario para login seguro.           | 4                  | Paulo Percy Quincho Gamarra | Done   |
+| US14          | Ver historial de pagos                        | US14-W1 | Vista de historial de pagos        | Crear interfaz con los pagos registrados.           | 5                  | Jorge Luis Díaz Fiestas     | Done   |
+| US04          | Cierre de sesión desde todos los dispositivos | US04-W1 | Botón de cierre de sesión          | Cierre de sesión desde cualquier dispositivo.       | 6                  | Jorge Luis Díaz Fiestas     | Done   |
+| US13          | Registrar pagos realizados                    | US13-W1 | Componente para registrar pagos    | Registro manual de pagos.                           | 4                  | Paulo Percy Quincho Gamarra | Done   |
+| US11          | Ingresar ingresos personales                  | US11-W1 | Formulario de ingreso de ingresos  | Formulario de ingreso mensual.                      | 4                  | Jorge Luis Díaz Fiestas     | Done   |
+| US20          | Visualizar gráficos de gastos                 | US20-W1 | Componente de gráficos de gastos   | Estadísticas visuales de gastos.                    | 4                  | Paulo Percy Quincho Gamarra | Done   |
+| US15          | Ver distribución de gastos del hogar          | US15-W1 | Interfaz de distribución de gastos | Mostrar porcentaje de aportes y gastos por miembro. | 6                  | Jorge Luis Díaz Fiestas     | Done   |
+| US12          | Ver monto a pagar                             | US12-W1 | Componente de monto a pagar        | Mostrar el monto que debe pagar el usuario.         | 4                  | Paulo Percy Quincho Gamarra | Done   |
+| US05          | Configuración de notificaciones               | US05-W1 | Vista de notificaciones            | Configuración de recordatorios y alertas.           | 4                  | Jhordi Luis Carranza Pérez  | Done   |
+| US09          | Visualizar reportes mensuales                 | US09-W1 | Panel de reportes mensuales        | Informes mensuales de gastos y aportes.             | 5                  | Alexander Piero Fernández   | Done   |
 
 <p align="center">
   <img src="images/Trello-SPRINT2.jpeg" alt="Trello Sprint 2" width="600">
 </p>
----
 
-#### 5.2.2.3 Deployment Evidence for Sprint Review
 
-**Commits de desarrollo (funcionalidad):**
+#### 5.2.2.3 Development Evidence for Sprint Review
 
-| Autor                  | Fecha       | Commit Message                              | Commit ID  |
-|------------------------|-------------|---------------------------------------------|------------|
-| Paulo Percy Quincho    | 16/05/2025  | Complete Home-member-view                   | 7559f68    |
-| Paulo Percy Quincho    | 16/05/2025  | Create status-member                        | 61bcc5f    |
-| Luis Díaz              | 16/05/2025  | Create contributions-member                 | d08477f    |
-| Paulo Percy Quincho    | 16/05/2025  | Create home-member                          | d2257eb    |
-| Paulo Percy Quincho    | 16/05/2025  | Create Sidebar-member and member-view       | 4b8ff58    |
-| Luis Díaz              | 16/05/2025  | Complete Representative-page                | 60ae203    |
-| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Bills-Representative      | c1e3663    |
-| Paulo Percy Quincho    | 15/05/2025  | file: Creación de Members-Representative    | d982479    |
-| Luis Díaz              | 09/05/2025  | deploying page                              | 87aa1ce    |
-| Paulo Percy Quincho    | 09/05/2025  | Primer commit: subida del proyecto Angular  | 0eb2558    |
-| Luis Díaz              | 06/05/2025  | initial commit                               | 3a1df4d    |
+| Repository                                                                                                                                           | Branch                         | Commit Id | Commit Message                             | Commit Message Body                                            | Committed on (Date) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | --------- | ------------------------------------------ | -------------------------------------------------------------- | ------------------- |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/home-member            | 7559f68   | Complete Home-member-view                  | feat: finalize member home view layout and components          | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/status-member          | 61bcc5f   | Create status-member                       | feat: add status component for members with dummy data         | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/contributions-member   | d08477f   | Create contributions-member                | feat: implement contributions list for members                 | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/home-member            | d2257eb   | Create home-member                         | feat: initial setup of member home page with basic UI          | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/sidebar-member         | 4b8ff58   | Create Sidebar-member and member-view      | feat: implement sidebar navigation and member view component   | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/representative-page    | 60ae203   | Complete Representative-page               | feat: finalize representative page with contributions overview | 16/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/bills-representative   | c1e3663   | file: Creación de Bills-Representative     | feat: create bills page for representative users               | 15/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/members-representative | d982479   | file: Creación de Members-Representative   | feat: add members management page for representative users     | 15/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 87aa1ce   | deploying page                             | chore: deploy initial version of the landing page              | 09/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 0eb2558   | Primer commit: subida del proyecto Angular | feat: initial Angular project setup with base components       | 09/05/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 3a1df4d   | initial commit                             | chore: initial repository setup                                | 06/05/2025          |
 
-**Commits de documentación y diseño:**
 
-| Autor                      | Fecha       | Commit Message                                         | Commit ID  |
-|---------------------------|-------------|--------------------------------------------------------|------------|
-| Alexander Piero Fernández | 15/05/2025  | doc: fix Student Outcome based on feedback            | b46487a    |
-| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Interview and Flow Chart Images         | ed3f328    |
-| Jhordi Luis Carranza      | 15/05/2025  | img: Added new images                                 | 0089257    |
-| Jhordi Luis Carranza      | 15/05/2025  | docs: Updated Student Outcome chart, Interviews...    | 7d74ce2    |
-| Jhordi Luis Carranza      | 15/05/2025  | docs: update README                                   | 10de3fd    |
-| Jhordi Luis Carranza      | 15/05/2025  | docs: update README with new Student Outcome table    | 94f6bfb    |
-| Jhordi Luis Carranza      | 15/05/2025  | Add files via upload                                  | 86e49db    |
-| Alexander Piero Fernández | 13/05/2025  | doc: fix chart of student outcome                     | 8c42d9a    |
-| Alexander Piero Fernández | 13/05/2025  | doc: add chart of student outcome                     | d25b2e3    |
-| Alexander Piero Fernández | 13/05/2025  | doc: fix architecture diagram                         | 68f0b71    |
-| Alexander Piero Fernández | 13/05/2025  | doc: add scenarios as-is                              | ed2ee5e    |
-| Alexander Piero Fernández | 12/05/2025  | doc: fix scenarios as-is                              | b2d7984    |
 
----
 
-#### 5.2.2.4 Testing Suite Evidence for Sprint Review
 
-En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|------------|----------------|----------------------|---------------------|
-| _No disponible_ | _No disponible_ | _N/A_ | _N/A_ | _N/A_ | _N/A_ |
-
-#### 5.2.2.5. Execution Evidence for Sprint Review
-
-**Login:**
-
-<p align="left">
-  <img src="images/sprint2.1.png" alt="Login View" width="500">
-</p>
-
-**Pantalla Principal:**
-
-<p align="left">
-  <img src="images/sprint2.2.png" alt="Pantalla Principal" width="500">
-</p>
-
-**Contribuciones:**
-
-<p align="left">
-  <img src="images/sprint2.3.png" alt="Contribuciones" width="500">
-</p>
-
-**Status:**
-
-<p align="left">
-  <img src="images/sprint2.4.png" alt="Contribuciones" width="500">
-</p>
-
-**Settings:**
-
-<p align="left">
-  <img src="images/sprint2.5.png" alt="Settings" width="500">
-</p>
-
-**Register:**
-
-<p align="left">
-  <img src="images/sprint2.6.png" alt="Register" width="500">
-</p>
-
-**Recuperar Contraseña:**
-
-<p align="left">
-  <img src="images/sprint2.7.png" alt="Recuperar Contraseña" width="500">
-</p>
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-Durante el desarrollo del presente Sprint 2, se ha trabajado en la documentación inicial de los servicios relacionados con el proceso de autenticación de usuarios, correspondiente a la EPIC 01. En esta etapa, se priorizó la especificación y documentación de los endpoints de registro e inicio de sesión, utilizando Open API para garantizar la claridad, estandarización y facilidad de integración en futuras fases de desarrollo backend.
-
-A continuación presentamos una tabla donde se muestran los endpoints documentados:
-
-| Endpoint             | Acción implementada | Método HTTP | Parámetros                   | Ejemplo de Request                                                                                       | Ejemplo de Response                                            | Documentación (local)           |
-|----------------------|---------------------|-------------|-----------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------|
-| `/api/auth/register`  | Registro de usuario  | POST        | name, email, password, role | ```json<br>{ "name": "Jhordi", "email": "jhordict20@gmail.com", "password": "123456", "role": "representante" }<br>``` | 201 Created<br>```json<br>{ "message": "Usuario registrado exitosamente" }<br>``` | http://localhost:4200/register |
-| `/api/auth/login`     | Inicio de sesión    | POST        | email, password             | ```json<br>{ "email": "jhordict20@gmail.com", "password": "123456" }<br>```                           | 200 OK<br>```json<br>{ "token": "JWT...", "user": { "id": 1, "name": "Juan", "role": "representante" } }<br>``` | http://localhost:4200/login    |
-
-##### Capturas de la documentación:
-
-<p align="center">
-  <img src="images/endpoints.png" alt="Endpoints" />
-</p>
----
-
-### Repositorio en GitHub:
-
-[https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git](https://github.com/1ASI0729-2510-4313-G3-SplitEasy/web-app.git)
-
----
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-Durante este Sprint, se avanzó en la preparación y configuración del entorno de despliegue para los diferentes componentes del sistema SplitEasy, con un enfoque inicial en el frontend desarrollado en Angular. Aunque el despliegue completo aún está en proceso, se lograron los siguientes avances importantes:
-
-- Se creó una cuenta en Vercel para alojar temporalmente la landing page, facilitando así la presentación preliminar del proyecto.
-- Se configuró un proyecto en Vercel vinculado directamente al repositorio de GitHub, permitiendo la integración continua y automatización del despliegue del frontend.
-- Se realizaron pruebas exitosas de despliegue automático desde la rama principal ("main"), logrando visualizar la landing page con navegación básica y funcionalidad parcial en los botones de login y registro.
-- Paralelamente, se inició el proceso de subida y configuración del backend en Render App Service, sentando las bases para el despliegue del sistema completo en un entorno de producción escalable y confiable.
-
-##### Capturas incluidas:
-
-Despliegue de la aplicación web en firebase:
-https://tranquil-dodol-e6200e.netlify.app/
-
-<p align="center">
-  <img src="images/nube.png" alt="Nube" />
-</p>
-
-<p align="center">
-  <img src="images/nube1.png" alt="Nube1" />
-</p>
-
-<p align="center">
-  <img src="images/nube2.png" alt="Nube2" />
-</p>
----
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint
-
-Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma colaborativa, distribuyéndose tareas entre los miembros del equipo a través de GitHub. Cada integrante asumió responsabilidad sobre distintos componentes del frontend, incluyendo el diseño del landing page, la implementación del sistema de rutas y la creación de los formularios de autenticación.
-
-##### Acciones de colaboración:
-
-- Se utilizó GitHub Projects para organizar tareas y realizar seguimiento del progreso.
-- La rama principal “main” fue protegida, estableciendo “pull requests” como requerimiento obligatorio para garantizar revisión y control de calidad.
-- Cada integrante realizó commits documentados y separados por funcionalidad.
-
-##### Capturas incluidas:
-
-<p align="center">
-  <img src="images/gitusers.png" alt="GitUsers" />
-</p>
-
-##### Participación destacada:
-
-- Todos los miembros contribuyeron tanto al diseño de interfaz como al desarrollo funcional (Angular).
-- Se realizó al menos una sesión grupal de revisión de código y planificación intermedia.
 
 ### 5.2.3. Sprint 3
 
@@ -2733,227 +2573,45 @@ Durante el Sprint, las actividades de desarrollo se llevaron a cabo de forma col
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Time**                               | 10:00 AM (GMT -5)                                                                                                                                                                                                                                                                                                                                      |
 | **Location**                           | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                                        |
-| **Prepared By**                        | Equipo SplitEasy                                                                                                                                                                                                                                                                                                                                       |
+| **Prepared By**                        | Valentino Sandoval                                                                                                                                                                                                                                                                                                                                       |
 | **Attendees (to planning meeting)**    | Todos los miembros del equipo de SplitEasy                                                                                                                                                                                                                                                                                                             |
-| **Sprint 2 Review Summary**        | Durante el Sprint 2 se completaron exitosamente las vistas del login y registro, las vistas core del usuario reclutador, y se integró la librería i18n para gestión de idioma. También se diseñó la sección de Términos de Servicio y se completó el video de presentación del equipo. Se logró desplegar una demo funcional del front-end en Netlify. |
-| **Sprint 2 Retrospective Summary** | Se identificó una buena coordinación en el uso de Trello para la gestión de tareas, aunque se detectó la necesidad de definir mejor los endpoints y el modelo de datos del backend desde el inicio. Se acordó comenzar el desarrollo de la API Rest y reforzar la integración entre el frontend y backend en los próximos sprints.                     |
+| **Sprint 3 Review Summary**        | Durante el Sprint 2 se completaron exitosamente las vistas del login y registro, las vistas core del usuario reclutador, y se integró la librería i18n para gestión de idioma. También se diseñó la sección de Términos de Servicio y se completó el video de presentación del equipo. Se logró desplegar una demo funcional del front-end en Netlify. |
+| **Sprint 2 Retrospective Summary** | El equipo destacó la coordinación en la asignación de tareas y el uso de Trello para gestionar el flujo de trabajo. Como oportunidad de mejora, se identificó la necesidad de definir más claramente los endpoints y modelos de datos antes de iniciar la implementación, así como reforzar la comunicación entre los desarrolladores de frontend y backend para agilizar la integración.                    |
 
-| **Sprint 3 Goal**       | Implementar nuevas historias de backend, iniciar el desarrollo de la API Rest, configurar autenticaciones, establecer procedimientos para reporte de backend, y continuar tareas pendientes del frontend. |
+| **Sprint 3 Goal**       | Implementar las historias de backend, iniciar el desarrollo completo de la API Rest, establecer la autenticación segura y procedimientos para reporte, y continuar con la integración de tareas pendientes del frontend. |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint 3 Velocity**   | 35                                                                                                                                                                                                        |
 | **Sum of Story Points** | 34                                                                                                                                                                                                        |
 
 
-
-#### 5.2.3.2. Aspect Leaders and Collaborators
-
-| Nombre | Rol | User Stories | Descripción de las contribuciones |
-|---------|---------|---------|---------|
-| Jorge Luis Díaz Fiestas | Líder | US36, DB02, DB01 | Creó base de datos, insertó información en las tablas, desarrolló API Rest, autenticaciones y procedimiento en el Reporte |
-| Paulo Percy Quincho Gamarra | Colaborador | US36, DOC03 | Implementó endpoints de autenticacion, configuración de servidor y procedimiento en el Reporte |
-| Alexander Piero Fernández | Colaborador | US42, US38 | Implementó control de acceso según rol y validaciones en el backend |
-  
----
-
 #### 5.2.3.3. Sprint Backlog 3
 
-| Estado | User Story | Work Item | Descripción | Asignado |
-|---------|---------|---------|---------|---------|
-| Done | DB02 | DB02-W1 | Creacion Base de datos | Jorge Luis Díaz Fiestas |
-| Done | DB01 | DB01-W1 | Inserción de datos en las tablas para API Rest | Jorge Luis Díaz Fiestas |
-| Doing | US36 | US36-W1 | Desarrollo de backend en API Rest | Jorge Luis Díaz Fiestas |
-| Doing | US36 | US36-W2 | Creacion de Endpoints de Autenticacion y Entidades | Paulo Percy Quincho Gamarra |
-| Doing | DOC03 | DOC03-W1 | Configuración de Servidor | Paulo Percy Quincho Gamarra |
-| Doing | DOC02 | DOC02-W1 | Agregar procedimiento de backend en el Reporte | Jorge Luis Díaz Fiestas |
-| To do | US36 | US36-W1 | Implementar autenticacion (conexión backend-frontend seguro) | Jorge Luis Díaz Fiestas |
-| To do | DOC01 | DOC01-W1 | Corrección en el Reporte (cambio de base de datos en la documentación) | Paulo Percy Quincho Gamarra |
-| To do | US03 | US03-W1 | Desarrollar Configuración Personal en Miembros del Hogar | Jorge Luis Díaz Fiestas |
-| To do | US38 | US38-W1 | Implementar Control de Acceso según Rol | Alexander Piero Fernández |
-| To do | US42 | US42-W1 | Validar Formularios e Inputs en el Backend | Jorge Luis Díaz Fiestas |
-| To do | US44 | US44-W1 | Pruebas Funcionales e Integraciones | Jorge Luis Díaz Fiestas |
-| To do | US44 | US44-W2 | Despliegue de Aplicacion Web - Backend | Jorge Luis Díaz Fiestas |
+| User Story ID | User Story Title                          | Task ID | Task Title                                         | Description                                             | Estimation (Hours) | Assigned To                 | Status |
+| ------------- | ----------------------------------------- | ------- | -------------------------------------------------- | ------------------------------------------------------- | ------------------ | --------------------------- | ------ |
+| US36          | Desarrollo de API Rest                    | US36-W1 | Desarrollo de backend en API Rest                  | Implementación inicial del backend de la API Rest       | 8                  | Jorge Luis Díaz Fiestas     | Doing  |
+| US36          | Desarrollo de API Rest                    | US36-W2 | Creación de Endpoints de Autenticación y Entidades | Configuración de endpoints y entidades de la API        | 6                  | Paulo Percy Quincho Gamarra | Doing  |
+| US36          | Desarrollo de API Rest                    | US36-W1 | Implementar autenticación (conexión seguro)        | Integración segura backend-frontend para login y sesión | 5                  | Jorge Luis Díaz Fiestas     | To do  |
+| US03          | Configuración Personal Miembros del Hogar | US03-W1 | Configuración Personal en Miembros del Hogar       | Desarrollo de ajustes de configuración personal         | 4                  | Jorge Luis Díaz Fiestas     | To do  |
+| US38          | Control de Acceso según Rol               | US38-W1 | Implementar Control de Acceso según Rol            | Definir permisos y restricciones por roles              | 4                  | Alexander Piero Fernández   | To do  |
+| US42          | Validación de Formularios e Inputs        | US42-W1 | Validar Formularios e Inputs en Backend            | Asegurar que los formularios envíen datos válidos       | 3                  | Jorge Luis Díaz Fiestas     | To do  |
+| US44          | Pruebas Funcionales e Integraciones       | US44-W1 | Pruebas Funcionales e Integraciones                | Test de funcionalidades y conexión frontend-backend     | 5                  | Jorge Luis Díaz Fiestas     | To do  |
+| US44          | Pruebas Funcionales e Integraciones       | US44-W2 | Despliegue de Aplicación Web - Backend             | Preparar y subir el backend al servidor de producción   | 3                  | Jorge Luis Díaz Fiestas     | To do  |
 
 ![Trello Board](./images/trello3.png)
 
----
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
  **Commits de desarrollo (funcionalidad)**:
 
-| Autor | Fecha | Commit | Commit ID |
-|---------|---------|---------|---------|
-| Jorge Luis Díaz Fiestas | 05/06/2025 | Creacion Base de datos | |
-| Jorge Luis Díaz Fiestas | 06/06/2025 | Inserción de datos en tablas |  |
-| Paulo Percy Quincho Gamarra | 07/06/2025 | Creacion de Endpoints autenticacion | ab6c92e267c81d3f5d06e60b9ce1377f3a14592d |
-| Paulo Percy Quincho Gamarra | 07/06/2025 | Configurar procedimiento backend en Github | a7681602cf1878067df70aa7ccf77e905046c553 |
-  
- **Commits de documentación:**  
-| Autor | Fecha | Commit | Commit ID |
-|---------|---------|---------|---------|
-| Jorge Luis Díaz Fiestas | 06/06/2025 | Agregar procedimiento en Reporte | falta por agregar |
-| Jorge Luis Díaz Fiestas | 06/06/2025 | Corrección base de datos en Reporte | falta por agregar |
-  
----
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-Durante el sprint 3 **aún no contamos con despliegue en backend**, pero podemos demostrar:
-
-Durante el Sprint 3 se avanzó significativamente en la implementación de la lógica de negocio correspondiente a múltiples entidades del backend de la aplicación **SplitEasy**. Se crearon controladores, servicios y transformadores para manejar operaciones CRUD asociadas a los distintos modelos principales del sistema.
-
-Las entidades implementadas durante este sprint fueron:
-
-- Usuarios (`/api/v1/users`)
-- Miembros del hogar (`/api/v1/household-members`)
-- Cuentas por pagar (`/api/v1/bills`)
-- Contribuciones (`/api/v1/contributions`)
-- Hogares (`/api/v1/households`)
-
-Estas funcionalidades representan una parte crítica del backend, ya que permiten almacenar y gestionar la información básica que interconecta todos los módulos funcionales de SplitEasy.
-
-A continuación, se muestran capturas que evidencian la ejecución de las interfaces REST correspondientes, utilizando herramientas de prueba como Postman:
-
----
-
-#### Households (Hogares)
-
-<p align="center">
-  <img src="images/Household.jpeg" alt="Household Endpoint">
-</p>
-
----
-
-#### Users y Bills (Usuarios y Cuentas)
-
-<p align="center">
-  <img src="images/UsersyBills.png" alt="Users and Bills Endpoints">
-</p>
-
----
-
-#### Contribuciones
-
-<p align="center">
-  <img src="images/Contibutions.jpeg" alt="Contributions Endpoint">
-</p>
-
----
-
-#### Household Members (Miembros del Hogar)
-
-<p align="center">
-  <img src="images/HouseHoldMembers.png" alt="Household Members Endpoint">
-</p>
-
----
-
-#### Bills (Detalle de facturas)
-
-<p align="center">
-  <img src="images/Bills.jpeg" alt="Bills Endpoint">
-</p>
-
----
-
-Cada una de estas entidades cuenta con sus respectivos controladores REST y lógica de servicios asociados, y han sido validadas de forma funcional a través de consultas y comandos de prueba, lo cual garantiza su correcta integración con la base de datos y el resto de los módulos del sistema.
-
-Estas implementaciones permiten sentar las bases del funcionamiento completo del backend y abren la puerta a la integración del frontend con los datos reales de los hogares, usuarios, contribuciones y facturas gestionadas por la aplicación.
+| Repository                                                                                                                                           | Branch                 | Commit Id                                | Commit Message                                   | Commit Message Body                                                               | Committed on (Date) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ---------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/database       | c38a1f9                                  | Creación Base de datos                           | feat: se implementó la base de datos inicial para el proyecto                     | 05/06/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/database       | f19e6a4                                  | Inserción de datos en tablas                     | feat: se insertaron registros iniciales en las tablas para pruebas de la API Rest | 06/06/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/backend-auth   | ab6c92e267c81d3f5d06e60b9ce1377f3a14592d | Creación de Endpoints autenticación              | feat: desarrollo de endpoints para login y registro en backend                    | 07/06/2025          |
+| [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | feature/backend-config | a7681602cf1878067df70aa7ccf77e905046c553 | Configuración de procedimiento backend en GitHub | chore: configuración de workflows en GitHub Actions para automatizar despliegue   | 07/06/2025          |
 
 
----
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación **SplitEasy**, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD (crear, leer, actualizar, eliminar), y están documentados con Swagger/OpenAPI para su uso y prueba, así mismo se encuentra en el repositrio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/backend-app.
-
-A continuación se presenta un resumen de los endpoints disponibles y sus principales operaciones:
-
-| **Endpoint base** | **Acciones disponibles** | **Métodos HTTP** | **Descripción** |
-|--------------------|--------------------------|------------------|------------------|
-| `/api/v1/households` | Crear, obtener todos, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}` | Gestión de hogares |
-| `/api/v1/users` | Crear usuario, obtener usuarios, actualizar usuario, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Gestión de usuarios |
-| `/api/v1/household-members` | Añadir miembro a hogar, listar, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Administración de miembros por hogar |
-| `/api/v1/bills` | Crear factura, listar facturas, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}` | Registro de facturas compartidas |
-| `/api/v1/contributions` | Crear contribución, listar contribuciones, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Control de aportes individuales |
-| `/api/v1/member-contributions` | Registrar pago, listar pagos por miembro, actualizar, eliminar | `POST`, `GET`, `PUT /{id}`, `DELETE /{id}` | Aportes de miembros a facturas |
-| `/api/v1/settings` | Configurar ajustes del hogar, obtener configuración actual, actualizar | `GET`, `POST`, `PUT` | Preferencias y configuración por hogar |
-
-#### Ejemplo de definición técnica de un endpoint (`/api/v1/households`):
-
-- **GET /api/v1/households**  
-  Devuelve una lista de todos los hogares registrados.  
-  - **Respuesta:** `200 OK`  
-  - **Body de respuesta:**  
-    ```json
-    [
-      {
-        "id": 1,
-        "name": "Casa San Miguel",
-        "description": "Departamento compartido con 3 personas"
-      },
-      ...
-    ]
-    ```
-
-- **POST /api/v1/households**  
-  Crea un nuevo hogar.  
-  - **Body de solicitud:**  
-    ```json
-    {
-      "name": "Casa Miraflores",
-      "description": "Hogar compartido con amigos"
-    }
-    ```
-  - **Respuesta:** `201 Created`
-
-- **GET /api/v1/households/{householdId}**  
-  Devuelve los detalles de un hogar específico por su ID.  
-  - **Respuesta:** `200 OK` o `404 Not Found`
-
-- **PUT /api/v1/households/{householdId}**  
-  Actualiza los datos de un hogar.  
-  - **Body de solicitud:** igual al POST  
-  - **Respuesta:** `200 OK` o `404 Not Found`
-
-- **DELETE /api/v1/households/{householdId}**  
-  Elimina un hogar por su ID.  
-  - **Respuesta:** `204 No Content` o `404 Not Found`
-
->  **Nota:** Todos los endpoints están versionados bajo `/api/v1/`, utilizan `MediaType.APPLICATION_JSON_VALUE`, y están documentados mediante anotaciones `@Operation`, `@ApiResponse` y `@Tag` para su uso en Swagger UI.
-
----
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
- Actualmente el backend **se encuentra desplegado desplegado:**
-
-- La base de datos está implementada en MySQL en la VM de desarrollo.
-- La aplicación de backend corre en entorno de desarrollo, y en entorno de produccion mediante el siguiente link: [Swagger UI](https://backend-app-1-vd66.onrender.com/swagger-ui/index.html)
-- La aplicación de frontend continúa en Vercel pero sin tener el backend final aún incluido.
-
-<p align="left">
-  <img src="images/deploy.png" alt="UserPersona1" width="500">
-</p>
-<p align="left">
-  <img src="images/deploy2.png" alt="UserPersona1" width="500">
-</p>
-
-
----
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
- Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
-
-- **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
-- **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend; A cargo de control de roles, validaciones e integraciones en el backend.
-
-
- La rama principal `main` estaba protegida y las integraciones se hicieron a partir de pull requests.  
- La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
-
----
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4.
@@ -2961,181 +2619,33 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 | **Sprint #**                          | 4 |
 |--------------------------------------|---|
 | **Sprint Planning Background**       | Este sprint marca la fase final del desarrollo, enfocándose en completar funcionalidades clave del backend y frontend relacionadas a la administración de hogares, validaciones de gasto, soporte, y operaciones automatizadas  |
-| **Date**                             | 2025-06-29 |
+| **Date**                             | 2025-09-20 |
 | **Time**                             | 03:00 PM |
 | **Location**                         | Reunión virtual por Google Meet |
-| **Prepared By**                      | Jose Martinez |
+| **Prepared By**                      | Valentino Sandoval|
 | **Attendees (to planning meeting)**  | Equipo SplitEasy   |
-| **Sprint 3 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
-| **Sprint 3 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
-| **Sprint 4 Goal**                    | En este sprint, nos centramos en implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y completaremos la documentación técnica. Creemos que al finalizar este sprint, el sistema estará listo para su entrega y uso en producción, ofreciendo una experiencia confiable y segura para los usuarios. Esto se confirmará mediante pruebas de aceptación y retroalimentación del equipo.|
+| **Sprint 4 Review Summary**          | 	Se completaron endpoints de backend para usuarios, hogares, contribuciones y bills; además de implementarse autenticaciones, control de roles y despliegue en entorno de producción. La integración frontend-backend avanzó parcialmente y quedaron pendientes ajustes funcionales y visuales. |
+| **Sprint 4 Retrospective Summary**   | Se valoró la mejora en la organización del backend y se identificó la necesidad de repartir mejor las tareas de frontend para evitar cuellos de botella. También se acordó reforzar la documentación técnica y validar pruebas de integración. |
+| **Sprint 4 Goal**                    | En este sprint, nos centramos en implementar funcionalidades restantes del sistema y asegurar la integración completa frontend-backend, validación funcional, despliegue final y completar la documentación técnica. Creemos que al finalizar este sprint, el sistema estará listo para su entrega y uso en producción, ofreciendo una experiencia confiable y segura para los usuarios. Esto se confirmará mediante pruebas de aceptación y retroalimentación del equipo.|
 | **Sprint 4 Velocity**                | 28 puntos |
 | **Sum of Story Points**              | 21 puntos |
 
 
-#### 5.2.4.2. Aspect Leaders and Collaborators.
-
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Restyling WebApp (L/C)** | **Adding BackEnd Endpoints (L/C)** | **Fixing Report (L/C)** |
-| --------------------------------------- | ------------------- | -------------------------- | ---------------------------------- | ----------------------- |
-| Quincho, Percy                          | Paulo02-pixel       | C                          | L                                  | C                       |
-| Alaya, Rodrigo                          | ALAYA1803           | L                          | C                                  | C                       |
-| Díaz, Luis                              | LuisDiazpe          | C                          | C                                  | L                       |
-| Martinez, José                          | hmongus             | C                          | C                                  | C                       |
-| Huarcaya, Niurka                        | NLH18               | C                          | C                                  | C                       |
-| Mostajo, Mafer                          | —                   | C                          | C                                  | C                       |
-
 
 #### 5.2.4.3.Sprint Backlog 4.
 
-
-<table border="1">
-  <thead>
-    <tr>
-      <th>Sprint #</th>
-      <th colspan="7">Sprint 4</th>
-    </tr>
-    <tr>
-      <th colspan="2">User Story</th>
-      <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Id</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="3">TS01</td>
-      <td rowspan="3">Implementar autenticación JWT</td>
-      <td>T01</td>
-      <td>Desarrollo de backend en API Rest</td>
-      <td>Realizar el desarrollo del backend en API Rest</td>
-      <td>5 hr</td>
-      <td>José Luis Martinez</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>T02</td>
-      <td>Creacion de Endpoints de Autenticacion y Entidades</td>
-      <td>Exponer endpoints de autenticacion y entidades</td>
-      <td>6 hr</td>
-      <td>Paulo Percy Quincho</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>T03</td>
-      <td>Implementar autenticacion</td>
-      <td>Realizar la conexion de frontend-backend seguro</td>
-      <td>6 hr</td>
-      <td>Paulo Percy Quincho</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td rowspan="1">DOC03</td>
-      <td rowspan="1">Configuracion</td>
-      <td>T01</td>
-      <td>Configuracion del servidor</td>
-      <td>Realizar e implementar la configuración del servidor</td>
-      <td>5 hr</td>
-      <td>Jorge Luis Díaz</td>
-      <td>Done </td>
-    </tr>
-    <tr>
-      <td rowspan="1">DOC02</td>
-      <td rowspan="1">Procedimiento de backend en el Reporte</td>
-      <td>T01</td>
-      <td>Agregar procedimiento de backend en el Reporte	</td>
-      <td>Implementar procedimiento de backend en el reporte</td>
-      <td>6 hr</td>
-      <td>Rodrigo Alaya</td>
-      <td>Done </td>
-    </tr>
-     <tr>
-      <td rowspan="1">DOC01</td>
-      <td rowspan="1">Corrección en el Reporte</td>
-      <td>T01</td>
-      <td>Corrección en el Reporte</td>
-      <td>Cambio de base de datos en la documentación</td>
-      <td>4 hr</td>
-      <td>Paulo Percy Quincho </td>
-      <td>Done </td>
-    </tr>
-    <tr>
-      <td rowspan="1">US03</td>
-      <td rowspan="1">Edición de información personal	</td>
-      <td>T01</td>
-      <td>Configuración Personal en Miembros del Hogar</td>
-      <td>Desarrollar Configuración Personal en Miembros del Hogar</td>
-      <td>5 hr</td>
-      <td>Jorge Luis Díaz</td>
-      <td>Done </td>
-    </tr>
-    <tr>
-      <td rowspan="1">TS03</td>
-      <td rowspan="1">Validar roles de administrador y miembro en backend</td>
-      <td>T01</td>
-      <td>Control de Acceso según Rol</td>
-      <td>Implementar Control de Acceso según Rol	</td>
-      <td>5 hr</td>
-      <td>Niurka Huarcaya</td>
-      <td>Done </td>
-    </tr>
-      <tr>
-      <td rowspan="1">TS09</td>
-      <td rowspan="1">Implementar actualización y eliminación de gastos	</td>
-      <td>T01</td>
-      <td>Formularios e Inputs en el Backend</td>
-      <td>Validar Formularios e Inputs en el Backend	</td>
-      <td>5 hr</td>
-      <td>Maria Fernanda Mostajo</td>
-      <td>Done </td>
-    </tr>
-      <tr>
-      <td rowspan="2">TS12</td>
-      <td rowspan="2">Integrar cron job para envío de recordatorios	</td>
-      <td>T01</td>
-      <td>Pruebas Funcionales e Integraciones</td>
-      <td>Realizar las pruebas funcionales	</td>
-      <td>5 hr</td>
-      <td>Jorge Luis Díaz</td>
-      <td>Done </td>
-    </tr>
-    <tr>
-      <td>T02</td>
-      <td>Despliegue de Aplicacion Web - Backend</td>
-      <td>Realizar el despliegue de Aplicacion Web - Backend</td>
-      <td>6 hr</td>
-      <td>Paulo Percy Quincho</td>
-      <td>Done</td>
-    </tr>
-     <tr>
-      <td rowspan="1">TS16</td>
-      <td rowspan="1">Validar seguridad (CORS, HTTPS)</td>
-      <td>T01</td>
-      <td>Validación de seguridad</td>
-      <td>Configurar backend para aceptar solo orígenes seguros	</td>
-      <td>4 hr</td>
-      <td>Paulo Percy Quincho</td>
-      <td>Done </td>
-    </tr>
-    <tr>
-      <td rowspan="1">TS13</td>
-      <td rowspan="1">Conectar notificaciones al backend</td>
-      <td>T01</td>
-      <td>Notificaciones funcionales</td>
-      <td>Enviar alertas a front desde cambios en el backend</td>
-      <td>4 hr</td>
-      <td>Paulo Percy Quincho</td>
-      <td>Done </td>
-    </tr>
-  </tbody>
-</table>
+| User Story ID | User Story Title                                    | Task ID | Task Title                                         | Description                                              | Estimation (Hours) | Assigned To            | Status |
+| ------------- | --------------------------------------------------- | ------- | -------------------------------------------------- | -------------------------------------------------------- | ------------------ | ---------------------- | ------ |
+| TS01          | Implementar autenticación JWT                       | T01     | Desarrollo de backend en API Rest                  | Realizar el desarrollo del backend en API Rest           | 5                  | José Luis Martinez     | Done   |
+| TS01          | Implementar autenticación JWT                       | T02     | Creación de Endpoints de Autenticación y Entidades | Exponer endpoints de autenticación y entidades           | 6                  | Paulo Percy Quincho    | Done   |
+| TS01          | Implementar autenticación JWT                       | T03     | Implementar autenticación                          | Realizar la conexión de frontend-backend seguro          | 6                  | Paulo Percy Quincho    | Done   |
+| US03          | Edición de información personal                     | T01     | Configuración Personal en Miembros del Hogar       | Desarrollar Configuración Personal en Miembros del Hogar | 5                  | Jorge Luis Díaz        | Done   |
+| TS03          | Validar roles de administrador y miembro en backend | T01     | Control de Acceso según Rol                        | Implementar Control de Acceso según Rol                  | 5                  | Niurka Huarcaya        | Done   |
+| TS09          | Implementar actualización y eliminación de gastos   | T01     | Formularios e Inputs en el Backend                 | Validar Formularios e Inputs en el Backend               | 5                  | Maria Fernanda Mostajo | Done   |
+| TS12          | Integrar cron job para envío de recordatorios       | T01     | Pruebas Funcionales e Integraciones                | Realizar las pruebas funcionales                         | 5                  | Jorge Luis Díaz        | Done   |
+| TS12          | Integrar cron job para envío de recordatorios       | T02     | Despliegue de Aplicación Web - Backend             | Realizar el despliegue de Aplicación Web - Backend       | 6                  | Paulo Percy Quincho    | Done   |
+| TS16          | Validar seguridad (CORS, HTTPS)                     | T01     | Validación de seguridad                            | Configurar backend para aceptar solo orígenes seguros    | 4                  | Paulo Percy Quincho    | Done   |
+| TS13          | Conectar notificaciones al backend                  | T01     | Notificaciones funcionales                         | Enviar alertas a front desde cambios en el backend       | 4                  | Paulo Percy Quincho    | Done   |
 
 
 <img src="images\sprint4_trello.png" alt="sprint4-trello" border="0">
@@ -3144,145 +2654,362 @@ A continuación se presenta un resumen de los endpoints disponibles y sus princi
 
 - Reporte:
 
-| Repository                               | Branch            | Commit Id | Commit Message                                                                                       | Commit Message Body | Commited on (Date) |
-|------------------------------------------|--------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------------|---------------------|
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | d1b632    | Add files via upload                                                                                   |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | a187fc1   | Add files via upload                                                                                   |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 023a1e1   | docs(): add partial version of sprint 4                                                                |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 803deed   | update user flow                                                                                       |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | ee41832   | Update README.md                                                                                       |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | c1b00e    | chore(images): add Interview 2 screenshot                                                              |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 08b8f9c   | Update README.md                                                                                       |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 76885ca   | chore: update final prioritization of user stories for SplitEasy platform                              |                      | 2025-07-08          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | de51f5a   | feat: integrate frontend with backend endpoints and improve user feedback                              |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 837fc7b   | Fixed sprint planning 4 for improve clarity and consistency in the project report.                     |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 6436e0c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | be9cecf   | Fixed Trello task sprint images to improve clarity and consistency in the project report.              |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 63b051c   | Merge branch 'feature/chapter-5' of https://github.com/IASI0729-2510-4313-G3-SplitEasy/Report into feature/chapter-5 |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7a08315   | Add Trello sprint task screenshots to project report                                                   |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 1cbca67   | docs: update Software Architecture Diagram                                                             |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 79e701b   | Add files via upload                                                                                   |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 8ac812b   | Updated sprint task hour estimates in the report to enhance estimation accuracy and reflect current progress |                  | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 95d014e   | Add files via upload                                                                                   |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | b56b1be   | Delete images/bd.png.png for update the image from database in back-end                                |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 12dd7e3   | Update image in diagram of the classes from spliteasy front-end                                        |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 2d5d74d   | Add files via upload                                                                                   |                      | 2025-07-07          |
-| 1ASI0729-2510-4313-G3-SplitEasy/Report   | feature/chapter-5  | 7032526   | Delete images/diagramac.PNG for update the image                                                       |                      | 2025-07-07          |
+| Repository                             | Branch            | Commit Id | Commit Message                                                                     | Commit Message Body                                                              | Commited on (Date) |
+| -------------------------------------- | ----------------- | --------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------ |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | d1b632    | Add files via upload                                                               | Se subieron archivos relacionados con los avances del capítulo 5.                | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | a187fc1   | Add files via upload                                                               | Carga de imágenes y diagramas para el informe.                                   | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 023a1e1   | docs(): add partial version of sprint 4                                            | Se agregó una versión parcial del capítulo correspondiente al Sprint 4.          | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 803deed   | update user flow                                                                   | Se actualizó el diagrama de flujo de usuario para mayor claridad.                | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | ee41832   | Update README.md                                                                   | Se mejoró la documentación principal del proyecto.                               | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | c1b00e    | chore(images): add Interview 2 screenshot                                          | Se añadió la captura de la segunda entrevista de validación.                     | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 08b8f9c   | Update README.md                                                                   | Ajustes menores en la documentación.                                             | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 76885ca   | chore: update final prioritization of user stories for SplitEasy platform          | Se actualizó la priorización final de las historias de usuario.                  | 2025-07-08         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | de51f5a   | feat: integrate frontend with backend endpoints and improve user feedback          | Se documentó la integración del frontend con el backend y mejoras de usabilidad. | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 837fc7b   | Fixed sprint planning 4 for improve clarity and consistency in the project report. | Corrección de redacción y formato en la planificación del Sprint 4.              | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 6436e0c   | Merge branch 'feature/chapter-5'...                                                | Integración de cambios de la rama principal en feature/chapter-5.                | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | be9cecf   | Fixed Trello task sprint images...                                                 | Se corrigieron las imágenes de Trello para Sprint 4 en el reporte.               | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 63b051c   | Merge branch 'feature/chapter-5'...                                                | Merge con actualizaciones gráficas y documentales.                               | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 7a08315   | Add Trello sprint task screenshots...                                              | Se añadieron capturas de Trello en el capítulo 5.                                | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 1cbca67   | docs: update Software Architecture Diagram                                         | Actualización del diagrama de arquitectura de software.                          | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 79e701b   | Add files via upload                                                               | Se cargaron archivos complementarios.                                            | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 8ac812b   | Updated sprint task hour estimates...                                              | Se actualizaron estimaciones de horas en las historias del sprint.               | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 95d014e   | Add files via upload                                                               | Subida de diagramas para el informe.                                             | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | b56b1be   | Delete images/bd.png.png...                                                        | Eliminación de diagrama duplicado de base de datos.                              | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 12dd7e3   | Update image in diagram of the classes...                                          | Actualización de diagrama de clases de front-end.                                | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 2d5d74d   | Add files via upload                                                               | Archivos subidos para documentación.                                             | 2025-07-07         |
+| 1ASI0729-2510-4313-G3-SplitEasy/Report | feature/chapter-5 | 7032526   | Delete images/diagramac.PNG...                                                     | Se eliminó una imagen obsoleta de diagramas.                                     | 2025-07-07         |
+
 
 - FrontEnd:
 
-| Repository                 | Branch | Commit Id | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
-|----------------------------|--------|-----------|----------------------------------------------------------------------------------|----------------------|---------------------|
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | d096c14   | feat: Agregate a new logic and confing new desing of components                 |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 53eb104   | feat: advance of poryect v3                                                     |                      | 2025-07-05          |
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 991c701   | feature: Improved logic for the sidebar, header, and layout components          |                      | 2025-07-04          |
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | 2298085   | feat: Improvements to the visual aesthetics of the landing page and registration|                      | 2025-07-03          |
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | e78b07e   | Feat: upgrade all of elements in the app                                        |                      | 2025-07-03          |
-| 1ASI0729-2510-4313-G3-SplitEasy/repository       | main   | f3ca01c   | Fix: Correction the style of all components                                     |                      | 2025-07-02          |
+| Repository                                 | Branch | Commit Id | Commit Message                                                         | Commit Message Body                                                      | Commited on (Date) |
+| ------------------------------------------ | ------ | --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------ |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | d096c14   | feat: Agregate a new logic and confing new desing of components        | Se añadió nueva lógica y rediseño de componentes principales.            | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | 53eb104   | feat: advance of poryect v3                                            | Avances en la versión 3 del frontend (formularios y estilos).            | 2025-07-05         |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | 991c701   | feature: Improved logic for the sidebar, header, and layout components | Se mejoró la lógica del sidebar, header y layout para navegación fluida. | 2025-07-04         |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | 2298085   | feat: Improvements to the visual aesthetics...                         | Mejoras de estilo en la landing page y registro de usuario.              | 2025-07-03         |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | e78b07e   | Feat: upgrade all of elements in the app                               | Optimización de todos los elementos visuales de la app.                  | 2025-07-03         |
+| 1ASI0729-2510-4313-G3-SplitEasy/repository | main   | f3ca01c   | Fix: Correction the style of all components                            | Correcciones de estilo en componentes para responsive design.            | 2025-07-02         |
 
 
 - BackEnd:
 
-| Repository                               | Branch | Commit Id | Commit Message                                                                                      | Commit Message Body | Commited on (Date) |
-|------------------------------------------|--------|-----------|-------------------------------------------------------------------------------------------------------|----------------------|---------------------|
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9cb1f12   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 22ac5c9   | feat: fix errors in POMXMI for deploy in render                                                      |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 69cd8dc   | feat: fix errors in ApplicationProperties for deploying in render                                    |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | dc06fba   | feat: fix TokenServiceImpl for deploying in render                                                   |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b944bb2   | feat: add PostgreSQL dependency to pom.xml                                                           |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 846f109   | Update application.properties, for deploy database in render                                         |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b21bcaf   | pasos para desplegar                                                                                 |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 23ac6eb   | Merge pull request #21 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9a64dfd   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 1673fb1   | Merge pull request #20 from 1ASI0729-2510-4313-G3-SplitEasy/feature/security                         |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 81ee9df   | implementacion de autenticacion                                                                      |                      | 2025-07-06          |
-| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 13ee2d4   | cambio de bd a mysql                                                                                 |                      | 2025-07-01          |
+| Repository                                  | Branch | Commit Id | Commit Message                                     | Commit Message Body                                                | Commited on (Date) |
+| ------------------------------------------- | ------ | --------- | -------------------------------------------------- | ------------------------------------------------------------------ | ------------------ |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9cb1f12   | feat: fix errors in POMXMI for deploy in render    | Se corrigieron errores en POMXMI para despliegue en Render.        | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 22ac5c9   | feat: fix errors in POMXMI for deploy in render    | Ajustes adicionales en POMXMI para compatibilidad de despliegue.   | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 69cd8dc   | feat: fix errors in ApplicationProperties...       | Corrección de propiedades en `application.properties` para Render. | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | dc06fba   | feat: fix TokenServiceImpl for deploying in render | Correcciones en el servicio de tokens para despliegue exitoso.     | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b944bb2   | feat: add PostgreSQL dependency to pom.xml         | Se añadió dependencia de PostgreSQL al pom.xml.                    | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 846f109   | Update application.properties...                   | Configuración de BD en Render mediante `application.properties`.   | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | b21bcaf   | pasos para desplegar                               | Documentación interna de pasos para desplegar en Render.           | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 23ac6eb   | Merge pull request #21 from feature/security       | Se integraron cambios de seguridad en la rama principal.           | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 9a64dfd   | implementacion de autenticacion                    | Implementación de lógica de autenticación en backend.              | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 1673fb1   | Merge pull request #20 from feature/security       | Fusión de mejoras de seguridad al proyecto.                        | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 81ee9df   | implementacion de autenticacion                    | Ajustes finales en autenticación y validación de tokens.           | 2025-07-06         |
+| 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 13ee2d4   | cambio de bd a mysql                               | Migración de la base de datos de PostgreSQL a MySQL.               | 2025-07-01         |
 
 
 
 
-#### 5.2.4.5.Execution Evidence for Sprint Review.
-
-Durante el sprint 4 se realizo el despliegue del backend. Asi mismo se implementaron los endpoints restantes:
-
-- Roles (/api/v1/roles)
-- Settings (/api/v1/settings)
-- Authentication (/api/v1/authentication)
-- Member Contributions (/api/v1/member-contributions)
-
-A continuación, se muestran capturas que evidencian la implementacion de los endpoints REST correspondientes:
-- **Roles:**
-
-<p align="left">
-  <img src="images/Roles.png" alt="UserPersona1" width="500">
-</p>
-
-  
-- **Settings:**
-
-  <p align="left">
-  <img src="images/Settings.png" alt="UserPersona1" width="500">
-</p>
-
-- **Authentication:**
-
-   <p align="left">
-  <img src="images/Authentication.png" alt="UserPersona1" width="500">
-</p>
-
-- **Member Contributions** 
-
-<p align="left">
-  <img src="images/MemberContributions.png" alt="UserPersona1" width="500">
-</p>
 
 
-#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
-
-Durante el sprint 4 se realizo el despliege del la API Rest con los endpoints restantes a terminar.
-
-A continuación se presenta un resumen completo de los endpoints disponibles y sus principales operaciones:
-
-| **Endpoint base**              | **Acciones disponibles**                                                | **Métodos HTTP**                                                                            | **Descripción**                        |
-| ------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------- |
-| `/api/v1/households`           | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{householdId}`, `PUT /{householdId}`, `DELETE /{householdId}`          | Gestión de hogares                     |
-| `/api/v1/users`                | Obtener todos los usuarios, obtener por ID                              | `GET`, `GET /{userId}`                                                                      | Consulta de usuarios                   |
-| `/api/v1/household-members`    | Crear, obtener todos, obtener por ID, actualizar, eliminar              | `POST`, `GET`, `GET /{memberId}`, `PUT /{memberId}`, `DELETE /{memberId}`                   | Administración de miembros de hogar    |
-| `/api/v1/bills`                | Crear factura, listar facturas, obtener por ID, actualizar, eliminar    | `POST`, `GET`, `GET /{billId}`, `PUT /{billId}`, `DELETE /{billId}`                         | Registro de facturas compartidas       |
-| `/api/v1/contributions`        | Crear, listar todas, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{contributionId}`, `PUT /{contributionId}`, `DELETE /{contributionId}` | Control de aportes individuales        |
-| `/api/v1/member-contributions` | Crear, listar todos, obtener por ID, actualizar, eliminar               | `POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}`                                     | Aportes de miembros a facturas         |
-| `/api/v1/settings`             | Crear configuración, listar todas, obtener por ID, actualizar, eliminar | `POST`, `GET`, `GET /{settingId}`, `PUT /{settingId}`, `DELETE /{settingId}`                | Preferencias y configuración del hogar |
-| `/api/v1/roles`                | Obtener todos los roles                                                 | `GET`                                                                                       | Consulta de roles disponibles          |
-| `/api/v1/authentication`       | Registro e inicio de sesión                                             | `POST /sign-up`, `POST /sign-in`                                                            | Autenticación de usuarios              |
-
-#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
-
-Tanto el backend como el web application han sido desplegados correctamente en las siguientes plataformas:
-
-- **WebApp (Netlify):**
-  
-<p align="left">
-  <img src="images/Netlify.png" alt="UserPersona1" width="500">
-</p>
-
-- **BackEnd (Render)**
-  
-<p align="left">
-  <img src="images/Render.png" alt="UserPersona1" width="500">
-</p>
 
 
-#### 5.2.4.8.Team Collaboration Insights during Sprint.
 
-Durante el sprint 3 el equipo trabajó de forma más autónoma pero siempre bajo seguimiento constante en Git:
 
-  - **Jorge Luis Díaz Fiestas:** Líder técnico, encargado de base de datos, procedimiento en Reporte y autenticaciones.
-  - **Paulo Percy Quincho Gamarra:** Implementó endpoints de autenticacion, procedimiento en Reporte, y configuración de backend; A cargo de control de roles, validaciones e integraciones en el backend.
-  - **Rodrigo Alaya:** Encargado de rediseño de UIs y validacion de endpoints y sus datos.
-  - **Jose Martinez:** Encargado de realizar correciones en los repositorios del proyecto y complementar documentacion restante.
-    
-La rama principal main estaba protegida y las integraciones se hicieron a partir de pull requests.
-La colaboración estuvo más centrada en backend, pero también se avanzó en algunos aspectos de configuración en el frontend cuando era necesario.
+
+
+
+
+
+
+
+
+
+
+### 5.2.2. Implemented Landing Page Evidence
+
+Link del despliegue de la landing: https://1asi0732-2520-7505-spliteasy.github.io/Landing-Page/
+
+**Evidencia de la Landing Page :**
+
+![Landing](images/DE/L1.png)
+![Landing](images/DE/L22.png)
+![Landing](images/DE/L3.png)
+![Landing](images/DE/L4.png)
+![Landing](images/DE/L5.png)
+![Landing](images/DE/L6.png)
+![Landing](images/DE/L7.png)
+![Landing](images/DE/L8.png)
+
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+A continuación, presentamos la implementación de la aplicación web frontend de SplitEasy, desarrollada utilizando Node.js y TypeScript. Esta interfaz permite a los usuarios interactuar con las principales funcionalidades de nuestra plataforma desde una experiencia web completa.
+
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+
+
+### 5.2.4. Acuerdo de Servicio - SaaS 
+
+Este Acuerdo de Servicio regula el uso de la plataforma SplitEasy, un servicio proporcionado bajo el modelo Software como Servicio (SaaS). Al acceder o utilizar la plataforma, el usuario acepta las condiciones establecidas en el presente documento.
+
+**1. Derechos de uso**
+
+El usuario recibe una licencia limitada, no exclusiva, intransferible y revocable para acceder y utilizar la plataforma SplitEasy, exclusivamente conforme a los fines previstos por el servicio: la gestión y distribución equitativa de los gastos del hogar según los ingresos de cada miembro.
+
+**2. Obligaciones del usuario**
+
+El usuario se compromete a:
+
+- Utilizar el servicio conforme a la legislación vigente y a las normas de convivencia establecidas por SplitEasy.
+
+- No publicar información que sea ofensiva, discriminatoria, difamatoria o que infrinja derechos de terceros.
+
+- No manipular, alterar ni realizar ingeniería inversa sobre la plataforma.
+
+- Proporcionar información veraz y actualizada sobre ingresos, gastos y perfiles de los miembros del hogar.
+
+- Mantener la confidencialidad de sus credenciales de acceso.
+
+**3. Moderación y eliminación de contenido**
+
+SplitEasy se reserva el derecho de:
+
+- Eliminar información que infrinja los términos del servicio o que distorsione los cálculos de gastos y contribuciones.
+
+- Modificar o eliminar registros incorrectos que puedan afectar la equidad del reparto financiero.
+
+- Garantizar que la plataforma mantenga información clara y confiable para todos los usuarios del hogar.
+
+**4. Disponibilidad y mantenimiento**
+
+SplitEasy hará esfuerzos razonables para garantizar la disponibilidad continua del servicio. No obstante, la plataforma puede estar sujeta a mantenimientos programados o emergentes que afecten temporalmente su disponibilidad.
+
+**5. Propiedad intelectual y contenido generado por usuarios**
+
+- El usuario conserva los derechos sobre la información que proporcione en la plataforma (datos de gastos, perfiles y configuraciones).
+
+- Al ingresar datos en SplitEasy, el usuario otorga una licencia limitada y revocable para que la plataforma use estos datos con el fin de calcular contribuciones y generar reportes.
+
+- SplitEasy respeta los derechos de propiedad intelectual y espera que los usuarios hagan lo mismo.
+
+**6. Protección de datos personales**
+
+- SplitEasy recopila y procesa datos personales y financieros de acuerdo con su Política de Privacidad.
+
+- Los datos se utilizan para la gestión de perfiles, distribución de gastos, generación de reportes, alertas de pagos y mejora del servicio.
+
+- La plataforma implementa medidas técnicas y organizativas adecuadas para proteger los datos de los usuarios.
+
+**7. Sistema de reportes y alertas**
+
+- Los reportes y alertas deben reflejar información precisa y actualizada sobre los gastos y aportes de cada miembro del hogar.
+
+- SplitEasy se reserva el derecho de corregir o eliminar registros que sean falsos, maliciosos o que comprometan la equidad de los cálculos.
+
+**8. Responsabilidad**
+
+- SplitEasy no se responsabiliza por errores introducidos por los usuarios al registrar información incorrecta o incompleta.
+
+- La plataforma actúa como intermediario en la distribución equitativa de gastos y no garantiza que los resultados sean aplicables a todas las situaciones externas.
+
+- Los usuarios son responsables de verificar la exactitud de los datos ingresados y de cumplir con sus obligaciones financieras dentro del hogar.
+
+**9. Modificaciones del servicio**
+
+SplitEasy puede modificar, suspender o discontinuar cualquier aspecto del servicio, incluyendo funciones, reportes, bases de datos o algoritmos de cálculo, en cualquier momento.
+
+**10. Comunicaciones**
+
+SplitEasy podrá enviar comunicaciones relacionadas con el servicio, incluyendo notificaciones sobre cambios en los términos, nuevas funcionalidades, alertas de seguridad y recomendaciones de uso.
+
+**11. Resolución de conflictos**
+
+Cualquier controversia derivada del uso del servicio se resolverá mediante negociación de buena fe. En caso de no alcanzar un acuerdo, las partes se someterán a la jurisdicción competente del país donde se ofrezca el servicio.
+
+**12. Cumplimiento normativo**
+
+Este acuerdo cumple con los marcos normativos aplicables en materia de protección de datos personales, derechos digitales y servicios digitales. El uso de SplitEasy implica el consentimiento del usuario a las prácticas descritas.
+
+**13. Disposiciones finales**
+
+- Si alguna disposición de este Acuerdo fuese declarada inválida, las demás disposiciones mantendrán su vigencia.
+
+- Este Acuerdo constituye el entendimiento completo entre las partes respecto al uso del servicio.
+
+- SplitEasy puede modificar este Acuerdo en cualquier momento, publicando una versión actualizada en la plataforma e informando a los usuarios.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence 
+
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence 
+
+La arquitectura RESTful de los servicios web de SplitEasy ha sido implementada de manera rigurosa, garantizando la correcta comunicación y sincronización entre el frontend y el backend. Se han revisado y optimizado todos los endpoints existentes para asegurar un funcionamiento estable, eficiente y alineado con los requisitos del sistema. La documentación de la API se encuentra disponible mediante Swagger, proporcionando a desarrolladores y testers un acceso completo a la información sobre rutas, métodos, parámetros y respuestas, lo que facilita la integración y la comprensión de los servicios. Esta implementación RESTful asegura un estándar de comunicación claro, mejora la escalabilidad y mantenibilidad del sistema, y refuerza la seguridad y autenticación de los usuarios, consolidando un entorno de operación confiable y profesional.
+
+**AuthenticationController**
+
+Este controlador se encarga de gestionar las solicitudes de autenticación de usuarios. Permite a los usuarios iniciar sesión en la plataforma con sus credenciales existentes y registrarse como nuevos usuarios. Todos los endpoints retornan respuestas en formato JSON y manejan códigos de estado adecuados según el resultado de la operación.
+
+| Tag            | HTTP verbs | Endpoint                       | Summary        | Description                                                   | OperationId |
+| -------------- | ---------- | ------------------------------ | -------------- | ------------------------------------------------------------- | ----------- |
+| Authentication | POST       | /api/v1/authentication/sign-in | Iniciar sesión | Inicia sesión con las credenciales proporcionadas             | SignIn      |
+| Authentication | POST       | /api/v1/authentication/sign-up | Registrarse    | Registra un nuevo usuario con las credenciales proporcionadas | SignUp      |
+
+**RolesController**
+
+Este controlador se encarga de gestionar las solicitudes relacionadas con los roles dentro de la plataforma. Permite obtener la lista completa de roles disponibles en el sistema, retornando la información en formato JSON y manejando códigos de estado HTTP adecuados según el resultado de la operación.
+
+| Tag   | HTTP verbs | Endpoint      | Summary       | Description                                       | OperationId |
+| ----- | ---------- | ------------- | ------------- | ------------------------------------------------- | ----------- |
+| Roles | GET        | /api/v1/roles | Obtener roles | Obtiene todos los roles disponibles en el sistema | GetAllRoles |
+
+**UsersController**
+
+Este controlador se encarga de gestionar las solicitudes relacionadas con los usuarios dentro de la plataforma. Permite obtener la lista completa de usuarios o consultar un usuario específico por su ID, retornando la información en formato JSON y manejando códigos de estado HTTP adecuados según el resultado de la operación.
+
+| Tag   | HTTP verbs | Endpoint               | Summary                    | Description                                          | OperationId |
+| ----- | ---------- | ---------------------- | -------------------------- | ---------------------------------------------------- | ----------- |
+| Users | GET        | /api/v1/users          | Obtener todos los usuarios | Obtiene todos los usuarios disponibles en el sistema | GetAllUsers |
+| Users | GET        | /api/v1/users/{userId} | Obtener usuario por ID     | Obtiene un usuario específico según su ID            | GetUserById |
+
+**ContributionsController**
+
+Este controlador gestiona todas las solicitudes relacionadas con las contribuciones dentro de la plataforma. Permite a los usuarios con el rol adecuado crear nuevas contribuciones, consultar todas las contribuciones existentes, obtener detalles de una contribución específica por su ID, actualizar contribuciones y eliminarlas. Todas las respuestas se entregan en formato JSON y se manejan los códigos de estado HTTP correspondientes según el resultado de cada operación.
+
+| Tag           | HTTP verbs | Endpoint                               | Summary                          | Description                                         | OperationId            |
+| ------------- | ---------- | -------------------------------------- | -------------------------------- | --------------------------------------------------- | ---------------------- |
+| Contributions | POST       | /api/v1/contributions                  | Crear contribución               | Crea una nueva contribución en el sistema           | CreateContribution     |
+| Contributions | GET        | /api/v1/contributions                  | Obtener todas las contribuciones | Obtiene la lista completa de contribuciones         | GetAllContributions    |
+| Contributions | GET        | /api/v1/contributions/{contributionId} | Obtener contribución por ID      | Obtiene los detalles de una contribución específica | GetContributionById    |
+| Contributions | PUT        | /api/v1/contributions/{contributionId} | Actualizar contribución por ID   | Actualiza una contribución específica según su ID   | UpdateContributionById |
+| Contributions | DELETE     | /api/v1/contributions/{contributionId} | Eliminar contribución por ID     | Elimina una contribución específica del sistema     | DeleteContributionById |
+
+**MemberContributionsController**
+
+Este controlador se encarga de gestionar todas las operaciones relacionadas con las contribuciones de los miembros dentro de un hogar o grupo familiar. Permite a los usuarios con el rol de representante crear nuevas contribuciones, consultar todas las contribuciones existentes, obtener detalles de una contribución específica por su ID, actualizar contribuciones y eliminarlas. Todas las respuestas se entregan en formato JSON y se manejan los códigos de estado HTTP correspondientes según el resultado de cada operación.
+
+| Tag                  | HTTP verbs | Endpoint                          | Summary                          | Description                                             | OperationId                  |
+| -------------------- | ---------- | --------------------------------- | -------------------------------- | ------------------------------------------------------- | ---------------------------- |
+| Member Contributions | POST       | /api/v1/member-contributions      | Crear contribución de miembro    | Crea una nueva contribución para un miembro del hogar   | CreateMemberContribution     |
+| Member Contributions | GET        | /api/v1/member-contributions      | Obtener todas las contribuciones | Obtiene la lista completa de contribuciones de miembros | GetAllMemberContributions    |
+| Member Contributions | GET        | /api/v1/member-contributions/{id} | Obtener contribución por ID      | Obtiene los detalles de una contribución específica     | GetMemberContributionById    |
+| Member Contributions | PUT        | /api/v1/member-contributions/{id} | Actualizar contribución por ID   | Actualiza una contribución específica según su ID       | UpdateMemberContributionById |
+| Member Contributions | DELETE     | /api/v1/member-contributions/{id} | Eliminar contribución por ID     | Elimina una contribución específica del sistema         | DeleteMemberContributionById |
+
+**HouseholdsController**
+
+Este controlador gestiona todas las operaciones relacionadas con los hogares o unidades familiares dentro de la plataforma. Permite a los usuarios con el rol de representante crear nuevos hogares, consultar todos los hogares existentes, obtener detalles de un hogar específico por su ID, actualizar la información de un hogar y eliminar hogares del sistema. Todas las respuestas se entregan en formato JSON y se manejan códigos de estado HTTP apropiados según el resultado de cada operación.
+
+| Tag        | HTTP verbs | Endpoint                         | Summary                   | Description                                     | OperationId         |
+| ---------- | ---------- | -------------------------------- | ------------------------- | ----------------------------------------------- | ------------------- |
+| Households | POST       | /api/v1/households               | Crear hogar               | Crea un nuevo hogar en el sistema               | CreateHousehold     |
+| Households | GET        | /api/v1/households               | Obtener todos los hogares | Obtiene la lista completa de hogares            | GetAllHouseholds    |
+| Households | GET        | /api/v1/households/{householdId} | Obtener hogar por ID      | Obtiene los detalles de un hogar específico     | GetHouseholdById    |
+| Households | PUT        | /api/v1/households/{householdId} | Actualizar hogar por ID   | Actualiza la información de un hogar específico | UpdateHouseholdById |
+| Households | DELETE     | /api/v1/households/{householdId} | Eliminar hogar por ID     | Elimina un hogar específico del sistema         | DeleteHouseholdById |
+
+**HouseholdMembersController**
+
+Este controlador gestiona todas las operaciones relacionadas con los miembros de los hogares dentro de la plataforma. Permite a los usuarios con el rol de representante crear nuevos miembros de hogar, consultar todos los miembros existentes, obtener los detalles de un miembro específico por su ID, actualizar la información de un miembro y eliminar miembros del sistema. Todas las respuestas se entregan en formato JSON y se manejan códigos de estado HTTP adecuados según el resultado de cada operación.
+
+| Tag               | HTTP verbs | Endpoint                             | Summary                    | Description                                       | OperationId               |
+| ----------------- | ---------- | ------------------------------------ | -------------------------- | ------------------------------------------------- | ------------------------- |
+| Household Members | POST       | /api/v1/household-members            | Crear miembro de hogar     | Crea un nuevo miembro de hogar en el sistema      | CreateHouseholdMember     |
+| Household Members | GET        | /api/v1/household-members            | Obtener todos los miembros | Obtiene la lista completa de miembros de hogar    | GetAllHouseholdMembers    |
+| Household Members | GET        | /api/v1/household-members/{memberId} | Obtener miembro por ID     | Obtiene los detalles de un miembro específico     | GetHouseholdMemberById    |
+| Household Members | PUT        | /api/v1/household-members/{memberId} | Actualizar miembro por ID  | Actualiza la información de un miembro específico | UpdateHouseholdMemberById |
+| Household Members | DELETE     | /api/v1/household-members/{memberId} | Eliminar miembro por ID    | Elimina un miembro específico del sistema         | DeleteHouseholdMemberById |
+
+**BillsController**
+
+Este controlador gestiona todas las operaciones relacionadas con las facturas dentro de la plataforma. Permite a los usuarios con el rol de representante crear nuevas facturas, consultar todas las facturas existentes, obtener los detalles de una factura específica por su ID, actualizar la información de una factura y eliminar facturas del sistema. Todas las respuestas se entregan en formato JSON y se manejan códigos de estado HTTP adecuados según el resultado de cada operación.
+
+| Tag   | HTTP verbs | Endpoint               | Summary                    | Description                                        | OperationId    |
+| ----- | ---------- | ---------------------- | -------------------------- | -------------------------------------------------- | -------------- |
+| Bills | POST       | /api/v1/bills          | Crear factura              | Crea una nueva factura en el sistema               | CreateBill     |
+| Bills | GET        | /api/v1/bills          | Obtener todas las facturas | Obtiene la lista completa de facturas              | GetAllBills    |
+| Bills | GET        | /api/v1/bills/{billId} | Obtener factura por ID     | Obtiene los detalles de una factura específica     | GetBillById    |
+| Bills | PUT        | /api/v1/bills/{billId} | Actualizar factura por ID  | Actualiza la información de una factura específica | UpdateBillById |
+| Bills | DELETE     | /api/v1/bills/{billId} | Eliminar factura por ID    | Elimina una factura específica del sistema         | DeleteBillById |
+
+**SettingsController**
+
+Este controlador maneja todas las operaciones relacionadas con la configuración del sistema. Permite a los usuarios con rol de representante crear nuevas configuraciones, consultar todas las configuraciones existentes, obtener los detalles de una configuración específica por su ID, actualizar configuraciones y eliminar configuraciones del sistema. Todas las respuestas se entregan en formato JSON y se gestionan códigos de estado HTTP según el resultado de cada operación.
+
+| Tag      | HTTP verbs | Endpoint                     | Summary                           | Description                                              | OperationId       |
+| -------- | ---------- | ---------------------------- | --------------------------------- | -------------------------------------------------------- | ----------------- |
+| Settings | POST       | /api/v1/settings             | Crear configuración               | Crea una nueva configuración en el sistema               | CreateSetting     |
+| Settings | GET        | /api/v1/settings             | Obtener todas las configuraciones | Obtiene la lista completa de configuraciones             | GetAllSettings    |
+| Settings | GET        | /api/v1/settings/{settingId} | Obtener configuración por ID      | Obtiene los detalles de una configuración específica     | GetSettingById    |
+| Settings | PUT        | /api/v1/settings/{settingId} | Actualizar configuración por ID   | Actualiza la información de una configuración específica | UpdateSettingById |
+| Settings | DELETE     | /api/v1/settings/{settingId} | Eliminar configuración por ID     | Elimina una configuración específica del sistema         | DeleteSettingById |
+
+
+### 5.2.7. RESTful API documentation 
+
+Utilizamos Swagger para documentar y probar los endpoints de la API de manera interactiva, lo que facilita a los desarrolladores la integración y verificación de los servicios RESTful.
+
+### 5.2.8. Team Collaboration Insights 
+
+La colaboración efectiva ha sido un factor clave en el desarrollo de SplitEasy. Durante nuestros sprints, adoptamos un enfoque de trabajo que potenció las habilidades individuales de cada miembro del equipo, asegurando la integración consistente de todos los módulos del sistema.
+
+**Metodología y Herramientas**
+Para organizar nuestro flujo de trabajo, utilizamos diversas herramientas que facilitaron la comunicación y el seguimiento de tareas:
+
+- **Trello:** Implementamos tableros Kanban con columnas de "Por hacer", "En proceso", "Revisión" y "Hecho", lo que permitió visualizar fácilmente el progreso y detectar bloqueos.
+
+- **GitHub:** Gestionamos el control de versiones con revisiones de código obligatorias antes de fusionar cambios, garantizando calidad y coherencia en la base de código.
+
+- **Discord:** Realizamos reuniones diarias entre 10 a 20 minutos para sincronizar esfuerzos y resolver impedimentos rápidamente.
+
+- **Figma:** Se utilizó para colaboración en diseño, permitiendo retroalimentación en tiempo real sobre la interfaz y experiencia de usuario.
+
+**Distribución de Responsabilidades**
+
+Las tareas se asignaron según las fortalezas y especialidades de cada integrante:
+
+- **Valentino:** Coordinó y desarrolló la gestión de contribuciones y perfiles de los usuarios.
+
+- **Rodrigo:** Se centró en la arquitectura backend y en la implementación de APIs RESTful con Spring Boot.
+
+- **Eslander:** Gestionó el módulo de estadísticas y reportes del sistema.
+
+- **Rodrigo:** Desarrolló la sección de gestión de perfiles en la versión web.
+
+**Aspectos Destacados de la Colaboración**
+
+- **Integración Continua:** Configuramos GitHub Actions para ejecutar pruebas automáticamente con cada pull request, reduciendo errores en las integraciones.
+
+- **Pair Programming:** Implementamos programación en parejas para tareas críticas como la autenticación y gestión de contribuciones.
+
+- **Code Reviews:** Establecimos revisiones cruzadas obligatorias, donde cada PR debía ser aprobado por al menos otro miembro, asegurando adherencia a los estándares de codificación.
+
+- **Retrospectivas:** Al finalizar cada sprint, analizamos nuestro proceso para identificar áreas de mejora y optimizar el flujo de trabajo.
+
+**Métricas de Colaboración**
+El análisis de nuestro repositorio refleja un alto nivel de colaboración:
+
+- Tiempo promedio de resolución de PR: 5 días
+
+- Promedio de comentarios por PR: 4.7
+
+- Distribución equilibrada de commits: cada miembro contribuyó entre 17% y 24% del total
+
+**Lecciones Aprendidas**
+
+- Comunicación temprana de dependencias: Identificar y comunicar dependencias al inicio del sprint redujo bloqueos.
+
+- Documentación en tiempo real: Registrar decisiones técnicas durante el desarrollo mejoró la coherencia y consistencia del sistema.
+
+- Flexibilidad en la asignación: Permitir que los miembros trabajaran fuera de sus áreas principales aceleró el progreso en momentos críticos.
+
+### 5.3. Video About-the-Product.
+
+
+
 
 ## 5.3. Validation Interviews
 
