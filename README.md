@@ -2466,7 +2466,7 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
   <img src="images/Trello-SPRINT1.jpeg" alt="Trello Sprint 1" width="600">
 </p>
 
-#### 5.2.1.4. Deployment Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 A continuación, se presentan los commits más representativos realizados en el repositorio del proyecto **SplitEasy** en GitHub.
 
@@ -2489,20 +2489,11 @@ A continuación, se presentan los commits más representativos realizados en el 
 | SplitEasy  | README.md | *(sin hash)* | update README.md | Actualización progresiva del README.md con contenido del capítulo 1. | Varias fechas |
 | SplitEasy  | develop | *(sin hash)* | assets: add UPC logo image for report cover | Se añadió logo institucional para la portada del informe. | 22/04/2025 |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
-
-En este **Sprint 1**, el objetivo fue desarrollar la **landing page** funcional de SplitEasy, centrada en ofrecer a los usuarios una visión general de la plataforma, sus beneficios, y proporcionar accesos rápidos para el registro o login. Durante este Sprint se completaron las siguientes tareas clave:
-- Se implementaron secciones visuales y funcionales como la barra de navegación, sección principal (**Hero**), sección de características y sistema proporcional.
-- La sección de simulación y la llamada a la acción también fueron desarrolladas, garantizando una experiencia atractiva y fácil de navegar.
-- Además, se ajustaron todas las secciones a un diseño **responsive**, asegurando que la landing page sea accesible tanto en dispositivos móviles como de escritorio.
-
-
-
 ### 5.2.2. Sprint 2
 
 El objetivo de este sprint es el desarrollo de una landing page funcional de SplitEasy que permita a los visitantes conocer la plataforma, sus beneficios y acceder fácilmente al registro o login.
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 2
 
 A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de la aplicación web.
 
@@ -2559,9 +2550,6 @@ Métrica de cumplimiento: Se considera exitoso si todas las User Stories planifi
 | [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 87aa1ce   | deploying page                             | chore: deploy initial version of the landing page              | 09/05/2025          |
 | [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 0eb2558   | Primer commit: subida del proyecto Angular | feat: initial Angular project setup with base components       | 09/05/2025          |
 | [https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application](https://github.com/1ASI0732-2520-7505-SPLITEASY/Frontend-Web-Application) | main                           | 3a1df4d   | initial commit                             | chore: initial repository setup                                | 06/05/2025          |
-
-
-
 
 
 
@@ -2708,22 +2696,6 @@ Métrica de cumplimiento: Se considera exitoso si todas las User Stories planifi
 | 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 1673fb1   | Merge pull request #20 from feature/security       | Fusión de mejoras de seguridad al proyecto.                        | 2025-07-06         |
 | 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 81ee9df   | implementacion de autenticacion                    | Ajustes finales en autenticación y validación de tokens.           | 2025-07-06         |
 | 1ASI0729-2510-4313-G3-SplitEasy/backend-app | main   | 13ee2d4   | cambio de bd a mysql                               | Migración de la base de datos de PostgreSQL a MySQL.               | 2025-07-01         |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
