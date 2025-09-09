@@ -2017,36 +2017,36 @@ Pantalla para completar la creación de una cuenta de tipo Miembro. Incluye los 
 **Mock-ups para Usuario REPRESENTANTE DEL HOGAR**
 
 **Pestaña 'Crear hogar'**
-![alt text](image.png)
+![alt text](images/TB1/image.png)
 
 **Pestaña 'Miembros del hogar'**
-![alt text](image-1.png)
+![alt text](images/TB1/image-1.png)
 
 **Pestaña 'Añadir nuevo miembro'**
-![alt text](image-5.png)
+![alt text](images/TB1/image-5.png)
 
 **Pestaña 'Perfil de miembro'**
-![alt text](image-2.png)
+![alt text](images/TB1/image-2.png)
 
 **Pestaña 'Aportes del hogar'**
-![alt text](image-6.png)
+![alt text](images/TB1/image-6.png)
 
 **Pestaña 'Gastos del hogar'**
-![alt text](image-3.png)
+![alt text](images/TB1/image-3.png)
 
 **Pestaña 'Detalles de gasto'**
-![alt text](image-4.png)
+![alt text](images/TB1/image-4.png)
 
 **Mock-ups para Usuario MIEMBROS DEL HOGAR**
 
 **Pestaña 'Mis aportes'**
-![alt text](image-7.png)
+![alt text](images/TB1/image-7.png)
 
 **Pestaña 'Estado hogar'**
-![alt text](image-8.png)
+![alt text](images/TB1/image-8.png)
 
 **Pestaña 'Unirse a un hogar'**
-![alt text](image-9.png)
+![alt text](images/TB1/image-9.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
