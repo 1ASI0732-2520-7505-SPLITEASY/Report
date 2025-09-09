@@ -11,7 +11,7 @@ Diseño de experimentos de ingeniería de Software <br>
 <h2 align="center">INFORME</h2>
 <h2 align="center">2025 - 2</h2>
 
-<h3 align="center">Startup: EASY</h3>
+<h3 align="center">Startup: EASYYYYYYY</h3>
 <h3 align="center">1ASI0729-2510-4313</h3>
 
 <p align="center"><strong>Producto: SplitEasy</strong></p>
