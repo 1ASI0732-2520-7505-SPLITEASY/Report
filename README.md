@@ -11,7 +11,7 @@ Diseño de experimentos de ingeniería de Software <br>
 <h2 align="center">INFORME</h2>
 <h2 align="center">2025 - 2</h2>
 
-<h3 align="center">Startup: EASYYYYYYY</h3>
+<h3 align="center">Startup: EASY</h3>
 <h3 align="center">1ASI0729-2510-4313</h3>
 
 <p align="center"><strong>Producto: SplitEasy</strong></p>
@@ -26,6 +26,7 @@ Diseño de experimentos de ingeniería de Software <br>
 |Diego Fernando Herrera Enriquez         | U202319027  |
 |Valentino Sandoval Paiva         | U20211A962  |
 |Eslander Celis Berrospi         |  U201911249 |
+
 
 
 </div>
@@ -1864,7 +1865,63 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ## 4.3. Landing Page UI Design
 
+La landing page de SplitEasy está diseñada para ofrecer una experiencia clara y eficiente para usuarios que buscan gestionar de manera equitativa sus gastos compartidos. El diseño se enfoca en dos User Personas principales: el representante del hogar y los miembros del hogar.
+
+La navegación es sencilla, con un navbar fijo y un diseño responsive que garantiza una experiencia optimizada en todos los dispositivos. La jerarquía visual está pensada para guiar al usuario desde la introducción de la app hasta sus principales funcionalidades: dividir gastos, registrar ingresos y visualizar aportes de cada miembro del hogar.
+
+Accesibilidad: Se garantiza un contraste adecuado, tipografías legibles, botones grandes y adaptabilidad completa a dispositivos móviles, siguiendo las pautas WCAG 2.1.
+
+La sección de Servicios destaca características clave como el cálculo proporcional de gastos, el seguimiento de contribuciones y la transparencia entre miembros del hogar. Además, la plataforma permite un acceso multi-dispositivo, asegurando que el control de los gastos esté siempre al alcance del usuario.
+
+La app se valida con testimonios de usuarios que resaltan su facilidad de uso y eficiencia, eliminando conflictos y promoviendo una gestión financiera armoniosa.
+
 ### 4.3.1. Landing Page Wireframe
+
+Los wireframes desarrollados para la landing page de SplitEasy contemplan versiones para navegadores de escritorio y dispositivos móviles, asegurando una experiencia responsive que se adapta a diferentes tamaños de pantalla. La estructura se organiza de la siguiente manera:
+
+1. Encabezado (Header):
+
+    - Menú fijo con enlaces a secciones: Home, About, Services, How it works, Prices, Reviews, Contact us.
+
+    - Logo a la izquierda y botón de Login a la derecha.
+
+2. Sección Hero:
+
+    - Mensaje destacado sobre la importancia de la gestión financiera.
+
+    - Botón de "Register" como llamada a la acción.
+
+3. Sección About:
+
+    - Explicación breve de la Misión, Visión y Razón de Creación del proyecto.
+
+4. Sección Servicios:
+
+    - Tarjetas con servicios: Proportional Calculus, Expense Tracking, Transparency, y Multi-device Access.
+
+5. Sección Cómo Funciona:
+
+    - Para representantes y miembros del hogar, explicando los pasos en tarjetas.
+
+6. Sección Precios:
+
+    - Comparativa entre Free (básico) y Premium (ilimitado).
+
+7. Sección Reseñas:
+
+    - Opiniones de usuarios destacando la facilidad y utilidad de la plataforma.
+
+8. Sección Contacto:
+
+    - Formulario con campos para Nombre, Correo y Teléfono.
+
+    - Botón de "Contact us".
+
+9. Pie de Página:
+
+    - Enlaces a redes sociales, información legal y soporte.
+
+En cuanto al diseño inclusivo, se han considerado aspectos como el contraste adecuado entre texto y fondo para garantizar la legibilidad, el uso de tipografías claras y tamaños de fuente apropiados para diferentes dispositivos, y la disposición de elementos interactivos con suficiente espacio para facilitar su uso por personas con diversas capacidades. Además, la estructura de la información sigue una arquitectura jerárquica que prioriza el contenido más relevante, permitiendo una navegación intuitiva.
 
 <p align="left">
   <img src="images/lpw1.PNG" alt="lpw1" width="500">
@@ -1884,6 +1941,12 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ### 4.3.2. Landing Page Mock-up
 
+Los mock-ups representan visualmente el resultado final del diseño propuesto y consolidan las decisiones tomadas en cuanto a estética, funcionalidad y usabilidad. En ambas versiones, se mantiene una coherencia visual que refuerza la identidad de la marca, respetando el Design System definido para el proyecto.
+
+Se aplicaron principios fundamentales de diseño, como contraste y jerarquía visual, destacando los botones de acción con colores llamativos y una estructura que organiza el contenido de forma clara: desde el mensaje de valor inicial hasta el botón "Explora ahora". La consistencia visual se asegura mediante el uso uniforme de íconos, estilos y márgenes, ofreciendo una experiencia fluida.
+
+La arquitectura de la información sigue una secuencia lógica: comienza con una presentación de valor, seguida de las funcionalidades de la plataforma, testimonios, preguntas frecuentes y un llamado final a la acción. Este flujo guía al usuario de manera eficiente hacia el objetivo principal del sitio.
+
 <p align="left">
   <img src="images/lpm1.PNG" alt="lpm1" width="500">
 </p>
@@ -1896,7 +1959,13 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ## 4.4. Web Applications UX/UI Design
 
+El diseño de la plataforma web de SplitEasy está pensado para ofrecer una navegación intuitiva y coherente visualmente, adaptada a las necesidades de los dos tipos principales de usuarios: representantes de hogar y miembros del hogar.
+
+En esta sección, se presentan los wireframes y wireflows, que muestran cómo los usuarios interactúan con la plataforma en distintos escenarios clave. El objetivo es garantizar que cada pantalla y cada paso en el flujo de navegación sean intuitivos, accesibles y útiles, promoviendo una experiencia digital fluida desde la creación de la cuenta hasta la gestión de los gastos compartidos y el control de las contribuciones.
+
 ### 4.4.1. Web Applications Wireframes
+
+En esta sección se presentan los wireframes de la versión web de SplitEasy, organizados según los dos perfiles principales de usuario: representante de hogar y miembro del hogar. Cada diseño busca ofrecer una experiencia clara, coherente y centrada en las necesidades del usuario, asegurando una navegación intuitiva y fluida a lo largo de la plataforma.
 
 <p align="left">
   <img src="images/waw.PNG" alt="waw" width="500">
@@ -1904,15 +1973,80 @@ Navegación jerárquica para volver a secciones anteriores o más generales.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Esta sección presenta los diagramas de wireflow correspondientes a la versión web de SplitEasy, diseñados tanto para representantes de hogar como para miembros del hogar. Cada flujo de navegación representa una necesidad específica del usuario, permitiéndole lograr sus objetivos de manera clara, eficiente y centrada en una experiencia digital intuitiva.
+
 <p align="left">
   <img src="images/wawd.PNG" alt="wawd" width="500">
 </p>
 
 ### 4.4.3. Web Applications Mock-ups
 
+En esta sección se presentan los mock-ups de alta fidelidad desarrollados para la plataforma SplitEasy. Estas vistas permiten visualizar cómo lucirá la interfaz web tanto para representantes de hogar como para miembros del hogar, simulando su interacción real con la plataforma. El diseño se enfoca en ofrecer una experiencia fluida, accesible y visualmente atractiva.
+
+
 <p align="left">
   <img src="images/wam.PNG" alt="wam" width="500">
 </p>
+
+**Pantalla de bienvenida**
+
+Pantalla de bienvenida que explica la funcionalidad principal de la aplicación: dividir los gastos de forma equitativa según los ingresos de los miembros del hogar. Ofrece al usuario dos opciones para continuar: Representative o Member.
+
+![About Product](images/TB1/M4.png)
+
+**Pestaña de inicio de sesión**
+
+- Pantalla de bienvenida y de inicio de sesión, con campos para introducir el correo electrónico y la contraseña.
+
+![About Product](images/TB1/M1.png)
+
+
+**Pestaña de creación de cuenta**
+
+- Pantalla de registro para nuevos usuarios, que solicita el nombre completo y permite seleccionar el tipo de cuenta: Miembro o Representante.
+
+![About Product](images/TB1/M2.png)
+
+
+**Pestaña de registro** 
+
+Pantalla para completar la creación de una cuenta de tipo Miembro. Incluye los campos para ingresar el nombre completo, correo electrónico, ID de hogar, contraseña y la confirmación de la misma.
+
+![About Product](images/TB1/M3.png)
+
+**Mock-ups para Usuario REPRESENTANTE DEL HOGAR**
+
+**Pestaña 'Crear hogar'**
+![alt text](images/TB1/image.png)
+
+**Pestaña 'Miembros del hogar'**
+![alt text](images/TB1/image-1.png)
+
+**Pestaña 'Añadir nuevo miembro'**
+![alt text](images/TB1/image-5.png)
+
+**Pestaña 'Perfil de miembro'**
+![alt text](images/TB1/image-2.png)
+
+**Pestaña 'Aportes del hogar'**
+![alt text](images/TB1/image-6.png)
+
+**Pestaña 'Gastos del hogar'**
+![alt text](images/TB1/image-3.png)
+
+**Pestaña 'Detalles de gasto'**
+![alt text](images/TB1/image-4.png)
+
+**Mock-ups para Usuario MIEMBROS DEL HOGAR**
+
+**Pestaña 'Mis aportes'**
+![alt text](images/TB1/image-7.png)
+
+**Pestaña 'Estado hogar'**
+![alt text](images/TB1/image-8.png)
+
+**Pestaña 'Unirse a un hogar'**
+![alt text](images/TB1/image-9.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos principales del usuario. Cada sección del flujo corresponde a una meta funcional específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
