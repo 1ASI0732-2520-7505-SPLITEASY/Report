@@ -1472,6 +1472,62 @@ Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz efi
   <img src="images/imagen2.PNG" alt="imagen2" width="500">
 </p>
 
+### 4.1.3. Mobile Style Guidelines
+
+El diseño móvil de SplitEasy sigue los principios del minimalismo funcional y la coherencia visual, adaptados a las limitaciones y características de las pantallas pequeñas. La experiencia del usuario en dispositivos móviles se mantiene clara, accesible y moderna, con una estructura intuitiva que pone énfasis en la usabilidad.
+
+### 4.1.3.1. iOS Mobile Style Guidelines
+
+Para la plataforma iOS, se busca mantener las pautas de diseño de Apple, aprovechando sus patrones de navegación estándar y guiando al usuario de manera natural en la plataforma.
+
+- Diseño limpio y simple: Al igual que en la versión web, el diseño se mantiene minimalista. El fondo oscuro (#000000) se utiliza como base, con detalles en azul para los botones y acciones clave.
+
+- Interacción táctil: Todos los botones y elementos interactivos están diseñados para ser táctiles y fáciles de tocar. Los botones tienen un buen tamaño, con un padding de al menos 16px a cada lado, para evitar errores de clic.
+
+- Estilo de íconos: Los íconos de Bootstrap Icons se usan con la misma paleta de colores, pero se ajustan a la escala de tamaño de dispositivos móviles, y los íconos de navegación son lo suficientemente grandes para facilitar el uso en pantallas táctiles.
+
+- Tipografía: Se mantiene la tipografía Roboto con tamaños ajustados para pantallas pequeñas:
+
+    - h1 → 2.5em (40px)
+
+    - h2 → 2em (32px)
+
+    - h3 → 1.2em (19px)
+
+    - Texto general → 1em (16px)
+
+- Transiciones suaves: Se deben usar transiciones suaves para interacciones, como la apertura de menús o botones, manteniendo el comportamiento visual fluido y agradable para el usuario.
+
+- Navigación intuitiva: La barra de navegación será sticky (fija en la parte superior) y el acceso a las funciones clave estará disponible desde un menú hamburguesa o en la parte inferior de la pantalla, conforme a las convenciones de iOS.
+
+- Botones y llamadas a la acción: Usar los colores #42A5F5 (celeste) para botones y enlaces interactivos. Estos deben destacarse bien en la interfaz de iOS, brindando un contraste claro con el fondo oscuro.
+
+### 4.1.3.2. Android Mobile Style Guidelines
+
+Para Android, seguimos las pautas de Material Design para garantizar que la interfaz sea familiar y consistente con otras aplicaciones en la plataforma.
+
+- Diseño minimalista y coherente: Similar a iOS, la plataforma mantiene el fondo oscuro con detalles en celeste para los botones y elementos interactivos. El uso de Material Design ayuda a mantener una interfaz limpia y con una buena experiencia táctil.
+
+- Material Design Components: Se recomienda usar Floating Action Buttons (FAB) para acciones clave y Bottom Navigation para secciones principales, de acuerdo con las mejores prácticas de Android.
+
+- Tipografía: La tipografía Roboto se mantiene en Android, pero con ajustes específicos para este sistema:
+
+    - h1 → 2.5em (40px)
+
+    - h2 → 2em (32px)
+
+    - h3 → 1.2em (19px)
+
+    - Texto general → 1em (16px)
+
+- Íconos: Los íconos deben tener un estilo consistente con los de la plataforma y la paleta de colores establecida. La biblioteca Bootstrap Icons funciona bien para mantener la simplicidad visual y es perfectamente compatible con Android.
+
+- Gestos: Incorporar gestos comunes de Android, como el deslizar hacia la izquierda o derecha para navegar entre secciones o volver a la pantalla anterior, puede mejorar la experiencia móvil.
+
+- Sombra y elevación: Según Material Design, agregar sombras sutiles en elementos interactivos puede ayudar a crear una jerarquía visual clara y facilitar la interacción táctil.
+
+- Botones y llamadas a la acción: Los botones deben tener un padding de 16px para garantizar una interacción cómoda. Los colores #42A5F5 deben ser utilizados en botones principales, mientras que #1565C0 puede ser usado para botones secundarios o menos prominentes.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
