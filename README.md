@@ -1841,6 +1841,115 @@ La arquitectura de la información sigue una secuencia lógica: comienza con una
   <img src="images/lpm3.PNG" alt="lpm3" width="500">
 </p>
 
+## 4.4. Mobile Applications UX/UI Design
+
+El diseño UX/UI de las aplicaciones móviles de SplitEasy se desarrolló siguiendo un enfoque User-Centered Design, partiendo de entrevistas y mapas de empatía realizados en fases previas. Se identificaron dos flujos principales: aventurero explorador y emprendedor gestor, cuyas prioridades divergentes guiaron la estructuración de funcionalidades y jerarquía visual. El proceso de diseño incluyó:
+
+Sketches rápidos en papel para idear flujos iniciales.
+
+Wireframes en Figma que permitieron validar la disposición de componentes clave.
+
+Wireflows detallados que reflejan los caminos más usados por cada tipo de usuario.
+
+### 4.4.1. Mobile Applications Wireframes
+
+ANEXO G:
+
+**Sección Representante del Hogar**
+
+A través de estos wireframes, se presentan las pantallas dirigidas a los representantes del hogar, permitiéndoles crear cuentas, gestionar miembros y asignar contribuciones basadas en los ingresos. El diseño busca facilitar la administración financiera del hogar de manera clara y eficiente.
+
+
+
+
+
+**Sección Miembro del Hogar**
+
+Esta sección está diseñada para los miembros del hogar, quienes podrán registrarse, unirse a un hogar existente, declarar sus ingresos y monitorear sus contribuciones. El flujo está centrado en la simplicidad y facilidad de uso para asegurar una experiencia fluida.
+
+
+
+
+
+### 4.4.2. Mobile Applications Wireflow Diagrams
+
+
+
+### 4.4.3. Mobile Applications Mock-ups
+
+
+
+### 4.4.4. Mobile Applications User Flow Diagrams
+
+
+## 4.5. Mobile Applications Prototyping
+
+### 4.5.1. Android Mobile Applications Prototyping
+
+**Inicio - Representante del Hogar:**
+
+La pantalla de inicio para el representante del hogar muestra un resumen claro de las contribuciones y balances del hogar, junto con un botón destacado "Agregar miembros" para facilitar la administración.
+
+**Inicio - Miembro del Hogar:**
+
+La página de inicio para el miembro del hogar es simple y funcional, mostrando un resumen de sus contribuciones y un botón para ver el desglose de gastos.
+
+**Funcionalidades**
+
+**Sección Representante del Hogar**
+
+- Ver Hogar y Miembros: El representante puede revisar los miembros del hogar y sus respectivas contribuciones.
+
+- Agregar Miembro: Un botón accesible para añadir nuevos miembros al hogar.
+
+- Editar/Eliminar Miembros: Permite la edición o eliminación de miembros en el hogar de manera rápida.
+
+- Estadísticas de Contribuciones: El representante puede filtrar y revisar las contribuciones por miembro, desde la más baja hasta la más alta.
+
+**Sección Miembro del Hogar**
+
+- Explorar Contribuciones: Muestra un desglose visual de las contribuciones del miembro dentro del hogar.
+
+- Ver Gastos Compartidos: El miembro puede ver cómo se distribuyen los gastos entre los miembros del hogar.
+
+**Video de explicación del flujo:**
+
+
+
+### 4.5.2. iOS Mobile Applications Prototyping
+
+**Inicio - Representante del Hogar:**
+
+La pantalla de inicio para el representante del hogar ofrece un vistazo rápido de las contribuciones y balances de los miembros del hogar, junto con un botón destacado "Agregar miembro" para facilitar la gestión.
+
+**Inicio - Miembro del Hogar:**
+
+La página de inicio para el miembro del hogar es clara y práctica, mostrando un resumen de sus contribuciones y un botón para ver el desglose de gastos, todo en un diseño visualmente atractivo.
+
+**Funcionalidades**
+
+**Sección Representante del Hogar**
+
+- Ver Hogar y Miembros: El representante puede ver las contribuciones y balances de todos los miembros del hogar.
+
+- Agregar Miembro: Un botón accesible para añadir nuevos miembros al hogar.
+
+- Editar/Eliminar Miembros: Funcionalidades que permiten editar o eliminar miembros rápidamente.
+
+- Estadísticas de Contribuciones: El representante puede filtrar las contribuciones por miembro, destacando a aquellos con mayor o menor aportación.
+
+**Sección Miembro del Hogar**
+
+- Explorar Contribuciones: Muestra un desglose visual de las contribuciones del miembro dentro del hogar.
+
+- Ver Gastos Compartidos: Los miembros pueden ver cómo se distribuyen los gastos entre ellos.
+
+**Video de Explicación del Flujo:**
+
+
+Los prototipos fueron fundamentales para identificar problemas de usabilidad antes del desarrollo, permitiendo realizar iteraciones tempranas basadas en observaciones y comentarios de usuarios reales. La consistencia entre plataformas y la claridad en las rutas de navegación ayudaron a validar las funcionalidades clave para representantes del hogar y miembros del hogar, asegurando una experiencia de usuario fluida y eficiente.
+
+
 ## 4.4. Web Applications UX/UI Design
 
 El diseño de la plataforma web de SplitEasy está pensado para ofrecer una navegación intuitiva y coherente visualmente, adaptada a las necesidades de los dos tipos principales de usuarios: representantes de hogar y miembros del hogar.
