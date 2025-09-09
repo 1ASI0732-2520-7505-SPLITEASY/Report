@@ -842,260 +842,88 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 #### **Primer Segmento - Personas del Hogar:** <br>
 
-**REGISTRO DE ENTREVISTA 1:** <br>
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Nombre completo del entrevistado: Jesús Cassana
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Edad: 27 años
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Distrito: Cercado de Lima
-
-Screenshot del video:
-<p align="left">
-  <img src="images/Entrevista1_Bruno.png" alt="" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://shorturl.at/7UPcY
-
-Duración: 3 minutos y 38 segundos
-
-Resumen descriptivo de la entrevista:
-Jesús Cassana, de 27 años, convive con su pareja y se desempeña como contador. Actualmente asume la mayor parte de los gastos del hogar, ya que su pareja trabaja como mesera y no siempre puede contribuir con una cantidad fija. Expresa que, aunque intentan dividir algunos servicios básicos (luz, agua), la distribución no es equitativa y suelen surgir desacuerdos.
-
-Jesús considera justo un sistema que divida los gastos según los ingresos de cada persona, aunque reconoce que esto podría generar discusiones. No utiliza ninguna aplicación para registrar pagos del hogar, pero le parece una herramienta útil para fomentar la equidad y el ahorro, especialmente para emergencias. Desea funcionalidades claras que le muestren cuánto debe pagar, cuánto ha pagado y qué está pendiente.
-
-Características objetivas y subjetivas observadas:
-
-- Personalidad: Responsable, comprometido con el hogar, busca soluciones justas, pero pragmático frente a las limitaciones económicas.
-
-- Marcas/Influencias: No menciona marcas, pero se nota apertura al uso de herramientas digitales.
-
-- Tecnología: Familiarizado con apps móviles y dispuesto a usarlas si son funcionales.
-
-- Canales de interacción: Interacción directa (conversaciones) y potencial digital (desea una app).
-
-- Browser/Dispositivos: Probablemente usa smartphone y laptop para actividades laborales y domésticas.
-
-- Nivel digital: Intermedio; no usa app, pero comprende su utilidad.
-
-**REGISTRO DE ENTREVISTA 2:** <br>
-
-Nombre completo del entrevistado: Eric De Delia
-
-Edad: 25 años
-
-Distrito: Lima Cercado
-
-Screenshot del video: 
-<p align="left">
-  <img src="images/Entrevista2_Bruno.png" alt="" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://shorturl.at/jV3bV
-
-Inicio de la entrevista: 01:00
-
-Duración: 6 minutos y 39 segundos
-
-Resumen descriptivo de la entrevista:
-  Eric De Delia tiene 25 años y vive con su pareja, con quien mantiene una relación estable desde hace varios años. Actualmente es el único proveedor del hogar, ya que su pareja se encuentra con problemas de salud y no puede trabajar. Como asesor bancario en una consultora, Eric asume todos los gastos del hogar, incluyendo servicios básicos (luz, agua, internet) y costos médicos.
-  
-  Expresa que la situación actual no es justa, ya que la carga económica es unilateral. Han tenido desacuerdos por temas financieros y aunque han considerado dividir gastos según ingresos, les resulta difícil implementar esa idea mientras su pareja no genere ingresos. No utilizan ninguna aplicación para anotar los pagos, pero considera que sería muy útil, especialmente si permite distribuir los gastos proporcionalmente, gestionar ahorros para emergencias, citas o viajes, y organizar los ingresos mensuales con reportes visuales y claros.
-  
-  Características objetivas y subjetivas observadas:
-  
-  - Personalidad: Comprometido, empático, realista, con alta disposición a asumir responsabilidades, busca soluciones prácticas.
-  
-  - Marcas/Influencias: No menciona marcas, pero muestra disposición a usar soluciones tecnológicas si son útiles.
-  
-  - Tecnología: Nivel medio-alto. Comprende el potencial de una app bien diseñada para su situación doméstica.
-  
-  - Canales de interacción: Preferencia por herramientas digitales (aunque aún no implementadas).
-  
-  - Browser/Dispositivos: Probable uso diario de smartphone y laptop; trabaja en consultoría bancaria.
-
-**REGISTRO DE ENTREVISTA 3:** <br>
-
-Nombre completo del entrevistado: Denis Monsalve
-
-Edad: 21
-
-Distrito: No mencionado
-
-Screenshot del video: 
-<p align="left">
-  <img src="images/EntrevistaDenis.png" alt="UserPersona1" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e835_upc_edu_pe/Ebc2v4G3OnFKn_lM39sFKjUBXK7kW_iu1TjNEgcR1vRlBg
-
-Inicio de la entrevista: 00:02
-
-Duración: 3 minutos y 43 segundos
-
-Resumen descriptivo de la entrevista:
-
-El entrevistado vive actualmente con sus padres y comparte los gastos del hogar principalmente con su padre. Considera justo el sistema que usan porque existe apoyo mutuo y buena comunicación. Asegura que no han tenido desacuerdos ya que establecen acuerdos cuando uno de los dos no puede cubrir alguna parte, actuando en función del beneficio familiar.
-
-Menciona que ya dividen los gastos según los ingresos de cada uno y que eso les facilita la organización económica. No utilizan ninguna aplicación por falta de tiempo, y manejan las cuentas de manera tradicional. Está abierto a usar una app, especialmente si permite visualizar los gastos e ingresos de manera clara, por ejemplo, diferenciando por colores. Sin embargo, hace una observación importante sobre la brecha digital: las personas mayores, como sus padres, podrían tener dificultades con plataformas electrónicas.
-
-Características objetivas y subjetivas observadas:
-
-- Personalidad: Cooperativo, respetuoso del núcleo familiar, flexible frente a las situaciones económicas del hogar.
-
-- Marcas/Influencias: N/A directamente, aunque se infiere familiaridad con métodos tradicionales.
-
-- Tecnología: Bajo uso de herramientas digitales para finanzas domésticas.
-
-- Canales de interacción: Gestión manual de gastos, con disposición a soluciones digitales simples.
-
-- Browser/Dispositivos: No especificado; probablemente smartphone personal y poca intervención por parte de sus padres.
-
-- Nivel digital: Medio-bajo; menciona que nunca ha usado una app de finanzas, pero abierto a explorar.
-
-
-
+| **Duración total de las entrevistas** |   |
+|---------------------------------------|---|
+| **Link general del video**            |   |
 
 
 #### **Segundo Segmento - Representantes del Hogar:**
 
-**REGISTRO DE ENTREVISTA 1:**
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Nombre del entrevistador: Jorge Diaz
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Nombre del entrevistado: Marjorie Luna Victoria
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
 
-Edad: 18 años
-
-Distrito: No especificado
-
-Screenshot del video: 
-
-<p align="left">
-  <img src="images/EntrevistaMarjorie.png" alt="UserPersona1" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://shorturl.at/wqLaD
-
-Inicio de la entrevista: 00:17
-
-Duración: 3 minutos y 31 segundos
-
-**Resumen descriptivo de la entrevista:**
-
-Marriery tiene 18 años y vive con una amiga. Ambas son roommates y comparten los gastos del hogar, incluyendo alquiler, servicios y alimentos. Dividen los gastos en partes iguales, pero a veces uno de los dos termina pagando más debido a pequeñas diferencias en los gastos personales. Considera justo el sistema actual, ya que ambas tienen ingresos similares, aunque ha habido algunas desavenencias, las cuales se resuelven hablando.
-
-Los principales retos que enfrentan son recordar quién pagó qué y cuándo, ya que a veces no se actualizan los gastos de manera oportuna. No usan ninguna aplicación específica, solo una nota compartida en el celular, aunque esta no siempre está al día. Está interesada en una aplicación que le permita registrar los gastos fácilmente, visualizar el aporte de cada una y recibir recordatorios.
-
-Le gustaría que la app tuviera una interfaz visual, con gráficos o barras, que le permita entender rápidamente lo que se ha pagado y lo que aún está pendiente. Cree que una aplicación como Split Easy ayudaría a evitar malos entendidos y a mejorar la organización y convivencia entre ellas.
-
-
-**Características objetivas y subjetivas observadas:**
-- Tipo de convivencia: Roommates (compañeras de cuarto)
-
-- Responsabilidad económica: Dividida en partes iguales, pero a veces desequilibrada
-
-- Herramientas actuales: Nota compartida en celular (no estructurado)
-
-- Nivel tecnológico: Medio (conocimiento básico de apps)
-
-- Preferencias de UX/UI: Interfaz visual (gráficos o barras), fácil de entender
-
-- Actitudes clave: Busca equidad, claridad, y transparencia en el reparto de gastos
-
-
-**REGISTRO ENTREVISTA 2:**
-
-Nombre del entrevistador: Jhordi Carranza
-
-Nombre del entrevistado: José Carranza
-
-Edad: 21 años
-
-Distrito: Lima 
-
-Screenshot del video:
-
-<p align="left">
-  <img src="images/Entrevista.JoséCarr.png" alt="UserPersona1" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://shorturl.at/Rs9WW
-
-Inicio de la entrevista: 00:00
-
-Duración: 3 minutos
-
-**Resumen descriptivo de la entrevista:**
-
-  José Carranza, un joven de 21 años, comparte su departamento con tres amigos. Viven en un ambiente de convivencia similar al de roommates, donde se dividen los gastos de manera equitativa, pero siempre surgen pequeños problemas cuando alguno de los compañeros olvida pagar su parte o cuando un gasto específico es desproporcionado.
-  
-  José Carranza menciona que, aunque intentan repartir los gastos de manera justa, a veces no pueden hacerlo de forma precisa porque algunos de sus compañeros tienen ingresos más altos que otros. Esto lleva a un desbalance que crea pequeños conflictos, aunque siempre logran solucionarlos hablando.
-  
-  En cuanto a la organización de los pagos, no utilizan ninguna aplicación, sino que lo hacen a través de un grupo en WhatsApp y algunas notas en sus celulares. Sin embargo, esto les genera dificultades, ya que no siempre se actualiza correctamente y a veces se olvida qué pago corresponde a quién.
-  
-  José Carranza considera que una aplicación bien diseñada que les ayude a dividir los gastos de manera justa, registrar los pagos y enviar recordatorios sería útil. Le gustaría que la aplicación tuviera gráficos simples o barras que le permitieran visualizar rápidamente lo que cada uno debe pagar y lo que ya se ha pagado. Además, esta herramienta debería enviar recordatorios de pagos pendientes y mostrar un resumen claro del mes.
-
-**Características objetivas y subjetivas observadas:**
-
-Tipo de convivencia: Roommates 
-
-Responsabilidad económica: Reparto equitativo, pero con desbalance por diferencias de ingresos
-
-Herramientas actuales: WhatsApp y notas en celulares
-
-Nivel tecnológico: Medio (conocimiento de apps, pero no usa)
-
-Preferencias de UX/UI: Interfaz visual, gráficos o barras fáciles de entender
-
-Actitudes clave: Busca equidad, solución rápida de problemas, transparencia en los pagos
-
-
-
-
-**REGISTRO DE ENTREVISTA 3:**
-
-Nombre del entrevistador: Alexander Fernández 
-
-Nombre del entrevistado: Diego Ramírez
-
-Edad: 22 años
-
-Distrito: Lima
-
-Screenshot del video: 
-
-<p align="left">
-  <img src="images/EntrevistaDiego.png" alt="UserPersona1" width="500">
-</p>
-
-URL del video en Microsoft Stream: https://shorturl.at/QuV6U
-
-Inicio de la entrevista: 00:11
-
-Duración: 1 minuto con 52 segundos
-
-**Resumen descriptivo de la entrevista:**
-
-  Diego Ramírez, estudiante de Ingeniería Industrial de 22 años, convive con dos amigos. Comentan que intentan dividir los gastos en partes iguales, pero esto no siempre es posible ya que no todos tienen los mismos ingresos. Considera que el sistema no es justo porque termina pagando más de lo que le corresponde.
-  
-  Los principales retos que enfrentan son ponerse de acuerdo, hacer seguimiento de quién pagó qué, y organizar la información. No utilizan ninguna aplicación, solo notas en celulares o grupos de WhatsApp, pero reconoce que la información se pierde fácilmente.
-  
-  Está interesado en una aplicación que permita registrar gastos, visualizar fácilmente quién debe cuánto, y que envíe recordatorios. Le gustaría una interfaz visual, con colores o gráficos simples. Cree que una app como Split Easy sería útil para evitar discusiones y lograr una distribución justa entre todos los miembros.
-
-**Características objetivas y subjetivas observadas:**
-
-  Tipo de convivencia: Con amigos (coliving o roommates)
-  
-  Responsabilidad económica: Compartida, pero desigual
-  
-  Herramientas actuales: Notas en celular y WhatsApp (no estructurado)
-  
-  Nivel tecnológico: Medio-alto (sabe lo que espera de una app)
-  
-  Preferencias de UX/UI: Visual, clara, rápida, con colores y gráficos simples
-  
-  Actitudes clave: Busca justicia, simplicidad y evitar conflictos
+| **Duración total de las entrevistas** |   |
+|---------------------------------------|---|
+| **Link general del video**            |   |
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -2855,9 +2683,48 @@ Link del despliegue de la landing: https://1asi0732-2520-7505-spliteasy.github.i
 A continuación, presentamos la implementación de la aplicación web frontend de SplitEasy, desarrollada utilizando Node.js y TypeScript. Esta interfaz permite a los usuarios interactuar con las principales funcionalidades de nuestra plataforma desde una experiencia web completa.
 
 
-### 5.2.3. Implemented Frontend-Web Application Evidence
+**Sección de Autenticación**
 
+**Inicio de Sesión y Acceso a la Cuenta**
 
+Esta vista le permite a un usuario ya registrado acceder a su cuenta. En ella puede ingresar su nombre de usuario y contraseña para iniciar sesión. También, ofrece la opción de crear una cuenta nueva a través del enlace "Crea una aquí" o recuperar la contraseña si la olvidó.
+
+![Landing](images/DE/F1.png)
+
+**Registro de Cuenta y Pantalla de Selección de Rol**
+
+Esta vista permite a los nuevos usuarios crear una cuenta en SplitEasy. Deben ingresar su nombre de usuario, correo electrónico, contraseña, ingresos mensuales y seleccionar un rol (Miembro o Representante). En la parte inferior de la pantalla, se encuentra un enlace para aquellos que ya tienen una cuenta y desean iniciar sesión.
+
+![Landing](images/DE/F2.png)
+
+**Vista de Representante del Hogar**
+
+**Dashboard de Resumen**
+
+Esta es la vista principal que el Representante de un hogar ve al iniciar sesión. Muestra un resumen de la actividad del hogar, incluyendo la cantidad de Miembros activos, el número de Cuentas registradas este mes y las Contribuciones realizadas. En el panel lateral, el usuario puede navegar a otras secciones como Miembros, Cuentas, Contribuciones y Ajustes.
+
+![Landing](images/DE/F3.png)
+
+**Gestión y Añadir Miembros**
+
+Esta pantalla permite al Representante añadir o eliminar miembros del hogar. Si no hay miembros, un mensaje lo anima a invitar a alguien. Al hacer clic en "Añadir Miembro", se abre una ventana para ingresar el correo electrónico de la persona, quien debe estar ya registrada.
+
+![Landing](images/DE/F4.png)
+![Landing](images/DE/F5.png)
+
+**Facturas del Hogar**
+
+Esta vista le permite al Representante gestionar las facturas de su hogar. Al hacer clic en "Registrar Factura", se abre una ventana donde puede ingresar la descripción, el monto y la fecha de la factura. Si ocurre un error al cargar la información, se muestra un mensaje para que el usuario pueda reintentar.
+
+![Landing](images/DE/F6.png)
+![Landing](images/DE/F7.png)
+
+**Contribuciones**
+
+Esta vista le permite al Representante crear y gestionar las contribuciones del hogar. Haciendo clic en el botón "+ Nueva Contribución" se puede iniciar el proceso. La pantalla muestra un resumen de las contribuciones, incluyendo la descripción, la estrategia de división, la fecha límite y el monto total. Actualmente no hay datos para mostrar, y se ve un círculo de carga.
+
+![Landing](images/DE/F8.png)
+![Landing](images/DE/F9.png)
 
 ### 5.2.4. Acuerdo de Servicio - SaaS 
 
@@ -3057,6 +2924,54 @@ Este controlador maneja todas las operaciones relacionadas con la configuración
 ### 5.2.7. RESTful API documentation 
 
 Utilizamos Swagger para documentar y probar los endpoints de la API de manera interactiva, lo que facilita a los desarrolladores la integración y verificación de los servicios RESTful.
+
+**API DOCUMENTATION**
+
+![Landing](images/DE/B1.png)
+![Landing](images/DE/B2.png)
+![Landing](images/DE/B3.png)
+
+**LOGIN MANAGEMENT**
+
+![Landing](images/DE/B4.png)
+![Landing](images/DE/B5.png)
+
+
+
+**Contributions Management**
+
+![Landing](images/DE/B6.png)
+![Landing](images/DE/B7.png)
+
+**Household Members Management**
+
+![Landing](images/DE/B8.png)
+![Landing](images/DE/B9.png)
+
+**Roles Management**
+
+![Landing](images/DE/B10.png)
+
+**Settings Management**
+
+![Landing](images/DE/B11.png)
+![Landing](images/DE/B12.png)
+
+
+**Member Contributions Management**
+
+![Landing](images/DE/B13.png)
+![Landing](images/DE/B14.png)
+
+**Households Management**
+
+![Landing](images/DE/B15.png)
+![Landing](images/DE/B16.png)
+
+**Bills Management**
+
+![Landing](images/DE/B17.png)
+![Landing](images/DE/B18.png)
 
 ### 5.2.8. Team Collaboration Insights 
 
