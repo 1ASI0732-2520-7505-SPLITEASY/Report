@@ -1992,7 +1992,7 @@ La página de inicio para el miembro del hogar es simple y funcional, mostrando 
 
 **Video de explicación del flujo:** https://goo.su/hoLw
 
-![alt text](images/TB1/P3.png)
+![alt text](images/DE/P3.png)
 
 
 ### 4.5.2. iOS Mobile Applications Prototyping
@@ -2025,7 +2025,7 @@ La página de inicio para el miembro del hogar es clara y práctica, mostrando u
 
 **Video de Explicación del Flujo:** https://goo.su/Cf0YUKS
 
-![alt text](images/TB1/P2.png)
+![alt text](images/DE/P2.png)
 
 
 Los prototipos fueron fundamentales para identificar problemas de usabilidad antes del desarrollo, permitiendo realizar iteraciones tempranas basadas en observaciones y comentarios de usuarios reales. La consistencia entre plataformas y la claridad en las rutas de navegación ayudaron a validar las funcionalidades clave para representantes del hogar y miembros del hogar, asegurando una experiencia de usuario fluida y eficiente.
@@ -2141,9 +2141,9 @@ Se desarrolló un prototipo interactivo enfocado en la navegación web para eval
 
 Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=ciOjUSWSfUyZ9jxj-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17
 
-![alt text](images/TB1/P1.png)
-
 **Link del video explicativo:** https://goo.su/5fH6oe
+
+![alt text](images/DE/P1.png)
 
 ## 4.6. Domain-Driven Software Architecture
 
