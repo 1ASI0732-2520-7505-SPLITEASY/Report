@@ -860,11 +860,11 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 | **Edad** | 33 |
 | **Profesión** | Policía |
 | **Departamento** | Lima |
-| **Inicio del video** |  |
-| **Fin del video** |  |
+| **Inicio del video** | 05:25 |
+| **Fin del video** | 13:28 |
 | **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
+| **Foto entrevista** | <img src="images/CapturaEntrevista2.png" alt=""  width="250" /> |
+| **Resumen** | El oficial Paul Requejo organiza equitativamente los gastos con su pareja. Afirma que ambos aportan en lo que se han puesto de acuerdo. Sin embargo, carecen de planificaciones concretas y a veces ponerse de acuerdo es difícil dada la diferencia de sueldos significativa. Cree que una app como SplitEasy tenga un buen impacto en su convivencia familiar y espera de ella una funcionalidad útil como asesoramiento económico porque a veces tienen poca disciplina al administrar sus recursos. |
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
