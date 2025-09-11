@@ -1853,34 +1853,112 @@ Wireflows detallados que reflejan los caminos más usados por cada tipo de usuar
 
 ### 4.4.1. Mobile Applications Wireframes
 
-ANEXO G:
+ANEXO G: https://www.figma.com/design/7f2Ru1tTM2Z5YO2XXAPz5A/Untitled?node-id=0-1&p=f&t=PA99MmlXk8ZMm8U5-0
 
 **Sección Representante del Hogar**
 
 A través de estos wireframes, se presentan las pantallas dirigidas a los representantes del hogar, permitiéndoles crear cuentas, gestionar miembros y asignar contribuciones basadas en los ingresos. El diseño busca facilitar la administración financiera del hogar de manera clara y eficiente.
 
-
-
-
+![About Product](images/DE/BL1.png)
 
 **Sección Miembro del Hogar**
 
 Esta sección está diseñada para los miembros del hogar, quienes podrán registrarse, unirse a un hogar existente, declarar sus ingresos y monitorear sus contribuciones. El flujo está centrado en la simplicidad y facilidad de uso para asegurar una experiencia fluida.
 
-
-
-
+![About Product](images/DE/BL2.png)
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+https://lucid.app/lucidchart/03769abf-adaa-4dd3-957a-1251a1179f0b/edit?viewport_loc=-777%2C533%2C7203%2C3264%2C0_0&invitationId=inv_efbf3ffd-6e54-4e92-a134-56479945b678 
 
 
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+ANEXO E: 
+https://www.figma.com/design/7f2Ru1tTM2Z5YO2XXAPz5A/Untitled?node-id=0-1&p=f&t=PA99MmlXk8ZMm8U5-0
 
+En esta sección se presentan los mock-ups de alta fidelidad desarrollados para la aplicación móvil de SplitEasy. Estas vistas permiten anticipar cómo lucirá la interfaz en dispositivos móviles tanto para representantes del hogar como para miembros del hogar, simulando su interacción real con la app. El diseño se centra en ofrecer una experiencia ágil, accesible y visualmente atractiva, optimizada para pantallas táctiles y navegación en movimiento.
+
+**Pantalla de bienvenida**
+
+Pantalla de bienvenida que explica la funcionalidad principal de la aplicación: dividir los gastos de forma equitativa según los ingresos de los miembros del hogar. Ofrece al usuario dos opciones para continuar: Representative o Member.
+
+**Pestaña de inicio de sesión**
+
+Pantalla de bienvenida y de inicio de sesión, con campos para introducir el correo electrónico y la contraseña.
+
+![About Product](images/DE/MO1.png)
+
+**Pestaña de elección**
+
+Pantalla de registro para nuevos usuarios, que solicita seleccionar el tipo de cuenta: Miembro o Representante.
+
+![About Product](images/DE/MO2.png)
+
+**Pestaña de registro**
+
+Pantalla para completar la creación de una cuenta de tipo Miembro. Incluye los campos para ingresar el nombre completo, correo electrónico, ID de hogar, contraseña y la confirmación de la misma.
+
+![About Product](images/DE/MO3.png)
+
+**Mock-ups para Usuario REPRESENTANTE DEL HOGAR**
+
+**Pestaña 'Crear hogar'**
+
+![About Product](images/DE/MO4.png)
+
+**Pestaña 'Miembros del hogar'**
+
+![About Product](images/DE/MO6.png)
+
+**Pestaña 'Añadir miembros'**
+
+![About Product](images/DE/MO7.png)
+
+**Pestaña 'Gastos del hogar'**
+
+![About Product](images/DE/MO8.png)
+
+**Pestaña 'Registrar Gasto'**
+
+![About Product](images/DE/MO9.png)
+
+**Mock-ups para Usuario MIEMBROS DEL HOGAR**
+
+**Pestaña 'Mis aportes'**
+
+![About Product](images/DE/MO10.png)
+
+**Pestaña 'Estado hogar'**
+
+![About Product](images/DE/MO11.png)
+
+**Pestaña 'Unirse a un hogar'**
+
+![About Product](images/DE/MO12.png)
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
+A continuación, se muestra el User Flow Diagram de la aplicación móvil de SplitEasy, estructurado en base a los objetivos principales de los usuarios. Cada sección del flujo responde a una meta funcional específica, representando los recorridos posibles dentro de la app mediante mockups de alta fidelidad, optimizados para la experiencia en dispositivos móviles.
+
+ANEXO I: https://lucid.app/lucidchart/03769abf-adaa-4dd3-957a-1251a1179f0b/edit?viewport_loc=-777%2C533%2C7203%2C3264%2C0_0&invitationId=inv_efbf3ffd-6e54-4e92-a134-56479945b678 
+
+**USER GOAL:** Como visitante, quiero registrarme e iniciar sesión en la plataforma para comenzar a usar SplitEasy.
+
+![About Product](images/DE/MOA1.png)
+
+**USER GOAL:** Como representante del hogar, quiero crear un hogar en la app con los miembros del hogar para empezar a gestionar sus finanzas.
+
+![About Product](images/DE/MOA2.png)
+
+**USER GOAL:** Como representante del hogar, quiero registrar un gasto y gestionar el pago para los miembros del hogar.
+
+![About Product](images/DE/MOA3.png)
+
+**USER GOAL:** Como miembro del hogar, quiero ver cuál es la distribución y registrar mi contribución de acuerdo a eso. 
+
+![About Product](images/DE/MOA4.png)
 
 ## 4.5. Mobile Applications Prototyping
 
@@ -1912,8 +1990,9 @@ La página de inicio para el miembro del hogar es simple y funcional, mostrando 
 
 - Ver Gastos Compartidos: El miembro puede ver cómo se distribuyen los gastos entre los miembros del hogar.
 
-**Video de explicación del flujo:**
+**Video de explicación del flujo:** https://goo.su/hoLw
 
+![alt text](images/DE/P3.png)
 
 
 ### 4.5.2. iOS Mobile Applications Prototyping
@@ -1944,7 +2023,9 @@ La página de inicio para el miembro del hogar es clara y práctica, mostrando u
 
 - Ver Gastos Compartidos: Los miembros pueden ver cómo se distribuyen los gastos entre ellos.
 
-**Video de Explicación del Flujo:**
+**Video de Explicación del Flujo:** https://goo.su/Cf0YUKS
+
+![alt text](images/DE/P2.png)
 
 
 Los prototipos fueron fundamentales para identificar problemas de usabilidad antes del desarrollo, permitiendo realizar iteraciones tempranas basadas en observaciones y comentarios de usuarios reales. La consistencia entre plataformas y la claridad en las rutas de navegación ayudaron a validar las funcionalidades clave para representantes del hogar y miembros del hogar, asegurando una experiencia de usuario fluida y eficiente.
@@ -2056,11 +2137,11 @@ A continuación, se muestra el User Flow Diagram estructurado en base a los obje
 
 Se desarrolló un prototipo interactivo enfocado en la navegación web para evaluar y mejorar la accesibilidad y la experiencia de usuario antes del lanzamiento final. Este modelo simula fielmente el recorrido dentro del sitio, permitiendo explorar secciones y flujos como en la versión definitiva. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible. Gracias a sus maquetas de alta fidelidad, el prototipo permite validar decisiones de diseño, detectar fricciones y asegurar una experiencia de uso consistente.
 
-<a href="https://ibb.co/pqTxmFF"><img src="https://i.ibb.co/KngX1vv/video-prototipo.png" alt="video-prototipo" border="0"></a>
-
 Link al prototipo: https://www.figma.com/proto/KpblxTexy8JiWceW2N9VmM/Open-Source?node-id=61-17&p=f&t=ciOjUSWSfUyZ9jxj-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17
 
-Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d534_upc_edu_pe/EeExTohQK7VDrZmrG2Ze3j8BWq2i0RG-r1I8l03WIW7eZg?e=3VCooB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Link del video explicativo:** https://goo.su/5fH6oe
+
+![alt text](images/DE/P1.png)
 
 ## 4.6. Domain-Driven Software Architecture
 
