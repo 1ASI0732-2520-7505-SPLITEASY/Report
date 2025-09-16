@@ -844,6 +844,50 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
+| **Nombre entrevistado** | Cristian Campos |
+| **Edad** | 23 |
+| **Profesión** | Estudiante de Ingeniería Civil |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 04:08 |
+| **Link del video** |  |
+| **Foto entrevista** | <img src="images/Entrevista1_Segmento1.png" alt=""  width="250" /> |
+| **Resumen** | Cristian actualmente vive con su madre y su hermano mayor. No reparten los gastos de forma equitativa, lo que genera conflictos internos porque a veces quien gana más paga menos y quien gana menos paga más. El principal reto es la falta de una herramienta que permita dividir los gastos proporcionalmente a los ingresos. No usan ninguna app para llevar el registro de pagos; simplemente asignan los gastos sin reglas claras. Cristian considera que la app ideal debería permitir designar todos los gastos, registrar pagos y pendientes de manera clara, y tener una interfaz limpia y fácil de entender, especialmente para personas mayores. Cree que una aplicación como SplitEasy podría mejorar la convivencia y la organización del hogar. |
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Juan Manuel Álvarez Ortega |
+| **Edad** | — |
+| **Profesión** | Estudiante egresado / Analítica de datos |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 04:44 |
+| **Link del video** |  |
+| **Foto entrevista** | <img src="images/Entrevista2_Segmento1.png" alt=""  width="250" /> |
+| **Resumen** | Juan Manuel vive con sus padres y hermanos. Los gastos del hogar se reparten de forma desigual: los servicios de luz, agua y desarrollo los pagan principalmente sus padres, mientras que Internet y telefonía los pagan él y sus hermanos mayores. Considera que el sistema no es totalmente justo, ya que algunas personas que ganan más pagan menos. Los principales retos son coordinar quién paga qué y lidiar con posibles préstamos entre miembros. Actualmente usan Excel para registrar los pagos, pero esto solo enumera los pagos sin facilitar la distribución equitativa. Juan Manuel considera que una app ideal debería dividir correctamente los gastos según cada persona, enviar recordatorios de pago y mostrar de manera clara lo que cada uno debe pagar, lo que ya pagó y lo pendiente. Cree que **SplitEasy** podría mejorar la organización y convivencia familiar. |
+
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  |
+| **Edad** |  |
+| **Profesión** |  |
+| **Departamento** |  |
+| **Inicio del video** |  |
+| **Fin del video** |  |
+| **Link del video** |  |
+| **Foto entrevista** | ![ddd](Assets/TB1/) |
+| **Resumen** |  |
+
+| **Duración total de las entrevistas** |   |
+|---------------------------------------|---|
+| **Link general del video**            |   |
+
+
+#### **Segundo Segmento - Representantes del Hogar:**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
 | **Nombre entrevistado** | Vannya Herrera |
 | **Edad** | 29 |
 | **Profesión** | Medicina Familiar |
@@ -868,58 +912,17 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
-| **Nombre entrevistado** |  |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |  |
+| **Nombre entrevistado** | Gianelly Vásquez |
+| **Edad** | 25 |
+| **Profesión** | Estudiante |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 04:46 |
 | **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
-
-| **Duración total de las entrevistas** |   |
-|---------------------------------------|---|
-| **Link general del video**            |   |
+| **Foto entrevista** | <img src="images/Entrevista3_Segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Gianelly convive con dos amigas, con quienes comparte un departamento. Dividen los gastos fijos como alquiler, agua, luz e Internet por igual, y los gastos variables como supermercado se compensan al final del mes mediante un registro en grupo de WhatsApp. Considera que la mayor dificultad es cuando alguien olvida registrar sus gastos, complicando el cálculo exacto de quién debe a quién. Actualmente usan un cuaderno y una hoja de Excel sencilla. Gianelly considera que una app ideal debería enviar recordatorios automáticos, registrar gastos con comprobantes en foto y calcular automáticamente los aportes proporcionales de cada miembro. Destaca que la transparencia financiera es muy importante para mantener la confianza y evitar discusiones. Cree que **SplitEasy** ayudaría a organizar mejor los gastos y mejorar la convivencia entre los miembros del hogar. |
 
 
-#### **Segundo Segmento - Representantes del Hogar:**
-
-| **ENTREVISTA 1** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** |  |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |  |
-| **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
-
-| **ENTREVISTA 2** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** |  |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |  |
-| **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
-
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** |  |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |  |
-| **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
 
 | **Duración total de las entrevistas** |   |
 |---------------------------------------|---|
