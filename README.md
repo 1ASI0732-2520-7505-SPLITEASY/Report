@@ -2922,7 +2922,7 @@ Este acuerdo cumple con los marcos normativos aplicables en materia de protecci√
 
 **Household representative account**
 
-![Landing](images/TB1/N5.jpg)
+![Landing](images/TB1/NA5.jpg)
 
 ![Landing](images/TB1/NA6.jpg)
 
