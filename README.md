@@ -36,34 +36,20 @@ Diseño de experimentos de ingeniería de Software <br>
 <div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
-| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
-|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 25/03/2025  | Jorge Luis Díaz Fiestas        | Desarrollo del capítulo I: Introducción                                                                                                             |
-|         | 29/03/2025  | Alexander Piero Fernandez Garfias                                        | Desarrollo del capítulo II: Competidores                                                                                                            |
-|         | 29/03/2025  |  Jhordi Luis Carranza Pérez                                        | Desarrollo del capítulo II: Entrevistas                                                                                                             |
-|         | 30/03/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo II: Needfinding                                                                                                             |
-|         | 08/04/2025  | Paulo Percy Quincho Gamarra                                            | Desarrollo del capítulo III: To-Be Scenario Mapping y Product Backlog                                                                              |
-|         | 10/04/2025  | Paulo Percy Quincho Gamarra, Luis Gustavo Román Pajuelo                | Desarrollo del capítulo III: User stories                                                                                                           |
-|         | 12/04/2025  |  Alexander Piero Fernandez Garfias                                         | Desarrollo del capítulo III: Impact Mapping                                                                                                         |
-|         | 14/04/2025  | Paulo Percy Quincho Gamarra,  Alexander Piero Fernandez Garfias        | Desarrollo del capítulo IV: Style Guidelines, Landing Page UI Design, Web Applications UX/UI Design, Web Application Prototyping y Domain-Driven Software Architecture |
-|         | 16/04/2025  | Jorge Luis Díaz Fiestas                                        | Desarrollo del capítulo IV: Software Object-Oriented Design y Database Design                                                                      |
-|         | 18/04/2025  | Jhordi Luis Carranza Pérez                                          | Desarrollo del capítulo V: Software Configuration Management                                                                                       |
-|         | 20/04/2025  |  Alexander Piero Fernandez Garfias             | Desarrollo del capítulo V: Sprint Planning 1                                                                                                        |
-| TF     | 25/03/2025  | Jorge Luis Díaz Fiestas <br>Paulo Percy Quincho Gamarra <br> Jose Luis Martinez Valdivia <br> Maria Fernanda Mostajo Orosco <br> Rodrigo Alya Cabrera <br> Niurka Lucero Huarcaya        | Desarrollo del capítulo V: sprint 4                                                                                                             |
+| Versión | Fecha      | Autor(es)                       | Descripción                                                                                                                                                                                                                                                                |
+| ------- | ---------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TB1     | 08/09/2025 | Diego Fernando Herrera Enriquez | Desarrollo de los **Capítulos 1 y 2**: **Capítulo 1: Introducción** (perfil de la startup, perfiles del grupo, descripción general) y **Capítulo 2: Requirements Elicitation & Analysis** (análisis competitivo, estrategias frente a competidores, entrevistas y diseño). |
+| TB1     | 09/09/2025 | Diego Fernando Herrera Enriquez | Continuación del **Capítulo 2: Requirements Elicitation & Analysis**: entrevistas, segmentación de usuarios y análisis de la problemática.                                                                                                                                 |
+| TB1     | 10/09/2025 | Eslander Celis Berrospi         | Desarrollo del **Capítulo 3: Requirements Specification**. Incluye el mapeo de escenarios actuales (As-is), user personas, y análisis de necesidades.                                                                                                                      |
+| TB1     | 11/09/2025 | Eslander Celis Berrospi         | Continuación del **Capítulo 3: Requirements Specification**. Trabajo sobre el **User Journey Mapping**, **Empathy Mapping** y **As-is Scenario Mapping**.                                                                                                                  |
+| TB1     | 12/09/2025 | Rodrigo Alya Cabrera            | Desarrollo del **Capítulo 4: Product Design**. Incluye el diseño de **Style Guidelines**, **Wireframes** de la Landing Page, y la arquitectura de la información.                                                                                                          |
+| TB1     | 13/09/2025 | Rodrigo Alya Cabrera            | Continuación del **Capítulo 4: Product Design**. Enfoque en el diseño UX/UI para la **Web Application**, incluyendo wireflows, mock-ups y prototipos.                                                                                                                      |
+| TB1     | 14/09/2025 | Valentino Sandoval Paiva        | Desarrollo del **Capítulo 5: Product Implementation, Validation & Deployment**. Incluye la **Gestión de Configuración del Software** y la planificación de Sprints.                                                                                                        |
+| TB1     | 15/09/2025 | Valentino Sandoval Paiva        | Continuación del **Capítulo 5**. Documentación de **Services**, pruebas de ejecución, y evidencias de despliegue para la revisión del Sprint.                                                                                                                              |
+| TB1     | 16/09/2025 | Valentino Sandoval Paiva        | Finalización del **Capítulo 5**. Análisis de las **User Stories**, documentación de endpoints, y resúmenes de ejecución para la revisión del Sprint.                                                                                                                       |
 
-# Project Report Collaboration Insights
 Link del repositorio: https://github.com/1ASI0729-2510-4313-G3-SplitEasy/Report.git
-
-
-Insights TB1 (Todos participaron):
-<p align="left">
-  <img src="images/estad1.PNG" alt="tb1avance" width="500">
-</p>
-
-<p align="left">
-  <img src="images/estad2.PNG" alt="tb1avance" width="500">
-</p>
-                                                                              
+                                 
 # Contenido
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -334,110 +320,7 @@ Insights TB1 (Todos participaron):
   - [Herramientas de desarrollo y gestión de proyectos](#herramientas-de-desarrollo-y-gestión-de-proyectos)
   - [Desarrollo General](#desarrollo-general)
 
-## Capítulo I: Introducción
-- [1.1. Start-up Profile](#11-start-up-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-## Capítulo II: Requirements Elicitation & Analysis
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-## Capítulo III: Requirements Specification
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-
-## Capítulo IV: Product Design
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-  - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
-
-## Capítulo V: Product Implementation, Validation & Deployment
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.1. Sprint](#521-sprint)
-    - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
-    - [5.2.1.2. Sprint Backlog](#5212-sprint-backlog)
-    - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-    - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
-    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-    - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  - [5.2.4. Sprint 4](#524-sprint-4)
-      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3.Sprint Backlog 4.](#5243sprint-backlog-4)
-      - [5.2.4.4.Development Evidence for Sprint Review.](#5244development-evidence-for-sprint-review)
-      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
-      - [5.2.4.6.Services Documentation Evidence for Sprint Review.](#5246services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
-- [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
- 
-## Anexos
 
 - Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
 - Enlace Frontend Desplegado: https://tranquil-dodol-e6200e.netlify.app/
@@ -446,11 +329,10 @@ Insights TB1 (Todos participaron):
 
 
 # Student Outcome
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Ayudé en la organización y grabación del video de presentación del equipo, coordinando qué comunicar y cómo expresarlo.<br>**(TB2):** Supervisé el proyecto. Coordiné reuniones y guié al equipo en el desarrollo de funcionalidades claves como login y workspace.<br>**(TB3):** Comunicaciones técnicas constantes sobre el backend: diseño de base de datos, desarrollo de endpoints, validaciones, pruebas, despliegue y control de acceso por rol (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Expliqué diagramas C4 al equipo y argumenté decisiones técnicas en reuniones.<br>**(TB2):** Expuse mejoras visuales y accesibilidad. Participé en coordinaciones sobre el módulo de autenticación.<br>**(TB3):** Expliqué al equipo la creación de endpoints de autenticación, configuración del servidor, documentación backend y solución del control de acceso (US38).<br><br>**Jose Luis Martinez (TF):** Participe en la coordinacion de tareas del entregable final, detallando roles y tasks de cada miembro<br><br>**Niurka Huarcaya Quispe (TF):** En esta entrega, realicé una entrevista de validación y apoyé en la documentación en la actualización y corrección indicadas.  | El trabajo grupal nos ayudó a estructurar mejor nuestras ideas orales y adaptarlas según el público: usuarios, docentes o compañeros.<br><br>Presentar avances y coordinar tareas entre diferentes entregas fortaleció nuestra claridad para comunicar asuntos técnicos en tiempo real.<br><br>El desarrollo de funcionalidades exigió explicar y justificar decisiones técnicas en reuniones frecuentes. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jorge Luis Díaz Fiestas (TB1):**<br>Revisé ortografía y redacción del informe, incluyendo conclusiones y descripciones funcionales.<br>**(TB2):** Documenté las vistas implementadas, configuraciones del workspace y flujos técnicos de login y recuperación de contraseña.<br>**(TB3):** Documenté backend completo: creación de base de datos, autenticación segura, validaciones, pruebas, despliegue y control de acceso (US38).<br><br>**Paulo Percy Quincho Gamarra (TB1):**<br>Redacté el Needfinding, To-Be Scenario Mapping y parte de los diagramas C4.<br>**(TB2):** Documenté ajustes en accesibilidad, optimización visual y footer.<br>**(TB3):** Documenté endpoints de autenticación, configuración del servidor, documentación de backend y control de acceso (US38).<br><br><br> **Jose Luis Martinez (TF):** Documente el sprint 4, asi como realize correciones pertenecientes a entregables anteriores. Realize entrevistas de validacion y evaluacion en base a heuristicas.<br><br>**Niurka Huarcaya Quispe (TF):** En esta entrega, llevé a cabo una entrevista de validación con un representante de user persona. Además, colaboré en la actualización y corrección de la documentación. | La escritura técnica constante en los reportes y documentación nos ayudó a mejorar la redacción estructurada y clara.<br><br>Nos permitió adaptar el lenguaje escrito según la audiencia (docente, usuario o técnica) y propósito (descriptivo, instructivo o reflexivo).<br><br>Aumentó nuestra capacidad de registrar, validar y explicar decisiones técnicas de forma precisa y profesional. |
-
+| **Criterio específico**                                                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló la arquitectura de la información y la estructura de navegación de la plataforma, asegurando la inclusión de accesibilidad universal y un diseño ético que respeta la diversidad de usuarios.<br>**Eslander Celis Berrospi :**<br>Realizó un análisis ético en la creación de las user personas y las entrevistas de validación, priorizando la transparencia y la honestidad en el tratamiento de la información de los usuarios.<br>**Valentino Sandoval Paiva :**<br>Implementó las soluciones de autenticación y seguridad del sistema asegurando que las mejores prácticas en términos de privacidad y protección de datos fueran aplicadas.<br>**Diego Fernando Herrera Enriquez :**<br>Gestionó las entrevistas con usuarios y el análisis de competidores, enfocándose en un enfoque ético que asegurara la equidad y respeto en el diseño de la solución. | Durante todo el proceso, se priorizó la ética profesional mediante decisiones técnicas que fomentaron la accesibilidad, la seguridad y la privacidad del usuario.<br><br>Se reconoció la importancia de la transparencia y la responsabilidad en el manejo de datos personales, asegurando que las decisiones tomadas en todas las fases del proyecto fueran alineadas con principios éticos y responsables.                   |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló el diseño asegurando que fuera inclusivo y accesible globalmente, teniendo en cuenta a diferentes grupos de usuarios y su impacto en diversas culturas.<br>**Eslander Celis Berrospi :**<br>Evaluó cómo las soluciones propuestas afectaban a diferentes contextos sociales, implementando cambios para que el producto fuera útil y accesible para un público global diverso.<br>**Valentino Sandoval Paiva :**<br>La implementación de medidas de seguridad y privacidad consideró el impacto económico, buscando una solución que fuera eficiente en términos de costo y fácil de mantener a largo plazo.<br>**Diego Fernando Herrera Enriquez :**<br>El análisis de competidores y entrevistas incluyó una evaluación del impacto social y económico del producto, para asegurar que la solución propuesta fuera viable en el contexto global.                 | Las decisiones tomadas en el desarrollo de la solución fueron guiadas por una visión global y económica, considerando tanto el bienestar social de los usuarios como la sostenibilidad y el impacto económico del proyecto.<br><br>El equipo también fue consciente de los posibles efectos ambientales y sociales, buscando crear una solución que tuviera un impacto positivo a largo plazo para los usuarios y la sociedad. |
 
 
 
@@ -471,54 +353,13 @@ Nuestro enfoque se fundamenta en tres pilares esenciales: equidad, simplicidad y
 
 ### 1.1.2. Perfiles de Integrantes del Grupo
 
+| **Nombre** | **Descripción personal** |
+|------------|--------------------------|
+| **Rodrigo Alya Cabrera - U202219481**  <br> ![Foto Rodrigo](images/fotoAlaya.JPG) | Soy Rodrigo, una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |
+| **Valentino Sandoval Paiva - U20211A962**  <br> ![Foto Valentino](images/DE/Valentino.png) | Soy una persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. Me esfuerzo por entregar los mejores resultados. |
+| **Diego Fernando Herrera Enriquez - U202319027**  <br> ![Foto Diego](![alt text](images/TB1/Diego.png)) | Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera. |
+| **Eslander Celis Berrospi - U201911249**  <br> ![Foto Eslander](images/TB1/Eslander.jpg) | Me considero una persona apasionada por aprender nuevas cosas y mejorar mi nivel de programación de forma diaria. |
 
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-   <td style="text-align: center" align="center">
-        <p align="center">
-         Rodrigo Alya Cabrera - U202219481  
-         <br>
-         <img src="images/fotoAlaya.JPG" alt="Foto Rodrigo" width="50%">
-         </p>
-        </td>
-        <td style="text-align: center" align="center">
-         Soy Rodrigo, una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora 
-         constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque.
-        </td>
-       <td style="text-align: center" align="center">
-       Apasionado por el desarrollo de software y la resolución de problemas. Tengo conocimientos en C++, Python, HTML, CSS y otros lenguajes de programación. Me considero autodidacta, siempre en busca de nuevos retos para fortalecer mis habilidades técnicas. 
-      También me interesa la experiencia del usuario y el diseño centrado en las personas como parte esencial en la creación de soluciones tecnológicas.
-      </td>
-  </tr>
-  <tr>
-    <td style="text-align: center" align="center">
-        <p align="center">
-        Valentino Sandoval Paiva - U20211A962  
-         <br>
-         <img src="images/Paulofoto.PNG" alt="Foto Rodrigo" width="50%">
-         </p>
-        </td>
-        <td style="text-align: center" align="center">
-         Soy una persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. Me esfuerzo por entregar los mejores resultados.
-        </td>
-       <td style="text-align: center" align="center">
-       Tengo conocimientos en Python, HTML y otros lenguajes de programación. 
-      </td>
-  </tr>
-  <TR>
-		<td style="text-align: center" align="center"><p align="center"> Diego Fernando Herrera Enriquez - U202319027<br><img src="https://i.ibb.co/DH73jMSf/Niurka.jpg" alt="Foto Stanley" width="45%"> </p></td> 
-		<td style="text-align: center" align="center">Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera.</td>
-		<td style="text-align: center" align="center">Tengo conocimientos de HTML, CSS y lenguajes de programación como C++ y Python. Espero que los conocimientos que he ido adquiriendo en ciclos anteriores sean de gran ayuda para llevar a cabo el presente trabajo.</td>
-	</TR>
-	<TR>
-		<td style="text-align: center" align="center"><p align="center"> Eslander Celis Berrospi - U201911249 <br>  <img src="images/foto_Jose.jpg" alt="Foto Edson" width="40%"> </p></td> 
-		<td style="text-align: center" align="center">Me considero una persona apasionada por aprender nuevas cosas y mejorar mi nivel de programacion de forma diaria.</td>
-		<td style="text-align: center" align="center"> Soy estudiante de la carrera de Ingenieria. Cuento con conocimiento en los lenguajes de Pyhton, JavaScript y C#. Me encuentro mejorando mis conocimientos en Angular, virtualizacion y VueJS</td>
-	</TR>
-  	
- 
-
-</table>
 
 ## 1.2. Solution Profile
 
@@ -1259,20 +1100,7 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
 | EP07     | Exploración como Visitante        | TS18  | Documentar despliegue              | Como desarrollador, quiero documentar los pasos del despliegue para facilitar futuras actualizaciones. | - Escenario 1: Instrucciones claras<br>Dado que un nuevo desarrollador acceda a la guía,<br>Cuando lea los pasos,<br>Entonces podrá repetir el despliegue exitosamente. |
 | EP07     | Exploración como Visitante        | TS19  | Monitoreo del sistema desplegado   | Como desarrollador, quiero monitorear el sistema en producción para asegurar su disponibilidad. | - Escenario 1: Ver logs<br>Dado que el sistema registre errores,<br>Cuando se revisen los logs,<br>Entonces se podrá detectar fallas.<br><br>- Escenario 2: Verificar uptime<br>Dado que el sistema esté en funcionamiento,<br>Cuando se consulte el monitor,<br>Entonces debe reflejar disponibilidad continua. |
-|EP00     |Arquitectura Técnica y Documentación| DOC01| Creación de Diagramas C4 del Sistema     |Como desarrollador, quiero crear un conjunto de diagramas C4 (Nivel 1 al 4), para documentar y comunicar claramente la arquitectura del sistema a todo el equipo técnico|Escenario 1: Crear Diagrama de Contexto<br>Dado que se está iniciando la documentación arquitectónica del sistema<br>Cuando el desarrollador crea el diagrama de contexto<br>Entonces se debe mostrar los actores externos, el sistema principal y sus interacciones<br><br>Escenario 2: Crear Diagrama de Componentes<br>Dado que el sistema tiene varios componentes técnicos (frontend, backend, BBDD, APIs)<br>Cuando se genera el diagrama de contenedores<br>Entonces se visualiza la arquitectura interna del sistema como una colección de contenedores con sus tecnologías y relaciones<br><br>Escenario 3: Crear Diagrama de Contenedores<br>Dado que los contenedores contienen múltiples responsabilidades internas<br>Cuando se descompone un contenedor<br>Entonces se visualizan los componentes internos<br><br>Escenario 4: Crear el Diagrama de Clases<br>Dado que se necesita documentar detalles técnicos a nivel de código<br>Cuando se modelan las clases reales del sistema<br>Entonces el diagrama debe incluir atributos y métodos principales y relación entre clases|
-|EP00     |Arquitectura Técnica y Documentación| DOC02|Diseño de Base de Datos|Como desarrollador, quiero diseñar la base de datos del sistema, para estructurar y almacenar de forma segura y eficiente la información que maneja la plataforma|Escenario 1: Creación del modelo entidad-relación<br>Dado que el sistema debe soportar diferentes funcionalidades<br>Cuando se identifican las entidades del sistema<br>Entonces se diseña un modelo con entidades, atributos y relaciones<br><br>Escenario 2: Validación del modelo con requisitos funcionales<br>Dado que  la base de datos debe respaldar las funcionalidades definidas<br>Cuando se revisa el modelo en equipo<br>Entonces se ajustan las entidades o relaciones si faltan campos relevantes para funcionalidades clave|
-|EP00     |Arquitectura Técnica y Documentación| DOC03|Lean UX Process|Como desarrollador, quiero definir el problema, suposiciones, hipótesis y Lean UX Canvas, para alinear el desarrollo del producto con necesidades reales y validar lo más temprano posible|Escenario 1: Validación temprana de suposiciones<br>Dado que se tiene identificado un problema en el Lean UX Problem Statement<br>Cuando se definen las suposiciones y se formula una hipótesis clara<br>Entonces se pueden construir experimentos y diseñar funcionalidades mínimas para validarlas rápidamente|
-|EP00     |Arquitectura Técnica y Documentación| DOC04|Diseño y análisis de entrevistas|Como desarrollador, quiero diseñar, registrar y analizar entrevistas, para comprender las necesidades, frustraciones y objetivos reales de los usuarios|Escenario 1: Registro y análisis estructurado<br>Dado que se han realizado entrevistas con usuarios representativos<br>Cuando se registran sus respuestas y se analizan por patrones<br>Entonces se obtienen insights clave que alimentan la creación de User Personas y escenarios|
-|EP00     |Arquitectura Técnica y Documentación| DOC05|User Personas|Como desarrollador, quiero construir User Personas basadas en entrevistas reales, para representar perfiles ideales que guíen las decisiones de diseño centradas en el usuario|Escenario 1: Construcción de User Persona<br>Dado que se ha recopilado y analizado información cualitativa de entrevistas<br>Cuando se identifican patrones comunes de comportamientos, objetivos y frustraciones<br>Entonces se sintetiza esta información en arquetipos representativos de los usuarios clave|
-|EP00     |Arquitectura Técnica y Documentación| DOC06|User Task Matrix|Como desarrollador, quiero desarrollar una User Task Matrix, para identificar las tareas clave de los usuarios y el nivel de prioridad o frecuencia de cada una|Escenario 1: Mapeo de tareas del usuario<br>Dado que se han identificado actividades frecuentes y críticas mediante entrevistas y observación<br>Cuando ose organizan las tareas por tipo de usuario y frecuencia/importancia<br>Entonces se pueden identificar cuáles tareas deben ser optimizadas o automatizadas en el sistema|
-|EP00     |Arquitectura Técnica y Documentación| DOC07|User Journey Mapping|Como desarrollador, quiero mapear el recorrido completo del usuario al interactuar con la plataforma, para visualizar los puntos de contacto, emociones y fricciones que experimenta|Escenario 1: Análisis del viaje del usuario<br>Dado que se dispone de información sobre las etapas del uso del sistema por parte del usuario<br>Cuando se crea un journey map con fases, emociones, problemas e ideas<br>Entonces se pueden identificar oportunidades de mejora en la experiencia y priorizarlas en el backlog|
-|EP00     |Arquitectura Técnica y Documentación| DOC08|Empathy Mapping|Como desarrollador, quiero crear un mapa de empatía para cada User Persona, para entender qué piensa, siente, dice y hace el usuario, así como sus dolores y necesidades|Escenario 1: Visualización empática del usuario<br>Dado que se cuenta con insumos cualitativos de entrevistas y observaciones<br>Cuando se organiza la información en los cuadrantes del mapa de empatía<br>Entonces se obtiene una comprensión profunda del contexto y motivaciones del usuario que guía el diseño|
-|EP00     |Arquitectura Técnica y Documentación| DOC09|As-Is Scenario Mapping|Como desarrollador, quiero representar el escenario actual del proceso que realiza el usuario, para visualizar ineficiencias o problemas existentes antes de proponer soluciones|Escenario 1: Modelado del flujo actual<br>Dado que se tiene una descripción detallada de cómo los usuarios resuelven actualmente sus problemas<br>Cuando se documentan los pasos, decisiones y obstáculos actuales<br>Entonces se pueden identificar cuellos de botella, puntos de frustración y oportunidades de innovación|
-|EP00     |Arquitectura Técnica y Documentación| DOC10|To-Be Scenario Mapping|Como desarrollador, quiero construir escenarios futuros ideales (To-Be), para visualizar cómo debería funcionar la experiencia del usuario una vez implementadas las mejoras|Escenario 1: Visualización de experiencia futura mejorada<br>Dado que se comprende el escenario actual (As-Is) y se han identificado puntos de oportunidad<br>Cuando se diseña el escenario To-Be que representa una experiencia mejorada<br>Entonces se puede alinear a todo el equipo en una visión clara de hacia dónde debe ir el producto|
-|EP00     |Arquitectura Técnica y Documentación| DOC11|Impact Mapping|Como desarrollador, quiero construir un mapa de impactos, para identificar actores, cambios de comportamiento y entregables alineados con los objetivos del negocio|Escenario 1: Priorización estratégica basada en impactos<br>Dado que se ha definido un objetivo principal del producto<br>Cuando se identifican actores relevantes, impactos esperados y entregables clave<br>Entonces se se facilita la planificación de funcionalidades que realmente aporten valor|
-|EP00     |Arquitectura Técnica y Documentación| DOC12|Product Backlog|Como desarrollador, quiero contar con un Product Backlog priorizado, para tener visibilidad clara de las funcionalidades y facilitar la planificación ágil|Escenario 1: Organización estructurada del trabajo del equipo<br>Dado que se han definido historias de usuario y funcionalidades relevantes<br>Cuando se estructuran y priorizan en un Product Backlog<br>Entonces el equipo puede planificar los sprints de forma ordenada y enfocada en el valor para el usuario|
-|EP00     |Arquitectura Técnica y Documentación| DOC13|Diseño UI de la Landing Page|Como desarrollador, quiero diseñar la interfaz de la landing page, para comunicar claramente el propósito de la plataforma a los nuevos usuarios|Escenario 1: Primera impresión clara para nuevos visitantes<br>Dado que se han elaborado wireframes y mock-ups de la landing page<br>Cuando se implementa una interfaz visual que respeta esta estructura y comunica claramente el propósito de la plataforma<br>Entonces los nuevos usuarios pueden comprender rápidamente de qué trata el sistema y cómo empezar a usarlo|
-|EP00     |Arquitectura Técnica y Documentación| DOC14|Diseño UI de Aplicaciones Web|Como desarrollador, quiero diseñar la interfaz de las aplicaciones web, para que los usuarios puedan navegar y realizar sus tareas de manera sencilla y sin confusión|Escenario 1: Navegación fluida en la aplicación<br>Dado que se han diseñado wireframes, user flows y mock-ups validados por el equipo<br>Cuando se implementa la interfaz web siguiendo estas guías visuales y estructurales<br>Entonces los usuarios pueden navegar por la plataforma con facilidad y completar sus tareas sin obstáculos|
+
 
 ## 3.3. Impact Mapping
 
@@ -1871,6 +1699,19 @@ Esta sección está diseñada para los miembros del hogar, quienes podrán regis
 ![About Product](images/DE/BL2.png)
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+Esta sección presenta los wireframes correspondientes a la versión móvil de SplitEasy, diseñados para representantes del hogar y miembros del hogar. Cada pantalla refleja la disposición inicial de los componentes clave —como panel de gastos, historial de pagos y alertas—, permitiendo visualizar cómo los usuarios alcanzarán sus objetivos de manera clara, simple y centrada en una experiencia móvil intuitiva.
+
+![About Product](images/DE/MOV1.png)
+
+![About Product](images/DE/MOV2.png)
+
+![About Product](images/DE/MOV3.png)
+
+![About Product](images/DE/MOV4.png)
+
+![About Product](images/DE/MOV5.png)
+
 
 https://lucid.app/lucidchart/03769abf-adaa-4dd3-957a-1251a1179f0b/edit?viewport_loc=-777%2C533%2C7203%2C3264%2C0_0&invitationId=inv_efbf3ffd-6e54-4e92-a134-56479945b678 
 
@@ -3066,6 +2907,40 @@ Este acuerdo cumple con los marcos normativos aplicables en materia de protecci�
 - SplitEasy puede modificar este Acuerdo en cualquier momento, publicando una versión actualizada en la plataforma e informando a los usuarios.
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence 
+
+**Login Management**
+
+![Landing](images/TB1/NA1.jpg)
+
+![Landing](images/TB1/NA2.jpg)
+
+**Register Management**
+
+![Landing](images/TB1/NA3.jpg)
+
+![Landing](images/TB1/NA4.jpg)
+
+**Household representative account**
+
+![Landing](images/TB1/N5.jpg)
+
+![Landing](images/TB1/NA6.jpg)
+
+![Landing](images/TB1/NA7.jpg)
+
+![Landing](images/TB1/NA8.jpg)
+
+![Landing](images/TB1/NA9.jpg)
+
+![Landing](images/TB1/NA10.jpg)
+
+**Household member account**
+
+![Landing](images/TB1/NAVM1.jpg)
+
+![Landing](images/TB1/NAVM2.jpg)
+
+![Landing](images/TB1/NAVM3.jpg)
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence 
 
