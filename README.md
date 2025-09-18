@@ -737,7 +737,7 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 05:25 |
-| **Link del video** |  |
+| **Link del video** | https://goo.su/7hyRk8 |
 | **Foto entrevista** | <img src="images/CapturaEntrevista1.png" alt=""  width="250" /> |
 | **Resumen** | La doctora Vannya Herrera actualmente vive con su esposo y forma con él una representante del hogar. Entre ella y él administran los gastos en un documento excel de forma mensual, por lo que la deben rehacer cada mes. Como ellos tienen sueldos distintos, es complicado hacer un cálculo proporcional de forma manual en este excel. La repartición resulta justa pero complicada dada la inestabilidad de los ingresos entrante. Esperan de la aplicación de nuestro startup un reporte preciso de ingresos, egresos y ahorro total en períodos de tiempo.  |
 
@@ -747,9 +747,9 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 | **Edad** | 33 |
 | **Profesión** | Policía |
 | **Departamento** | Lima |
-| **Inicio del video** | 05:25 |
-| **Fin del video** | 13:28 |
-| **Link del video** |  |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 8:03 |
+| **Link del video** | https://goo.su/GXelFH |
 | **Foto entrevista** | <img src="images/CapturaEntrevista2.png" alt=""  width="250" /> |
 | **Resumen** | El oficial Paul Requejo organiza equitativamente los gastos con su pareja. Afirma que ambos aportan en lo que se han puesto de acuerdo. Sin embargo, carecen de planificaciones concretas y a veces ponerse de acuerdo es difícil dada la diferencia de sueldos significativa. Cree que una app como SplitEasy tenga un buen impacto en su convivencia familiar y espera de ella una funcionalidad útil como asesoramiento económico porque a veces tienen poca disciplina al administrar sus recursos. |
 
