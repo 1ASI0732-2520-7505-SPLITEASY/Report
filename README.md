@@ -321,10 +321,8 @@ Link del repositorio: https://github.com/1ASI0732-2520-7505-SPLITEASY/Report/tre
   - [Desarrollo General](#desarrollo-general)
 
 
-
-- Enlace Backend Desplegado: https://backend-app-1-vd66.onrender.com/swagger-ui/index.html
-- Enlace Frontend Desplegado: https://tranquil-dodol-e6200e.netlify.app/
-- Enlace Landing-Page Despeglado: https://1asi0729-2510-4313-g3-spliteasy.github.io/Split-landing/
+- Enlace Frontend Desplegado: https://new-spliteasy.netlify.app
+- Enlace Backend Desplegado: https://back-spliteasy.onrender.com/swagger-ui/index.html
 
 
 
@@ -357,10 +355,8 @@ Nuestro enfoque se fundamenta en tres pilares esenciales: equidad, simplicidad y
 |------------|--------------------------|
 | **Rodrigo Alya Cabrera - U202219481**  <br> ![Foto Rodrigo](images/fotoAlaya.JPG) | Soy Rodrigo, una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |
 | **Valentino Sandoval Paiva - U20211A962**  <br> ![Foto Valentino](images/DE/Valentino.png) | Soy Valentino Sandoval, me considero persona responsable, comprometida con mis objetivos y soy puntual, lo que me permite realizar todos los trabajos a tiempo. Me gusta tener buena comunicación con el equipo. Me esfuerzo por entregar los mejores resultados. |
-| **Diego Fernando Herrera Enriquez - U202319027**  <br> ![Foto Diego](![alt text](images/TB1/Diego.png)) | Soy Diego, con creatividad, responsabilidad y con gran disposición para aprender y crecer junto a mi equipo, pienso en entregar una aportación sobresaliente. Me adapto con facilidad a distintos retos, aportando ideas y soluciones prácticas que buscan mejorar cada proyecto. Valoro las buenas prácticas en esta profesión para servir a las personas con pasión por lo que hacemos.
-Conocimientos competentes en Frontend (HTML, CSS, JS) y experimentado en el diseño de proyectos a nivel integral. Mi enfoque está orientado a desarrollar soluciones prácticas y efectivas, siempre priorizando la satisfacción del usuario y con visión a seguir mejorando en futuros proyectos. |
-| **Eslander Celis Berrospi - U201911249**  <br> ![Foto Eslander](images/TB1/Eslander.jpg) | Soy Eslander, estudiante de Ingeniería de Software. Me considero una persona responsable y comprometida con mis objetivos, con una gran disposición para aprender y mejorar de manera continua. Valoro mucho la ética y el trabajo en equipo, aportando siempre ideas y soluciones para alcanzar resultados de calidad. Me esfuerzo por mantener un enfoque ordenado en mis tareas y contribuir activamente al desarrollo colectivo.
-Tengo conocimientos en Python, C++ y HTML, lo que me permite desarrollar soluciones tecnológicas y fortalecer mis habilidades en programación. Estoy motivado a seguir aprendiendo y asumir nuevos retos que me ayuden a crecer tanto profesional como personalmente. |
+| **Diego Fernando Herrera Enriquez - U202319027**  <br> ![alt text](images/TB1/Diego.png) | Soy Diego, con creatividad, responsabilidad y con gran disposición para aprender y crecer junto a mi equipo, pienso en entregar una aportación sobresaliente. Me adapto con facilidad a distintos retos, aportando ideas y soluciones prácticas que buscan mejorar cada proyecto. Valoro las buenas prácticas en esta profesión para servir a las personas con pasión por lo que hacemos. Conocimientos competentes en Frontend (HTML, CSS, JS) y experimentado en el diseño de proyectos a nivel integral. Mi enfoque está orientado a desarrollar soluciones prácticas y efectivas, siempre priorizando la satisfacción del usuario y con visión a seguir mejorando en futuros proyectos. |
+| **Eslander Celis Berrospi - U201911249**  <br> ![Foto Eslander](images/TB1/Eslander.jpg) | Soy Eslander, estudiante de Ingeniería de Software. Me considero una persona responsable y comprometida con mis objetivos, con una gran disposición para aprender y mejorar de manera continua. Valoro mucho la ética y el trabajo en equipo, aportando siempre ideas y soluciones para alcanzar resultados de calidad. Me esfuerzo por mantener un enfoque ordenado en mis tareas y contribuir activamente al desarrollo colectivo. Tengo conocimientos en Python, C++ y HTML, lo que me permite desarrollar soluciones tecnológicas y fortalecer mis habilidades en programación. Estoy motivado a seguir aprendiendo y asumir nuevos retos que me ayuden a crecer tanto profesional como personalmente. |
 
 
 ## 1.2. Solution Profile
@@ -737,7 +733,7 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 05:25 |
-| **Link del video** |  |
+| **Link del video** | https://goo.su/7hyRk8 |
 | **Foto entrevista** | <img src="images/CapturaEntrevista1.png" alt=""  width="250" /> |
 | **Resumen** | La doctora Vannya Herrera actualmente vive con su esposo y forma con él una representante del hogar. Entre ella y él administran los gastos en un documento excel de forma mensual, por lo que la deben rehacer cada mes. Como ellos tienen sueldos distintos, es complicado hacer un cálculo proporcional de forma manual en este excel. La repartición resulta justa pero complicada dada la inestabilidad de los ingresos entrante. Esperan de la aplicación de nuestro startup un reporte preciso de ingresos, egresos y ahorro total en períodos de tiempo.  |
 
@@ -747,9 +743,9 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 | **Edad** | 33 |
 | **Profesión** | Policía |
 | **Departamento** | Lima |
-| **Inicio del video** | 05:25 |
-| **Fin del video** | 13:28 |
-| **Link del video** |  |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 8:03 |
+| **Link del video** | https://goo.su/GXelFH |
 | **Foto entrevista** | <img src="images/CapturaEntrevista2.png" alt=""  width="250" /> |
 | **Resumen** | El oficial Paul Requejo organiza equitativamente los gastos con su pareja. Afirma que ambos aportan en lo que se han puesto de acuerdo. Sin embargo, carecen de planificaciones concretas y a veces ponerse de acuerdo es difícil dada la diferencia de sueldos significativa. Cree que una app como SplitEasy tenga un buen impacto en su convivencia familiar y espera de ella una funcionalidad útil como asesoramiento económico porque a veces tienen poca disciplina al administrar sus recursos. |
 
