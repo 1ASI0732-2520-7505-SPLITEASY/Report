@@ -708,19 +708,16 @@ SplitEasy busca ofrecer una solución digital que permita distribuir los gastos 
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
-| **Nombre entrevistado** |  |
-| **Edad** |  |
-| **Profesión** |  |
-| **Departamento** |  |
-| **Inicio del video** |  |
-| **Fin del video** |  |
-| **Link del video** |  |
-| **Foto entrevista** | ![ddd](Assets/TB1/) |
-| **Resumen** |  |
+| **Nombre entrevistado** |Milenko Rubén Cayanchi   |
+| **Edad** | 19 |
+| **Profesión** | Estudiante de Ingeniería de Software |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 7:46 |
+| **Link del video** | https://goo.su/KJ2f4D |
+| **Foto entrevista** | ![ddd](images/DE/EntrevistaMilenko.png) |
+| **Resumen** | Milenko es un miembro de una familia donde solo el padre de familia trabaja y es el representante y paga los gastos del hogar actualmente. Su situación familiar es sencilla en la que, si bien actualmente la madre no puede trabajar, ambos padres se ponen de acuerdo en las contribuciones con facilidad. Cree que la aplicación puede ser más útil con familias donde haya más de un solo miembro que trabaja y que pueda contribuir. En su situación familiar no daría tanto impacto a diferencia de en otras familias que tengan más miembros contribuyentes. |
 
-| **Duración total de las entrevistas** |   |
-|---------------------------------------|---|
-| **Link general del video**            |   |
 
 
 #### **Segundo Segmento - Representantes del Hogar:**
