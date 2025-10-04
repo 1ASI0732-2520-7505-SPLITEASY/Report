@@ -928,168 +928,81 @@ En esta sección se presentarán los user journey mapping para cada user persona
 </p>
 
 ## 3.2. User Stories
+
 ### Epic
 
-| EPIC ID | Nombre del Epic                  | Descripción |
-|---------|----------------------------------|-------------|
-| EP00    | Arquitectura Técnica y Documentación     | Como desarrollador, quiero diseñar y documentar la arquitectura del sistema para garantizar escalabilidad, mantenimiento y comunicación clara entre miembros del equipo |
-| EP01    | Registro y Gestión de Perfil     | Como usuario, quiero registrarme y gestionar mi perfil de forma segura y personalizada, para acceder a SplitEasy desde cualquier dispositivo. |
-| EP02    | Panel del Representante del Hogar| Como representante del hogar, quiero gestionar y supervisar las finanzas del hogar de forma centralizada y transparente. |
-| EP03    | Panel del Miembro del Hogar      | Como miembro del hogar, quiero registrar mis ingresos, ver mis responsabilidades y mantenerme al día con mis pagos. |
-| EP04    | Gestión de Gastos Compartidos    | Como usuario, quiero registrar, clasificar y gestionar gastos para mantener el control financiero del hogar. |
-| EP05    | Seguimiento y Recordatorios      | Como usuario, quiero recibir recordatorios y alertas automáticas para no olvidar mis responsabilidades financieras. |
-| EP06    | Soporte y Comunidad              | Como usuario, quiero acceder a soporte técnico y a recursos para mejorar mi uso de la plataforma y resolver dudas. |
-| EP07    | Exploración como Visitante       | Como visitante, quiero conocer la funcionalidad, beneficios y casos de uso de SplitEasy desde la landing page para evaluar si la plataforma es útil para mi hogar antes de registrarme. |
+| **EPIC ID** | **Nombre del Epic**                                              | **Descripción**                                                                                                                        |
+| ----------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **EP01**    | **Experiencia del Usuario en la Landing Page**                   | Como usuario, quiero tener una landing page atractiva y funcional para conocer los beneficios y la información clave de la plataforma. |
+| **EP02**    | **Registro y Gestión de Perfil**                                 | Como usuario, quiero registrarme y gestionar mi perfil para acceder a la plataforma de manera segura y personalizada.                  |
+| **EP03**    | **Gestión y Panel Principal del Hogar (Representante)**          | Como representante del hogar, quiero gestionar y supervisar el hogar y sus miembros desde un panel centralizado y fácil de usar.       |
+| **EP04**    | **Gestión de Gastos, Facturas y Contribuciones (Representante)** | Como representante del hogar, quiero gestionar los gastos, contribuciones y facturas de forma eficiente y transparente.                |
+| **EP05**    | **Gestión del Rol Miembro y Participación**                      | Como miembro del hogar, quiero tener acceso a mis responsabilidades y una visualización clara de mis pagos y deudas.                   |
+| **EP06**    | **Gestión de Pagos y Seguimiento de Contribuciones (Miembro)**   | Como miembro, quiero poder seguir el estado de mis contribuciones y realizar pagos de manera eficiente.                                |
 
-### EP01 - Registro y Gestión de Perfil
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US01          | Registro de usuario              |
-| US02          | Inicio de sesión seguro          |
-| US03          | Edición de información personal  |
-| US04          | Cierre de sesión desde todos los dispositivos |
-| US05          | Configuración de notificaciones personales |
-| TS01          | Implementar autenticación JWT |
-| TS02          | Cifrar contraseñas en base de datos |
-| TS03          | Validar roles de administrador y miembro en backend |
-| TS04          | Implementar actualización de perfil a partir de API |  
-| TS05          | Conectar formularios de registro y login del front-end con endpoints   |
-| TS06          | Validar respuestas del backend en la gestión de perfil del usuario      |
+### EP01 - Experiencia del Usuario en la Landing Page
 
-### EP02 - Panel del Representante del Hogar
+| **Story ID** | **Título**                                    |
+| ------------ | --------------------------------------------- |
+| US-01        | Vista General de Beneficios y Funcionalidades |
+| US-02        | Resumen de la Empresa, Misión y Visión      |
+| US-03        | Navegación Clara y Directa en la Página      |
+| US-04        | Demostración Visual del Producto (Video)     |
+| US-05        | Iniciar Sesión Rápido y Visible              |
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US06          | Crear hogar                      |
-| US07          | Aprobar gastos                   |
-| US08          | Ajustar porcentajes de aportes   |
-| US09          | Visualizar reportes mensuales    |
-| US10          | Configurar métodos de pago aceptados |
-| US36          | Manejar errores del servidor en vistas del representante               |
+### EP02 - Registro y Gestión de Perfil
 
-### EP03 - Panel del Miembro del Hogar
+| **Story ID** | **Título**                          |
+| ------------ | ----------------------------------- |
+| US-06       | Registro de Cuenta y Rol Inicial    |
+| US-07       | Acceso y Validación de Credenciales |
+| US-08       | Recuperación de Contraseña          |
+| US-09       | Selección de Idioma                 |
+| TS01        | Implementar autenticación JWT                                        |
+| TS02        | Cifrar contraseñas en base de datos                                  |
+| TS03        | Validar roles de administrador y miembro en backend                  |
+| TS04        | Implementar actualización de perfil a partir de API                  |
+| TS05        | Conectar formularios de registro y login del front-end con endpoints |
+| TS06        | Validar respuestas del backend en la gestión de perfil del usuario   |
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US11          | Ingresar ingresos personales     |
-| US12          | Ver monto a pagar                |
-| US13          | Registrar pagos realizados       |
-| US14          | Ver historial de pagos           |
-| US15          | Ver distribución de gastos del hogar |
-| US37          | Implementar manejo de estados de carga y éxito en el panel del miembro |
 
-### EP04 - Gestión de Gastos Compartidos
+### EP03 - Gestión y Panel Principal del Hogar (Representante)
+| **Story ID** | **Título**                      |
+| ------------ | ------------------------------- |
+| US-10       | Configuración Inicial del Hogar |
+| US-11       | Navegación y Panel Principal    |
+| US-12       | Resumen del Hogar y Perfil      |
+| US-13       | Gestión de Miembros             |
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US16          | Registrar nuevo gasto            |
-| US17          | Adjuntar comprobantes de gasto   |
-| US18          | Clasificar gastos por categoría  |
-| US19          | Comentar o justificar un gasto   |
-| US20          | Visualizar gráficos de gastos    |
-| TS07          | Validar que el gasto tiene adjunto al menos 1 comprobante |
-| TS08          | Agregar API para filtrar gastos por rango de fecha |
-| TS09          | Implementar actualización y eliminación de gastos |  
-| TS10          | Verificar integración entre back-end de gastos y sus componentes en front-end |
 
-### EP05 - Seguimiento y Recordatorios
+### EP04 - Gestión de Gastos, Facturas y Contribuciones (Representante)
+| **Story ID** | **Título**                                     |
+| ------------ | ---------------------------------------------- |
+| US-14       | Registro y Visualización de Facturas           |
+| US-15       | Edición y Eliminación de Facturas              |
+| US-16       | Creación y Configuración de Contribución               |
+| US-17       | Revisión y Aprobación de Comprobantes de Pagos           |
+| TS07        | Implementar actualización y eliminación de gastos                             |
+| TS08        | Verificar integración entre back-end de gastos y sus componentes en front-end |
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US21          | Recordatorios de pago            |
-| US22          | Alertas de pagos pendientes      |
-| US23          | Recordatorio de actualización de ingresos |
-| US24          | Confirmación de aportes          |
-| US25          | Notificación de cambios en el hogar |
-| TS11          | API para programar recordatorios de pago |
-| TS12          | Integrar cron job para envío de recordatorios |  
-| TS13          | Conectar notificaciones del sistema con el backend                     |
 
-### EP06 - Soporte y Comunidad
+### EP05 - Gestión del Rol Miembro y Participación
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US26          | Acceso a ayuda en línea          |
-| US27          | Chat con soporte técnico         |
-| US28          | Reportar un problema             |
-| US29          | Sugerencias de mejora            |
-| US30          | Foro comunitario                 |
-| TS14          | API para dar seguimiento a reportes de problemas |
-| TS15          | Implementar comentarios o respuestas en el foro |
-| TS16          | Validar seguridad de comunicación entre frontend y backend (CORS, HTTPS) |
-| TS17          | Probar funcionamiento completo en entorno de producción                |
+| **Story ID** | **Título**                               |
+| ------------ | ---------------------------------------- |
+| US-18       | Resumen del Miembro y Miembros del Hogar |
+| US-19       | Visualización de Deudas y Pagos          |
+| US-20       | Navegación Habilitada para Miembros      |
 
-### EP07 - Exploración como Visitante
+### EP06 - Gestión de Pagos y Seguimiento de Contribuciones (Miembro)
 
-| User Story ID | Título                          |
-|---------------|----------------------------------|
-| US31          | Visualizar información general sobre SplitEasy desde la landing page              |
-| US32          | Conocer las funciones principales para representantes y miembros del hogar         |
-| US33          | Explorar beneficios del sistema de aportes proporcionales  |
-| US34          | Ver ejemplos o simulaciones de cómo funciona la plataforma |
-| US35          | 	Acceder fácilmente al registro o login desde botones destacados |
-| TS18          | Documentar los pasos para desplegar nuevas versiones                   |
-| TS19          | Habilitar monitoreo básico del sistema desplegado (logs, uptime)       |
-
-| ID Épica | Épica                             | ID HU | Título HU                         | Descripción HU                                                                 | Criterios de Aceptación                                                                                                                                                                   |
-|----------|-----------------------------------|-------|------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP01     | Registro y Gestión de Perfil      | US01  | Registro de usuario                | Como usuario de ambos segmentos, quiero registrarme en la plataforma para comenzar a usar SplitEasy.                              | - Escenario 1: Registro como miembro del hogar exitoso<br>Dado que un usuario quiere registrarse como miembro del hogar,<br>Cuando proporciona todos los datos requeridos correctamente<br>Entonces el sistema registra al usuario como miembro del hogar<br>Y el usuario puede acceder a las funcionalidades correspondientes a ese rol<br><br>- Escenario 2: Registro como representante del hogar exitoso<br>Dado que un usuario desea registrarse como representante del hogar,<br>Cuando proporciona todos los datos requeridos correctamente,<br>Entonces el sistema lo registra como representante del hogar<br>Y el usuario puede acceder a las funcionalidades correspondientes a ese rol|
-| EP01     | Registro y Gestión de Perfil      | US02  | Inicio de sesión seguro            | Como usuario registrado, quiero iniciar sesión de forma segura para acceder a mis datos personales.              | - Escenario 1: Inicio de sesión exitoso<br>Dado que el usuario está registrado,<br>Cuando proporciona credenciales válidas,<br>Entonces el sistema le permite acceder a su cuenta<br><br>- Escenario 2: Inicio de sesión fallido por credenciales incorrectas<br>Dado que el usuario intenta autenticarse<br>Cuando las credenciales proporcionadas no son válidas,<br>Entonces el sistema rechaza el intento de acceso<br>Y le indica que las credenciales no son válidas|
-| EP01     | Registro y Gestión de Perfil      | US03  | Edición de información personal    | Como usuario de ambos segmentos, quiero editar mi información personal para mantenerla actualizada.                                 | - Escenario 1: Visualización de información personal<br>Dado que el usuario ya está logueado,<br>Cuando accede a su información de perfil,<br>Entonces pel sistema le muestra sus datos personales actuales en formato editable<br><br>- Escenario 2: Actualización de datos personales<br>Dado que el usuario modifica su información personal,<br>Cuando envía los nuevos datos,<br>Entonces el sistema actualiza correctamente la información.                                      |
-| EP01     | Registro y Gestión de Perfil      | US04  | Cierre de sesión desde todos los dispositivos | Como usuario de ambos segmentos, quiero cerrar sesión desde todos mis dispositivos para mayor seguridad.                     | - Escenario 1: Cierre de sesión en todos los dispositivos<br>Dado que el usuario ha iniciado sesión en su cuenta,<br>Cuandosolicita cerrar sesión en todos los dispositivos,<br>Entonces el sistema invalida todas las sesiones activas asociadas a su cuenta. |
-| EP01     | Registro y Gestión de Perfil      | US05  | Configuración de notificaciones personales | Como usuario de ambos segmentos, quiero configurar mis notificaciones para recibir alertas relevantes.                        | - Escenario 1: Visualización de opciones de notificación<br>Dado que el usuario accede a su configuración de perfil,<br>Cuando solicita ver las opciones de notificación,<br>Entonces el sistema muestra las opciones disponibles para activar o desactivar alertas.<br><br>- Escenario 2: Aplicación de configuración de notificaciones<br>Dado que el usuario selecciona sus preferencias de notificación,<br>Cuando envía la configuración,<br>Entonces el sistema guarda las preferencias y las aplica para futuras alertas. |
-| EP01 | Registro y Gestión de Perfil | TS01 | Implementar autenticación JWT | Como desarrollador, quiero que el inicio de sesión implemente autenticación JWT para mayor seguridad en el manejo de sesiones. | - Escenario 1: Generación del JWT<br>Dado que el usuario proporciona credenciales correctas,<br>Cuando se autentica,<br>Entonces el backend el backend genera y responde con un JWT válido.<br><br>- Escenario 2: Validación del JWT<br>Dado que el JWT se adjunta en el encabezado de la solicitud,<br>Cuando el backend verifica el token,<br>Entonces autoriza el acceso si el token es válido. |
-| EP01 | Registro y Gestión de Perfil | TS02 | Cifrar contraseñas en base de datos | Como desarrollador, quiero que las contraseñas de los usuarios sean encriptadas antes de guardarlos en la base de datos para garantizar la seguridad. | - Escenario 1: Almacenar contraseña cifrada<br>Dado que el password llega en texto plano,<br>Cuando el backend lo encripta,<br>Entonces se almacena en la base de datos de forma hashed.<br>- Escenario 2: Validar contraseña cifrada durante autenticación<br>Dado que el password en base de datos está hashed,<br>Cuando el backend verifica credenciales,<br>Entonces primero hace el hash de la password ingresada y lo compara con el guardado. |
-| EP01 | Registro y Gestión de Perfil | TS03 | Validar roles de administrador y miembro en backend | Como desarrollador, quiero que ciertos endpoints sean usados solo por determinados roles para asegurar que solo los usuarios autorizados puedan ejecutar determinadas acciones | - Escenario 1: Acceso permitido a endpoint por rol administrador<br>Dado que el rol incluido en el JWT es administrador,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend permitirá el acceso.<br>- Escenario 2: Acceso denegado a endpoint por rol no autorizado<br>Dado que el rol incluido en el JWT es miembro,<br>Cuando invoque un endpoint administrador,<br>Entonces el backend rechazará la solicitud con 403 (Forbidden). |
-| EP01 | Registro y Gestión de Perfil | TS04 | Implementar actualización de perfil a partir de API | Como desarrollador, quiero implementar la actualización del perfil de usuario mediante una API para permitir que los usuarios modifiquen su información de manera segura y controlada. | - Escenario 1: Actualización exitosa<br>Dado que el token es válido,<br>Cuando el usuario envía nuevos datos,<br>Entonces el backend actualiza el perfil en la base de datos.<br>- Escenario 2: Solicitud sin autenticación válida<br>Dado que el token es vencido o inexistente,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con 401 (Unauthorized). |
-| EP01     | Registro y Gestión de Perfil      | TS05  | Conectar formularios con endpoints | Como desarrollador, quiero conectar los formularios de registro y login con los endpoints del backend para que funcionen correctamente. | - Escenario 1: Envío de datos de registro al backend<br>Dado que el usuario complete el formulario de registro,<br>Cuando envía el formulario,<br>Entonces el formulario enviará la información al endpoint correspondiente.<br><br>- Escenario 2: Autenticación de usuario mediante el backend<br>Dado que el usuario ingrese sus credenciales,<br>Cuando el frontend las envía al endpoint de autenticación,<br>Entonces el backend valida las credenciales. |
-| EP01     | Registro y Gestión de Perfil      | TS06  | Validar respuestas del backend     | Como desarrollador, quiero validar las respuestas del backend para mostrar mensajes adecuados al usuario. | - Escenario 1: Error en el registro<br>Dado que haya un error del backend al procesar el registro,<br>Cuando el usuario envíe un formulario,<br>Entonces se mostrará un mensaje de error específico.<br><br>- Escenario 2: Fallo en el inicio de sesión<br>Dado que el backend retorne un 401 Unauthorized,<br>Cuando se intente iniciar sesión,<br>Entonces el front indicará que las credenciales son inválidas. |
-| EP02     | Panel del Representante del Hogar | US06  | Crear hogar                        | Como representante del hogar, quiero crear un hogar en la app para empezar a gestionar sus finanzas.             | - Escenario 1: Acceso al proceso de creación de hogar<br>Dado que el usuario haya iniciado sesión como representante del hogar,<br>Cuando accede a la opción de creación de hogar,<br>Entonces podrá ingresar un nombre e ID para el hogar.<br><br>- Escenario 2: Creación exitosa del hogar<br>Dado que el usuario complete los campos requeridos,<br>Cuando envía la solicitud de creación,<br>Entonces se creará el hogar y se mostrará en su panel. |
-| EP02     | Panel del Representante del Hogar | US07  | Aprobar gastos                     | Como representante, quiero aprobar gastos para tener control sobre lo que se gasta en el hogar.                  | - Escenario 1: Listado de gastos pendientes<br>Dado que haya gastos sin aprobar,<br>Cuando el representante acceda al panel,<br>Entonces verá una lista de gastos para revisar.<br><br>- Escenario 2: Aprobación de un gasto<br>Dado que el representante seleccione un gasto,<br>Cuando confirme su aprobación,<br>Entonces el gasto pasará a estado "Aprobado".               |
-| EP02     | Panel del Representante del Hogar | US08  | Ajustar porcentajes de aportes     | Como representante, quiero modificar los porcentajes de contribución de cada miembro según sus ingresos.         | - Escenario 1: Acceso a la configuración de aportes<br>Dado que el representante está autenticado y accede al módulo de gestión del hogar,<br>Cuando accede a la sección de configuración de aportes,<br>Entonces verá una lista editable de miembros.<br><br>- Escenario 2: Modificación y guardado de aportes<br>Dado que  el representante ha realizado ajustes en los porcentajes,<br>Cuando envía los nuevos valores,<br>Entonces se actualizarán los porcentajes automáticamente. |
-| EP02     | Panel del Representante del Hogar | US09  | Visualizar reportes mensuales      | Como representante, quiero ver reportes de ingresos y gastos mensuales para tomar decisiones informadas sobre la economía del hogar.        | - Escenario 1: Acceso a reportes mensuales<br>Dado que el representante esté en su dashboard,<br>Cuando accede a la sección de reportes mensuales,<br>Entonces se mostrarán gráficos y resúmenes.<br><br>- Escenario 2: Descarga de reporte<br>Dado que el representante ha visualizado un reporte,<br>Cuando solicita su descarga,<br>Entonces el sistema genera un archivo PDF y se descargará el informe correspondiente. |
-| EP02     | Panel del Representante del Hogar | US10  | Configurar métodos de pago aceptados | Como representante, quiero configurar qué métodos de pago están habilitados en el hogar.                         | - Escenario 1: Ver métodos disponibles<br>Dado que el usuario acceda a configuración,<br>Cuando seleccione "Métodos de pago",<br>Entonces verá una lista de métodos disponibles.<br><br>- Escenario 2: Activar métodos<br>Dado que seleccione métodos específicos,<br>Cuando presione “Guardar”,<br>Entonces esos métodos quedarán habilitados para el hogar. |
-| EP02     | Gestión Personal de Finanzas | US14  | Ver historial de pagos      | Como miembro del hogar, quiero consultar un historial de todos mis pagos anteriores para verificar mis contribuciones.        | - Escenario 1:  Acceso al historial<br>Dado que el usuario quiere ver sus aportes anteriores,<br>Cuando acceda a la sección “Historial de pagos” desde su panel,<br>Entonces verá una lista ordenada cronológicamente con fechas, montos, conceptos y comprobantes de cada pago realizado.<br><br>- Escenario 2: Filtro por periodo<br>Dado que el usuario desea consultar un periodo específico,<br>Cuando seleccione un mes o rango de fechas,<br>Entonces el sistema mostrará únicamente los pagos correspondientes a ese periodo. |
-| EP02     | Panel del Representante del Hogar | US36  | Manejar errores del servidor       | Como representante, quiero que el sistema maneje errores del servidor de forma clara para entender qué ocurre. | - Escenario 1: Error al cargar gastos<br>Dado que haya una falla en el endpoint de gastos,<br>Cuando se intente acceder al listado,<br>Entonces se mostrará un mensaje "No se pudo cargar los datos". |
-| EP03     | Panel del Miembro del Hogar   | US11  | Ingresar ingresos personales | Como miembro del hogar, quiero registrar mis ingresos para que el sistema calcule mi aporte.         | - Escenario 1: Acceso al formulario de ingresos<br>Dado que el miembro haya iniciado sesión,<br>Cuando seleccione "Ingresos",<br>Entonces se mostrará el formulario de ingreso de datos.<br><br>- Escenario 2: Confirmación de ingreso<br>Dado que complete los datos,<br>Cuando presione "Guardar",<br>Entonces su ingreso quedará registrado en el sistema.                     |
-| EP03     | Panel del Miembro del Hogar   | US12  | Ver monto a pagar          | Como miembro del hogar, quiero visualizar cuánto debo aportar al hogar basado en mis ingresos.                | - Escenario 1: Acceso al panel de pagos<br>Dado que el usuario haya ingresado sus ingresos,<br>Cuando acceda a "Mis aportes",<br>Entonces verá el monto que le corresponde pagar este mes.                                                  |
-| EP03     | Panel del Miembro del Hogar   | US13  | Registrar pagos realizados | Como miembro del hogar, quiero registrar que realicé un pago para que el sistema lleve un seguimiento.        | - Escenario 1: Ingreso de pago<br>Dado que el miembro haya realizado un pago,<br>Cuando acceda a "Registrar pago",<br>Entonces podrá indicar el monto, la fecha y el método usado.<br><br>- Escenario 2: Confirmación<br>Dado que ingrese los datos,<br>Cuando presione “Guardar”,<br>Entonces el pago quedará registrado correctamente.         |
-| EP03     | Gestión Personal de Finanzas   | US15  | Ver historial de pagos | Como miembro del hogar, quiero consultar un historial de todos mis pagos anteriores para verificar mis contribuciones.       | - Escenario 1: Acceso al historial<br>Dado que el usuario quiere ver sus aportes anteriores,<br>Cuando acceda a la sección “Historial de pagos” desde su panel,<br>Entonces verá una lista ordenada cronológicamente con fechas, montos, conceptos y comprobantes de cada pago realizado.<br><br>- Escenario 2: Filtro por periodo<br>Dado que el usuario desea consultar un periodo específico,<br>Cuando seleccione un mes o rango de fechas,<br>Entonces el sistema mostrará únicamente los pagos correspondientes a ese periodo. |
-| EP03     | Panel del Miembro del Hogar       | US37  | Manejo de estados de carga y éxito | Como miembro del hogar, quiero ver indicadores de carga o éxito al registrar mis datos para mejorar la experiencia. | - Escenario 1: Indicador de carga<br>Dado que se envían datos al backend,<br>Cuando aún no se recibe respuesta,<br>Entonces se mostrará un spinner de carga.<br><br>- Escenario 2: Registro exitoso<br>Dado que se guarde correctamente,<br>Cuando el servidor responda,<br>Entonces se muestra un mensaje de éxito. |
-| EP04     | Gestión de Gastos Compartidos | US16  | Registrar nuevo gasto        | Como usuario, quiero registrar un nuevo gasto para mantener actualizados los movimientos financieros.   | - Escenario 1: Acceso al formulario<br>Dado que el usuario haya iniciado sesión,<br>Cuando acceda a "Registrar gasto",<br>Entonces verá un formulario con campos de monto, categoría y descripción.<br><br>- Escenario 2: Guardado del gasto<br>Dado que complete el formulario,<br>Cuando presione “Guardar”,<br>Entonces el nuevo gasto se almacenará en el sistema. |
-| EP04     | Gestión de Gastos Compartidos | US17  | Adjuntar comprobantes de gasto | Como usuario, quiero subir comprobantes para respaldar los gastos registrados.                          | - Escenario 1: Carga de comprobante<br>Dado que el usuario registre un gasto,<br>Cuando presione “Adjuntar archivo”,<br>Entonces podrá subir una imagen o PDF como comprobante.<br><br>- Escenario 2: Visualización<br>Dado que se haya adjuntado un comprobante,<br>Cuando acceda al gasto,<br>Entonces podrá ver o descargar el archivo.                         |
-| EP04     | Gestión de Gastos Compartidos | US18  | Clasificar gastos por categoría | Como usuario, quiero categorizar los gastos para facilitar su análisis y visualización.                 | - Escenario 1: Selección de categoría<br>Dado que el usuario registre un gasto,<br>Cuando acceda a la lista de categorías,<br>Entonces podrá seleccionar entre alimentación, servicios, mantenimiento, etc.<br><br>- Escenario 2: Filtro<br>Dado que seleccione una categoría,<br>Cuando aplique el filtro,<br>Entonces se mostrarán solo los gastos correspondientes.       |
-| EP04     | Gestión de Gastos Compartidos | US19  | Comentar o justificar un gasto | Como usuario, quiero añadir comentarios para explicar el motivo de un gasto compartido.                | - Escenario 1: Comentario en gasto<br>Dado que el usuario haya registrado un gasto,<br>Cuando seleccione “Añadir comentario”,<br>Entonces podrá escribir y guardar una nota explicativa visible a los miembros del hogar.                                  |
-| EP04     | Gestión de Gastos Compartidos | US20  | Visualizar gráficos de gastos | Como usuario, quiero ver gráficos de gastos para entender en qué se gasta más.                          | - Escenario 1: Acceso a visualizaciones<br>Dado que el usuario esté en el panel de gastos,<br>Cuando acceda a “Ver gráficos”,<br>Entonces podrá ver gráficos circulares o de barras agrupados por categoría, fecha o usuario.                                    |
-| EP04 | Gestión de Gastos Compartidos | TS07 | Validar que el gasto tenga adjunto al menos 1 comprobante | Como desarrollador, quiero que cada gasto tenga al menos 1 comprobante adjunto antes de guardarlos. | - Escenario 1: Gasto sin adjunto<br>Dado que el gasto no tiene comprobante,<br>Cuando el backend recibe la solicitud,<br>Entonces responde con error 400.<br>- Escenario 2: Gasto con adjunto<br>Dado que el gasto tiene comprobante,<br>Cuando el backend grava en la base de datos,<br>Entonces lo acepta. |
-| EP04 | Gestión de Gastos Compartidos | TS08 | Agregar API para filtrar gastos por rango de fecha | Como desarrollador, quiero filtrar gastos según rango de fecha. | - Escenario 1: Filtrar con rango válido<br>Dado que envío inicio y fin,<br>Cuando el backend filtra,<br>Entonces responde con gastos en ese rango.<br>- Escenario 2: Rango sin resultados<br>Dado que el rango no tiene gastos,<br>Cuando el backend consulta,<br>Entonces responde con una lista vacía. |
-| EP04 | Gestión de Gastos Compartidos | TS09 | Implementar actualización y eliminación de gastos | Como desarrollador, quiero poder actualizar o eliminar gastos. | - Escenario 1: Actualización<br>Dado que el gasto existe,<br>Cuando el administrador envía nuevos datos,<br>Entonces el backend actualiza el registro.<br>- Escenario 2: Eliminado<br>Dado que el administrador solicita borrar,<br>Cuando el backend elimina el gasto,<br>Entonces deja de aparecer en futuros reportes. |
-| EP04     | Gestión de Gastos Compartidos     | TS10  | Verificar integración de gastos    | Como desarrollador, quiero verificar que el backend de gastos esté correctamente conectado al frontend. | - Escenario 1: Mostrar lista de gastos<br>Dado que haya gastos registrados,<br>Cuando el usuario acceda a la sección de gastos,<br>Entonces se mostrará la información proveniente del backend.<br><br>- Escenario 2: Agregar gasto<br>Dado que se complete el formulario,<br>Cuando se presione "Guardar",<br>Entonces se guardará mediante la API y se actualizará la vista. |
-| EP05     | Seguimiento y Recordatorios | US21  | Recordatorios de pago               | Como usuario, quiero recibir recordatorios automáticos de pago para no retrasarme en mis aportes.| - Escenario 1: Activación del recordatorio<br>Dado que el usuario tenga una fecha límite de pago,<br>Cuando se acerque esa fecha,<br>Entonces recibirá una notificación automática por correo o en la app.<br><br>- Escenario 2: Configuración<br>Dado que acceda a ajustes,<br>Cuando edite preferencias,<br>Entonces podrá activar o desactivar los recordatorios. |
-| EP05     | Seguimiento y Recordatorios | US22  | Alertas de pagos pendientes         | Como usuario, quiero ser alertado si tengo pagos atrasados para regularizar mi situación.         | - Escenario 1: Detección automática<br>Dado que el usuario no haya pagado después de la fecha límite,<br>Cuando acceda al sistema,<br>Entonces verá una alerta destacada en su panel.<br><br>- Escenario 2: Alerta múltiple<br>Dado que haya varios pagos pendientes,<br>Cuando abra la alerta,<br>Entonces podrá ver el detalle de cada uno. |
-| EP05     | Seguimiento y Recordatorios | US23  | Recordatorio de actualización de ingresos | Como usuario, quiero ser recordado de actualizar mis ingresos para mantener la equidad del sistema.| - Escenario 1: Periodicidad<br>Dado que haya pasado un mes sin actualización,<br>Cuando el usuario inicie sesión,<br>Entonces verá un mensaje solicitando revisar su ingreso.<br><br>- Escenario 2: Confirmación<br>Dado que actualice el ingreso,<br>Cuando guarde los cambios,<br>Entonces se reiniciará el periodo de espera. |
-| EP05     | Seguimiento y Recordatorios | US24  | Confirmación de aportes              | Como usuario, quiero recibir confirmación cada vez que realizo un aporte para mayor seguridad.     | - Escenario 1: Notificación inmediata<br>Dado que el usuario registre un pago,<br>Cuando el sistema lo procese,<br>Entonces recibirá una confirmación por correo o notificación dentro de la app.<br><br>- Escenario 2: Registro visible<br>Dado que quiera revisar sus confirmaciones,<br>Cuando acceda al historial,<br>Entonces verá las confirmaciones pasadas. |
-| EP05     | Seguimiento y Recordatorios | US25  | Notificación de cambios en el hogar | Como usuario, quiero ser notificado si hay cambios en el hogar para estar informado.               | - Escenario 1: Nuevo miembro<br>Dado que un nuevo miembro se una,<br>Cuando sea aprobado por el representante,<br>Entonces se notificará a todos los miembros.<br><br>- Escenario 2: Cambios administrativos<br>Dado que el representante edite los porcentajes de aporte,<br>Cuando se guarde el cambio,<br>Entonces se notificará a los afectados. |
-| EP05 | Seguimiento y Recordatorios | TS11 | API para programar recordatorios de pago | Como desarrollador, quiero dar de alta recordatorios específicos de pago en el backend. | - Escenario 1: Crear recordatorio<br>Dado que el administrador proporciona fecha y monto,<br>Cuando el backend grava el recordatorio,<br>Entonces el recordatorio queda incluido en la base de datos.<br>- Escenario 2: Listar recordatorios<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona la lista de recordatorios pendientes. |
-| EP05 | Seguimiento y Recordatorios | TS12 | Integrar cron job para envío de recordatorios | Como desarrollador, quiero que el backend envie automáticamente recordatorios cuando vencen. | - Escenario 1: Ejecución de cron<br>Dado que el cron se fija cada día,<br>Cuando llega el vencimiento,<br>Entonces el backend envía mensajes o notificaciones.<br>- Escenario 2: Sin vencimientos<br>Dado que no vencen recordatorios ese día,<br>Cuando el cron se invoca,<br>Entonces no envía nada. |
-| EP05     | Seguimiento y Recordatorios       | TS13  | Conectar notificaciones al backend | Como desarrollador, quiero que las notificaciones estén sincronizadas con el backend para recibir alertas reales. | - Escenario 1: Notificación activa<br>Dado que una alerta esté programada en el backend,<br>Cuando llegue su hora,<br>Entonces el usuario verá una notificación en el frontend. |
-| EP06     | Soporte y Comunidad | US26  | Acceso a ayuda en línea | Como usuario, quiero acceder a una sección de ayuda en línea para resolver mis dudas básicas. | - Escenario 1: Acceso desde el menú<br>Dado que el usuario esté en cualquier vista,<br>Cuando haga clic en “Ayuda” en el menú principal,<br>Entonces será redirigido a la sección de preguntas frecuentes.<br><br>- Escenario 2: Búsqueda rápida<br>Dado que use el buscador,<br>Cuando escriba su duda,<br>Entonces obtendrá respuestas relacionadas. |
-| EP06     | Soporte y Comunidad | US27  | Chat con soporte técnico | Como usuario, quiero chatear con un agente de soporte para resolver problemas técnicos específicos. | - Escenario 1: Inicio de chat<br>Dado que el usuario esté en la sección de ayuda,<br>Cuando seleccione “Chatear con soporte”,<br>Entonces se abrirá una ventana de conversación con el agente disponible.<br><br>- Escenario 2: Horario de atención<br>Dado que acceda fuera de horario,<br>Cuando intente iniciar chat,<br>Entonces verá un mensaje informativo con horarios. |
-| EP06     | Soporte y Comunidad | US28  | Reportar un problema     | Como usuario, quiero poder reportar errores o fallas para que el equipo técnico las solucione. | - Escenario 1: Formulario de reporte<br>Dado que haya experimentado un problema,<br>Cuando acceda al formulario de reporte,<br>Entonces podrá describir el incidente y enviarlo.<br><br>- Escenario 2: Confirmación de envío<br>Dado que complete el formulario,<br>Cuando lo envíe,<br>Entonces recibirá una confirmación con número de ticket. |
-| EP06     | Soporte y Comunidad | US29  | Sugerencias de mejora    | Como usuario, quiero dejar sugerencias para mejorar la plataforma de manera colaborativa.       | - Escenario 1: Ingreso de sugerencia<br>Dado que tenga una idea,<br>Cuando acceda a la sección “Sugerencias”,<br>Entonces podrá llenar un formulario y enviarla.<br><br>- Escenario 2: Visualización de estado<br>Dado que envíe una sugerencia,<br>Cuando acceda a su perfil,<br>Entonces podrá ver si está en evaluación o implementada. |
-| EP06     | Soporte y Comunidad | US30  | Foro comunitario         | Como usuario, quiero participar en un foro donde pueda compartir experiencias y resolver dudas. | - Escenario 1: Navegación general<br>Dado que el usuario entre al foro,<br>Cuando seleccione una categoría,<br>Entonces verá los temas y respuestas más recientes.<br><br>- Escenario 2: Crear publicación<br>Dado que quiera iniciar un nuevo tema,<br>Cuando publique,<br>Entonces su mensaje se mostrará en el hilo correspondiente. |
-| EP06 | Soporte y Comunidad | TS14 | API para dar seguimiento a reportes de problemas | Como desarrollador, quiero dar seguimiento a problemas reportados en el backend. | - Escenario 1: Listado de reportes<br>Dado que el administrador consulta,<br>Cuando el backend responde,<br>Entonces proporciona una lista de reportes pendientes.<br>- Escenario 2: Actualización de estado<br>Dado que el administrador corrige el problema,<br>Cuando actualiza el estado,<br>Entonces el backend deja el problema como resuelto. |
-| EP06 | Soporte y Comunidad | TS15 | Implementar comentarios o respuestas en el foro | Como desarrollador, quiero dar respuestas en el foro. | - Escenario 1: Agregar respuesta<br>Dado que el administrador tiene privilegios,<br>Cuando responde a un tema,<br>Entonces el backend registra el nuevo comentario.<br>- Escenario 2: Moderar<br>Dado que el administrador considera que el comentario es inapropiado,<br>Cuando lo elimina,<br>Entonces deja de aparecer en el hilo. |
-| EP06     | Soporte y Comunidad               | TS16  | Validar seguridad de comunicación  | Como desarrollador, quiero validar que el frontend y backend se comuniquen de forma segura usando HTTPS y CORS. | - Escenario 1: Solicitud segura<br>Dado que el frontend envía una solicitud,<br>Cuando use HTTPS y cabeceras correctas,<br>Entonces el backend la acepta.<br><br>- Escenario 2: CORS validado<br>Dado que la solicitud provenga de origen permitido,<br>Cuando el backend reciba la solicitud,<br>Entonces la procesa correctamente. |
-| EP06     | Soporte y Comunidad               | TS17  | Probar sistema en producción       | Como desarrollador, quiero probar todo el sistema en producción para asegurarme de que funciona correctamente. | - Escenario 1: Navegación completa<br>Dado que el sistema esté desplegado,<br>Cuando el usuario navegue,<br>Entonces podrá usar todas las funciones sin errores.<br><br>- Escenario 2: Acceso a API<br>Dado que un usuario autenticado use la app,<br>Cuando interactúe con las funciones,<br>Entonces las peticiones se procesan correctamente. |
-| EP07     | Exploración como Visitante | US31   | Visualizar información general sobre SplitEasy desde la landing page | Como visitante, quiero ver información clara sobre SplitEasy desde la página principal para entender su propósito. | - Escenario 1: Acceso inicial<br>Dado que el visitante acceda a la landing page,<br>Cuando cargue la vista,<br>Entonces verá un resumen claro de qué es SplitEasy y cómo funciona.<br><br>- Escenario 2: Responsive design<br>Dado que acceda desde móvil o PC,<br>Entonces la información debe estar adecuadamente adaptada. |
-| EP07     | Exploración como Visitante | US32   | Conocer las funciones principales para representantes y miembros del hogar | Como visitante, quiero conocer las funcionalidades para cada tipo de usuario para decidir si me interesa. | - Escenario 1: Sección de funciones<br>Dado que esté en la landing,<br>Cuando haga scroll o clic en “Funciones”,<br>Entonces verá tarjetas explicativas para representantes y miembros.<br><br>- Escenario 2: Enlaces internos<br>Dado que seleccione una función,<br>Entonces será redirigido a más detalles en la misma página. |
-| EP07     | Exploración como Visitante | US33   | Explorar beneficios del sistema de aportes proporcionales | Como visitante, quiero entender cómo funciona el sistema proporcional de aportes para saber si me conviene. | - Escenario 1: Sección explicativa<br>Dado que acceda a la landing,<br>Cuando llegue a la sección de “Sistema proporcional”,<br>Entonces verá un texto y/o animación que explica con claridad su funcionamiento.<br><br>- Escenario 2: Comprensión clara<br>Dado que lea el contenido,<br>Entonces entenderá con ejemplos simples los beneficios del sistema. |
-| EP07     | Exploración como Visitante | US34   | Ver ejemplos o simulaciones de cómo funciona la plataforma | Como visitante, quiero ver ejemplos o simulaciones para imaginarme cómo sería usar la plataforma. | - Escenario 1: Acceso a simulaciones<br>Dado que esté en la sección “¿Cómo funciona?”,<br>Cuando haga clic en “Ver ejemplo”,<br>Entonces se mostrará una simulación o demo visual del flujo de uso.<br><br>- Escenario 2: Casos ilustrativos<br>Dado que revise los ejemplos,<br>Entonces identificará casos similares a su situación real. |
-| EP07     | Exploración como Visitante | US35   | Acceder fácilmente al registro o login desde botones destacados | Como visitante, quiero tener botones claros para registrarme o iniciar sesión desde cualquier parte de la landing. | - Escenario 1: Botón fijo en el header<br>Dado que navegue por la landing,<br>Cuando quiera registrarse,<br>Entonces podrá hacer clic en un botón visible en la parte superior.<br><br>- Escenario 2: Llamados a la acción<br>Dado que lea una sección que le interese,<br>Entonces verá un botón que lo invita a registrarse o iniciar sesión. |
-| EP07     | Exploración como Visitante        | TS18  | Documentar despliegue              | Como desarrollador, quiero documentar los pasos del despliegue para facilitar futuras actualizaciones. | - Escenario 1: Instrucciones claras<br>Dado que un nuevo desarrollador acceda a la guía,<br>Cuando lea los pasos,<br>Entonces podrá repetir el despliegue exitosamente. |
-| EP07     | Exploración como Visitante        | TS19  | Monitoreo del sistema desplegado   | Como desarrollador, quiero monitorear el sistema en producción para asegurar su disponibilidad. | - Escenario 1: Ver logs<br>Dado que el sistema registre errores,<br>Cuando se revisen los logs,<br>Entonces se podrá detectar fallas.<br><br>- Escenario 2: Verificar uptime<br>Dado que el sistema esté en funcionamiento,<br>Cuando se consulte el monitor,<br>Entonces debe reflejar disponibilidad continua. |
+| **Story ID** | **Título**                                    |
+| ------------ | --------------------------------------------- |
+| US-21       | Visualización y Seguimiento de Contribuciones |
+| US-22       | Subida de Comprobante y Estado de Revisión    |
+| US-23       | Actualización de Estado a "Pagado"            |
+| US-24       | Paginación de Contribuciones                  |
 
 
 ## 3.3. Impact Mapping
@@ -1110,64 +1023,9 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 ### Priorización de User Stories - Plataforma SplitEasy
 
-| Prioridad | User Story ID | Título HU                                             | Story Points |
-|-----------|----------------|--------------------------------------------------------|---------------|
-| 1         | US31           | Visualizar información general desde la landing page  | 2             |
-| 2         | US32           | Conocer funciones principales de los usuarios         | 2             |
-| 3         | US33           | Explorar beneficios del sistema de aportes proporcionales | 3         |
-| 4         | US34           | Ver ejemplos o simulaciones de cómo funciona la plataforma | 3         |
-| 5         | US35           | Acceder fácilmente al registro o login desde botones  | 1             |
-| 6         | US01           | Registro de usuario                                   | 3             |
-| 7         | US02           | Inicio de sesión seguro                               | 2             |
-| 8         | US06           | Crear hogar                                           | 3             |
-| 9         | US08           | Ajustar porcentajes de aportes                        | 5             |
-| 10        | US09           | Visualizar reportes mensuales                         | 5             |
-| 11        | US11           | Ingresar ingresos personales                          | 3             |
-| 12        | US12           | Ver monto a pagar                                     | 2             |
-| 13        | US13           | Registrar pagos realizados                            | 2             |
-| 14        | US14           | Ver historial de pagos                                | 2             |
-| 15        | US15           | Ver distribución de gastos del hogar                  | 2             |
-| 16        | US16           | Registrar nuevo gasto                                 | 3             |
-| 17        | US17           | Adjuntar comprobantes de gasto                        | 2             |
-| 18        | US18           | Clasificar gastos por categoría                       | 3             |
-| 19        | US19           | Comentar o justificar un gasto                        | 2             |
-| 20        | US20           | Visualizar gráficos de gastos                         | 3             |
-| 21        | US21           | Recordatorios de pago                                 | 3             |
-| 22        | US22           | Alertas de pagos pendientes                           | 2             |
-| 23        | US23           | Recordatorio de actualización de ingresos             | 2             |
-| 24        | US24           | Confirmación de aportes                               | 1             |
-| 25        | US25           | Notificación de cambios en el hogar                   | 1             |
-| 26        | US05           | Configuración de notificaciones personales            | 3             |
-| 27        | US04           | Cierre de sesión desde todos los dispositivos         | 2             |
-| 28        | US03           | Edición de información personal                       | 2             |
-| 29        | US07           | Aprobar gastos                                        | 2             |
-| 30        | US10           | Configurar métodos de pago aceptados                  | 2             |
-| 31        | US26           | Acceso a ayuda en línea                               | 2             |
-| 32        | US27           | Chat con soporte técnico                              | 3             |
-| 33        | US28           | Reportar un problema                                  | 2             |
-| 34        | US29           | Sugerencias de mejora                                 | 1             |
-| 35        | US30           | Foro comunitario                                      | 3             |
-| 36 | US36 | Implementar autenticación JWT | 5 |
-| 37 | US37 | Cifrar contraseñas en base de datos | 3 |
-| 38 | US38 | Validar roles de administrador y miembro en backend | 3 |
-| 39 | US39 | Implementar actualización de perfil a partir de API | 2 |
-| 40 | US40 | Validar que el gasto tiene adjunto al menos 1 comprobante | 2 |
-| 41 | US41 | Agregar API para filtrar gastos por rango de fecha | 3 |
-| 42 | US42 | Implementar actualización y eliminación de gastos | 5 |
-| 43 | US43 | API para programar recordatorios de pago | 2 |
-| 44 | US44 | Integrar cron job para envío de recordatorios | 3 |
-| 45 | US45 | API para dar seguimiento a reportes de problemas | 2 |
-| 46 | US46 | Implementar comentarios o respuestas en el foro | 3 |
-| 47        | US46           | Conectar formularios con endpoints                     | 3             |
-| 48        | US47           | Validar respuestas del backend                         | 2             |
-| 49        | US48           | Manejar errores del servidor                           | 2             |
-| 50        | US49           | Manejo de estados de carga y éxito                     | 2             |
-| 51        | US50           | Verificar integración de gastos                        | 3             |
-| 52        | US51           | Conectar notificaciones al backend                     | 2             |
-| 53        | US52           | Validar seguridad de comunicación                      | 3             |
-| 54        | US53           | Probar sistema en producción                           | 3             |
-| 55        | US54           | Documentar despliegue                                  | 2             |
-| 56        | US55           | Monitoreo del sistema desplegado                       | 2             |
+
+
+
 
 # Capítulo IV: Product Design
 
@@ -2487,32 +2345,28 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.3. Sprint Backlog 1 – SplitEasy
 
-| Tipo                | User Story ID | User Story Title                                           | Task ID | Task Title                              | Description                                                              | Estimation (Hours) | Assigned To                     | Status      |
-| ------------------- | ------------- | ---------------------------------------------------------- | ------- | --------------------------------------- | ------------------------------------------------------------------------ | ------------------ | ------------------------------- | ----------- |
-| **Landing Page**    | US31          | Visualizar información general desde la landing page       | TA001   | Implementar sección de información      | Implementar la sección con la información general en la landing page     | 4                  | Rodrigo Alya Cabrera            | Done        |
-|                     |               |                                                            | TA002   | Validación de datos                     | Asegurar que los datos de la sección sean correctos y completos          | 2                  | Diego Fernando Herrera Enriquez | Done        |
-|                     | US32          | Conocer funciones principales de los usuarios              | TA003   | Crear visualización de funciones        | Implementar la visualización de las funciones principales en la página   | 4                  | Eslander Celis Berrospi         | Done        |
-|                     | US33          | Explorar beneficios del sistema de aportes proporcionales  | TA004   | Implementar sección de beneficios       | Agregar la sección que explora los beneficios del sistema de aportes     | 5                  | Valentino Sandoval Paiva        | Done        |
-|                     |               |                                                            | TA005   | Validar beneficios                      | Asegurar que los beneficios sean correctamente presentados               | 2                  | Eslander Celis Berrospi         | Done        |
-|                     | US34          | Ver ejemplos o simulaciones de cómo funciona la plataforma | TA006   | Crear ejemplos interactivos             | Crear simulaciones interactivas que muestran cómo funciona la plataforma | 5                  | Rodrigo Alya Cabrera            | Done        |
-|                     |               |                                                            | TA007   | Validar interactividad                  | Asegurar que las simulaciones sean interactivas y funcionales            | 2                  | Valentino Sandoval Paiva        | Done        |
-|                     | US35          | Acceder fácilmente al registro o login desde botones       | TA008   | Crear botón de acceso rápido            | Implementar botón visible para acceso rápido a registro o login          | 4                  | Diego Fernando Herrera Enriquez | Done        |
-| **Web Application** | US01          | Registro de usuario                                        | TA009   | Crear formulario de registro            | Implementar el formulario de registro con validaciones                   | 5                  | Eslander Celis Berrospi         | Done        |
-|                     | US02          | Inicio de sesión seguro                                    | TA010   | Crear formulario de login               | Implementar formulario de login con validaciones                         | 4                  | Valentino Sandoval Paiva        | Done        |
-|                     |               |                                                            | TA011   | Validar autenticación                   | Asegurar que la autenticación sea segura y eficiente                     | 2                  | Rodrigo Alya Cabrera            | Done        |
-|                     | US03          | Edición de información personal                            | TA012   | Implementar edición de datos            | Crear la funcionalidad para editar la información personal               | 6                  | Diego Fernando Herrera Enriquez | Done        |
-|                     |               |                                                            | TA013   | Validar edición de datos                | Asegurar que los datos sean editados correctamente                       | 2                  | Eslander Celis Berrospi         | Done        |
-|                     | US06          | Crear hogar                                                | TA014   | Implementar creación de hogar           | Crear funcionalidad para crear un nuevo hogar                            | 6                  | Valentino Sandoval Paiva        | Done        |
-|                     |               |                                                            | TA015   | Validar creación de hogar               | Asegurar que los datos de creación del hogar sean correctos              | 2                  | Rodrigo Alya Cabrera            | Done        |
-|                     | US11          | Ingresar ingresos personales                               | TA016   | Implementar ingreso de datos            | Crear funcionalidad para ingresar los ingresos personales                | 5                  | Eslander Celis Berrospi         | Done        |
-|                     | US12          | Ver monto a pagar                                          | TA017   | Implementar visualización de monto      | Mostrar el monto a pagar en el sistema                                   | 4                  | Valentino Sandoval Paiva        | Done        |
-|                     | US13          | Registrar pagos realizados                                 | TA018   | Crear formulario de pago                | Implementar formulario para registrar los pagos realizados               | 4                  | Rodrigo Alya Cabrera            | Done        |
-|                     | US14          | Ver historial de pagos                                     | TA019   | Mostrar historial de pagos              | Crear vista del historial de pagos realizados                            | 4                  | Diego Fernando Herrera Enriquez | Done        |
-|                     | US15          | Ver distribución de gastos del hogar                       | TA020   | Mostrar distribución de gastos          | Implementar visualización de los gastos del hogar                        | 4                  | Eslander Celis Berrospi         | Done        |
-|                     | US16          | Registrar nuevo gasto                                      | TA021   | Crear formulario para registrar gasto   | Implementar formulario para registrar nuevos gastos                      | 5                  | Valentino Sandoval Paiva        | Done        |
-|                     | US07          | Aprobar gastos                                             | TA022   | Implementar funcionalidad de aprobación | Crear la funcionalidad para aprobar o rechazar los gastos                | 6                  | Rodrigo Alya Cabrera            | Done        |
-|                     | US19          | Comentar o justificar un gasto                             | TA023   | Crear sección de comentarios            | Implementar sección para justificar o comentar los gastos                | 6                  | Diego Fernando Herrera Enriquez | Done        |
-|                     | US36          | Implementar autenticación JWT                              | TA024   | Implementar autenticación JWT           | Implementar funcionalidad de autenticación usando JWT                    | 5                  | Eslander Celis Berrospi         | Done        |
+| **Tipo**                      | **User Story ID** | **User Story Title**                          | **Task ID** | **Task Title**                                    | **Descripción**                                                      | **Estimation (Hours)** | **Assigned To**                 | **Status** |
+| ----------------------------- | ----------------- | --------------------------------------------- | ----------- | ------------------------------------------------- | -------------------------------------------------------------------- | ---------------------- | ------------------------------- | ---------- |
+| **Landing Page**              | US-01             | Vista General de Beneficios y Funcionalidades | TA001       | Implementar sección de información                | Implementar la sección con la información general en la landing page | 4                      | Rodrigo Alya Cabrera            | Done       |
+|                               |                   |                                               | TA002       | Validar que la información esté correcta          | Asegurar que los datos de la sección sean correctos y completos      | 3                      | Diego Fernando Herrera Enriquez | Done       |
+|              | US-02             | Resumen de la Empresa, Misión y Visión        | TA003       | Crear visualización del resumen                   | Crear la visualización del resumen de la empresa, misión y visión    | 4                      | Eslander Celis Berrospi         | Done       |
+|              |                   |                                               | TA004       | Validar el contenido y formato                    | Verificar que el resumen esté bien estructurado y sea visible        | 3                      | Valentino Sandoval Paiva        | Done       |
+|              | US-03             | Navegación Clara y Directa en la Página       | TA005       | Crear menú de navegación                          | Implementar el menú de navegación para fácil acceso a secciones      | 4                      | Rodrigo Alya Cabrera            | Done       |
+|                               |                   |                                               | TA006       | Validar que el menú funcione correctamente        | Asegurar que la navegación sea fluida y funcional                    | 3                      | Diego Fernando Herrera Enriquez | Done       |
+| **Web Application**           | US-06             | Registro de Cuenta y Rol Inicial              | TA007       | Implementar formulario de registro                | Crear el formulario de registro con las validaciones necesarias      | 5                      | Eslander Celis Berrospi         | Done       |
+|                               |                   |                                               | TA008       | Validar formulario y rol inicial                  | Verificar que los datos del registro sean correctos y validados      | 3                      | Valentino Sandoval Paiva        | Done       |
+|           | US-07             | Acceso y Validación de Credenciales           | TA009       | Implementar formulario de login                   | Crear formulario de login con validaciones necesarias                | 4                      | Valentino Sandoval Paiva        | Done       |
+|                               |                   |                                               | TA010       | Validar autenticación del login                   | Asegurar que el login funcione correctamente y sea seguro            | 3                      | Rodrigo Alya Cabrera            | Done       |
+|           | US-10             | Configuración Inicial del Hogar               | TA011       | Crear funcionalidad para crear hogar              | Implementar la opción para crear un hogar en el sistema              | 5                      | Valentino Sandoval Paiva        | Done       |
+|                               |                   |                                               | TA012       | Validar creación del hogar                        | Verificar que el hogar se haya creado correctamente                  | 3                      | Eslander Celis Berrospi         | Done       |
+|  | US-21             | Visualización y Seguimiento de Contribuciones | TA013       | Mostrar contribuciones en una vista               | Implementar la visualización de las contribuciones del usuario       | 4                      | Eslander Celis Berrospi         | Done       |
+|                               |                   |                                               | TA014       | Validar visualización de contribuciones           | Asegurar que los montos sean correctos y bien presentados            | 3                      | Diego Fernando Herrera Enriquez | Done       |
+|          | US-15             | Edición y Eliminación de Facturas             | TA015       | Implementar funcionalidad para editar facturas    | Crear formulario para editar facturas existentes                     | 5                      | Valentino Sandoval Paiva        | Done       |
+|                               |                   |                                               | TA016       | Validar funcionalidad de edición                  | Verificar que la edición de facturas sea correcta y esté guardada    | 3                      | Rodrigo Alya Cabrera            | Done       |
+|  | US-16             | Creación y Configuración de Contribución      | TA017       | Crear funcionalidad para registrar contribuciones | Implementar la creación de una nueva contribución                    | 5                      | Rodrigo Alya Cabrera            | Done       |
+|                               |                   |                                               | TA018       | Validar la configuración de la contribución       | Verificar que las contribuciones se registren correctamente          | 3                      | Diego Fernando Herrera Enriquez | Done       |
+|             | TS01              | Implementar autenticación JWT                 | TA019       | Implementar autenticación JWT                     | Implementar autenticación usando JSON Web Tokens (JWT)               | 5                      | Eslander Celis Berrospi         | Done       |
+
 
 ### Evidencias de Tablero Trello
 <p align="center">
@@ -2542,9 +2396,61 @@ A continuación, se presentan los commits más representativos realizados en el 
 | SplitEasy  | README.md | *(sin hash)* | update README.md | Actualización progresiva del README.md con contenido del capítulo 1. | Varias fechas |
 | SplitEasy  | develop | *(sin hash)* | assets: add UPC logo image for report cover | Se añadió logo institucional para la portada del informe. | 22/04/2025 |
 
+### Sprint 2
+
+Este sprint se centra en el desarrollo del frontend para la aplicación móvil de SplitEasy, adaptando las funcionalidades principales de la web a dispositivos móviles (iOS y Android). Al no contar con un backend, las operaciones de datos se simulan o gestionan localmente en el dispositivo, permitiendo demostrar la interfaz y los flujos de usuario de forma interactiva.
+
+#### Sprint Planing 2
+
+La planificación del Sprint 2 para la aplicación móvil se enfocó en desarrollar la interfaz de usuario y la lógica de presentación, utilizando datos de demostración o almacenamiento local para simular la funcionalidad.
+
+| **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                                                   |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                |
+| **Date**                            | 1/10/2025                                                                                                                                                                                                                                                                     |
+| **Time**                            | 12:00 PM                                                                                                                                                                                                                                                                       |
+| **Location**                        | Discord (Reunión virtual)                                                                                                                                                                                                                                                      |
+| **Prepared By**                     | Valentino Sandoval Paiva                                                                                                                                                                                                                                                       |
+| **Attendees (to planning meeting)** | Rodrigo Alya Cabrera, Diego Fernando Herrera Enriquez, Eslander Celis Berrospi, Valentino Sandoval Paiva                                                                                                                                                                       |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                |
+| **Sprint 2 Goal**                   | Nuestro objetivo en este sprint es completar las funcionalidades restantes de la aplicación, específicamente enfocándonos en el registro, gestión de perfil y pagos, así como en la optimización de la versión móvil de la aplicación para una experiencia fluida y eficiente. |
+| **Sprint 2 Velocity**               | 145                                                                                                                                                                                                                                                                            |
+| **Sum of Story Points**             | 145                                                                                                                                                                                                                                                                            |
 
 
+#### Sprint Backlog 2
 
+Este sprint se centró en implementar las funcionalidades clave de registro, validación de credenciales y gestión de perfil, tanto en la versión web como en la móvil. Desarrollamos los componentes de frontend y los endpoints de backend necesarios, asegurando una experiencia consistente en ambas plataformas.
+
+| **Tipo**                      | **User Story ID** | **User Story Title**                                                 | **Task ID** | **Task Title**                                             | **Descripción**                                                         | **Estimation (Hours)** | **Assigned To**                 | **Status** |
+| ----------------------------- | ----------------- | -------------------------------------------------------------------- | ----------- | ---------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------- | ------------------------------- | ---------- |
+| **Landing Page**              | US-04             | Demostración Visual del Producto (Video)                             | TA001       | Implementar video interactivo                              | Agregar video interactivo para mostrar cómo funciona la plataforma      | 5                      | Rodrigo Alya Cabrera            | Done       |
+|              |                   |                                                                      | TA002       | Validar interactividad del video                           | Asegurar que el video sea interactivo y funcione sin problemas          | 3                      | Valentino Sandoval Paiva        | Done       |
+|               | US-05             | Iniciar Sesión Rápido y Visible                                      | TA003       | Crear botón de acceso rápido al login                      | Implementar un botón visible y accesible para el login                  | 4                      | Eslander Celis Berrospi         | Done       |
+| **Web Application**           | US-08             | Recuperación de Contraseña                                           | TA004       | Implementar funcionalidad de recuperación de contraseña    | Crear formulario y lógica para recuperar contraseña                     | 5                      | Valentino Sandoval Paiva        | Done       |
+|           | US-09             | Selección de Idioma                                                  | TA005       | Crear funcionalidad de selección de idioma                 | Implementar selección de idioma en la aplicación                        | 4                      | Diego Fernando Herrera Enriquez | Done       |
+|            | TS02              | Cifrar contraseñas en base de datos                                  | TA006       | Implementar cifrado de contraseñas                         | Asegurar que las contraseñas estén cifradas en la base de datos         | 5                      | Eslander Celis Berrospi         | Done       |
+|            | TS03              | Validar roles de administrador y miembro en backend                  | TA007       | Validar roles de usuario en el backend                     | Verificar que los roles estén definidos y sean accesibles               | 4                      | Valentino Sandoval Paiva        | Done       |
+|            | TS04              | Implementar actualización de perfil a partir de API                  | TA008       | Crear funcionalidad de actualización de perfil             | Implementar API para actualizar el perfil del usuario                   | 5                      | Rodrigo Alya Cabrera            | Done       |
+|            | TS05              | Conectar formularios de registro y login del front-end con endpoints | TA009       | Conectar formularios de frontend a API de registro/login   | Implementar la conexión de los formularios de frontend al backend       | 4                      | Eslander Celis Berrospi         | Done       |
+|            | TS06              | Validar respuestas del backend en la gestión de perfil               | TA010       | Verificar respuestas del backend para la gestión de perfil | Asegurar que el backend maneje correctamente la actualización de perfil | 3                      | Valentino Sandoval Paiva        | Done       |
+|           | US-10             | Configuración Inicial del Hogar                                      | TA011       | Crear funcionalidad para configurar el hogar               | Implementar la opción para crear y configurar un hogar                  | 5                      | Eslander Celis Berrospi         | Done       |
+|           | US-11             | Navegación y Panel Principal                                         | TA012       | Crear panel principal de navegación                        | Desarrollar el panel principal para visualizar datos del hogar          | 4                      | Valentino Sandoval Paiva        | Done       |
+|           | US-12             | Resumen del Hogar y Perfil                                           | TA013       | Implementar resumen del hogar                              | Mostrar información resumida sobre el hogar y sus miembros              | 4                      | Rodrigo Alya Cabrera            | Done       |
+|           | US-13             | Gestión de Miembros                                                  | TA014       | Crear funcionalidad para gestionar miembros                | Implementar las opciones de agregar, eliminar y editar miembros         | 5                      | Diego Fernando Herrera Enriquez | Done       |
+|  | US-14             | Registro y Visualización de Facturas                                 | TA015       | Implementar registro de facturas                           | Crear formulario para registrar facturas                                | 5                      | Valentino Sandoval Paiva        | Done       |
+|  | US-15             | Edición y Eliminación de Facturas                                    | TA016       | Crear opción para editar y eliminar facturas               | Desarrollar funcionalidades para editar y eliminar facturas             | 4                      | Rodrigo Alya Cabrera            | Done       |
+|  | US-16             | Creación y Configuración de Contribución                             | TA017       | Crear formulario para registrar contribuciones             | Implementar formulario para registrar nuevas contribuciones             | 5                      | Eslander Celis Berrospi         | Done       |
+|  | US-17             | Revisión y Aprobación de Comprobantes de Pagos                       | TA018       | Implementar revisión y aprobación de pagos                 | Crear lógica para revisar y aprobar comprobantes de pago                | 6                      | Valentino Sandoval Paiva        | Done       |
+|  | TS07              | Implementar actualización y eliminación de gastos                    | TA019       | Actualizar y eliminar gastos                               | Desarrollar funcionalidad para actualizar o eliminar gastos             | 5                      | Rodrigo Alya Cabrera            | Done       |
+|  | TS08              | Verificar integración entre backend y front-end                      | TA020       | Validar integración entre backend y frontend               | Asegurar que los datos de contribuciones se sincronicen correctamente   | 4                      | Eslander Celis Berrospi         | Done       |
+|        | US-18             | Resumen del Miembro y Miembros del Hogar                             | TA021       | Crear resumen del miembro en la interfaz                   | Implementar vista del resumen del miembro con sus contribuciones        | 4                      | Diego Fernando Herrera Enriquez | Done       |
+|        | US-19             | Visualización de Deudas y Pagos                                      | TA022       | Implementar visualización de deudas y pagos                | Crear pantalla para mostrar las deudas y pagos del miembro              | 5                      | Rodrigo Alya Cabrera            | Done       |
+|       | US-20             | Navegación Habilitada para Miembros                                  | TA023       | Crear funcionalidad para navegación habilitada             | Asegurar que la navegación de los miembros sea clara y fácil            | 4                      | Valentino Sandoval Paiva        | Done       |
+|           | US-21             | Visualización y Seguimiento de Contribuciones                        | TA024       | Implementar seguimiento de contribuciones                  | Crear vista para ver el estado de las contribuciones del miembro        | 5                      | Eslander Celis Berrospi         | Done       |
+|          | US-22             | Subida de Comprobante y Estado de Revisión                           | TA025       | Implementar subida de comprobantes                         | Crear opción para subir y revisar comprobantes de pagos                 | 5                      | Diego Fernando Herrera Enriquez | Done       |
+|           | US-23             | Actualización de Estado a "Pagado"                                   | TA026       | Crear actualización de estado de pago a "Pagado"           | Implementar actualización de estado de los pagos realizados             | 4                      | Rodrigo Alya Cabrera            | Done       |
+|           | US-24             | Paginación de Contribuciones                                         | TA027       | Implementar paginación de contribuciones                   | Crear funcionalidad de paginación para listar las contribuciones        | 5                      | Valentino Sandoval Paiva        | Done       |
 
 
 ### 5.2.2. Implemented Landing Page Evidence
@@ -2982,6 +2888,168 @@ Cuadro de Video Representativo:
 
 - URL de la versión publicada en YouTube: https://youtu.be/ok7hreL3sbs
 
+
+# Part II: Verification, Validation & Pipeline
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+
+### 6.1.1. Core Entities Unit Tests
+
+### 6.1.2. Core Integration Tests
+
+### 6.1.3. Core Behavior-Driven Development
+
+### 6.1.4. Core System Tests
+
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices.
+
+La integración continua (CI) es un componente clave en el desarrollo del sistema, permitiendo la validación automatizada de cada cambio en el código mediante pruebas. Esto reduce la probabilidad de errores en producción y asegura la estabilidad del sistema en todo momento.
+
+En nuestra metodología de desarrollo, implementamos principios como el Desarrollo Guiado por Pruebas (TDD) y el Desarrollo Guiado por Comportamiento (BDD), que permiten verificar tanto la lógica interna del sistema como su alineación con los requerimientos de negocio desde las primeras etapas del desarrollo.
+
+A continuación, se detallan las herramientas que utilizamos en este proceso:
+
+| **Herramienta**    | **Tipo**                        | **Descripción**                                                                                        | **Propósito**                                                                                                                                  |
+| ------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **JUnit**          | Pruebas Unitarias (TDD)         | Framework para realizar pruebas unitarias automatizadas en el backend (Spring Boot).                   | Ejecutar pruebas automatizadas que verifiquen el correcto funcionamiento de las funcionalidades desarrolladas..                                             |
+| **Mockito**        | Simulaciones / Mocking (TDD)    | Biblioteca para simular dependencias externas en las pruebas unitarias.                                | Aislar el comportamiento de las clases y garantizar pruebas rápidas y confiables, sin depender de componentes externos.                        |
+| **Gherkin**        | Lenguaje de Especificación BDD  | Lenguaje utilizado para definir escenarios de prueba en archivos `.feature`.                           | Facilitar la colaboración entre desarrolladores, testers y stakeholders no técnicos, con escenarios comprensibles para todos.                  |
+| **Selenium**       | Pruebas E2E (Core System Tests) | Framework para realizar pruebas automatizadas de la interfaz web del sistema.                          | Verificar que los flujos de usuario funcionen correctamente en la aplicación web, probando el sistema desde el navegador.                      |
+| **GitHub Actions** | Automatización de CI/CD         | Plataforma para la automatización de flujos de trabajo CI/CD, ejecutados con cada push o pull request. | Integrar la compilación, las pruebas y el despliegue de manera automatizada, garantizando la calidad del código antes de cualquier despliegue. |
+
+Cada vez que un desarrollador hace push o abre un pull request, GitHub Actions ejecuta automáticamente nuestro pipeline de CI, validando compilación, pruebas y calidad de código antes de permitir cualquier merge a las ramas protegidas (develop, main y feat/deploy).
+
+### 7.1.2. Build & Test Suite Pipeline Components.
+
+## 7.2. Continuous Delivery
+
+El objetivo de Continuous Delivery es automatizar la integración y las pruebas del código, manteniéndolo siempre listo para ser desplegado cuando sea necesario.
+
+### 7.2.1. Tools and Practices.
+
+**Herramientas utilizadas:**
+
+- **GitHub Actions / GitLab CLI:** Estas plataformas permiten la automatización completa de los flujos de trabajo CI/CD. Para entrega continua, configuramos un pipeline que asegura que el software pase por las validaciones y pruebas necesarias, pero deja el despliegue final pendiente de aprobación manual. Esto garantiza que la aplicación esté lista para producción, pero que el equipo tenga control sobre el momento exacto de su liberación.
+  
+- **Trello / Jira:** Utilizamos estas herramientas de gestión de proyectos para coordinar el proceso de revisión y aprobación del despliegue. Una vez que el pipeline se completa satisfactoriamente, el gerente de proyecto o un responsable revisa el estado del despliegue y otorga su aprobación para proceder a producción. Esto ayuda a asegurar que todas las versiones sean validadas antes de su liberación.
+
+- **Docker:** Para mantener la coherencia entre los entornos de desarrollo, staging y producción, utilizamos Docker para contenerizar la aplicación. Esto asegura que cada entorno sea replicable y consistente, facilitando las pruebas y la validación en entornos previos al despliegue en producción.
+
+- **Railway/Render/Netlify (según el entorno de despliegue):** Estas plataformas se utilizan para crear entornos intermedios, como staging, donde el código es desplegado automáticamente después de pasar por el pipeline. Sin embargo, el paso final hacia producción requiere la intervención de un miembro del equipo, lo que asegura que el despliegue se haga en el momento adecuado y bajo supervisión.
+
+**Prácticas implementadas:**
+
+- **Feature Branching y Pull Requests:** Para cada nuevo desarrollo, creamos ramas independientes (feature branches), las cuales se fusionan con la rama principal solo después de pasar las pruebas automatizadas. Esto asegura que solo el código validado y revisado llegue a producción. La fusión se realiza mediante pull requests, donde cada cambio es revisado y validado por un miembro del equipo.
+
+- **Pipeline de Validación en Staging:** Los cambios realizados se despliegan en un entorno de staging que simula el entorno de producción. Aquí se realizan pruebas manuales, de regresión y de aceptación, lo que permite verificar que el sistema funciona correctamente antes de su liberación definitiva.
+
+- **Despliegue Semiautomático:** El proceso de despliegue es semiautomático: el pipeline se encarga de preparar el artefacto para producción, pero el paso final requiere la aprobación manual de un miembro autorizado del equipo. Esto proporciona un control adicional sobre el momento exacto del lanzamiento.
+
+- **Aprobación Manual:** Una vez que los tests y las validaciones automáticas son satisfactorios, el despliegue a producción no se realiza automáticamente. En cambio, se requiere que un responsable, como el Scrum Master o un líder técnico, revise los resultados y autorice el despliegue. Esta práctica reduce el riesgo de errores y asegura que el código esté listo para producción.
+
+- **Rollback Manual:** En caso de que se detecten errores críticos después de un despliegue, contamos con un mecanismo para realizar rollbacks manuales. Este proceso es gestionado por el equipo de desarrollo, que puede revertir a una versión estable previamente etiquetada, garantizando un control total sobre las versiones en producción.
+
+### 7.2.2. Stages Deployment Pipeline Components.
+
+**Flujo de Entrega Continua (CD)**
+
+- **Integración Continua (CI):**  
+Cada vez que se realiza un commit en una rama de desarrollo, el pipeline ejecuta automáticamente una serie de pruebas, que incluyen pruebas unitarias, de integración y de linting, para verificar que la aplicación funciona correctamente. Esto asegura que el código se mantenga en condiciones aptas para ser desplegado. Si todas las validaciones son exitosas, se genera un artefacto listo para ser probado en el entorno de staging.
+
+- **Validación en Staging:**  
+El código se despliega automáticamente en un entorno de staging tras pasar por la fase de CI. Este entorno simula el entorno de producción, donde se realizan pruebas funcionales, validación de criterios de aceptación y pruebas adicionales, como pruebas exploratorias, manuales o de carga. Esta fase es clave para detectar posibles errores antes de llevar el código a producción.
+
+- **Despliegue Manual a Producción:**  
+Aunque el código está validado y listo para producción, el despliegue final requiere la intervención manual de un desarrollador o administrador autorizado. Esta etapa de aprobación proporciona un nivel adicional de control y supervisión, asegurando que el despliegue no se realice hasta que se confirme explícitamente.
+
+- **Monitoreo y Feedback:**  
+Durante y después del despliegue en staging o producción, se habilitan herramientas de monitoreo, como logs de servidor o alertas de error, que permiten validar el comportamiento del sistema. Esta retroalimentación es crucial para evaluar el impacto del código y detectar posibles fallos antes de su liberación definitiva.
+
+- **Control de Aprobación:**  
+En la última etapa del pipeline, se requiere la confirmación manual de un miembro autorizado para activar el despliegue en producción. Esta fase asegura que solo las versiones aprobadas se desplieguen en entornos productivos, ofreciendo un control total sobre la liberación final.
+
+## 7.3. Continuous deployment
+
+El objetivo de **Continuous Deployment (CD)** es automatizar el proceso de despliegue, de manera que cada cambio validado en el código, tras pasar todas las pruebas de validación, sea desplegado automáticamente desde el repositorio hasta el entorno de producción. Este enfoque elimina la intervención manual, garantizando rapidez, consistencia y alta disponibilidad, lo que permite entregar nuevas funcionalidades de manera continua y sin interrupciones.
+
+### 7.3.1. Tools and Practices.
+
+**Tools:**
+
+- **GitHub Actions:** Utilizado para automatizar el pipeline de CI/CD. Configura workflows que incluyen la ejecución de pruebas y el despliegue automático de la aplicación a diferentes entornos (desarrollo, staging, producción).
+  
+- **Docker:** Usado para contenerizar la aplicación backend (Spring Boot). Docker nos permite crear imágenes y subirlas a Docker Hub, empaquetando todas las dependencias necesarias para ejecutar la aplicación en cualquier entorno.
+
+- **Render:** Plataforma encargada del despliegue automático del backend en Spring Boot, ofreciendo monitoreo y escalabilidad automática para asegurar un despliegue eficiente y confiable.
+
+- **Netlify:** Utilizado para automatizar los despliegues del frontend en Angular. Se conecta con GitHub Actions para realizar los despliegues automáticos cada vez que se actualiza el código en el repositorio.
+
+**Practices:**
+
+- **Push-based Deployment:** Cada vez que se hace un push a las ramas adecuadas (como `main` o `feat/deploy`), el sistema dispara automáticamente el despliegue sin requerir intervención manual. Este enfoque garantiza una entrega continua y eficiente.
+
+- **Branch Protection:** Las ramas `main` y `feat/deploy` están protegidas. Se requiere que los pull requests sean aprobados y que los pasos de compilación y pruebas sean exitosos antes de fusionar cualquier cambio a estas ramas.
+
+- **Secret Management:** Las credenciales necesarias para los entornos de despliegue, como contraseñas o claves de acceso, se almacenan de manera segura en GitHub Secrets y otras plataformas de gestión de secretos, asegurando que las configuraciones sensibles estén protegidas.
+
+- **Atomic Releases:** Los despliegues son realizados con builds completos y autocontenidos, lo que minimiza los errores asociados con el despliegue de estados parciales y garantiza que el sistema siempre esté en una versión consistente y funcional.
+
+- **Quick Rollback:** En caso de fallo, se puede realizar un rollback rápido a la última versión estable utilizando tags o artefactos previos, asegurando que el sistema pueda restaurarse rápidamente a un estado funcional sin interrupciones importantes.
+
+
+### 7.3.2. Production Deployment Pipeline Components. 
+
+#### Componentes del Pipeline de la Base de Datos (Render + PostgreSQL)
+
+* **Gestión de Migraciones Automáticas:**
+  A través de Spring Boot y sus herramientas de persistencia (JPA/Hibernate), el sistema aplica automáticamente los cambios en las entidades al esquema de la base de datos PostgreSQL desplegado en Render. Esto garantiza que los modelos del backend estén siempre sincronizados con la estructura de datos en producción.
+
+* **Backups Automáticos:**
+  Render gestiona copias de seguridad periódicas de la base de datos PostgreSQL. Antes de ejecutar migraciones críticas o durante despliegues importantes, Render permite restaurar versiones anteriores de la base de datos, reduciendo el riesgo ante errores imprevistos.
+
+* **Monitoreo del Rendimiento:**
+  Render proporciona un panel de monitoreo que permite al equipo de desarrollo observar el uso de CPU, memoria y tráfico de la base de datos. Se pueden configurar alertas automáticas en caso de degradación del rendimiento o fallas en el servicio.
+
+* **Validación de Esquema y Datos:**
+  Después de las migraciones, se ejecutan pruebas de integración y validaciones de esquema para asegurar que las nuevas estructuras (tablas, relaciones, columnas) se hayan creado correctamente. Estas pruebas están integradas en el pipeline de GitHub Actions.
+
+* **Despliegue Automatizado y Sincronizado:**
+  Los cambios en el modelo de datos se despliegan automáticamente a la base de datos productiva mediante migraciones controladas y validadas. Esto permite mantener una sincronización constante entre el backend y la base de datos sin intervención manual.
+
+#### Componentes del Pipeline del Backend (Render para Spring Boot)
+
+* **Integración Continua con GitHub Actions:**
+  Al hacer un push a la rama `develop`, GitHub Actions ejecuta automáticamente pruebas unitarias e integración del backend desarrollado en Spring Boot. Si todo es exitoso, Render detecta los cambios y ejecuta el despliegue.
+
+* **Construcción de Imagen Docker:**
+  El backend es contenerizado con Docker. Las imágenes son construidas automáticamente y almacenadas en Docker Hub. Esto garantiza un entorno consistente entre desarrollo, staging y producción.
+
+* **Despliegue en Render:**
+  Render toma la nueva imagen del backend y la despliega en el entorno de producción. Este proceso es completamente automático y puede realizarse múltiples veces al día si hay cambios disponibles.
+
+* **Monitoreo y Alertas en Tiempo Real:**
+  El backend desplegado es monitoreado constantemente. Render permite observar logs en tiempo real y configurar alertas para notificar al equipo ante errores 5xx, caídas de servicio o comportamientos anómalos.
+
+#### Componentes del Pipeline del Frontend (Netlify para Angular)
+
+* **Compilación Automática del Frontend:**
+  Netlify está integrado directamente con GitHub. Al detectar nuevos commits en la rama `develop`, inicia automáticamente el proceso de construcción de la aplicación Angular en modo producción.
+
+* **Pruebas Automatizadas:**
+  Antes del despliegue, se ejecutan pruebas unitarias para verificar el correcto funcionamiento de los componentes del frontend. En versiones futuras, se incluirán pruebas E2E como parte del flujo.
+
+* **Despliegue en Netlify:**
+  Si las pruebas son exitosas, Netlify publica automáticamente la nueva versión del frontend en producción. El contenido es servido desde su CDN global, lo cual mejora el rendimiento y disponibilidad para los usuarios.
+
+* **Invalidación de Caché:**
+  Netlify gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
 
 # Conclusión
 
