@@ -940,6 +940,33 @@ En esta sección se presentarán los user journey mapping para cada user persona
 | **EP05**    | **Gestión del Rol Miembro y Participación**                      | Como miembro del hogar, quiero tener acceso a mis responsabilidades y una visualización clara de mis pagos y deudas.                   |
 | **EP06**    | **Gestión de Pagos y Seguimiento de Contribuciones (Miembro)**   | Como miembro, quiero poder seguir el estado de mis contribuciones y realizar pagos de manera eficiente.                                |
 
+| **User Story ID** | **Título**                                    | **Descripción**                                                                                                                                                                   | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Relacionado con (Epic ID)** |
+| ----------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **US01**          | Vista General de Beneficios y Funcionalidades | Como usuario potencial, quiero ver una descripción general de los beneficios y funcionalidades clave de la plataforma.                                                            | **Escenario 1:** El usuario potencial visita la página principal. <br> Dado que el usuario potencial ha accedido a la página de inicio, cuando navega hacia la sección de beneficios y funcionalidades, entonces puede ver una descripción clara y visualmente destacada de las características clave de la plataforma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **EP01**                      |
+| **US02**          | Resumen de la Empresa                         | Como visitante, quiero ver un resumen de la empresa para entender su enfoque y valores antes de registrarme.                                                                      | **Escenario 1:** El visitante quiere conocer más sobre la empresa antes de registrarse. <br> Dado que el visitante navega por la sección "Acerca de" en la página principal, cuando lee el contenido de la misión y visión, entonces puede obtener un resumen claro y conciso sobre la empresa y sus valores.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **EP01**                      |
+| **US03**          | Navegación Clara y Directa en la Página       | Como usuario potencial, quiero poder navegar de forma clara y directa entre las secciones de la página para encontrar la información que necesito rápidamente.                    | **Escenario 1:** El usuario potencial navega por las secciones de la página. <br> Dado que el usuario se encuentra en la página principal, cuando interactúa con el menú de navegación principal, entonces puede moverse fácilmente entre las secciones sin perderse o sentir confusión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **EP01**                      |
+| **US04**          | Video de Demostración del Producto            | Como visitante en la landing page, quiero poder ver un video de demostración del producto para conocer mejor la funcionalidad de la app web.                                      | **Escenario 1:** El visitante accede a la página y ve el video. <br> Dado que soy un visitante en la landing page, cuando accedo a la página, entonces puedo ver un video que muestre la funcionalidad de la app web. <br> **Escenario 2:** El visitante reproduce el video. <br> Dado que estoy viendo el video, cuando lo reproduzco, entonces el video se muestra correctamente en pantalla completa o en su contenedor. <br> **Escenario 3:** Relación con las funcionalidades. <br> Dado que soy un visitante, cuando veo el video, entonces debe estar claramente relacionado con las funcionalidades de la app. | **EP01**                      |
+| **US05**          | Iniciar Sesión Rápido y Visible               | Como usuario de la plataforma, quiero poder iniciar sesión desde un enlace visible en la página principal para acceder rápidamente a mi cuenta.                                   | **Escenario 1:** El usuario busca iniciar sesión. <br> Dado que el usuario accede a la página principal, cuando localiza el enlace de inicio de sesión en la esquina superior derecha, entonces puede hacer clic en el enlace e iniciar sesión fácilmente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **EP01**                      |
+| **US06**          | Registro de Cuenta y Rol Inicial              | Como nuevo usuario, quiero crear una cuenta proporcionando mi nombre de usuario, correo electrónico, contraseña y rol, para poder acceder a la plataforma con permisos adecuados. | **Escenario 1:** El usuario crea una cuenta. <br> Dado que completo los campos necesarios (usuario, correo, contraseña, rol e ingresos), cuando presiono "Crear tu cuenta", entonces veo un mensaje de éxito y soy redirigido al inicio de sesión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **EP02**                      |
+| **US07**          | Acceso y Validación de Credenciales           | Como usuario registrado, quiero iniciar sesión con mi usuario y contraseña, y recibir un mensaje claro si mis credenciales son incorrectas.                                       | **Escenario 1:** El usuario ingresa credenciales válidas. <br> Dado que ingreso un usuario y contraseña válidos, cuando presiono "Iniciar sesión", soy redirigido al dashboard. <br> **Escenario 2:** El usuario ingresa credenciales incorrectas. <br> Si las credenciales son incorrectas, se muestra un mensaje de error claro.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **EP02**                      |
+| **US08**          | Recuperación de Contraseña                    | Como usuario registrado, quiero poder recuperar mi contraseña si la olvido, para restablecer el acceso a mi cuenta.                                                               | **Escenario 1:** El usuario recupera la contraseña. <br> Dado que hago clic en "¿Olvidaste tu contraseña?", cuando ingreso mi correo electrónico, recibo un mensaje de confirmación y un correo con el enlace de restablecimiento.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **EP02**                      |
+| **US09**          | Selección de Idioma                           | Como usuario, quiero poder seleccionar el idioma de la interfaz antes de iniciar sesión o registrarme, para usar la aplicación en mi idioma preferido.                            | **Escenario 1:** El usuario selecciona un idioma. <br> Dado que hago clic en el selector de idioma y selecciono un nuevo idioma, entonces todo el texto de la pantalla cambia a ese idioma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **EP02**                      |
+| **US10**          | Configuración Inicial del Hogar               | Como Representante, quiero crear y configurar un hogar donde pueda definir un nombre, descripción y moneda principal, para comenzar a gestionarlo.                                | **Escenario 1:** El representante crea el hogar. <br> Dado que soy un Representante sin hogar, cuando inicio sesión, se me solicita crear un hogar ingresando nombre, descripción y seleccionando la moneda. Cuando presiono "Crear Hogar", soy redirigido al panel principal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **EP03**                      |
+| **US11**          | Navegación y Panel Principal                  | Como Representante, quiero que la navegación sea bloqueada hasta que cree un hogar, y que al tenerlo, se me muestre el resumen del hogar en el panel.                             | **Escenario 1:** El representante navega antes de crear el hogar. <br> Dado que soy un Representante sin hogar, cuando intento navegar en el sistema, la navegación está bloqueada. <br> **Escenario 2:** El representante ve el resumen del hogar. <br> Cuando tengo un hogar configurado, la pantalla de inicio muestra el resumen del hogar y el menú lateral habilitado.                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **EP03**                      |
+| **US12**          | Resumen del Hogar y Perfil                    | Como Representante, quiero ver en la pantalla principal el resumen del hogar con métricas clave, y acceder rápidamente a mi perfil con mi rol y datos.                            | **Escenario 1:** El representante ve el resumen. <br> Dado que accedo a la pantalla de inicio, veo tarjetas con las métricas de miembros, cuentas y contribuciones, y el nombre/descripción del hogar. También puedo ver mi perfil con mi nombre y rol como Representante.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **EP03**                      |
+| **US13**          | Gestión de Miembros                           | Como Representante, quiero poder añadir, eliminar y gestionar a los miembros de mi hogar de forma sencilla.                                                                       | **Escenario 1:** El representante gestiona miembros. <br> Dado que accedo a la pestaña de miembros, puedo añadir miembros por correo electrónico, eliminar miembros con confirmación y ver su información de ingresos. Si elimino un miembro, sus contribuciones deben ser ajustadas según la lógica del hogar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **EP03**                      |
+| **US14**          | Registro y Visualización de Facturas          | Como Representante, quiero registrar nuevas facturas con descripción, monto y fecha, y verlas en una lista tabular con todos los detalles.                                                        | **Escenario 1:** El representante registra una factura. <br> Dado que presiono "+Registrar Factura", ingreso la descripción, monto y fecha, y cuando presiono "Guardar", la factura aparece en la lista de facturas del hogar en la pestaña "Cuentas".                                                                                                                                                                                                 | **EP04**                      |
+| **US15**          | Edición y Eliminación de Facturas             | Como Representante que creó una factura, quiero poder editar o eliminar la factura si cometí un error o necesito actualizar los datos.                                                            | **Escenario 1:** El representante edita una factura. <br> Dado que presiono el ícono de edición en una factura registrada, puedo modificar los datos y actualizar la factura. <br> **Escenario 2:** El representante elimina una factura. <br> Dado que presiono el ícono de eliminación en una factura registrada, puedo eliminar la factura de la lista.                                                                                             | **EP04**                      |
+| **US16**          | Creación y Configuración de Contribución      | Como Representante, quiero crear una contribución asociándola a un comprobante, seleccionar la estrategia de reparto, definir la descripción, y asignar los miembros que participarán en el pago. | **Escenario 1:** El representante crea una contribución. <br> Dado que presiono "+Nueva contribución", selecciono un Comprobante, Estrategia de reparto, ingreso la Descripción, Fecha Límite, y selecciono los Miembros opcionales, entonces la contribución se crea y la deuda se distribuye según la estrategia seleccionada y los miembros asignados.                                                                                              | **EP04**                      |
+| **US17**          | Revisión y Aprobación de Comprobantes de Pago | Como Representante, quiero ver qué contribuciones tienen pagos pendientes de revisión, acceder a los detalles y aprobar o rechazar los pagos de los miembros.                                     | **Escenario 1:** El representante revisa los pagos pendientes. <br> Dado que un Miembro sube un comprobante, cuando accedo a la pestaña Contribuciones, veo los pagos pendientes. Al hacer clic en un comprobante, puedo revisar los detalles y aprobar o rechazar el pago. <br> **Escenario 2:** El representante aprueba un pago. <br> Al aprobar, el estado cambia a "Pagado", y al rechazar, se marca como "Pendiente" y el miembro es notificado. | **EP04**                      |
+| **US18**          | Resumen del Miembro y Miembros del Hogar      | Como Miembro, quiero ver un resumen personal de mis pagos, contribuciones activas, y una lista de todos los miembros de mi hogar, incluyendo su rol.                                              | **Escenario 1:** El miembro ve su resumen personal. <br> Dado que soy un Miembro en un hogar, cuando accedo al panel de inicio, veo un mensaje de bienvenida con mi nombre, información sobre las contribuciones activas, la deuda pendiente, los pagos realizados, y la lista de miembros del hogar.                                                                                                                                                  | **EP05**                      |
+| **US19**          | Visualización de Deudas y Pagos               | Como Miembro, quiero ver claramente el monto total pendiente de contribuciones y el total de pagos que he realizado hasta la fecha.                                                               | **Escenario 1:** El miembro visualiza su deuda y pagos. <br> Dado que tengo contribuciones asignadas, la tarjeta "TOTAL PENDIENTE" muestra mi deuda total. Además, la tarjeta "TOTAL PAGADO" muestra la suma de mis pagos realizados en la moneda del hogar.                                                                                                                                                                                           | **EP05**                      |
+| **US20**          | Navegación Habilitada para Miembros           | Como Miembro, quiero tener acceso a las secciones de "Contribuciones", "Estado" y "Ajustes" desde el menú de navegación, para poder gestionar mis pagos y ver mi estado.                          | **Escenario 1:** El miembro navega por las secciones. <br> Dado que soy un Miembro, cuando hago clic en "Contribuciones", "Estado" o "Ajustes", soy redirigido a la sección correspondiente para ver mis pagos y detalles del estado de mi participación.                                                                                                                                                                                              | **EP05**                      |
+| **US21**          | Visualización y Seguimiento de Contribuciones | Como Miembro, quiero ver una lista de mis contribuciones pendientes y pagadas, con detalles como factura, monto, estrategia, estado y fecha de pago.                                              | **Escenario 1:** El miembro visualiza sus contribuciones. <br> Dado que accedo a la pestaña "Contribuciones" o "Estado", veo tablas separadas que muestran mis contribuciones pendientes (con el botón "Pagar") y mis contribuciones pagadas (con la fecha de pago).                                                                                                                                                                                   | **EP05**                      |
+| **US22**          | Subida de Comprobante y Estado de Revisión    | Como Miembro, quiero poder subir un comprobante de pago para cambiar el estado de la contribución a "En Revisión".                                                                                | **Escenario 1:** El miembro sube un comprobante. <br> Dado que presiono "Pagar" en una contribución pendiente y subo el comprobante, el estado cambia a "En Revisión" y se refleja en la lista de mis contribuciones.                                                                                                                                                                                                                                  | **EP05**                      |
+| **US23**          | Actualización de Estado a "Pagado"            | Como Miembro, quiero que el estado de una contribución cambie a "Pagado" cuando el Representante apruebe mi comprobante de pago.                                                                  | **Escenario 1:** El miembro ve su contribución como pagada. <br> Dado que el Representante aprueba mi comprobante, el estado de la contribución cambia a "Pagado" y se refleja en mi lista de contribuciones en la pestaña "Estado".                                                                                                                                                                                                                   | **EP05**                      |
+| **US24**          | Paginación de Contribuciones                  | Como Miembro, quiero poder navegar entre las páginas de mis contribuciones si tengo muchas registradas.                                                                                           | **Escenario 1:** El miembro navega entre las páginas. <br> Dado que tengo más de 10 contribuciones, cuando hago clic en los botones de paginación, la tabla se actualiza para mostrar el siguiente lote de contribuciones.                                                                                                                                                                                                                             | **EP05**                      |
+
 
 ### EP01 - Experiencia del Usuario en la Landing Page
 
@@ -1023,8 +1050,32 @@ En esta sección se presentarán los user journey mapping para cada user persona
 
 ### Priorización de User Stories - Plataforma SplitEasy
 
-
-
+| **#Orden** | **User Story ID** | **Título**                                    | **Descripción**                                                                                                                                                                                  | **Story Points** |
+| ---------- | ----------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| 1          | US-01             | Vista General de Beneficios y Funcionalidades | Como usuario potencial, quiero ver una descripción general de los beneficios y funcionalidades clave de la plataforma                                                                            | 3                |
+| 2          | US-02             | Resumen de la Empresa                         | Como visitante, quiero ver un resumen de la empresa para entender su enfoque y valores antes de registrarme                                                                                      | 2                |
+| 3          | US-03             | Navegación Clara y Directa en la Página       | Como usuario potencial, quiero poder navegar de forma clara y directa entre las secciones de la página para encontrar la información rápidamente                                                 | 3                |
+| 4          | US-04             | Demostración Visual del Producto (Video)      | Como visitante en la landing page, quiero poder ver un video de demostración del producto para conocer mejor la funcionalidad de la app web                                                      | 5                |
+| 5          | US-05             | Iniciar Sesión Rápido y Visible               | Como usuario de la plataforma, quiero poder iniciar sesión desde un enlace visible en la página principal para acceder rápidamente a mi cuenta                                                   | 2                |
+| 6          | US-06             | Registro de Cuenta y Rol Inicial              | Como nuevo usuario, quiero crear una cuenta proporcionando mi nombre de usuario, correo electrónico, contraseña y rol, para poder acceder a la plataforma                                        | 5                |
+| 7          | US-07             | Acceso y Validación de Credenciales           | Como usuario registrado, quiero iniciar sesión con mi usuario y contraseña, y recibir un mensaje claro si mis credenciales son incorrectas                                                       | 3                |
+| 8          | US-08             | Recuperación de Contraseña                    | Como usuario registrado, quiero poder recuperar mi contraseña si la olvido, para restablecer el acceso a mi cuenta                                                                               | 3                |
+| 9          | US-09             | Selección de Idioma                           | Como usuario, quiero poder seleccionar el idioma de la interfaz antes de iniciar sesión o registrarme, para usar la aplicación en mi idioma preferido                                            | 2                |
+| 10         | US-10             | Configuración Inicial del Hogar               | Como Representante, quiero crear y configurar un hogar donde pueda definir un nombre, descripción y moneda principal, para comenzar a gestionarlo                                                | 5                |
+| 11         | US-11             | Navegación y Panel Principal                  | Como Representante, quiero que la navegación sea bloqueada hasta que cree un hogar, y que al tenerlo, se me muestre el resumen del hogar en el panel                                             | 5                |
+| 12         | US-12             | Resumen del Hogar y Perfil                    | Como Representante, quiero ver en la pantalla principal el resumen del hogar con métricas clave, y acceder rápidamente a mi perfil con mi rol y datos                                            | 3                |
+| 13         | US-13             | Gestión de Miembros                           | Como Representante, quiero poder añadir, eliminar y gestionar a los miembros de mi hogar de forma sencilla                                                                                       | 8                |
+| 14         | US-14             | Registro y Visualización de Facturas          | Como Representante, quiero registrar nuevas facturas con descripción, monto y fecha, y verlas en una lista tabular con todos los detalles                                                        | 5                |
+| 15         | US-15             | Edición y Eliminación de Facturas             | Como Representante que creó una factura, quiero poder editar o eliminar la factura si cometí un error o necesito actualizar los datos                                                            | 3                |
+| 16         | US-16             | Creación y Configuración de Contribución      | Como Representante, quiero crear una contribución asociándola a un comprobante, seleccionar la estrategia de reparto, definir la descripción, y asignar los miembros que participarán en el pago | 8                |
+| 17         | US-17             | Revisión y Aprobación de Comprobantes de Pago | Como Representante, quiero ver qué contribuciones tienen pagos pendientes de revisión, acceder a los detalles y aprobar o rechazar los pagos de los miembros                                     | 5                |
+| 18         | US-18             | Resumen del Miembro y Miembros del Hogar      | Como Miembro, quiero ver un resumen personal de mis pagos, contribuciones activas, y una lista de todos los miembros de mi hogar, incluyendo su rol                                              | 3                |
+| 19         | US-19             | Visualización de Deudas y Pagos               | Como Miembro, quiero ver claramente el monto total pendiente de contribuciones y el total de pagos que he realizado hasta la fecha                                                               | 2                |
+| 20         | US-20             | Navegación Habilitada para Miembros           | Como Miembro, quiero tener acceso a las secciones de "Contribuciones", "Estado" y "Ajustes" desde el menú de navegación                                                                          | 3                |
+| 21         | US-21             | Visualización y Seguimiento de Contribuciones | Como Miembro, quiero ver una lista de mis contribuciones pendientes y pagadas, con detalles como factura, monto, estrategia, estado y fecha de pago                                              | 5                |
+| 22         | US-22             | Subida de Comprobante y Estado de Revisión    | Como Miembro, quiero poder subir un comprobante de pago para cambiar el estado de la contribución a "En Revisión"                                                                                | 3                |
+| 23         | US-23             | Actualización de Estado a "Pagado"            | Como Miembro, quiero que el estado de una contribución cambie a "Pagado" cuando el Representante apruebe mi comprobante de pago                                                                  | 3                |
+| 24         | US-24             | Paginación de Contribuciones                  | Como Miembro, quiero poder navegar entre las páginas de mis contribuciones si tengo muchas registradas                                                                                           | 2                |
 
 
 # Capítulo IV: Product Design
@@ -2897,11 +2948,141 @@ Cuadro de Video Representativo:
 
 ### 6.1.1. Core Entities Unit Tests
 
+Las pruebas unitarias implementadas se centran en validar el comportamiento correcto de los componentes individuales del sistema, enfocándose principalmente en las entidades centrales y los servicios que las gestionan.
+
+**IAM Service Test**
+
+![Landing](images/TP/T2.png)
+
+
+**HouseHold Service Test**
+
+![Landing](images/TP/T1.png)
+
+**Bill Service Test**
+
+![Landing](images/TP/T3.png)
+
+**Contribution Service Test**
+
+![Landing](images/TP/T3.png)
+
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
 
 ### 6.1.4. Core System Tests
+
+**LANDING PAGE**
+
+**EPIC 01**
+
+![Landing](images/TP/US1.png)
+
+![Landing](images/TP/SUS1.jpg)
+
+![Landing](images/TP/US2.png)
+
+![Landing](images/TP/SUS2.jpg)
+
+![Landing](images/TP/US3.png)
+
+![Landing](images/TP/SUS3.jpg)
+
+![Landing](images/TP/US4.png)
+
+![Landing](images/TP/SUS4.jpg)
+
+![Landing](images/TP/US5.png)
+
+![Landing](images/TP/SUS5.jpg)
+
+**APP WEB**
+**EPIC 02**
+
+![Landing](images/TP/US6.png)
+
+![Landing](images/TP/SUS6.jpg)
+
+![Landing](images/TP/US7.png)
+
+![Landing](images/TP/SUS7.jpg)
+
+![Landing](images/TP/US8.png)
+
+![Landing](images/TP/SUS8.jpg)
+
+![Landing](images/TP/US9.png)
+
+![Landing](images/TP/SUS9.jpg)
+
+**EPIC 03**
+
+![Landing](images/TP/US10.png)
+
+![Landing](images/TP/SUS10.jpg)
+
+![Landing](images/TP/US11.png)
+
+![Landing](images/TP/SUS11.jpg)
+
+![Landing](images/TP/US12.png)
+
+![Landing](images/TP/SUS12.jpg)
+
+![Landing](images/TP/US13.png)
+
+![Landing](images/TP/SUS13.jpg)
+
+**EPIC 04**
+
+![Landing](images/TP/US14.png)
+
+![Landing](images/TP/SUS14.jpg)
+
+![Landing](images/TP/US15.png)
+
+![Landing](images/TP/SUS15.jpg)
+
+![Landing](images/TP/US16.png)
+
+![Landing](images/TP/SUS16.jpg)
+
+![Landing](images/TP/US17.png)
+
+![Landing](images/TP/SUS17.jpg)
+
+**EPIC 05**
+
+![Landing](images/TP/US18.png)
+
+![Landing](images/TP/SUS18.jpg)
+
+![Landing](images/TP/US19.png)
+
+![Landing](images/TP/SUS19.jpg)
+
+![Landing](images/TP/US20.png)
+
+![Landing](images/TP/SUS20.jpg)
+
+**EPIC 06**
+
+![Landing](images/TP/US21.png)
+
+![Landing](images/TP/SUS21.jpg)
+
+![Landing](images/TP/US22.png)
+
+![Landing](images/TP/SUS22.jpg)
+
+![Landing](images/TP/US23.png)
+
+![Landing](images/TP/SUS23.jpg)
+
+![Landing](images/TP/US24.png)
+
+![Landing](images/TP/SUS24.jpg)
 
 
 # Capítulo VII: DevOps Practices
