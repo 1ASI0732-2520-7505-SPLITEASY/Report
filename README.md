@@ -2970,6 +2970,79 @@ Las pruebas unitarias implementadas se centran en validar el comportamiento corr
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behavior-Driven Development
+![Landing](images/CoreBehavior-DrivenDevelopment/image.png)
+
+US-01 Vista General de Beneficios y Funcionalidades
+![Landing](images/CoreBehavior-DrivenDevelopment/1.png)
+
+US-02 Resumen de la Empresa
+![Landing](images/CoreBehavior-DrivenDevelopment/2.png)
+
+US-03 Navegación Clara y Directa en la Página
+![Landing](images/CoreBehavior-DrivenDevelopment/3.png)
+
+US-04 Demostración Visual del Producto (Video)
+![Landing](images/CoreBehavior-DrivenDevelopment/4.png)
+
+US-05 Iniciar Sesión Rápido y Visible
+![Landing](images/CoreBehavior-DrivenDevelopment/5.png)
+
+US-06 Registro de Cuenta y Rol Inicial
+![Landing](images/CoreBehavior-DrivenDevelopment/6.png)
+
+US-07 Acceso y Validación de Credenciales
+![Landing](images/CoreBehavior-DrivenDevelopment/7.png)
+
+US-08 Recuperación de Contraseña
+![Landing](images/CoreBehavior-DrivenDevelopment/8.png)
+
+US-09 Selección de Idioma
+![Landing](images/CoreBehavior-DrivenDevelopment/9.png)
+
+US-10 Configuración Inicial del Hogar
+![Landing](images/CoreBehavior-DrivenDevelopment/10.png)
+
+US-11 Navegación y Panel Principal
+![Landing](images/CoreBehavior-DrivenDevelopment/11.png)
+
+US-12 Resumen del Hogar y Perfil
+![Landing](images/CoreBehavior-DrivenDevelopment/12.png)
+
+US-13 Gestión de Miembros
+![Landing](images/CoreBehavior-DrivenDevelopment/13.png)
+
+US-14 Registro y Visualización de Facturas
+![Landing](images/CoreBehavior-DrivenDevelopment/14.png)
+
+US-15 Edición y Eliminación de Facturas
+![Landing](images/CoreBehavior-DrivenDevelopment/15.png)
+
+US-16 Creación y Configuración de Contribución
+![Landing](images/CoreBehavior-DrivenDevelopment/16.png)
+
+US-17 Revisión y Aprobación de Comprobantes de Pagos
+![Landing](images/CoreBehavior-DrivenDevelopment/17.png)
+
+US-18 Resumen del Miembro y Miembros del Hogar
+![Landing](images/CoreBehavior-DrivenDevelopment/18.png)
+
+US-19 Visualización de Deudas y Pagos
+![Landing](images/CoreBehavior-DrivenDevelopment/19.png)
+
+US-20 Navegación Habilitada para Miembros
+![Landing](images/CoreBehavior-DrivenDevelopment/20.png)
+
+US-21 Visualización y Seguimiento de Contribuciones
+![Landing](images/CoreBehavior-DrivenDevelopment/21.png)
+
+US-22 Subida de Comprobante y Estado de Revisión
+![Landing](images/CoreBehavior-DrivenDevelopment/22.png)
+
+US-23 Actualización de Estado a "Pagado"
+![Landing](images/CoreBehavior-DrivenDevelopment/23.png)
+
+US-24 Paginación de Contribuciones
+![Landing](images/CoreBehavior-DrivenDevelopment/24.png)
 
 ### 6.1.4. Core System Tests
 
