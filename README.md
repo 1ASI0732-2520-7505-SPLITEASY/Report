@@ -3003,6 +3003,38 @@ Las pruebas unitarias implementadas se centran en validar el comportamiento corr
 
 ### 6.1.2. Core Integration Tests
 
+Las pruebas de integración implementadas en el proyecto verifican la correcta interacción entre los distintos componentes del sistema, asegurando una comunicación adecuada entre controladores, servicios y repositorios dentro de la aplicación de gestión de presupuestos compartidos en el hogar. En particular, se han probado los controladores responsables de la administración de gastos, miembros y configuraciones, validando el correcto funcionamiento de los endpoints relacionados con la creación, actualización y eliminación de registros, así como la consulta de información para representantes y miembros del hogar. Además, se comprobó el manejo adecuado de errores y excepciones, garantizando la estabilidad del sistema y una respuesta coherente ante escenarios no válidos o datos inconsistentes.
+
+•	Con esta prueba se verificó el correcto funcionamiento del controlador de contribuciones, asegurando que los endpoints para crear, obtener por ID y listar contribuciones respondan adecuadamente ante distintos escenarios. Se validó tanto el flujo exitoso de creación y consulta como el manejo de errores cuando los datos no existen o son inválidos, comprobando así la interacción correcta entre el controlador y los servicios de dominio responsables de gestionar las contribuciones dentro del hogar.
+
+<p align="left">
+  <img src="images\ContributionControllerTest.png">
+</p>
+
+•	Con esta prueba se evaluó el comportamiento del controlador de miembros del hogar, asegurando que las operaciones de creación, actualización, consulta y eliminación de miembros funcionen correctamente. Se validaron los flujos exitosos y los casos en que los datos no existen o son inválidos, comprobando que las respuestas HTTP sean coherentes y que la comunicación entre el controlador y los servicios de dominio encargados de gestionar los miembros del hogar ocurra de forma correcta.
+
+<p align="left">
+  <img src="images\HouseholdControllerTest.png">
+</p>
+
+•	Con esta prueba se verificó el correcto funcionamiento del controlador de hogares, evaluando los endpoints que gestionan la creación, consulta, actualización y eliminación de hogares, así como la obtención de sus miembros y contribuciones asociadas. Se comprobó que las respuestas HTTP fueran las adecuadas según el resultado de las operaciones y que la interacción entre el controlador, los servicios de dominio y los repositorios se realizara de manera coherente y sin errores.
+
+<p align="left">
+  <img src="images\HouseholdMemberControllerTest.png">
+</p>
+
+•	Con esta prueba se verificó el funcionamiento del controlador de contribuciones de miembros, garantizando que las operaciones de creación, consulta, actualización y eliminación se ejecutaran correctamente. Se validó que el controlador respondiera adecuadamente ante solicitudes con y sin parámetros, como la obtención de contribuciones por miembro o por hogar, y que las respuestas HTTP reflejaran correctamente el resultado de las operaciones. Asimismo, se comprobó la integración entre el controlador, los servicios de comandos y consultas, y el repositorio de persistencia, asegurando una comunicación coherente y libre de errores entre las distintas capas del sistema.
+
+<p align="left">
+  <img src="images\MemberContributionControllerTest.png">
+</p>
+
+•	Las pruebas de integraciónn realizadas para el controlador de recibos de pago verifican la correcta interacción entre los servicios encargados de almacenar archivos, gestionar recibos y autenticar usuarios dentro del sistema. Se comprobó que el proceso de subida de comprobantes funciona adecuadamente, validando tanto los casos exitosos como aquellos en los que se envían archivos vacíos. Además, se evaluó la capacidad del controlador para listar recibos asociados a contribuciones, así como las operaciones de aprobación y rechazo de comprobantes por parte de los representantes del hogar. Estas pruebas garantizan que la aplicación maneje correctamente las distintas respuestas HTTP y que los flujos entre las capas de servicio, repositorio y seguridad sean consistentes y fiables.
+
+<p align="left">
+  <img src="images\PaymentReceiptsControllerTest.png">
+</p>
+
 ### 6.1.3. Core Behavior-Driven Development
 ![Landing](images/CoreBehavior-DrivenDevelopment/image.png)
 
