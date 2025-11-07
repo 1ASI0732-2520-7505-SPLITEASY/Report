@@ -3357,6 +3357,9 @@ El objetivo de **Continuous Deployment (CD)** es automatizar el proceso de despl
 * **Monitoreo y Alertas en Tiempo Real:**
   El backend desplegado es monitoreado constantemente. Render permite observar logs en tiempo real y configurar alertas para notificar al equipo ante errores 5xx, caídas de servicio o comportamientos anómalos.
 
+
+
+
 #### Componentes del Pipeline del Frontend (Netlify para Angular)
 
 * **Compilación Automática del Frontend:**
@@ -3370,6 +3373,98 @@ El objetivo de **Continuous Deployment (CD)** es automatizar el proceso de despl
 
 * **Invalidación de Caché:**
   Netlify gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
+
+
+  
+# Capítulo VIII: Experiment-Driven Development
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+La aplicación permite la división de gastos en grupos, mostrando cuánto aporta cada persona y cuánto debe. Sin embargo, algunos usuarios experimentan dificultades al interpretar los saldos finales, especialmente cuando el número de integrantes o gastos es alto. La sincronización entre dispositivos es estable, pero presenta ligeros retrasos perceptibles para el usuario (1–2 segundos).  
+No existe pago directo desde la aplicación, lo que obliga a realizar el pago externamente y registrar manualmente el abono.
+
+El soporte actual se limita a un apartado de ayuda estática, sin asistencia guiada. Esto genera fricción cuando usuarios nuevos desconocen cómo interpretar balances o resolver diferencias.
+
+**Limitaciones actuales:**
+- Falta claridad sobre la **fórmula de reparto**.
+- Los pagos se realizan fuera de la app y deben registrarse manualmente.
+- No existe opción de **pago por QR integrado**.
+- No existe **chat de soporte** dentro de la aplicación.
+
+**Oportunidades:**
+- Explicar visualmente **cómo se calcula** el reparto.
+- Enviar **recordatorios automáticos** para mejorar los pagos.
+- Integrar **pago directo vía QR Yape/Plin**.
+- Añadir **chatbot IA** contextual para soporte inmediato.
+
+---
+
+### 8.1.2. Raw Material
+
+
+#### Assumptions
+1. Los usuarios no comprenden la **fórmula exacta** usada para dividir los gastos, lo cual genera **desconfianza** en los montos.
+2. Los usuarios **olvidan pagar** aunque tengan la intención de hacerlo.
+3. La mayoría de pagos entre usuarios se realiza mediante **Yape/Plin**.
+4. Los usuarios prefieren **resolver dudas dentro de la app** antes que buscar tutoriales externos.
+5. La **sincronización lenta** reduce la percepción de confiabilidad.
+
+#### Knowledge Gaps
+1. No sabemos **qué parte de la fórmula** de reparto causa mayor confusión.
+2. No sabemos **cuál es el momento adecuado** o frecuencia ideal para enviar recordatorios.
+3. No sabemos si los usuarios **prefieren pago por QR** o transferencia directa manual.
+4. No sabemos cuáles son **las dudas más repetidas** durante el uso de la app.
+5. No sabemos cuál es el **tiempo de sincronización máximo tolerado** antes de percibirse como “lento”.
+
+#### Ideas
+1. **Sección explicativa:** “¿Cómo se calculó mi monto?” con fórmula + ejemplo real.
+2. **Recordatorios automáticos** basados en tiempo y estado de deuda.
+3. **Botón “Pagar con QR”** vinculado a Yape/Plin hacia el representante del grupo.
+4. **Chatbot IA** contextual que responda: “¿Cuánto debo?”, “¿Cómo se calculó?”, “¿Quién me debe?”
+5. **Optimización de sincronización** para reducir el retraso percibido.
+
+#### Claims
+1. Explicar la fórmula de reparto **aumentará la confianza** en los montos finales.
+2. Recordatorios automáticos **incrementarán la tasa de pagos oportunos**.
+3. Pagos por QR **reducirán fricción** y pasos manuales.
+4. Un chatbot IA **reducirá dudas y solicitudes de soporte**.
+5. Sincronización más rápida **mejorará la percepción de confiabilidad**.
+
+---
+
+### 8.1.3. Experiment-Ready Questions (con scoring)
+
+| Pregunta | Confianza | Riesgo | Impacto | Interés | Total |
+|---|---|---|---|---|---|
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?** | 7 | 3 | 9 | 9 | **28** |
+| **¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?** | 6 | 4 | 9 | 8 | **27** |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?** | 5 | 5 | 9 | 9 | **28** |
+| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?** | 7 | 4 | 9 | 9 | **29** |
+| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?** | 6 | 3 | 7 | 7 | **23** |
+
+
+### 8.1.4. Question Backlog (mismo orden, sin reordenar)
+
+| Prioridad | Pregunta |
+|---|---|
+| **9** | ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados? |
+| **8** | ¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos? |
+| **9** | ¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%? |
+| **10** | ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte? |
+| **6** | ¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad? |
+
+
+### 8.1.5. Experiment Cards (mismo orden exactamente)
+
+| Pregunta | Qué se hará | Por qué | Hipótesis | Métrica de éxito |
+|---|---|---|---|---|
+| ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados? | Añadir pantalla “¿Cómo se calculó?” con fórmula + ejemplo real del grupo. | La desconfianza proviene de no entender el cálculo base. | *Si se muestra claramente la fórmula, la confianza aumentará ~40%.* | Encuesta interna antes y después + reducción de mensajes preguntando por montos. |
+| ¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos? | Enviar recordatorios automáticos basados en tiempo y estados de deuda. | El problema principal es el olvido, no la falta de intención. | *Si recordamos automáticamente, el cierre aumentará ~35%.* | Variación en pagos completados antes y después de activar recordatorios. |
+| ¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%? | Añadir botón “Pagar con QR” hacia el representante del grupo. | Reduce fricción y evita salir a otras apps. | *Si se habilita pago QR, la retención aumentará ~30%.* | % de pagos ejecutados por QR vs comprobantes subidos manualmente. |
+| ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte? | Integrar chatbot con respuestas guiadas dentro del flujo de gastos. | El usuario necesita soporte contextual inmediato. | *Si se integra chatbot IA, las dudas bajarán ~50%.* | Cantidad de preguntas repetidas y volumen de soporte antes y después. |
+| ¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad? | Ajustar eventos de actualización y ofrecer feedback visual inmediato. | Retrasos generan sensación de error aunque el sistema funcione. | *Si sincroniza en <0.5s, la percepción de confiabilidad aumentará.* | Encuesta de percepción + medición de tiempos reales. |
+
 
 # Conclusión
 
