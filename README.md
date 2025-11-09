@@ -3223,6 +3223,409 @@ US-24 Paginación de Contribuciones
 
 ![Landing](images/TP/SUS24.jpg)
 
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+El análisis estático de código fue una parte esencial del proceso de aseguramiento de la calidad en el desarrollo de **SplitEasy**. Esta práctica nos permitió identificar posibles vulnerabilidades, errores lógicos y desviaciones respecto a las convenciones de estilo antes de ejecutar el software.
+
+Se aplicaron herramientas de revisión de código integradas en los entornos de desarrollo (**Visual Studio Code** y **WebStorm**) junto con **linters** y analizadores específicos de **Angular** y **Spring Boot**. Gracias a ello, se detectaron inconsistencias en la nomenclatura, redundancias en el código y posibles fugas de rendimiento que fueron corregidas oportunamente.
+
+Además, el uso de estándares definidos en la **guía de estilo del proyecto** garantizó que el código mantuviera coherencia y legibilidad en todas las capas del sistema. Este proceso permitió optimizar la mantenibilidad del software, reducir la deuda técnica y reforzar la fiabilidad de los componentes implementados antes de su validación funcional.
+
+#### 6.2.1.1. Coding Standard & Code Conventions
+
+Para mantener la coherencia, legibilidad y mantenibilidad del código en **SplitEasy**, se establecieron estándares y convenciones unificadas para todas las tecnologías empleadas. Estas guías garantizaron una estructura uniforme, facilitaron la colaboración entre los miembros del equipo y redujeron la deuda técnica a largo plazo.
+
+---
+
+### **Backend (Java / Spring Boot)**
+
+Se siguieron las convenciones oficiales de **Java** recomendadas por Oracle y las mejores prácticas del **Spring Framework**, priorizando la claridad, modularidad y mantenibilidad del código.
+
+- Nombres de clases en **PascalCase** (e.g., `UserService`, `HouseholdController`).
+- Nombres de métodos y variables en **camelCase** (e.g., `getUserById()`, `totalExpenseAmount`).
+- Constantes en **UPPER_SNAKE_CASE** (e.g., `MAX_RETRY_ATTEMPTS`).
+- Separación de capas siguiendo la arquitectura de **Spring Boot**: `controller`, `service`, `repository`, `model`, `config`.
+- Uso de **inyección de dependencias** mediante `@Autowired` o constructores para reducir el acoplamiento.
+- Aplicación de principios **SOLID** y buenas prácticas de **arquitectura limpia**.
+
+---
+
+### **Frontend (Angular / TypeScript)**
+
+Para el desarrollo frontend, se adoptó la **guía de estilo oficial de Angular** y las convenciones de **TypeScript**, promoviendo la modularidad, consistencia visual y legibilidad del código.
+
+- Componentes en **PascalCase** (e.g., `ExpenseCardComponent`, `UserProfileComponent`).
+- Servicios en **PascalCase** con sufijo `Service` (e.g., `ExpenseService`, `AuthService`).
+- Variables, métodos y propiedades en **camelCase** (e.g., `selectedHousehold`, `calculateTotal()`).
+- Selectores de componentes en **kebab-case** (e.g., `<app-expense-card>`).
+- Uso consistente de **comillas simples** para strings (`'example'`).
+- Estructura de carpetas organizada en `components`, `pages`, `services` y `models`.
+- **Indentación de 2 espacios**, siguiendo la configuración estándar de Angular CLI.
+- Implementación de **Prettier** y **ESLint** para garantizar formato y estilo uniforme en todo el proyecto.
+
+---
+
+### **Mobile (Kotlin / Android)**
+
+En la versión móvil desarrollada con **Kotlin**, se aplicaron los lineamientos oficiales de estilo de **Android** y las mejores prácticas de arquitectura **MVVM** para garantizar una estructura limpia y mantenible.
+
+- IDs de vistas en **lowerCamelCase** con prefijo del tipo de componente (e.g., `btnSubmit`, `txtEmail`).
+- Archivos XML de layouts en **snake_case** (e.g., `activity_main.xml`, `fragment_profile.xml`).
+- Clases y ViewModels en **PascalCase** (e.g., `LoginViewModel`, `ExpenseRepository`).
+- Variables y funciones en **camelCase** (e.g., `fetchUserData()`, `totalBalance`).
+- Separación clara de capas: **Model**, **ViewModel** y **View**.
+- Uso de **Android Jetpack**, **LiveData** y **ViewBinding** para mantener una arquitectura reactiva y segura.
+- Aplicación de **nombres descriptivos** en todos los recursos para mejorar la trazabilidad y mantenibilidad del código.
+
+---
+
+### **Arquitectura y Enfoque de Diseño**
+
+El proyecto implementó el enfoque de **Domain-Driven Design (DDD)** como base arquitectónica, alineando el modelo de software con los conceptos del dominio de negocio.  
+Este enfoque permitió mantener una relación directa entre las entidades técnicas y las funcionalidades reales del sistema.
+
+- Entidades de dominio con identidad propia (`Household`, `Member`, `Expense`, `Contribution`).
+- Objetos de valor para elementos inmutables sin identidad (`IncomeShare`, `ExpenseCategory`).
+- Agregados con raíces definidas (`HouseholdAggregate` con `Household` como raíz).
+- Repositorios específicos para cada agregado (`ExpenseRepository`, `MemberRepository`).
+- Servicios de dominio para la lógica de negocio compleja (`ContributionCalculationService`).
+- Adopción de un **lenguaje ubicuo** reflejado en el código, documentación y comunicación técnica.
+
+
+
+
+
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Para garantizar la **calidad y seguridad** del código fuente de **SplitEasy**, se implementaron herramientas y prácticas de **análisis estático y dinámico** enfocadas en la detección temprana de vulnerabilidades, errores lógicos y malas prácticas de programación.
+
+Como herramienta principal, se utilizó **SonarQube**, integrada con el repositorio del proyecto, para evaluar **métricas de calidad, complejidad y seguridad** en los diferentes módulos de la aplicación.  
+Este proceso permitió mantener **estándares elevados de mantenibilidad y fiabilidad** en las capas de **backend**, **frontend** y **mobile**.
+
+
+##### SonarQube
+
+Se realizaron **análisis exhaustivos** sobre los principales **controladores y servicios** de los *bounded contexts* del sistema, con el fin de asegurar un código **limpio, seguro y bien estructurado**.
+
+- **HouseholdController:**  
+  Se verificó la correcta implementación de los *endpoints* relacionados con la creación, edición y visualización de hogares.  
+  Se evaluó la **validación de datos de entrada**, la correcta **gestión de excepciones** y el **manejo seguro de las peticiones HTTP**.
+
+- **ExpenseController:**  
+  Se analizó la **complejidad ciclomática** y el **flujo de cálculo de gastos compartidos**.  
+  Se identificaron **oportunidades de optimización** y se aseguraron las condiciones necesarias para **prevenir errores de concurrencia**.
+
+- **MemberController:**  
+  Se evaluó la **protección de la información personal** de los usuarios, garantizando el cumplimiento de **buenas prácticas** en el uso de **DTOs** y en la **serialización de datos sensibles**.
+
+- **ContributionService:**  
+  Se inspeccionaron los **algoritmos de distribución proporcional** y su **integridad lógica** para garantizar **cálculos precisos** y prevenir **errores de redondeo o pérdidas de precisión**.
+
+##### Principales resultados del análisis
+
+El uso de **SonarQube** permitió identificar y resolver problemas potenciales en etapas tempranas del desarrollo, mejorando tanto la **calidad técnica** como la **seguridad** de la aplicación.  
+Entre los hallazgos y correcciones más relevantes se incluyen:
+
+- **Eliminación de vulnerabilidades** en la validación de entradas de usuario, evitando posibles ataques por inyección o datos maliciosos.  
+- **Detección y mitigación de riesgos de inyección SQL** en consultas dinámicas mediante el uso de **repositorios JPA seguros**.  
+- **Corrección del manejo inadecuado de recursos**, como conexiones no cerradas o servicios mal liberados.  
+- **Reducción de la duplicación de código** en componentes compartidos de **Angular** y en controladores de **Spring Boot**.  
+- **Optimización de la complejidad ciclomática** en servicios clave para mejorar la **mantenibilidad y legibilidad** del código.
+
+
+### 6.2.2. Reviews
+
+Con el objetivo de mantener **altos estándares de calidad, consistencia y seguridad** en el desarrollo de **SplitEasy**, se implementó un proceso riguroso de **revisión de código** que promovió la **colaboración continua** entre los miembros del equipo y garantizó la correcta integración de cada nueva funcionalidad.
+
+---
+
+### **Tipos de revisiones realizadas**
+
+- **Revisiones técnicas:**  
+  Enfocadas en la **calidad del código**, la **arquitectura**, el **rendimiento** y el **cumplimiento de las convenciones** definidas en las guías de estilo.
+
+- **Revisiones funcionales:**  
+  Encargadas de validar que las implementaciones cumplieran con los **requerimientos funcionales** establecidos en las *User Stories* y que los **flujos del sistema** se comportaran según lo esperado.
+
+- **Revisiones de seguridad:**  
+  Centradas en el código que manejaba **información sensible**, **procesos de autenticación** y **comunicación con la base de datos**, para garantizar la **protección de los datos personales** y evitar vulnerabilidades.
+
+- **Revisiones de integración:**  
+  Aplicadas antes del despliegue, verificando la **compatibilidad de los cambios** con otros módulos (**frontend**, **backend** y **mobile**).
+
+---
+
+### **Proceso de revisión**
+
+Se siguió un proceso estandarizado basado en **pull requests (PRs)** dentro del repositorio **GitHub** del proyecto.  
+Este flujo permitió mantener **trazabilidad**, **control de versiones** y **colaboración efectiva** entre los desarrolladores.
+
+#### 1. **Creación de Pull Requests**
+
+- Cada nueva funcionalidad o corrección se desarrollaba en una rama independiente (`feature/`, `fix/`, `hotfix/`).  
+- Al finalizar, el desarrollador creaba un **pull request** detallando los cambios realizados, la **referencia al issue** correspondiente y **capturas de evidencia visual**, si aplicaba.  
+- Los PRs incluían etiquetas como `enhancement`, `bugfix` o `refactor` para facilitar su **clasificación y seguimiento**.
+
+#### 2. **Comentarios y Feedback**
+
+- Los revisores analizaban cuidadosamente el código, **proponiendo mejoras** o **señalando posibles errores**.  
+- El autor del PR debía **responder a cada observación**, realizando los **ajustes necesarios** o justificando la **decisión técnica adoptada**.  
+- En casos de cambios complejos o conflictos de diseño, las discusiones se trasladaban a **reuniones de revisión técnica** o **videollamadas de equipo**.
+
+#### 3. **Aprobación del Merge**
+
+- Todo PR requería la **aprobación de al menos dos revisores** antes de su fusión con la rama principal (`develop` o `main`).  
+- No se permitía realizar *merge* mientras existieran **observaciones pendientes** o **pruebas fallidas**.  
+- Antes de aprobar, se verificaba que todos los **tests unitarios e integrados** se ejecutaran correctamente y que el **análisis de SonarQube** estuviera libre de **vulnerabilidades críticas**.
+
+---
+
+### **Resultados destacables**
+
+- Se redujo en más del **60%** la cantidad de **errores funcionales** detectados durante las pruebas finales de *sprint*.  
+- Se logró una **mayor coherencia estructural y visual** entre componentes del frontend, controladores del backend y módulos móviles.  
+- Se fortaleció la **transferencia de conocimiento** entre los miembros del equipo, mejorando la comprensión del sistema global.  
+- Se identificaron y documentaron **patrones comunes de diseño** y **mejores prácticas** que fueron adoptadas como guía para futuros desarrollos.  
+- El proceso de revisión permitió mantener un **flujo ágil y controlado de integración continua**, incrementando la **calidad global del producto**.
+
+## 6.3. Validation Interviews
+
+### 6.3.1 Diseño de Entrevistas
+
+Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos relevantes para la experiencia en base a las siguientes preguntas:
+
+**Para el Segmento 1: Miembros del hogar**
+
+1. Primera impresión sobre la interfaz:
+
+- ¿Qué opinas del diseño de la página? ¿Te resulta fácil de entender?
+
+- ¿Hay algún elemento visual que te llame la atención o que encuentres confuso?
+
+2. Facilidad de uso:
+
+- ¿Fue fácil encontrar dónde se registran los gastos o contribuciones?
+
+- ¿Hubo algún momento en el que te sentiste perdido o no supieras qué hacer en la página?
+
+3. Navegación y funcionalidades:
+
+- ¿La navegación entre secciones (como ver tus aportes, revisar los gastos) fue clara?
+
+- ¿Te resultó sencillo agregar un gasto o una contribución? ¿Qué mejoras sugerirías?
+
+4. Transparencia y confianza:
+
+- ¿Qué piensas sobre la transparencia de la herramienta? ¿Te resultó útil ver las contribuciones de los demás miembros del hogar?
+
+- ¿Sientes que el sistema te ayuda a comprender mejor la distribución de los gastos en el hogar?
+
+5. Interacción con el sistema:
+
+- ¿Cómo te sentiste al recibir las notificaciones o recordatorios sobre tus pagos? ¿Fueron útiles?
+
+- ¿Hubo algo que te gustaría haber recibido como notificación pero que no estaba disponible?
+
+6. Gráficos y reportes:
+
+- ¿Qué opinas de los gráficos o reportes que muestra la página? ¿Son claros y fáciles de entender?
+
+- ¿Te gustaría tener más detalles en los reportes, o consideras que la información mostrada es suficiente?
+
+7. Experiencia general:
+
+- ¿Te parece que esta herramienta puede ayudarte a gestionar los gastos del hogar de manera más equitativa?
+
+- ¿Usarías esta página de manera regular? ¿Qué haría que la usaras más seguido?
+
+
+**Para el Segmento 2: Representantes del hogar**
+
+1. Gestión de finanzas en el panel:
+
+- ¿Qué opinas del panel de control donde puedes gestionar los gastos y contribuciones? ¿Lo encuentras útil?
+
+- ¿Fue fácil aprobar o modificar los gastos? ¿Hubo algo que te resultó confuso en el proceso?
+
+2. Visibilidad y control:
+
+- ¿Te pareció que tienes suficiente visibilidad sobre las contribuciones de los miembros del hogar?
+
+- ¿Qué tan útil encuentras la capacidad de ver los reportes mensuales y las contribuciones de todos los miembros del hogar?
+
+3. Notificaciones y recordatorios:
+
+- ¿Te resultaron útiles las alertas y recordatorios automáticos? ¿Cómo mejorarías estas notificaciones?
+
+- ¿Sientes que el sistema te mantiene al tanto de lo que está sucediendo sin ser demasiado invasivo?
+
+4. Personalización y ajustes:
+
+- ¿Te gustaría poder personalizar más aspectos de la herramienta, como las categorías de gastos o las reglas de división?
+
+- ¿Fue fácil ajustar los porcentajes de contribución o cambiar cualquier configuración?
+
+5. Usabilidad y eficiencia:
+
+- ¿Te resultó fácil realizar tareas como agregar miembros al hogar o asignar contribuciones?
+
+- ¿Hubo algún momento en que pensaste que la plataforma podía hacer algo más para facilitar la gestión de los gastos?
+
+6. Confianza en el sistema:
+
+- ¿Confías en que el sistema divide los gastos de manera justa? ¿Te gustaría que el sistema explique de manera más clara cómo se calculan los porcentajes?
+
+- ¿Hay alguna parte del proceso donde te gustaría tener más detalles o explicaciones sobre cómo funcionan los cálculos?
+
+7. Satisfacción general y recomendaciones:
+
+- ¿Crees que esta plataforma facilitaría la convivencia en términos de finanzas? ¿Por qué?
+
+- ¿Qué cambios harías para mejorar la experiencia como representante del hogar?
+
+### 6.3.2 Registro de Entrevistas
+
+### SEGMENTO 1:
+
+**REGISTRO ENTREVISTA 1:**
+
+### 5.3.3. Evaluaciones según heurísticas
+
+ Durante el sprint 3 se evaluó:
+
+  **UX Heuristics & Principles Evaluation** <br>
+  Usability – Inclusive Design – Information Architecture
+  
+  - CARRERA: Ingeniería de Software
+  
+  - CURSO: Desarrollo de Aplicaciones Open Source
+  
+  - SECCIÓN: 4313
+  
+  - PROFESORES: Alberto Wilmer Sanchez Seña
+  
+  - AUDITOR: Jose Luis Martinez Valdivia
+  
+  - CLIENTE(S): Grupo SplitEasy
+    
+  **SITE o APP A EVALUAR:** <br>
+  SplitEasy – Gestión financiera equitativa del hogar
+
+  **TAREAS A EVALUAR:** <br>
+    El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+    
+    - Registro de usuario
+    
+    - Ingreso de ingresos personales
+    
+    - Registro de un gasto compartido
+    
+    - Asignación de aportes proporcionales
+    
+    - Visualización de reportes mensuales
+    
+    - Adjuntar comprobante de pago
+    
+    - Ver monto a pagar
+    
+    - Aprobar gastos por el representante
+    
+    No están incluidas en esta versión de la evaluación las siguientes tareas:
+    
+    - Gestión de metas de ahorro
+    
+    - Configuración de privacidad de datos
+    
+    - Foro comunitario
+    
+    - Exportación de datos en PDF
+    
+    - Visualización de simulaciones sin login
+
+  **ESCALA DE SEVERIDAD:**<br>
+  
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la siguiente versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo con alta prioridad.                                                                 |
+| 4     | Problema muy grave: error crítico que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                                                 |
+
+ **TABLA RESUMEN:**<br>
+ |  | Problema                                                                  | Escala de severidad | Heurística/Principio violado(a)                                |
+| - | ------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------- |
+| 1 | El sistema no alerta cuando no se adjunta comprobante de gasto            | 3                   | Usability: Prevención de errores                               |
+| 2 | No se puede volver fácilmente al inicio desde vistas internas             | 2                   | Usability: Libertad y control del usuario                      |
+| 3 | No hay contraste suficiente en elementos de alerta                        | 2                   | Inclusive Design: Asegurar percepción visual                   |
+| 4 | El botón “Ver simulación” en landing no tiene retroalimentación           | 1                   | Usability: Visibilidad del estado del sistema                  |
+| 5 | No se muestra información clara de los porcentajes al momento del cálculo | 3                   | Information Architecture: Is it understandable?                |
+| 6 | No hay validación clara si el ingreso personal está vacío                 | 3                   | Usability: Ayuda a los usuarios a reconocer y corregir errores |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+<br>
+PROBLEMA #1: El sistema no alerta cuando no se adjunta comprobante de gasto
+
+  - Severidad: 3
+  
+  - Heurística violada: Usability – Prevención de errores
+  
+  - Problema: Al registrar un gasto, si el usuario omite adjuntar un comprobante, el sistema guarda el registro sin advertencia. Esto contradice la regla de que todos los gastos deben ser verificables.
+  
+  - Recomendación: Incluir una validación obligatoria en el formulario para impedir guardar un gasto sin comprobante. Mostrar un mensaje claro que indique: “Debe adjuntar al menos un comprobante para continuar.”
+
+PROBLEMA #2: No se puede volver fácilmente al inicio desde vistas internas
+
+  - Severidad: 2
+  
+  - Heurística violada: Usability – Libertad y control del usuario
+  
+  - Problema: Al ingresar al panel de usuario o sección de reportes, no hay un botón visible que permita regresar al dashboard inicial o landing. Esto obliga al usuario a usar el botón del navegador.
+  
+  - Recomendación: Añadir un botón “Inicio” fijo en el menú lateral o superior para mejorar la navegación global.
+
+PROBLEMA #3: No hay contraste suficiente en elementos de alerta
+
+  - Severidad: 2
+  
+  - Heurística violada: Inclusive Design – Asegurar percepción visual
+  
+  - Problema: Las alertas de pagos pendientes se muestran con color celeste claro sobre fondo blanco, lo que dificulta su visibilidad para personas con visión reducida.
+  
+  - Recomendación: Aumentar el contraste cromático entre texto y fondo usando tonos más oscuros y fuentes bold para las notificaciones críticas.
+
+PROBLEMA #4: El botón “Ver simulación” en landing no tiene retroalimentación
+
+  - Severidad: 1
+  
+  - Heurística violada: Usability – Visibilidad del estado del sistema
+  
+  - Problema: El botón “Ver simulación” no proporciona feedback cuando se presiona. El usuario no sabe si está cargando la función.
+  
+  - Recomendación: Añadir una animación de carga o cambio de estado del botón para indicar que se está accediendo al recurso.
+
+PROBLEMA #5: No se muestra información clara de los porcentajes al momento del cálculo
+
+  - Severidad: 3
+  
+  - Heurística violada: Information Architecture – Is it understandable?
+  
+  - Problema: Al asignar los aportes proporcionales, el sistema muestra directamente los montos pero no los porcentajes usados para el cálculo. Esto puede generar desconfianza.
+  
+  - Recomendación: Mostrar debajo de cada monto el porcentaje aplicado al ingreso declarado del usuario.
+
+PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
+
+ - Severidad: 3
+
+  - Heurística violada: Usability – Ayuda a los usuarios a reconocer y corregir errores
+  
+  - Problema: Si el usuario olvida ingresar su salario o lo deja en blanco, el sistema no lo notifica claramente y simplemente registra “0”. Esto afecta los cálculos posteriores.
+  
+  - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
+
 
 # Capítulo VII: DevOps Practices
 
@@ -3374,96 +3777,438 @@ El objetivo de **Continuous Deployment (CD)** es automatizar el proceso de despl
 * **Invalidación de Caché:**
   Netlify gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
 
-
-  
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
 
 ### 8.1.1. As-Is Summary
 
-La aplicación permite la división de gastos en grupos, mostrando cuánto aporta cada persona y cuánto debe. Sin embargo, algunos usuarios experimentan dificultades al interpretar los saldos finales, especialmente cuando el número de integrantes o gastos es alto. La sincronización entre dispositivos es estable, pero presenta ligeros retrasos perceptibles para el usuario (1–2 segundos).  
-No existe pago directo desde la aplicación, lo que obliga a realizar el pago externamente y registrar manualmente el abono.
+# Rendimiento y funcionalidad general
 
-El soporte actual se limita a un apartado de ayuda estática, sin asistencia guiada. Esto genera fricción cuando usuarios nuevos desconocen cómo interpretar balances o resolver diferencias.
+La aplicación **SplitEasy** ofrece una plataforma digital para la **gestión de gastos compartidos** en hogares y grupos de convivencia, permitiendo visualizar aportes, deudas y balances de manera proporcional a los ingresos de cada miembro.  
+Actualmente, la sincronización entre dispositivos es estable, aunque presenta **ligeros retrasos (1–2 segundos)** perceptibles en la actualización de datos financieros.  
+En escenarios con múltiples integrantes o gastos elevados, algunos usuarios experimentan **dificultades al interpretar los saldos finales**, lo que afecta parcialmente la comprensión del balance general y la percepción de precisión en los cálculos.
 
-**Limitaciones actuales:**
-- Falta claridad sobre la **fórmula de reparto**.
-- Los pagos se realizan fuera de la app y deben registrarse manualmente.
-- No existe opción de **pago por QR integrado**.
-- No existe **chat de soporte** dentro de la aplicación.
+---
 
-**Oportunidades:**
-- Explicar visualmente **cómo se calcula** el reparto.
-- Enviar **recordatorios automáticos** para mejorar los pagos.
-- Integrar **pago directo vía QR Yape/Plin**.
-- Añadir **chatbot IA** contextual para soporte inmediato.
+# Procesos y experiencia del usuario
+
+El **flujo de registro e inicio de sesión** funciona correctamente; sin embargo, los **pagos deben realizarse externamente** y registrarse manualmente dentro de la aplicación, lo que incrementa el riesgo de errores humanos y reduce la eficiencia del proceso.  
+La interfaz mantiene coherencia entre secciones y facilita la navegación, pero aún **carece de recursos visuales explicativos** que ayuden a los usuarios a comprender cómo se calculan los repartos o cómo se actualizan los balances individuales.
+
+---
+
+# Soporte y comunicación
+
+El sistema cuenta únicamente con un **apartado de ayuda estática**, sin asistencia guiada ni interacción en tiempo real.  
+Esto provoca dificultades en usuarios nuevos, que a menudo desconocen cómo interpretar las proporciones de reparto o registrar pagos correctamente.  
+La **falta de soporte inmediato** puede generar confusión y disminuir la confianza en la precisión del sistema.
+
+---
+
+# Limitaciones actuales
+
+### 1. Falta de claridad sobre la fórmula de reparto
+Los usuarios no cuentan con una explicación visual o textual del cálculo proporcional utilizado por el sistema para distribuir los gastos.  
+Esto genera dudas sobre la **transparencia y precisión** del algoritmo, afectando la comprensión y confianza en los resultados mostrados.
+
+### 2. Pagos externos y registro manual
+Actualmente, los pagos se realizan fuera de la aplicación, obligando al usuario a registrar manualmente cada abono.  
+Este proceso puede ser confuso o propenso a errores, especialmente cuando existen **múltiples transacciones o integrantes** con diferentes aportes.
+
+### 3. Ausencia de pago por QR integrado
+No existe una opción de **pago directo mediante códigos QR** o integración con billeteras digitales (Yape o Plin).  
+Esto limita la inmediatez de las transacciones y obliga a los usuarios a **alternar entre distintas aplicaciones** para completar sus pagos.
+
+### 4. Falta de chat de soporte dentro de la aplicación
+La plataforma carece de un **canal de comunicación directa** con soporte o asistencia virtual.  
+Esto impide que los usuarios resuelvan dudas o incidencias en tiempo real, afectando la experiencia general y la **autonomía del usuario**.
+
+### 5. Soporte multiidioma
+Actualmente, la plataforma no dispone de **traducción a diferentes idiomas**.  
+Esta limitación restringe el acceso a usuarios que solo manejan el idioma base, representando un obstáculo para la **expansión internacional** o para comunidades multilingües.
+
+### 6. Modo oscuro
+La interfaz no cuenta con la opción de **modo oscuro**, una funcionalidad cada vez más solicitada por los usuarios modernos.  
+Su ausencia puede generar **fatiga visual** en entornos con poca luz y limita la personalización de la experiencia de uso.
+
+---
+
+# Oportunidades
+
+### ✅ Visualización del reparto proporcional
+Implementar **recursos visuales o interactivos** que muestren cómo se calcula el reparto de gastos entre los miembros del hogar, fortaleciendo la **transparencia y comprensión** del sistema.
+
+### 🔔 Recordatorios automáticos de pago
+Desarrollar **notificaciones o alertas programadas** que recuerden a los usuarios los pagos pendientes, mejorando la puntualidad y reduciendo los olvidos o retrasos en los aportes.
+
+### 💳 Integración de pagos directos mediante QR (Yape/Plin)
+Incorporar opciones de **pago rápido dentro de la aplicación** para facilitar las transacciones sin salir del entorno digital, optimizando la **eficiencia y trazabilidad** de los abonos.
+
+### 🤖 Chatbot con IA contextual
+Añadir un **asistente virtual basado en inteligencia artificial** que proporcione soporte inmediato, guíe al usuario durante las operaciones y responda consultas sobre los cálculos o funcionalidades de la app.
+
+### 🌐 Soporte multiidioma (i18n)
+Implementar un sistema de **internacionalización** que permita a los usuarios cambiar el idioma de la interfaz, mejorando la **accesibilidad global** y ampliando la base de usuarios.
+
+### 🌙 Modo oscuro/claro intercambiable
+Desarrollar un **modo oscuro configurable** que mejore la comodidad visual y ofrezca una experiencia más moderna y personalizable.
 
 ---
 
 ### 8.1.2. Raw Material
 
 
-#### Assumptions
-1. Los usuarios no comprenden la **fórmula exacta** usada para dividir los gastos, lo cual genera **desconfianza** en los montos.
-2. Los usuarios **olvidan pagar** aunque tengan la intención de hacerlo.
-3. La mayoría de pagos entre usuarios se realiza mediante **Yape/Plin**.
-4. Los usuarios prefieren **resolver dudas dentro de la app** antes que buscar tutoriales externos.
-5. La **sincronización lenta** reduce la percepción de confiabilidad.
+## 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-#### Knowledge Gaps
-1. No sabemos **qué parte de la fórmula** de reparto causa mayor confusión.
-2. No sabemos **cuál es el momento adecuado** o frecuencia ideal para enviar recordatorios.
-3. No sabemos si los usuarios **prefieren pago por QR** o transferencia directa manual.
-4. No sabemos cuáles son **las dudas más repetidas** durante el uso de la app.
-5. No sabemos cuál es el **tiempo de sincronización máximo tolerado** antes de percibirse como “lento”.
+### **Assumptions**
 
-#### Ideas
-1. **Sección explicativa:** “¿Cómo se calculó mi monto?” con fórmula + ejemplo real.
-2. **Recordatorios automáticos** basados en tiempo y estado de deuda.
-3. **Botón “Pagar con QR”** vinculado a Yape/Plin hacia el representante del grupo.
-4. **Chatbot IA** contextual que responda: “¿Cuánto debo?”, “¿Cómo se calculó?”, “¿Quién me debe?”
-5. **Optimización de sincronización** para reducir el retraso percibido.
+#### 🧮 Falta de comprensión del reparto proporcional
+Se asume que muchos usuarios **no comprenden la fórmula exacta** utilizada para dividir los gastos entre los miembros del grupo, lo cual genera **desconfianza en los montos mostrados** y puede provocar dudas sobre la **equidad del sistema**.
+
+#### 💸 Olvido de pagos pendientes
+Se asume que los usuarios **olvidan realizar pagos** incluso teniendo la intención de hacerlo, debido a la **falta de recordatorios automáticos o notificaciones personalizadas**.
+
+#### 💳 Predominio de métodos externos (Yape/Plin)
+La mayoría de las transacciones entre usuarios se realiza mediante **Yape o Plin**, lo que sugiere que una **integración directa con estas plataformas** sería bien recibida y **reduciría la fricción operativa**.
+
+#### 💬 Preferencia por asistencia interna
+Se asume que los usuarios **prefieren resolver sus dudas dentro de la app**, sin necesidad de buscar tutoriales externos o contactar soporte por otros canales.
+
+#### ⚙️ Sincronización lenta y percepción negativa
+Se asume que una **sincronización superior a 2 segundos** reduce la **percepción de confiabilidad y fluidez** del sistema, especialmente en operaciones de actualización de balances.
+
+#### 📊 Demanda de soporte visual y explicativo
+Los usuarios valoran las **interfaces con feedback visual inmediato** y explicaciones contextuales, lo que **mejora su comprensión** sobre los cálculos y operaciones.
+
+#### 🌙 Interés en personalización y accesibilidad
+Se asume que una parte de los usuarios **preferiría contar con modo oscuro** para mejorar la comodidad visual y que algunos podrían beneficiarse de **soporte multiidioma**, especialmente en entornos colaborativos con diferentes nacionalidades.
+
+
+### Knowledge Gaps
+
+- Desconocimiento de los puntos de confusión en la fórmula de reparto
+No se sabe exactamente qué parte de la fórmula genera mayor confusión (porcentaje, redondeo, proporcionalidad, o distribución de gastos comunes).
+
+- Frecuencia óptima de recordatorios de pago
+Falta información sobre cuándo y con qué frecuencia deben enviarse los recordatorios automáticos para maximizar su efectividad sin resultar intrusivos.
+
+- Preferencias de pago de los usuarios
+No se cuenta con datos suficientes para determinar si los usuarios prefieren pago mediante QR directo o transferencia manual tradicional dentro de sus grupos.
+
+- Principales dudas de los usuarios
+Se desconoce cuáles son las consultas más frecuentes que los usuarios realizan en relación al uso de la aplicación, los cálculos o el manejo de los pagos.
+
+- Tiempo máximo tolerado de sincronización
+No se tiene información precisa sobre cuánto tiempo de espera considera el usuario como aceptable antes de percibir que la aplicación es “lenta”.
+
+- Demanda de soporte multiidioma y personalización visual
+No se sabe qué porcentaje de los usuarios potenciales necesitaría traducciones a otros idiomas ni cuántos preferirían el modo oscuro como configuración predeterminada.
+
+### **Ideas**
+
+- **Sección explicativa “¿Cómo se calculó mi monto?”**
+Incorporar una pantalla o modal interactivo que muestre la fórmula del reparto con ejemplos reales, explicando el cálculo paso a paso para reforzar la transparencia.
+
+- **Recordatorios automáticos inteligentes**
+Implementar un sistema de notificaciones automáticas basado en fechas límite y estado de deuda, permitiendo que los usuarios reciban alertas antes del vencimiento.
+
+- **Pagos rápidos mediante QR (Yape/Plin)**
+Añadir un botón de pago directo por QR vinculado a Yape o Plin, que simplifique el proceso y registre automáticamente la transacción dentro de la app.
+
+- **Chatbot con IA contextual**
+Desarrollar un chatbot inteligente capaz de responder preguntas como “¿Cuánto debo?”, “¿Cómo se calculó mi parte?” o “¿Quién me debe?”, brindando soporte inmediato sin intervención humana.
+
+- **Optimización de sincronización**
+Reducir los tiempos de sincronización a menos de 1 segundo mediante caché local y mejoras en las llamadas al backend, mejorando la fluidez percibida.
+
+-  **Implementación de modo oscuro y soporte multiidioma**
+Desarrollar un modo oscuro adaptable a la preferencia del usuario y traducciones dinámicas (i18n) para ampliar el alcance de la aplicación a nuevos mercados.
 
 #### Claims
-1. Explicar la fórmula de reparto **aumentará la confianza** en los montos finales.
-2. Recordatorios automáticos **incrementarán la tasa de pagos oportunos**.
-3. Pagos por QR **reducirán fricción** y pasos manuales.
-4. Un chatbot IA **reducirá dudas y solicitudes de soporte**.
-5. Sincronización más rápida **mejorará la percepción de confiabilidad**.
+- **Transparencia y confianza**
+Explicar visualmente la fórmula de reparto aumentará la confianza en los montos finales y reducirá las consultas al soporte.
+
+- **Eficiencia en pagos**
+La implementación de pagos por QR reducirá pasos manuales y errores, mejorando la tasa de cumplimiento y la trazabilidad de los abonos.
+
+- **Mayor puntualidad**
+Los recordatorios automáticos incrementarán la tasa de pagos oportunos y reducirán los atrasos en los grupos.
+
+- **Asistencia inteligente**
+Un chatbot IA contextual disminuirá las solicitudes de soporte humano y mejorará la autonomía de los usuarios, brindando respuestas inmediatas dentro de la app.
+
+- **Mejor percepción de rendimiento**
+Una sincronización más rápida aumentará la sensación de confiabilidad y fluidez, fortaleciendo la experiencia del usuario.
+
+- **Accesibilidad ampliada**
+La incorporación de modo oscuro y soporte multiidioma aumentará la satisfacción del usuario y permitirá llegar a audiencias internacionales.
 
 ---
 
 ### 8.1.3. Experiment-Ready Questions (con scoring)
 
-| Pregunta | Confianza | Riesgo | Impacto | Interés | Total |
-|---|---|---|---|---|---|
-| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?** | 7 | 3 | 9 | 9 | **28** |
-| **¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?** | 6 | 4 | 9 | 8 | **27** |
-| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?** | 5 | 5 | 9 | 9 | **28** |
-| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?** | 7 | 4 | 9 | 9 | **29** |
-| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?** | 6 | 3 | 7 | 7 | **23** |
+| **Pregunta** | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Total Score** |
+|---------------|---------------|-------------|-------------|--------------|----------------|
+| ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados? | **7** – La funcionalidad se basa en una necesidad directamente observada en usuarios. Implementación sencilla mediante una vista o modal informativo con ejemplos reales. | **3** – Riesgo medio por necesidad de mantener la consistencia con futuras actualizaciones del algoritmo de cálculo. | **9** – Alta mejora en transparencia y comprensión, lo que incrementa la confianza del usuario en los resultados. | **9** – Muy alto interés del equipo y los usuarios al abordar la principal fuente de confusión. | **28** |
+| ¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos? | **6** – Tecnología madura, implementable con cron jobs o notificaciones programadas. | **4** – Riesgo medio-alto por la posibilidad de saturación o duplicación de alertas. | **9** – Mejora directamente el cumplimiento de pagos y la estabilidad de los grupos. | **8** – Alto interés funcional por resolver un problema frecuente de impago. | **27** |
+| ¿La integración de pagos por QR (Yape/Plin) aumentará la retención de usuarios en 30%? | **5** – Existen APIs públicas de pago, aunque requieren integración segura y pruebas extensivas. | **5** – Riesgo alto por dependencia de servicios externos y manejo de datos financieros. | **9** – Impacto significativo al eliminar pasos manuales y mejorar la fluidez del proceso de pago. | **9** – Muy alto interés tanto de usuarios como del equipo técnico. | **28** |
+| ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte? | **7** – Herramientas de NLP consolidadas (Dialogflow, Rasa, OpenAI API) facilitan su integración. | **4** – Riesgo medio-alto por posibles respuestas imprecisas o entrenamiento insuficiente del modelo. | **9** – Potencial transformador al ofrecer soporte 24/7, reduciendo carga operativa y mejorando satisfacción. | **9** – Alto interés por innovación y mejora de la atención al usuario. | **29** |
+| ¿Optimizar la sincronización a menos de 0.5 s aumentará la percepción de confiabilidad? | **6** – Existen técnicas consolidadas de optimización y uso de caché local. | **3** – Bajo riesgo técnico, requiere ajustes de comunicación frontend-backend. | **7** – Mejora perceptual del rendimiento, fortaleciendo la confianza en la aplicación. | **7** – Interés técnico moderado-alto por la optimización de rendimiento. | **23** |
+| ¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales? | **6** – Ambas funcionalidades son técnicamente estándar (i18n y dark mode CSS variables). | **3** – Riesgo medio-bajo; requiere mantenimiento de archivos de traducción y actualización de estilos. | **8** – Mejora notable en accesibilidad, comodidad visual y expansión internacional del producto. | **9** – Muy alto interés del equipo por ampliar el alcance global y mejorar la personalización. | **26** |
 
 
 ### 8.1.4. Question Backlog (mismo orden, sin reordenar)
 
-| Prioridad | Pregunta |
-|---|---|
-| **9** | ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados? |
-| **8** | ¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos? |
-| **9** | ¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%? |
-| **10** | ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte? |
-| **6** | ¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad? |
+| **Prioridad** | **Pregunta**                                                                                                                                     |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **9**         | ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte, mejorando la satisfacción del usuario al ofrecer asistencia 24/7?                |
+| **8**         | ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?                               |
+| **8**         | ¿La integración de pagos por QR (Yape/Plin) aumentará la retención de usuarios en 30%, reduciendo fricción y pasos manuales?                     |
+| **7**         | ¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos, mejorando la puntualidad de pagos?         |
+| **6**         | ¿Optimizar la sincronización a menos de 0.5 segundos aumentará la percepción de confiabilidad del sistema entre los usuarios?                    |
+| **5**         | ¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales? |
+
 
 
 ### 8.1.5. Experiment Cards (mismo orden exactamente)
 
-| Pregunta | Qué se hará | Por qué | Hipótesis | Métrica de éxito |
-|---|---|---|---|---|
-| ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados? | Añadir pantalla “¿Cómo se calculó?” con fórmula + ejemplo real del grupo. | La desconfianza proviene de no entender el cálculo base. | *Si se muestra claramente la fórmula, la confianza aumentará ~40%.* | Encuesta interna antes y después + reducción de mensajes preguntando por montos. |
-| ¿Recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos? | Enviar recordatorios automáticos basados en tiempo y estados de deuda. | El problema principal es el olvido, no la falta de intención. | *Si recordamos automáticamente, el cierre aumentará ~35%.* | Variación en pagos completados antes y después de activar recordatorios. |
-| ¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%? | Añadir botón “Pagar con QR” hacia el representante del grupo. | Reduce fricción y evita salir a otras apps. | *Si se habilita pago QR, la retención aumentará ~30%.* | % de pagos ejecutados por QR vs comprobantes subidos manualmente. |
-| ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte? | Integrar chatbot con respuestas guiadas dentro del flujo de gastos. | El usuario necesita soporte contextual inmediato. | *Si se integra chatbot IA, las dudas bajarán ~50%.* | Cantidad de preguntas repetidas y volumen de soporte antes y después. |
-| ¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad? | Ajustar eventos de actualización y ofrecer feedback visual inmediato. | Retrasos generan sensación de error aunque el sistema funcione. | *Si sincroniza en <0.5s, la percepción de confiabilidad aumentará.* | Encuesta de percepción + medición de tiempos reales. |
+| **Pregunta**                                                                                                                                         | **Qué se hará**                                                                                                                                                              | **Por qué**                                                                                                                                                       | **Hipótesis**                                                                                                                                                                                                         | **Métrica de éxito**                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?**                               | Añadir una pantalla o modal “¿Cómo se calculó mi monto?” que muestre la fórmula utilizada, un ejemplo real del grupo y una breve explicación paso a paso.                    | La desconfianza de los usuarios proviene de no entender la lógica del cálculo proporcional. Esto genera dudas sobre la precisión del sistema.                     | Si se muestra claramente la fórmula y un ejemplo real, la confianza en los montos aumentará aproximadamente **40%**, porque los usuarios comprenderán mejor el proceso.                                               | Encuesta interna antes y después de la implementación + reducción del número de mensajes preguntando por montos o discrepancias.  |
+| **¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?**                                            | Implementar notificaciones automáticas basadas en tiempo y estado de deuda, con recordatorios configurables para el usuario.                                                 | El principal motivo de impago es el olvido, no la falta de voluntad. Recordar de forma oportuna puede aumentar el cumplimiento.                                   | Si se envían recordatorios automáticos de pago, la tasa de cierre de deudas aumentará en aproximadamente **35%**, porque se reducirá el número de olvidos.                                                            | Comparar el porcentaje de pagos completados antes y después de activar los recordatorios + tasa de recurrencia en grupos activos. |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?**                                                                       | Añadir un botón “Pagar con QR” vinculado al representante del grupo, registrando automáticamente el abono dentro de la app.                                                  | Actualmente los usuarios deben salir de la aplicación para pagar, lo que interrumpe el flujo y genera fricción.                                                   | Si se habilita el pago por QR integrado, la retención de usuarios aumentará aproximadamente **30%**, porque el proceso será más directo y conveniente.                                                                | Porcentaje de pagos ejecutados por QR frente a comprobantes manuales + tasa de retención mensual de usuarios activos.             |
+| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?**                                                                                  | Integrar un chatbot inteligente con respuestas guiadas dentro del flujo de gastos y en la sección de ayuda.                                                                  | Los usuarios necesitan soporte contextual inmediato para resolver dudas sin salir de la aplicación.                                                               | Si se implementa un chatbot IA contextual, las dudas recurrentes y solicitudes de soporte disminuirán en **50%**, porque los usuarios obtendrán respuestas instantáneas.                                              | Comparar el volumen de mensajes de soporte antes y después + análisis de reducción de consultas repetitivas.                      |
+| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | Ajustar los eventos de actualización del frontend y backend, agregar caché local y feedback visual inmediato en operaciones.                                                 | Retrasos en la sincronización generan sensación de error, aunque el sistema funcione correctamente.                                                               | Si se optimiza la sincronización a menos de **0.5 segundos**, la percepción de confiabilidad del sistema aumentará significativamente.                                                                                | Encuesta de percepción del usuario + medición real de tiempos de actualización en dispositivos.                                   |
+| **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Implementar un **theme switcher** que permita alternar entre modo claro y oscuro, y un sistema de **internacionalización (i18n)** con soporte inicial para español e inglés. | Muchos usuarios utilizan la aplicación en condiciones de poca luz o provienen de distintos países. Estas funciones mejoran la accesibilidad y amplían el mercado. | Si se implementa modo oscuro y soporte multiidioma, la satisfacción general del usuario aumentará en **25%** y el tráfico internacional en **20%**, porque se ofrecerá una experiencia más personalizada e inclusiva. | Encuesta de satisfacción post-lanzamiento + porcentaje de nuevos registros internacionales + métricas de uso nocturno.            |
+
+## 8.2. Experiment Design
+
+En esta sección, se presenta el diseño detallado de los experimentos desarrollados para validar las hipótesis clave de SplitEasy.
+Estos experimentos tienen como objetivo evaluar de manera empírica el impacto de las nuevas funcionalidades propuestas —como la explicación visual de la fórmula de reparto, los recordatorios automáticos, la integración de pagos por QR, el chatbot con IA, la optimización de sincronización y la incorporación de modo oscuro y soporte multiidioma— en la confianza, retención y satisfacción general de los usuarios.
+
+Cada experimento ha sido diseñado para recolectar datos medibles que permitan tomar decisiones basadas en evidencia, optimizando la experiencia del usuario y garantizando la escalabilidad funcional de la aplicación.
+El proceso de diseño contempla tanto pruebas controladas con usuarios reales, como análisis comparativos antes y después de la implementación para determinar el grado de mejora alcanzado en cada área crítica del sistema.
+
+### 8.2.1. Hypotheses
+
+Las siguientes hipótesis se han formulado con base en el análisis de los resultados del Lean UX Canvas de SplitEasy y en las necesidades identificadas en los segmentos objetivo: grupos de convivencia y usuarios que gestionan gastos compartidos.
+Cada hipótesis aborda un aspecto clave de la propuesta de valor, enfocado en transparencia, automatización, conveniencia, soporte inteligente, rendimiento y accesibilidad.
+
+| **Question**                                                                                                                                         | **Belief**                                                                                                                 | **Hypothesis**                                                                                                                                                                                                       | **Null Hypothesis**                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?**                               | Los usuarios confían más en los sistemas cuando entienden cómo se calculan sus resultados financieros.                     | Si se implementa una pantalla explicativa con la fórmula y ejemplos reales, entonces la confianza del usuario en los montos aumentará en un **40%**, porque comprenderá la lógica del cálculo.                       | La explicación de la fórmula no generará un cambio significativo en la confianza del usuario respecto a los montos mostrados.                |
+| **¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?**                                            | La falta de recordatorios es la principal causa de pagos atrasados; la notificación automática fomenta el cumplimiento.    | Si se implementan recordatorios automáticos basados en tiempo y estado de deuda, entonces la tasa de cierre de deudas aumentará en un **35%**, al reducir el olvido de pagos.                                        | Los recordatorios automáticos no producirán una mejora significativa en la tasa de cierre de deudas.                                         |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?**                                                                       | Los pagos integrados dentro de la app reducen fricción y fomentan el uso recurrente.                                       | Si se habilita el pago directo mediante QR, entonces la retención de usuarios aumentará en un **30%**, porque el proceso será más simple y fluido.                                                                   | La integración de pagos por QR no afectará significativamente la retención ni la frecuencia de uso.                                          |
+| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?**                                                                                  | Un asistente virtual con IA puede resolver la mayoría de consultas básicas de los usuarios sin intervención humana.        | Si se implementa un chatbot IA contextual, entonces las dudas y mensajes de soporte disminuirán en un **50%**, ya que los usuarios obtendrán respuestas inmediatas y personalizadas.                                 | El chatbot IA no reducirá significativamente el volumen de dudas o solicitudes de soporte.                                                   |
+| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | Los usuarios asocian la rapidez de respuesta con estabilidad y confianza del sistema.                                      | Si se optimiza la sincronización a menos de **0.5 segundos**, entonces la percepción de confiabilidad aumentará de forma notable, mejorando la experiencia general.                                                  | La optimización de sincronización no tendrá un efecto significativo en la percepción de confiabilidad del usuario.                           |
+| **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Mejorar la accesibilidad visual y eliminar barreras idiomáticas aumenta la satisfacción y alcance global de la aplicación. | Si se implementa el modo oscuro junto con soporte multiidioma, entonces la satisfacción del usuario aumentará en un **25%** y los registros internacionales en un **20%**, al ofrecer una experiencia más inclusiva. | La incorporación de modo oscuro y soporte multiidioma no producirá cambios significativos en la satisfacción ni en el alcance internacional. |
+
+### 8.2.2. Measures
+
+Para cada hipótesis formulada, se definen medidas específicas que permitirán evaluar objetivamente los resultados de los experimentos y validar el impacto real de cada funcionalidad en la experiencia del usuario, confianza, retención y rendimiento del sistema.
+Las métricas fueron seleccionadas por su relevancia, trazabilidad y posibilidad de medición a través de herramientas analíticas y encuestas in-app.
+
+| **Question**                                                                                                                                         | **Measure**                                                                                                                                                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?**                               | Variación en la puntuación de confianza (escala 1–10) obtenida mediante encuestas antes y después de la implementación; reducción del número de mensajes o tickets relacionados con dudas sobre montos; porcentaje de usuarios que interactúan con la sección “¿Cómo se calculó?”. |
+| **¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?**                                            | Porcentaje de deudas cerradas dentro del periodo establecido antes y después de activar recordatorios automáticos; tasa de usuarios que completan pagos sin intervención manual; variación en tiempos promedio de cierre de deuda.                                                 |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?**                                                                       | Tasa de retención mensual comparando usuarios con acceso a pago QR vs. sin acceso; porcentaje de pagos realizados vía QR sobre el total de transacciones; tiempo promedio desde generación de deuda hasta pago completado.                                                         |
+| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?**                                                                                  | Número total de consultas recibidas por soporte antes y después de la integración del chatbot; tasa de resolución de dudas en primera interacción; tiempo promedio de respuesta al usuario dentro del flujo de chat.                                                               |
+| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | Tiempo promedio de sincronización entre eventos financieros medido en milisegundos (APM o logs); puntuación de percepción de confiabilidad (encuesta post-experimento); porcentaje de usuarios que califican la app como “fluida” o “confiable”.                                   |
+| **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Nivel de satisfacción del usuario (escala 1–10) antes y después de activar modo oscuro o soporte multiidioma; aumento porcentual de registros provenientes de IPs internacionales; tiempo promedio de sesión de usuarios que usan modo oscuro.                                     |
+
+### 8.2.3. Conditions
+
+Para cada experimento, se establecen condiciones experimentales y de control claramente diferenciadas, con el fin de obtener resultados confiables que permitan determinar la efectividad de las mejoras propuestas.
+Estas condiciones buscan minimizar la influencia de variables externas y aislar el efecto directo de cada funcionalidad sobre el comportamiento y satisfacción de los usuarios.
+
+| **Question**                                                                                                                                         | **Experimental Condition**                                                                                     | **Control Condition**                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?**                               | Los usuarios acceden a la nueva sección “¿Cómo se calculó?” con explicación visual y ejemplo real del cálculo. | Los usuarios utilizan la versión actual sin sección explicativa ni detalle sobre el cálculo de reparto. |
+| **¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos?**                                            | Se habilitan recordatorios automáticos configurados por tiempo y estado de deuda.                              | Los usuarios continúan gestionando pagos manualmente sin recibir recordatorios.                         |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30%?**                                                                       | Los usuarios pueden pagar directamente dentro de la app usando el botón “Pagar con QR”.                        | Los usuarios deben salir de la app para realizar pagos manualmente y registrar comprobantes.            |
+| **¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte?**                                                                                  | Se habilita el chatbot IA contextual que responde preguntas como “¿Cuánto debo?” o “¿Cómo se calculó?”.        | Los usuarios solo disponen de la sección de ayuda estática sin interacción en tiempo real.              |
+| **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | El sistema actualiza los datos en menos de 0.5 segundos, mostrando feedback visual inmediato.                  | El sistema mantiene el tiempo de sincronización actual (1–2 segundos) sin feedback visible.             |
+| **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Usuarios tienen acceso al modo oscuro y pueden cambiar el idioma entre español e inglés desde configuración.   | Usuarios acceden solo a la versión monolingüe (español) y con modo claro por defecto.                   |
+
+### 8.2.4. Scale Calculations and Decisions
+
+Este enfoque se basa en métricas cuantificables que permiten evaluar el grado de cumplimiento de las hipótesis propuestas.
+Cada hipótesis está asociada a una Scale Calculation (definición de mejora esperada), una Decision (acción o cambio a realizar), y un conjunto de factores de éxito clasificados como:
+
+- Desfavorable, Aceptable, Ideal o Excelente, dependiendo del resultado medido.
+
+| **Question**                                                                                                                                         | **Scale Calculation**                                                                                                                                                                                                                                 | **Decision**                                                                                                                     | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------- | --------- | ------------- |
+| **¿Una explicación clara de la fórmula de reparto aumentará en 40 % la confianza del usuario en los montos adeudados?**                              | Creemos que al añadir una sección explicativa con fórmula y ejemplo real, la confianza del usuario aumentará al menos en un **40 %**. <br>• Excelente: ≥ 50 % <br>• Ideal: 40–49 % <br>• Aceptable: 25–39 % <br>• Desfavorable: < 25 %                | Implementar vista “¿Cómo se calculó?” con visualización interactiva de cálculos y desglose de aportes.                           | X                |               |           |               |
+| **¿Los recordatorios automáticos incrementarán en 35 % la tasa de cierre de deudas dentro de los grupos?**                                           | Creemos que los recordatorios automáticos aumentarán el cierre de deudas en un **35 %** dentro de cada ciclo. <br>• Excelente: ≥ 45 % <br>• Ideal: 35–44 % <br>• Aceptable: 20–34 % <br>• Desfavorable: < 20 %                                        | Programar notificaciones automáticas por estado de deuda y vencimiento de fecha límite.                                          |                  | X             |           |               |
+| **¿La integración de pagos por QR (Yape/Plin) aumentará la retención en 30 %?**                                                                      | Creemos que al integrar pagos por QR reduciremos fricción y aumentaremos la retención mensual en un **30 %**. <br>• Excelente: ≥ 40 % <br>• Ideal: 30–39 % <br>• Aceptable: 15–29 % <br>• Desfavorable: < 15 %                                        | Añadir botón “Pagar con QR” vinculado al representante del grupo, registrando la transacción automáticamente.                    |                  |               | X         |               |
+| **¿Un chatbot IA reducirá en 50 % las dudas y mensajes de soporte?**                                                                                 | Creemos que un chatbot IA reducirá las dudas y consultas repetitivas en un **50 %**. <br>• Excelente: ≥ 60 % <br>• Ideal: 50–59 % <br>• Aceptable: 30–49 % <br>• Desfavorable: < 30 %                                                                 | Integrar chatbot IA contextual que responda preguntas frecuentes dentro del flujo de uso (montos, pagos, deudas).                |                  |               |           | X             |
+| **¿Optimizar la sincronización a < 0.5 s aumentará la percepción de confiabilidad?**                                                                 | Creemos que al reducir el tiempo de sincronización a menos de **0.5 s**, los usuarios percibirán mayor fluidez y confiabilidad. <br>• Excelente: ≤ 0.3 s <br>• Ideal: 0.3–0.5 s <br>• Aceptable: 0.5–1 s <br>• Desfavorable: > 1 s                    | Ajustar eventos de actualización, aplicar feedback visual optimista y reducir latencia de comunicación entre cliente y servidor. |                  |               | X         |               |
+| **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Creemos que la incorporación de modo oscuro y soporte multiidioma aumentará la satisfacción global y registros internacionales en al menos **30 %**. <br>• Excelente: ≥ 40 % <br>• Ideal: 30–39 % <br>• Aceptable: 15–29 % <br>• Desfavorable: < 15 % | Implementar selector de idioma (ES/EN) y tema oscuro ajustable al sistema operativo del usuario.                                 |                  |               | X         |               |
+
+
+### 8.2.5. Methods Selection
+
+Para validar el **rendimiento**, la **usabilidad** y la **escalabilidad** de **SplitEasy**, se seleccionó un conjunto de herramientas que permiten realizar pruebas funcionales, de carga, de experiencia de usuario y de comportamiento real dentro de la aplicación. Estas herramientas fueron elegidas por su **confiabilidad**, **alcance analítico** y **facilidad de integración** con entornos web y móviles.
+
+| **Herramienta**      | **Precio**                         | **Capacidad de Análisis**                                                                                                                                                                | **Sencillez**                                               | **Ventajas**                                                                                                                                                                                                                                    |
+|----------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Google Analytics** | Plan gratuito con límites           | Seguimiento de sesiones, flujo de usuarios, tasas de retención y comportamiento en módulos clave (creación de grupos, registro de gastos, visualización de estadísticas).                | Interfaz intuitiva y dashboards configurables.               | Permite comprender el comportamiento real de los usuarios, medir la aceptación de nuevas funcionalidades y analizar el tiempo promedio de interacción dentro de SplitEasy.                                  |
+| **Lighthouse**       | Gratuito, CLI y extensión de Chrome | Auditoría automática de rendimiento, accesibilidad, buenas prácticas y SEO en cada vista de la aplicación.                                        | Reportes claros con puntuaciones de 0 a 100 y sugerencias de mejora. | Ofrece guías precisas para optimizar el tiempo de carga, la interactividad y la experiencia del usuario, especialmente en dispositivos móviles.                                                            |
+| **WebPageTest**      | Gratuito                           | Análisis detallado de tiempos de carga (TTFB, First Paint, Speed Index) en las vistas de Dashboard y Gastos compartidos.                          | Panel web sencillo; solo requiere configurar URL y ubicación. | Permite simular condiciones de red reales y comparar el rendimiento de SplitEasy desde diferentes ubicaciones geográficas.                                          |
+| **Selenium**         | Gratuito, código abierto            | Pruebas funcionales automatizadas de los principales flujos de usuario (inicio de sesión, creación de grupo, registro de gasto, cambio de idioma y modo oscuro). | Requiere scripting en JavaScript o Python, con scripts reutilizables. | Verifica que el frontend responda correctamente a interacciones críticas sin intervención manual, garantizando estabilidad tras cada despliegue.                    |
+| **Apache JMeter**    | Gratuito, código abierto            | Pruebas de carga y estrés del backend (endpoints de grupos, contribuciones y balance general).                                                     | Interfaz gráfica con plantillas y buena documentación.        | Evalúa la capacidad del sistema para soportar múltiples usuarios concurrentes y detectar cuellos de botella en la API de SplitEasy.                                 |
+
+Cada herramienta cubre un aspecto clave de la calidad del sistema:
+
+- **Google Analytics** y **Lighthouse** evalúan la percepción y experiencia real del usuario, midiendo métricas de rendimiento y accesibilidad.  
+- **WebPageTest** mide tiempos de carga y respuesta en distintos entornos y condiciones de red.  
+- **Selenium** garantiza la funcionalidad estable y sin errores en los flujos de usuario críticos.  
+- **JMeter** valida la escalabilidad y robustez del backend bajo escenarios de alta concurrencia.  
+
+Con esta selección, **SplitEasy** puede tomar decisiones informadas para optimizar su **rendimiento**, **accesibilidad** y **estabilidad** tanto en entornos de desarrollo como de producción, asegurando una **experiencia fluida y confiable** para todos los usuarios.
+
+### 8.2.6. 
+
+### 8.2.7. Web and Mobile Tracking Plan
+
+Para **SplitEasy**, el objetivo principal del plan de seguimiento web y móvil es **monitorear el impacto real** de las nuevas funcionalidades implementadas, asegurando que las mejoras de **experiencia, confianza y retención de usuarios** se validen con datos concretos.  
+A medida que la aplicación evolucione, este plan permitirá **tomar decisiones basadas en evidencia** sobre qué elementos optimizan la gestión colaborativa de gastos y cómo escalar dichas mejoras.
+
+---
+
+### 🧩 Etapas del Monitoreo
+
+---
+
+#### **1. Implementación Inicial**
+
+Durante esta fase, se realizará el **despliegue de las nuevas funcionalidades experimentales** y la **recopilación de datos de línea base** para establecer comparativas con la versión actual del sistema.
+
+##### **Recopilación de Datos**
+
+**Métricas de Uso:**
+- Frecuencia de apertura de grupos.  
+- Creación de gastos.  
+- Registro de pagos.  
+- Visitas al panel **“¿Cómo se calculó?”**.  
+- Duración promedio de sesión.  
+- Retención a **7 y 30 días**.
+
+**Interacciones de los Usuarios:**
+Se registrarán los clics e interacciones en nuevas características, tales como:
+- Visualización del desglose de cálculo de gastos.  
+- Envío y apertura de recordatorios automáticos.  
+- Uso del botón **“Pagar con QR” (Yape/Plin)**.  
+- Consultas respondidas por el **chatbot IA**.  
+- Cambio de idioma o activación del **modo oscuro**.
+
+**Feedback de Usuarios:**
+Encuestas dentro de la app medirán:
+- Nivel de comprensión de la fórmula de reparto (antes y después).  
+- Satisfacción con los recordatorios automáticos.  
+- Facilidad para realizar pagos desde la app.  
+- Eficacia percibida del chatbot y preferencia de idioma/interfaz.
+
+**Análisis Comparativo:**
+Los datos obtenidos durante esta fase se compararán con los **registros históricos** de SplitEasy previos a la implementación.  
+Esto permitirá identificar **mejoras en la confianza del usuario, frecuencia de pagos y retención**.
+
+---
+
+#### **2. Seguimiento Continuo**
+
+Una vez completada la fase inicial, se establecerá un proceso **continuo de monitoreo y ajuste**, utilizando herramientas analíticas integradas en la web y aplicación móvil.
+
+##### **Recopilación de Datos**
+
+**Métricas en Tiempo Real:**
+Herramientas como **Firebase Analytics** y **Mixpanel** permitirán monitorear:
+- Tiempo promedio de sincronización.  
+- Tiempos de respuesta de la app.  
+- Frecuencia de uso del chatbot IA.  
+- Activación de temas (oscuro/claro) y selección de idioma.
+
+**Segmentación de Usuarios:**
+Los datos se segmentarán según:
+- Tipo de usuario (**representante / miembro**).  
+- Nivel de actividad (**frecuente / ocasional**).  
+- Idioma y dispositivo utilizado (**móvil / web**).
+
+**Tasa de Retención y Engagement:**
+- Retención de usuarios activos tras **7, 14 y 30 días**.  
+- Cantidad de **interacciones promedio por sesión**.  
+Esto permitirá evaluar si las nuevas funciones (recordatorios, pagos QR y chatbot) generan un **uso sostenido**.
+
+---
+
+### 📊 Eventos Principales a Rastrear
+
+| **Tipo de Usuario** | **Evento** | **Propiedades a Capturar** |
+|----------------------|------------|-----------------------------|
+| Representante del grupo | Envío de recordatorio automático | Fecha de emisión, destinatarios, tasa de apertura |
+| Miembro del grupo | Confirmación de pago por QR | Monto, método de pago, tiempo desde recordatorio |
+| Todos los usuarios | Visualización de la fórmula de reparto | Tiempo en pantalla, clics en explicación, nivel de interacción |
+| Todos los usuarios | Uso del chatbot IA | Tipo de consulta, intención detectada, tiempo de resolución |
+| Todos los usuarios | Cambio de idioma / activación del modo oscuro | Idioma seleccionado, preferencia de tema, duración de sesión |
+| Todos los usuarios | Sincronización de datos | Latencia promedio, fallos detectados, frecuencia por sesión |
+
+---
+
+### 🧠 Evaluación y Ajustes
+
+**Informes Periódicos:**
+- Se elaborarán **reportes mensuales** con indicadores de rendimiento, satisfacción del usuario y métricas de interacción.  
+- Estos informes incluirán **recomendaciones de mejoras** y análisis comparativo de cada funcionalidad experimental.
+
+**Iteración Basada en Datos:**
+Las decisiones de diseño y desarrollo se basarán en los **resultados recolectados**.  
+Por ejemplo:
+- Si el **chatbot reduce consultas en más del 40%**, se expandirá su alcance a más flujos.  
+- Si el **modo oscuro mejora el tiempo de sesión**, se establecerá como configuración **predeterminada nocturna**.
+
+## 8.3 Experimentation
+
+### 8.3.1. To-Be User Stories
+
+| **User Story ID** | **Título**                                                 | **Descripción**                                                                                                                                    | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                 | **Relacionado con (Epic ID)** |
+| ----------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **US-TB-01**      | **Explicación visual de la fórmula de reparto**            | Como usuario, quiero ver una explicación clara y visual de cómo se calcula mi monto, para confiar plenamente en los saldos que muestra la app.     | **Escenario 1: Visualización de fórmula explicativa**<br>Given que el usuario está en el resumen de gastos<br>When selecciona la opción “¿Cómo se calculó?”<br>Then se muestra una pantalla con el desglose visual y la fórmula aplicada.<br><br>**Escenario 2: Comprensión de cálculo**<br>Given que el usuario observa el desglose<br>When revisa los montos<br>Then puede ver de qué miembro proviene cada aporte y porcentaje aplicado. | E01                           |
+| **US-TB-02**      | **Recordatorios automáticos de deuda**                     | Como usuario, quiero recibir recordatorios automáticos de mis deudas pendientes, para no olvidar realizar mis pagos a tiempo.                      | **Escenario 1: Envío automático de recordatorios**<br>Given que el usuario tiene una deuda pendiente<br>When se cumple la fecha límite<br>Then el sistema envía un recordatorio automático.<br><br>**Escenario 2: Personalización de frecuencia**<br>Given que el usuario prefiere recordatorios semanales<br>When cambia la configuración<br>Then el sistema ajusta la frecuencia de los avisos.                                           | E01                           |
+| **US-TB-03**      | **Pagos por QR (Yape/Plin)**                               | Como usuario, quiero poder pagar directamente con QR desde la app, para agilizar mis transacciones sin tener que registrar los abonos manualmente. | **Escenario 1: Pago directo**<br>Given que el usuario selecciona un gasto<br>When presiona “Pagar con QR”<br>Then el sistema abre el QR del representante y registra el pago automáticamente.<br><br>**Escenario 2: Confirmación automática**<br>Given que se detecta el pago QR<br>When el sistema lo valida<br>Then actualiza el balance del grupo en tiempo real.                                                                        | E03                           |
+| **US-TB-04**      | **Chatbot de asistencia inteligente**                      | Como usuario, quiero contar con un chatbot IA dentro de la aplicación, para resolver dudas frecuentes sin tener que contactar soporte.             | **Escenario 1: Asistencia contextual**<br>Given que el usuario pregunta “¿Cuánto debo?” o “¿Cómo se calculó?”<br>When interactúa con el chatbot<br>Then recibe una respuesta inmediata con datos de su grupo.<br><br>**Escenario 2: Soporte guiado**<br>Given que el usuario necesita ayuda<br>When consulta al chatbot<br>Then el sistema le ofrece opciones relevantes (saldo, pagos, estadísticas).                                      | E05                           |
+| **US-TB-05**      | **Optimización de sincronización de datos**                | Como usuario, quiero que los cambios en los gastos se sincronicen automáticamente entre dispositivos, para evitar errores o datos desactualizados. | **Escenario 1: Sincronización en tiempo real**<br>Given que varios miembros editan gastos<br>When uno de ellos guarda cambios<br>Then todos los dispositivos reflejan la actualización instantáneamente.<br><br>**Escenario 2: Sincronización offline**<br>Given que un usuario estuvo sin conexión<br>When se reconecta<br>Then los cambios pendientes se aplican sin pérdida de información.                                              | E01                           |
+| **US-TB-06**      | **Modo oscuro / claro adaptable**                          | Como usuario, quiero alternar entre modo claro y oscuro, para adaptar la app a mis preferencias visuales y reducir fatiga ocular.                  | **Escenario 1: Cambio inmediato**<br>Given que el usuario cambia el modo<br>When activa oscuro o claro<br>Then la interfaz se actualiza instantáneamente sin recargar.<br><br>**Escenario 2: Sincronización con sistema operativo**<br>Given que el dispositivo está en modo oscuro<br>When el usuario abre SplitEasy por primera vez<br>Then la app adopta el mismo tema automáticamente.                                                  | E04                           |
+| **US-TB-07**      | **Soporte multiidioma (Español-Inglés)**                   | Como usuario internacional, quiero cambiar el idioma de la aplicación, para usar SplitEasy en mi idioma preferido.                                 | **Escenario 1: Cambio de idioma**<br>Given que el usuario abre configuración<br>When cambia a inglés<br>Then toda la interfaz refleja el idioma seleccionado.<br><br>**Escenario 2: Detección automática**<br>Given que el dispositivo está en inglés<br>When el usuario inicia SplitEasy<br>Then la app se muestra en inglés por defecto.                                                                                                  | E04                           |
+| **US-TB-08**      | **Optimización de carga de registros y rendimiento móvil** | Como usuario, quiero que la app cargue más rápido mis gastos y funcione sin retrasos, para tener una experiencia fluida en cualquier dispositivo.  | **Escenario 1: Carga rápida**<br>Given que el usuario abre el grupo<br>When el sistema carga los registros<br>Then los datos aparecen en menos de 800 ms en el 95 % de los casos.<br><br>**Escenario 2: Consumo eficiente**<br>Given que el usuario usa la app por más de 10 minutos<br>When navega entre secciones<br>Then el consumo de batería se mantiene bajo y estable.                                                               | E05                           |
+
+
+| **Orden** | **User Story ID** | **Título**                                             | **Story Points (1/2/3/5/8)** |
+| :-------: | :---------------- | :----------------------------------------------------- | :--------------------------: |
+|     1     | **US-TB-03**      | Pagos por QR (Yape/Plin)                               |               8              |
+|     2     | **US-TB-04**      | Chatbot de asistencia inteligente                      |               8              |
+|     3     | **US-TB-07**      | Soporte multiidioma (Español-Inglés)                   |               8              |
+|     4     | **US-TB-06**      | Modo oscuro / claro adaptable                          |               5              |
+|     5     | **US-TB-05**      | Optimización de sincronización de datos                |               5              |
+|     6     | **US-TB-01**      | Explicación visual de la fórmula de reparto            |               5              |
+|     7     | **US-TB-02**      | Recordatorios automáticos de deuda                     |               5              |
+
+**Interpretación de los Story Points**
+
+**8 puntos:**
+Historias de alta complejidad técnica y con impacto transversal entre frontend, backend y móvil.
+Ejemplos: Pagos QR, Chatbot IA, Multiidioma y Optimización móvil.
+Requieren integración con servicios externos (Yape/Plin, NLP, APIs de idioma) y pruebas en diferentes entornos.
+
+**5 puntos:**
+Funcionalidades de complejidad media o media-alta, que implican lógica de negocio y mejoras de experiencia del usuario.
+Ejemplos: Modo oscuro, Explicación de fórmula, Recordatorios automáticos, Sincronización de datos.
+Su desarrollo se concentra en la capa frontend y comunicación en tiempo real con el backend.
+
+**3 puntos:**
+(No incluidas en este sprint, pero aplicables a futuras mejoras menores como filtrado avanzado o estadísticas visuales.)
+Son tareas de bajo riesgo y con dependencia mínima de otras funciones.
 
 
 # Conclusión
