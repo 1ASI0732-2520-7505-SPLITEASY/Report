@@ -4003,7 +4003,145 @@ Cada hipótesis aborda un aspecto clave de la propuesta de valor, enfocado en tr
 | **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | Los usuarios asocian la rapidez de respuesta con estabilidad y confianza del sistema.                                      | Si se optimiza la sincronización a menos de **0.5 segundos**, entonces la percepción de confiabilidad aumentará de forma notable, mejorando la experiencia general.                                                  | La optimización de sincronización no tendrá un efecto significativo en la percepción de confiabilidad del usuario.                           |
 | **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Mejorar la accesibilidad visual y eliminar barreras idiomáticas aumenta la satisfacción y alcance global de la aplicación. | Si se implementa el modo oscuro junto con soporte multiidioma, entonces la satisfacción del usuario aumentará en un **25%** y los registros internacionales en un **20%**, al ofrecer una experiencia más inclusiva. | La incorporación de modo oscuro y soporte multiidioma no producirá cambios significativos en la satisfacción ni en el alcance internacional. |
 
-### 8.2.2. Measures
+### 8.2.2. Domain Business Metrics
+
+Esta sección sirve para alinear la medición de los experimentos con los **objetivos estratégicos de negocio de SplitEasy**.  
+Su propósito es asegurar que todas las hipótesis de experimentación se vinculen directamente con **resultados medibles y relevantes**, evitando la dependencia de *vanity metrics* o indicadores irrelevantes.
+
+El equipo debe definir de manera anticipada todas las métricas del dominio de negocio, incluyendo su **fórmula de cálculo**, **técnica de recolección de datos** y **meta deseada**.  
+Ningún experimento podrá incluir métricas no especificadas en esta sección.
+
+---
+
+#### Métrica 1: Índice de confianza del usuario (User Trust Index)
+
+**Descripción:**  
+Mide el nivel de confianza que los usuarios tienen en la precisión de los cálculos y montos mostrados por la aplicación.
+
+**Fórmula:**  
+> Índice de confianza = (Σ Puntajes de confianza / Número total de respuestas) × 100
+
+**Técnica de recolección:**  
+Encuestas post-interacción (escala Likert 1–5) y análisis semántico de comentarios en soporte.
+
+**Meta:**  
+Incrementar el índice de confianza en ≥ **40%** tras la implementación de la explicación visual de la fórmula de reparto.
+
+**Hipótesis vinculada:**  
+Explicación visual de la fórmula.
+
+---
+
+#### Métrica 2: Tasa de cierre de deudas (Debt Closure Rate)
+
+**Descripción:**  
+Evalúa la eficiencia del sistema para promover el pago y cierre oportuno de deudas dentro de los grupos.
+
+**Fórmula:**  
+> Tasa de cierre de deudas = (Deudas pagadas / Deudas totales generadas) × 100
+
+**Técnica de recolección:**  
+Registros automáticos de transacciones en la base de datos de grupos.
+
+**Meta:**  
+Aumento de ≥ **35%** en la tasa de cierre de deudas tras implementar recordatorios automáticos.
+
+**Hipótesis vinculada:**  
+Recordatorios automáticos de pago.
+
+---
+
+#### Métrica 3: Tasa de retención de usuarios (User Retention Rate)
+
+**Descripción:**  
+Mide el porcentaje de usuarios que continúan utilizando la aplicación después de un periodo determinado.
+
+**Fórmula:**  
+> Tasa de retención = (Usuarios activos al final del periodo / Usuarios activos al inicio del periodo) × 100
+
+**Técnica de recolección:**  
+Seguimiento de eventos de sesión (login/uso) mediante analítica interna (*Firebase Analytics* o *Mixpanel*).
+
+**Meta:**  
+Incrementar la retención mensual en ≥ **30%** tras la integración de pagos por QR (*Yape/Plin*).
+
+**Hipótesis vinculada:**  
+Integración de pagos por QR.
+
+---
+
+#### Métrica 4: Volumen de solicitudes de soporte (Support Request Volume)
+
+**Descripción:**  
+Determina la carga de consultas recibidas por el equipo de soporte y mide la efectividad del chatbot IA.
+
+**Fórmula:**  
+> Reducción de soporte = ((Consultas antes - Consultas después) / Consultas antes) × 100
+
+**Técnica de recolección:**  
+Conteo automatizado de tickets o mensajes en la base de datos del centro de soporte.
+
+**Meta:**  
+Reducir las solicitudes de soporte en ≥ **50%** con la introducción del chatbot IA contextual.
+
+**Hipótesis vinculada:**  
+Chatbot IA contextual.
+
+---
+
+#### Métrica 5: Tiempo promedio de sincronización (Average Sync Time)
+
+**Descripción:**  
+Mide la velocidad de actualización entre el frontend y backend tras operaciones críticas (pagos, cierres, edición de gastos).
+
+**Fórmula:**  
+> Tiempo promedio de sincronización = (Σ Tiempos de actualización / Número total de eventos)
+
+**Técnica de recolección:**  
+Logs de performance y mediciones de tiempo de respuesta mediante herramientas de monitoreo de API.
+
+**Meta:**  
+Reducir el tiempo promedio a < **0.5 segundos** y mejorar la percepción de confiabilidad en ≥ **25%**.
+
+**Hipótesis vinculada:**  
+Optimización de sincronización.
+
+---
+
+#### Métrica 6: Índice de satisfacción del usuario (User Satisfaction Index / CSAT)
+
+**Descripción:**  
+Evalúa la satisfacción general de los usuarios con las funcionalidades visuales y de accesibilidad (modo oscuro, multiidioma).
+
+**Fórmula:**  
+> CSAT = (Respuestas satisfecho o muy satisfecho / Total de respuestas) × 100
+
+**Técnica de recolección:**  
+Encuestas integradas en la aplicación y análisis de puntuaciones de tienda (*Play Store* / *App Store*).
+
+**Meta:**  
+Aumentar la satisfacción general en ≥ **25%** y los registros internacionales en ≥ **20%**.
+
+**Hipótesis vinculada:**  
+Modo oscuro y soporte multiidioma.
+
+---
+
+##### 📊 Resumen de métricas
+
+| **Métrica**                     | **Dominio**       | **Fórmula clave**                        | **Técnica de recolección**                 | **Meta deseada**  | **Hipótesis asociada**              |
+|---------------------------------|-------------------|------------------------------------------|--------------------------------------------|-------------------|-------------------------------------|
+| Índice de confianza del usuario | Transparencia     | Encuesta promedio × 100                  | Encuestas + soporte                        | +40%              | Explicación visual de la fórmula    |
+| Tasa de cierre de deudas        | Cumplimiento      | Deudas pagadas / totales × 100           | Logs transaccionales                       | +35%              | Recordatorios automáticos           |
+| Tasa de retención de usuarios   | Retención         | Activos fin / inicio × 100               | Eventos de sesión                          | +30%              | Pagos por QR                        |
+| Volumen de soporte              | Eficiencia        | (Antes − Después) / Antes × 100          | Tickets de soporte                         | −50%              | Chatbot IA contextual               |
+| Tiempo de sincronización        | Rendimiento       | Σ tiempos / n eventos                    | Logs de API                                | <0.5 s             | Optimización de sincronización      |
+| Satisfacción del usuario (CSAT) | Accesibilidad     | Satisfechos / total × 100                | Encuestas in-app + calificaciones de tienda| +25% / +20%       | Modo oscuro y multiidioma           |
+
+
+
+### 8.2.3. Measures
+
 
 Para cada hipótesis formulada, se definen medidas específicas que permitirán evaluar objetivamente los resultados de los experimentos y validar el impacto real de cada funcionalidad en la experiencia del usuario, confianza, retención y rendimiento del sistema.
 Las métricas fueron seleccionadas por su relevancia, trazabilidad y posibilidad de medición a través de herramientas analíticas y encuestas in-app.
@@ -4017,7 +4155,7 @@ Las métricas fueron seleccionadas por su relevancia, trazabilidad y posibilidad
 | **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | Tiempo promedio de sincronización entre eventos financieros medido en milisegundos (APM o logs); puntuación de percepción de confiabilidad (encuesta post-experimento); porcentaje de usuarios que califican la app como “fluida” o “confiable”.                                   |
 | **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Nivel de satisfacción del usuario (escala 1–10) antes y después de activar modo oscuro o soporte multiidioma; aumento porcentual de registros provenientes de IPs internacionales; tiempo promedio de sesión de usuarios que usan modo oscuro.                                     |
 
-### 8.2.3. Conditions
+### 8.2.4. Conditions
 
 Para cada experimento, se establecen condiciones experimentales y de control claramente diferenciadas, con el fin de obtener resultados confiables que permitan determinar la efectividad de las mejoras propuestas.
 Estas condiciones buscan minimizar la influencia de variables externas y aislar el efecto directo de cada funcionalidad sobre el comportamiento y satisfacción de los usuarios.
@@ -4031,7 +4169,7 @@ Estas condiciones buscan minimizar la influencia de variables externas y aislar 
 | **¿Optimizar la sincronización a <0.5s aumentará la percepción de confiabilidad?**                                                                   | El sistema actualiza los datos en menos de 0.5 segundos, mostrando feedback visual inmediato.                  | El sistema mantiene el tiempo de sincronización actual (1–2 segundos) sin feedback visible.             |
 | **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Usuarios tienen acceso al modo oscuro y pueden cambiar el idioma entre español e inglés desde configuración.   | Usuarios acceden solo a la versión monolingüe (español) y con modo claro por defecto.                   |
 
-### 8.2.4. Scale Calculations and Decisions
+### 8.2.5. Scale Calculations and Decisions
 
 Este enfoque se basa en métricas cuantificables que permiten evaluar el grado de cumplimiento de las hipótesis propuestas.
 Cada hipótesis está asociada a una Scale Calculation (definición de mejora esperada), una Decision (acción o cambio a realizar), y un conjunto de factores de éxito clasificados como:
@@ -4048,7 +4186,7 @@ Cada hipótesis está asociada a una Scale Calculation (definición de mejora es
 | **¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales?** | Creemos que la incorporación de modo oscuro y soporte multiidioma aumentará la satisfacción global y registros internacionales en al menos **30 %**. <br>• Excelente: ≥ 40 % <br>• Ideal: 30–39 % <br>• Aceptable: 15–29 % <br>• Desfavorable: < 15 % | Implementar selector de idioma (ES/EN) y tema oscuro ajustable al sistema operativo del usuario.                                 |                  |               | X         |               |
 
 
-### 8.2.5. Methods Selection
+### 8.2.6. Methods Selection
 
 Para validar el **rendimiento**, la **usabilidad** y la **escalabilidad** de **SplitEasy**, se seleccionó un conjunto de herramientas que permiten realizar pruebas funcionales, de carga, de experiencia de usuario y de comportamiento real dentro de la aplicación. Estas herramientas fueron elegidas por su **confiabilidad**, **alcance analítico** y **facilidad de integración** con entornos web y móviles.
 
@@ -4069,9 +4207,9 @@ Cada herramienta cubre un aspecto clave de la calidad del sistema:
 
 Con esta selección, **SplitEasy** puede tomar decisiones informadas para optimizar su **rendimiento**, **accesibilidad** y **estabilidad** tanto en entornos de desarrollo como de producción, asegurando una **experiencia fluida y confiable** para todos los usuarios.
 
-### 8.2.6. 
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 
-### 8.2.7. Web and Mobile Tracking Plan
+### 8.2.8. Web and Mobile Tracking Plan
 
 Para **SplitEasy**, el objetivo principal del plan de seguimiento web y móvil es **monitorear el impacto real** de las nuevas funcionalidades implementadas, asegurando que las mejoras de **experiencia, confianza y retención de usuarios** se validen con datos concretos.  
 A medida que la aplicación evolucione, este plan permitirá **tomar decisiones basadas en evidencia** sobre qué elementos optimizan la gestión colaborativa de gastos y cómo escalar dichas mejoras.
