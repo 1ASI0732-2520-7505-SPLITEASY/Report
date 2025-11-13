@@ -3581,7 +3581,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 09:50 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCI1Cu-MJcYQYZOnIdvQo29ASKM0L2VHSPNPN-n9_3f6E8?e=na9bsh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **Foto entrevista** | images/TB2/entrevista.png |
+| **Foto entrevista** | ![texto alternativo](images/TB2/entrevista.png) |
 | **Resumen** | Franco comentó que el panel de control le resultó muy intuitivo y práctico para administrar los gastos y contribuciones del hogar. Destacó la facilidad para aprobar o modificar registros, señalando que el flujo es claro y sin confusiones. Valoró positivamente la visibilidad total de las contribuciones de cada miembro y consideró muy útiles los reportes mensuales, ya que le permiten tener un control preciso de las finanzas. Sobre las notificaciones, indicó que son oportunas y equilibradas, ya que informan sin ser invasivas. También apreció la posibilidad de ajustar categorías y porcentajes de contribución, mencionando que la personalización hace más flexible la gestión. Comentó que el sistema transmite confianza y transparencia en los cálculos y que la plataforma realmente facilita la convivencia financiera dentro del hogar. Finalmente, sugirió que el producto tiene un gran potencial para mejorar la organización doméstica y fortalecer la colaboración entre los miembros. |
 
 
@@ -3899,6 +3899,9 @@ A continuación, se detallan las herramientas que utilizamos en este proceso:
 Cada vez que un desarrollador hace push o abre un pull request, GitHub Actions ejecuta automáticamente nuestro pipeline de CI, validando compilación, pruebas y calidad de código antes de permitir cualquier merge a las ramas protegidas (develop, main y feat/deploy).
 
 ### 7.1.2. Build & Test Suite Pipeline Components.
+
+![alt text](images/TB2/1.png)
+
 
 ## 7.2. Continuous Delivery
 
