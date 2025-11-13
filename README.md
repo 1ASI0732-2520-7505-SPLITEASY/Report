@@ -4659,7 +4659,6 @@ Por ejemplo:
 | **Orden** | **User Story ID** | **Título**                                             | **Story Points (1/2/3/5/8)** |
 | :-------: | :---------------- | :----------------------------------------------------- | :--------------------------: |
 |     1     | **US-TB-03**      | Pagos por QR (Yape/Plin)                               |               8              |
-|     2     | **US-TB-04**      | Chatbot de asistencia inteligente                      |               8              |
 |     3     | **US-TB-07**      | Soporte multiidioma (Español-Inglés)                   |               8              |
 |     4     | **US-TB-06**      | Modo oscuro / claro adaptable                          |               5              |
 |     5     | **US-TB-05**      | Optimización de sincronización de datos                |               5              |
