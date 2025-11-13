@@ -3492,6 +3492,36 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 
 **REGISTRO ENTREVISTA 1:**
 
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Cristian Campos |
+| **Edad** | 23 |
+| **Profesión** | Estudiante de Ingeniería Civil |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 04:46 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD1ET9_JFTkR5kyPdgAe6ZwAa9ecZrSmi51NbArN8o0NhI?e=i2kyLf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista** | <img src="images/Entrevista-Segmento1-SEC.png" alt=""  width="250" /> |
+| **Resumen** | Cristian probó la aplicación y comentó que el diseño le pareció moderno, ordenado y fácil de entender desde el primer momento. Le gustó que todo estuviera claramente identificado y que no sintió confusión al navegar entre las secciones. Mencionó que registrar los gastos y contribuciones fue muy sencillo y que el flujo le pareció bastante intuitivo. También destacó que la información sobre los aportes de cada miembro del hogar genera transparencia y confianza, ayudando a todos a comprender mejor cómo se reparten los gastos. Le agradó recibir notificaciones y recordatorios útiles, que le facilitaron mantener sus pagos al día. Para él, la herramienta transmite organización y equidad, y considera que la usaría con frecuencia porque hace más fácil y justa la gestión de los gastos familiares. |
+
+
+
+### SEGMENTO 2:
+
+**REGISTRO ENTREVISTA 1:**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Gianelly Vásquez |
+| **Edad** | 25 |
+| **Profesión** | Estudiante |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 05:19 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQA5feZmnHHBQowFilQ0WV1LAV8ytEIJNCjysFWzeDceT88?e=mGfdha&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista** | <img src="images/Entrevista-Segmento2-SEC.png" alt=""  width="250" /> |
+| **Resumen** | Gianelly expresó que el panel de control le pareció muy útil y fácil de manejar, especialmente para aprobar o modificar gastos. Mencionó que la visibilidad de las contribuciones de cada miembro es clara y le da un buen nivel de control sobre las finanzas del hogar. Considera que las alertas y recordatorios automáticos son oportunos y prácticos, manteniéndola informada sin resultar molestos. Además, valoró la posibilidad de ajustar configuraciones como porcentajes de contribución o categorías de gasto, lo que le pareció muy conveniente. Dijo confiar plenamente en el sistema, ya que la forma en que se muestran los cálculos y resultados le inspira seguridad y transparencia. En general, Gianelly se sintió satisfecha con la experiencia, afirmando que la plataforma podría mejorar notablemente la convivencia y la organización económica del hogar.|
+
 ### 6.3.3. Evaluaciones según heurísticas
 
  Durante el sprint 3 se evaluó:
