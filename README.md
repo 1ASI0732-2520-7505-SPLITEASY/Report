@@ -5,14 +5,21 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Diseño de experimentos de ingeniería de Software <br>
+
+<p align="center"><strong>7mo Ciclo</strong><br>
+
+<p align="center"><strong>Diseño de experimentos de ingeniería de Software</strong><br>
+
+
+<h3 align="center">1ASI0729</h3>
+
+<h2 align="center">NRC: 7505</h2>
+
 <strong>Profesor:</strong> Julio Manuel Noriega Melendez </p>
 
-<h2 align="center">INFORME</h2>
-<h2 align="center">2025 - 2</h2>
+<h2 align="center">INFORME DE TRABAJO FINAL</h2>
 
 <h3 align="center">Startup: EASY</h3>
-<h3 align="center">1ASI0729-2510-4313</h3>
 
 <p align="center"><strong>Producto: SplitEasy</strong></p>
 
