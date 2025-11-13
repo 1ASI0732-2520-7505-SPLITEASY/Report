@@ -3516,7 +3516,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 04:46 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD1ET9_JFTkR5kyPdgAe6ZwAa9ecZrSmi51NbArN8o0NhI?e=i2kyLf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link del video** | https://goo.su/ARToL |
 | **Foto entrevista** | <img src="images/Entrevista-Segmento1-SEC.png" alt=""  width="250" /> |
 | **Resumen** | Cristian probó la aplicación y comentó que el diseño le pareció moderno, ordenado y fácil de entender desde el primer momento. Le gustó que todo estuviera claramente identificado y que no sintió confusión al navegar entre las secciones. Mencionó que registrar los gastos y contribuciones fue muy sencillo y que el flujo le pareció bastante intuitivo. También destacó que la información sobre los aportes de cada miembro del hogar genera transparencia y confianza, ayudando a todos a comprender mejor cómo se reparten los gastos. Le agradó recibir notificaciones y recordatorios útiles, que le facilitaron mantener sus pagos al día. Para él, la herramienta transmite organización y equidad, y considera que la usaría con frecuencia porque hace más fácil y justa la gestión de los gastos familiares. |
 
@@ -3532,7 +3532,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 13:37 |
-| **Link del video** |    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319027_upc_edu_pe/IQAzMdRYI-SRT7RsVatQ2xigAQaVr13sebi14cPsdpDbQB8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=25IuXv    |
+| **Link del video** |    https://goo.su/RiE3ix   |
 | **Foto entrevista** | <img src="images/EntrevistaPaulRValidation.png" alt=""  width="250" /> |
 | **Resumen** | El oficial Paul Requejo se ha sentido bastante satisfecho al ver las utilidades y bondades de la plataforma. Resalta la facilidad de uso y el gran potencial útil que ve para la convivencia con su pareja. Observó con buenos ojos la funcionalidad de diferentes estrategias de reparto de gastos y contribuciones, pues él cuenta con un sueldo muy distinto al de su pareja. A grandes rasgos, SplitEasy le ofrece una sensación bastante cómoda y le agrada lo suficiente como para adaptarlo a su estilo de vida. Como recomendación, propone que la plataforma añada una funcionalidad que sirva como un fondo familiar muy aparte de todos los gastos, como una alcancía digital. |
 
@@ -3548,7 +3548,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 11:03 |
-| **Link del video** |    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319027_upc_edu_pe/IQAzAdhK1ZCuQKWb0pYdXGG3AfSzY8MIL9f3ebNIDQNpn38?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ae4SON    |
+| **Link del video** |    https://goo.su/TsUJl    |
 | **Foto entrevista** | <img src="images/EntrevistaVannyaRValidation.png" alt=""  width="250" /> |
 | **Resumen** | La doctora Vannya Herrera manifestó una opinión muy positiva sobre la plataforma, destacando especialmente su diseño visual y la armonía de colores, los cuales considera agradables y bien equilibrados. Señaló que la interfaz resulta intuitiva y práctica para la gestión conjunta de gastos, permitiendo una organización sencilla y clara. Mencionó que la aplicación tiene un potencial significativo para mejorar la comunicación financiera entre parejas, al facilitar la transparencia en los registros. Como recomendación, propuso fortalecer el sistema de categorización de gastos, diferenciando áreas como “Servicios Básicos” y “Ocio”, además de incluir una alerta que indique cuando se alcance un límite máximo de gasto establecido por los usuarios.  |
 
@@ -3566,7 +3566,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 05:19 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQA5feZmnHHBQowFilQ0WV1LAV8ytEIJNCjysFWzeDceT88?e=mGfdha&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link del video** | https://goo.su/Oc7vi |
 | **Foto entrevista** | <img src="images/Entrevista-Segmento2-SEC.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly expresó que el panel de control le pareció muy útil y fácil de manejar, especialmente para aprobar o modificar gastos. Mencionó que la visibilidad de las contribuciones de cada miembro es clara y le da un buen nivel de control sobre las finanzas del hogar. Considera que las alertas y recordatorios automáticos son oportunos y prácticos, manteniéndola informada sin resultar molestos. Además, valoró la posibilidad de ajustar configuraciones como porcentajes de contribución o categorías de gasto, lo que le pareció muy conveniente. Dijo confiar plenamente en el sistema, ya que la forma en que se muestran los cálculos y resultados le inspira seguridad y transparencia. En general, Gianelly se sintió satisfecha con la experiencia, afirmando que la plataforma podría mejorar notablemente la convivencia y la organización económica del hogar.|
 
@@ -3580,8 +3580,8 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 09:50 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/IQCI1Cu-MJcYQYZOnIdvQo29ASKM0L2VHSPNPN-n9_3f6E8?e=na9bsh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **Foto entrevista** | ![texto alternativo](images/TB2/entrevista.png) |
+| **Link del video** | https://goo.su/xdK6Y |
+| **Foto entrevista** | <img src="images/TB2/entrevista.png" alt=""  width="250" /> |
 | **Resumen** | Franco comentó que el panel de control le resultó muy intuitivo y práctico para administrar los gastos y contribuciones del hogar. Destacó la facilidad para aprobar o modificar registros, señalando que el flujo es claro y sin confusiones. Valoró positivamente la visibilidad total de las contribuciones de cada miembro y consideró muy útiles los reportes mensuales, ya que le permiten tener un control preciso de las finanzas. Sobre las notificaciones, indicó que son oportunas y equilibradas, ya que informan sin ser invasivas. También apreció la posibilidad de ajustar categorías y porcentajes de contribución, mencionando que la personalización hace más flexible la gestión. Comentó que el sistema transmite confianza y transparencia en los cálculos y que la plataforma realmente facilita la convivencia financiera dentro del hogar. Finalmente, sugirió que el producto tiene un gran potencial para mejorar la organización doméstica y fortalecer la colaboración entre los miembros. |
 
 
