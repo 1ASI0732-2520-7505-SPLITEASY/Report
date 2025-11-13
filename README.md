@@ -3537,6 +3537,22 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Resumen** | El oficial Paul Requejo se ha sentido bastante satisfecho al ver las utilidades y bondades de la plataforma. Resalta la facilidad de uso y el gran potencial útil que ve para la convivencia con su pareja. Observó con buenos ojos la funcionalidad de diferentes estrategias de reparto de gastos y contribuciones, pues él cuenta con un sueldo muy distinto al de su pareja. A grandes rasgos, SplitEasy le ofrece una sensación bastante cómoda y le agrada lo suficiente como para adaptarlo a su estilo de vida. Como recomendación, propone que la plataforma añada una funcionalidad que sirva como un fondo familiar muy aparte de todos los gastos, como una alcancía digital. |
 
 
+**REGISTRO ENTREVISTA 3:**
+## ENTREVISTA 3
+
+| Campo              | Detalle |
+|---------------------|----------|
+| **Nombre entrevistado** | Vannya Herrera |
+| **Edad** | 29 |
+| **Profesión** | Médico Familiar |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 11:03 |
+| **Link del video** |    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319027_upc_edu_pe/IQAzAdhK1ZCuQKWb0pYdXGG3AfSzY8MIL9f3ebNIDQNpn38?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ae4SON    |
+| **Foto entrevista** | <img src="images/EntrevistaVannyaRValidation.png" alt=""  width="250" /> |
+| **Resumen** | La doctora Vannya Herrera manifestó una opinión muy positiva sobre la plataforma, destacando especialmente su diseño visual y la armonía de colores, los cuales considera agradables y bien equilibrados. Señaló que la interfaz resulta intuitiva y práctica para la gestión conjunta de gastos, permitiendo una organización sencilla y clara. Mencionó que la aplicación tiene un potencial significativo para mejorar la comunicación financiera entre parejas, al facilitar la transparencia en los registros. Como recomendación, propuso fortalecer el sistema de categorización de gastos, diferenciando áreas como “Servicios Básicos” y “Ocio”, además de incluir una alerta que indique cuando se alcance un límite máximo de gasto establecido por los usuarios.  |
+
+
 
 ### SEGMENTO 2:
 
