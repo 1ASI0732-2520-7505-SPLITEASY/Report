@@ -15,7 +15,7 @@
 
 <h2 align="center">NRC: 7505</h2>
 
-<strong>Profesor:</strong> Julio Manuel Noriega Melendez </p>
+<p align="center"><strong>Profesor: Julio Manuel Noriega Melendez</strong><br>
 
 <h2 align="center">INFORME DE TRABAJO FINAL</h2>
 
