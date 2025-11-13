@@ -3492,7 +3492,7 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 
 **REGISTRO ENTREVISTA 1:**
 
-### 5.3.3. Evaluaciones según heurísticas
+### 6.3.3. Evaluaciones según heurísticas
 
  Durante el sprint 3 se evaluó:
 
@@ -3626,6 +3626,78 @@ PROBLEMA #6: No hay validación clara si el ingreso personal está vacío
   
   - Recomendación: Implementar una validación que indique: “Debe ingresar un valor mayor a 0 para su ingreso mensual.”
 
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada.
+
+Como parte de nuestro compromiso con la mejora continua y el aprendizaje compartido, nuestro equipo realizó una auditoría de experiencia de usuario a la aplicación "EduSpace" (orientada a la gestión de espacios y recursos en instituciones educativas), enfocándonos en evaluar la usabilidad, accesibilidad y coherencia de su interfaz de usuario del Módulo Administrador.
+
+#### 6.4.1.1. Información del grupo auditado.
+
+- **Nombre del proyecto:** EduSpace
+
+- **Módulo auditado:** Vista del Administrador
+
+- **Descripción del proyecto:** Una aplicación web/sistema de gestión diseñado para administradores de instituciones educativas, permitiendo la gestión de Aulas, Espacios Compartidos (ej., gimnasios), Recursos (ej., proyectores), y el registro de Profesores.
+
+#### 6.4.1.2. Cronograma de auditoría realizada.
+
+| Fecha           | Actividad                                     | Participantes                     | Duración |
+|-----------------|------------------------------------------------|-----------------------------------|-----------|
+| 10 de noviembre | Evaluación heurística de las vistas de Administrador | Valentino Sandoval, Rodrigo Alaya | 3 horas   |
+| 10 de noviembre | Análisis y compilación de hallazgos            | Valentino Sandoval, Rodrigo Alaya | 2 horas   |
+
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+
+Tras un análisis de las capturas de pantalla de la interfaz de usuario de EduSpace para el administrador, identificamos los siguientes hallazgos categorizados por severidad:
+
+### Problemas críticos (Severidad 4)
+
+| Problema | Recomendación |
+|-----------|----------------|
+| **Flujo incompleto y falta de contexto en el registro inicial de Recursos** <br> *(Ver captura: Create Resource)* | Implementar una guía contextual o "wizard" en el proceso de creación. El formulario pide **"Name"**, **"Type of Resource"** y **"Assign to Classroom"** sin una jerarquía clara. Se debería considerar crear el Recurso primero con nombre y tipo, y luego asignarlo, o validar inmediatamente que el Tipo y el Aula existan. |
+| **Campos de entrada no validados o mal etiquetados al crear Espacios Compartidos** <br> *(Ver captura: Create Shared Space)* | Asegurar la claridad del campo numérico. El formulario pide **"Select shared space"** (que parece ser un tipo/nombre), luego un campo de texto que solo tiene un **"0"**, y luego **"Enter description"**. El campo **"0"** es ambiguo: ¿Es capacidad? ¿Es un costo? Se debe etiquetar claramente (ej., *"Capacidad Máxima"*) y validar el tipo de dato (solo números enteros). |
+| **Riesgo de pérdida de información en formularios sin confirmación de cancelación** | Añadir un prompt de confirmación al hacer clic en **'Cancel'** en cualquier formulario de creación o edición (ej., *Create Classroom, Create Resource, Create Shared Space*). Si el usuario ha ingresado datos, un simple clic en **'Cancel'** podría borrarlos sin advertencia, generando frustración. |
+
+---
+
+### Problemas importantes (Severidad 3)
+
+| Problema | Recomendación |
+|-----------|----------------|
+| **Falta de información esencial sobre el profesor en la vista Home** <br> *(Ver captura: Home/Teachers Created)* | Mostrar el nombre completo del profesor en el card de **Teachers Created**, no solo el primer nombre y una inicial. Esto mejora la identificación rápida, especialmente si hay varios profesores con el mismo nombre (ej., *"Jose Lopez"* es el único visible). |
+| **Diseño poco informativo en la vista inicial de Resources Management** <br> *(Ver captura: Resources Management - sin filtro aplicado)* | Mostrar una tabla o lista de recursos no asignados/generales, o un onboarding claro en lugar de solo **"Select a classroom"**. El panel derecho es un espacio perdido si no se selecciona un filtro. Se debería usar este espacio para mostrar una vista general o una guía para el usuario. |
+| **Separación poco intuitiva de Shared Spaces y Classrooms** | Considerar unificar la gestión de espacios. Aunque son diferentes (educativos vs. deportivos), ambas son **"Spaces"**. La gestión de recursos (pantalla: *Classrooms and Shared Spaces*) distingue claramente entre "Classrooms" y "Shared Spaces", pero el objetivo del administrador podría ser ver todos los espacios en un solo lugar y luego filtrar. |
+
+### Aspectos positivos destacados
+
+- **Navegación lateral limpia y consistente:**  
+  El menú de navegación izquierdo (*Home, Classrooms and Shared Spaces, Personal Data, Log out*) es simple, visible y coherente en todas las vistas, facilitando la orientación del usuario.
+
+- **Uso de cards para la gestión de entidades:**  
+  El uso de *cards* para representar **Aulas (Classroom 1)**, **Espacios Compartidos (Gym)**, **Recursos (Resource 1)** y **Profesores (Jose Lopez)** es visualmente atractivo y funcional, ya que agrupa la información clave (*descripción, capacidad, profesor*) y las acciones de gestión (*Edit/Delete*) en un solo contenedor.
+
+- **Transparencia de roles:**  
+  El *dashboard* de **Home** y la barra lateral muestran claramente el rol de **Administrador** y la información de contacto *(valentinusandoval2805@gmail.com)*, asegurando que el usuario sepa que está en el ambiente correcto.
+
+- **Proceso claro de añadir nuevas entidades:**  
+  La acción para añadir un nuevo elemento (*Add Classroom, Add Shared Area, Add Resource*) está destacada con un *card* de color y un botón prominente, haciendo la funcionalidad clave fácilmente accesible.
+
+- **Flujo de registro completo y detallado:**  
+  La vista de **Create Account** solicita datos personales esenciales (*Nombre, Apellido, Fecha de Nacimiento, DNI, Teléfono, Email, Dirección*), lo que sugiere un sistema robusto para la identificación de usuarios en la plataforma.
+
+
+
+### 6.4.2. Auditoría recibida.
+
+#### 6.4.2.1. Información del grupo auditor.
+
+#### 6.4.2.2. Cronograma de auditoría recibida.
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 # Capítulo VII: DevOps Practices
 
@@ -3835,22 +3907,22 @@ Su ausencia puede generar **fatiga visual** en entornos con poca luz y limita la
 
 # Oportunidades
 
-### ✅ Visualización del reparto proporcional
+###  Visualización del reparto proporcional
 Implementar **recursos visuales o interactivos** que muestren cómo se calcula el reparto de gastos entre los miembros del hogar, fortaleciendo la **transparencia y comprensión** del sistema.
 
-### 🔔 Recordatorios automáticos de pago
+###  Recordatorios automáticos de pago
 Desarrollar **notificaciones o alertas programadas** que recuerden a los usuarios los pagos pendientes, mejorando la puntualidad y reduciendo los olvidos o retrasos en los aportes.
 
-### 💳 Integración de pagos directos mediante QR (Yape/Plin)
+###  Integración de pagos directos mediante QR (Yape/Plin)
 Incorporar opciones de **pago rápido dentro de la aplicación** para facilitar las transacciones sin salir del entorno digital, optimizando la **eficiencia y trazabilidad** de los abonos.
 
-### 🤖 Chatbot con IA contextual
+###  Chatbot con IA contextual
 Añadir un **asistente virtual basado en inteligencia artificial** que proporcione soporte inmediato, guíe al usuario durante las operaciones y responda consultas sobre los cálculos o funcionalidades de la app.
 
-### 🌐 Soporte multiidioma (i18n)
+###  Soporte multiidioma (i18n)
 Implementar un sistema de **internacionalización** que permita a los usuarios cambiar el idioma de la interfaz, mejorando la **accesibilidad global** y ampliando la base de usuarios.
 
-### 🌙 Modo oscuro/claro intercambiable
+###  Modo oscuro/claro intercambiable
 Desarrollar un **modo oscuro configurable** que mejore la comodidad visual y ofrezca una experiencia más moderna y personalizable.
 
 ---
@@ -3862,25 +3934,25 @@ Desarrollar un **modo oscuro configurable** que mejore la comodidad visual y ofr
 
 ### **Assumptions**
 
-#### 🧮 Falta de comprensión del reparto proporcional
+####  Falta de comprensión del reparto proporcional
 Se asume que muchos usuarios **no comprenden la fórmula exacta** utilizada para dividir los gastos entre los miembros del grupo, lo cual genera **desconfianza en los montos mostrados** y puede provocar dudas sobre la **equidad del sistema**.
 
-#### 💸 Olvido de pagos pendientes
+####  Olvido de pagos pendientes
 Se asume que los usuarios **olvidan realizar pagos** incluso teniendo la intención de hacerlo, debido a la **falta de recordatorios automáticos o notificaciones personalizadas**.
 
-#### 💳 Predominio de métodos externos (Yape/Plin)
+####  Predominio de métodos externos (Yape/Plin)
 La mayoría de las transacciones entre usuarios se realiza mediante **Yape o Plin**, lo que sugiere que una **integración directa con estas plataformas** sería bien recibida y **reduciría la fricción operativa**.
 
-#### 💬 Preferencia por asistencia interna
+####  Preferencia por asistencia interna
 Se asume que los usuarios **prefieren resolver sus dudas dentro de la app**, sin necesidad de buscar tutoriales externos o contactar soporte por otros canales.
 
-#### ⚙️ Sincronización lenta y percepción negativa
+####  Sincronización lenta y percepción negativa
 Se asume que una **sincronización superior a 2 segundos** reduce la **percepción de confiabilidad y fluidez** del sistema, especialmente en operaciones de actualización de balances.
 
-#### 📊 Demanda de soporte visual y explicativo
+####  Demanda de soporte visual y explicativo
 Los usuarios valoran las **interfaces con feedback visual inmediato** y explicaciones contextuales, lo que **mejora su comprensión** sobre los cálculos y operaciones.
 
-#### 🌙 Interés en personalización y accesibilidad
+####  Interés en personalización y accesibilidad
 Se asume que una parte de los usuarios **preferiría contar con modo oscuro** para mejorar la comodidad visual y que algunos podrían beneficiarse de **soporte multiidioma**, especialmente en entornos colaborativos con diferentes nacionalidades.
 
 
@@ -4127,7 +4199,7 @@ Modo oscuro y soporte multiidioma.
 
 ---
 
-##### 📊 Resumen de métricas
+#####  Resumen de métricas
 
 | **Métrica**                     | **Dominio**       | **Fórmula clave**                        | **Técnica de recolección**                 | **Meta deseada**  | **Hipótesis asociada**              |
 |---------------------------------|-------------------|------------------------------------------|--------------------------------------------|-------------------|-------------------------------------|
@@ -4216,7 +4288,7 @@ A medida que la aplicación evolucione, este plan permitirá **tomar decisiones 
 
 ---
 
-### 🧩 Etapas del Monitoreo
+###  Etapas del Monitoreo
 
 ---
 
@@ -4281,7 +4353,7 @@ Esto permitirá evaluar si las nuevas funciones (recordatorios, pagos QR y chatb
 
 ---
 
-### 📊 Eventos Principales a Rastrear
+###  Eventos Principales a Rastrear
 
 | **Tipo de Usuario** | **Evento** | **Propiedades a Capturar** |
 |----------------------|------------|-----------------------------|
@@ -4294,7 +4366,7 @@ Esto permitirá evaluar si las nuevas funciones (recordatorios, pagos QR y chatb
 
 ---
 
-### 🧠 Evaluación y Ajustes
+###  Evaluación y Ajustes
 
 **Informes Periódicos:**
 - Se elaborarán **reportes mensuales** con indicadores de rendimiento, satisfacción del usuario y métricas de interacción.  
@@ -4321,6 +4393,7 @@ Por ejemplo:
 | **US-TB-07**      | **Soporte multiidioma (Español-Inglés)**                   | Como usuario internacional, quiero cambiar el idioma de la aplicación, para usar SplitEasy en mi idioma preferido.                                 | **Escenario 1: Cambio de idioma**<br>Given que el usuario abre configuración<br>When cambia a inglés<br>Then toda la interfaz refleja el idioma seleccionado.<br><br>**Escenario 2: Detección automática**<br>Given que el dispositivo está en inglés<br>When el usuario inicia SplitEasy<br>Then la app se muestra en inglés por defecto.                                                                                                  | E04                           |
 | **US-TB-08**      | **Optimización de carga de registros y rendimiento móvil** | Como usuario, quiero que la app cargue más rápido mis gastos y funcione sin retrasos, para tener una experiencia fluida en cualquier dispositivo.  | **Escenario 1: Carga rápida**<br>Given que el usuario abre el grupo<br>When el sistema carga los registros<br>Then los datos aparecen en menos de 800 ms en el 95 % de los casos.<br><br>**Escenario 2: Consumo eficiente**<br>Given que el usuario usa la app por más de 10 minutos<br>When navega entre secciones<br>Then el consumo de batería se mantiene bajo y estable.                                                               | E05                           |
 
+### 8.3.2. To-Be Product Backlog
 
 | **Orden** | **User Story ID** | **Título**                                             | **Story Points (1/2/3/5/8)** |
 | :-------: | :---------------- | :----------------------------------------------------- | :--------------------------: |
