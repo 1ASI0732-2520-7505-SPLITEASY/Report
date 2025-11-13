@@ -347,8 +347,8 @@ Link del repositorio: https://github.com/1ASI0732-2520-7505-SPLITEASY/Report/tre
 # Student Outcome
 | **Criterio específico**                                                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló la arquitectura de la información y la estructura de navegación de la plataforma, asegurando la inclusión de accesibilidad universal y un diseño ético que respeta la diversidad de usuarios.<br>**Eslander Celis Berrospi :**<br>Realizó un análisis ético en la creación de las user personas y las entrevistas de validación, priorizando la transparencia y la honestidad en el tratamiento de la información de los usuarios.<br>**Valentino Sandoval Paiva :**<br>Implementó las soluciones de autenticación y seguridad del sistema asegurando que las mejores prácticas en términos de privacidad y protección de datos fueran aplicadas.<br>**Diego Fernando Herrera Enriquez :**<br>Gestionó las entrevistas con usuarios y el análisis de competidores, enfocándose en un enfoque ético que asegurara la equidad y respeto en el diseño de la solución.<br> **TP:**<br>**Rodrigo Alya Cabrera**: Desarrolló la arquitectura de la información y la estructura de navegación de la plataforma, asegurando la inclusión de accesibilidad universal y un diseño ético que respeta la diversidad de usuarios.<br> **Eslander Celis Berrospi**: Realizó un análisis ético en la creación de las user personas y las entrevistas de validación, priorizando la transparencia y la honestidad en el tratamiento de la información de los usuarios.<br> **Valentino Sandoval Paiva**: Implementó las soluciones de autenticación y seguridad del sistema asegurando que las mejores prácticas en términos de privacidad y protección de datos fueran aplicadas.<br> **Diego Fernando Herrera Enriquez**: Gestionó las entrevistas con usuarios y el análisis de competidores, enfocándose en un enfoque ético que asegurara la equidad y respeto en el diseño de la solución.   | **TB1**:<br> Durante todo el proceso, se priorizó la ética profesional mediante decisiones técnicas que fomentaron la accesibilidad, la seguridad y la privacidad del usuario.<br><br>Se reconoció la importancia de la transparencia y la responsabilidad en el manejo de datos personales, asegurando que las decisiones tomadas en todas las fases del proyecto fueran alineadas con principios éticos y responsables.<br>**TP1**:<br>  El equipo, en conjunto, priorizó la ética profesional en todas las fases del proyecto, asegurando que la plataforma fuera accesible, segura y respetuosa con la diversidad de usuarios. Las decisiones tomadas en cada etapa del desarrollo reflejaron un enfoque responsable y transparente, especialmente en lo relacionado con la protección de datos y la equidad. La colaboración fue clave para mantener estos principios a lo largo del proyecto.                  |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló el diseño asegurando que fuera inclusivo y accesible globalmente, teniendo en cuenta a diferentes grupos de usuarios y su impacto en diversas culturas.<br>**Eslander Celis Berrospi :**<br>Evaluó cómo las soluciones propuestas afectaban a diferentes contextos sociales, implementando cambios para que el producto fuera útil y accesible para un público global diverso.<br>**Valentino Sandoval Paiva :**<br>La implementación de medidas de seguridad y privacidad consideró el impacto económico, buscando una solución que fuera eficiente en términos de costo y fácil de mantener a largo plazo.<br>**Diego Fernando Herrera Enriquez :**<br>El análisis de competidores y entrevistas incluyó una evaluación del impacto social y económico del producto, para asegurar que la solución propuesta fuera viable en el contexto global.<br> **TP1**:<br> **Rodrigo Alya Cabrera**:  Desarrolló el diseño asegurando que fuera inclusivo y accesible globalmente, teniendo en cuenta a diferentes grupos de usuarios y su impacto en diversas culturas.<br> **Eslander Celis Berrospi**:Evaluó cómo las soluciones propuestas afectaban a diferentes contextos sociales, implementando cambios para que el producto fuera útil y accesible para un público global diverso.<br> **Valentino Sandoval Paiva**:La implementación de medidas de seguridad y privacidad consideró el impacto económico, buscando una solución que fuera eficiente en términos de costo y fácil de mantener a largo plazo.<br> **Diego Fernando Herrera Enriquez**: El análisis de competidores y entrevistas incluyó una evaluación del impacto social y económico del producto, para asegurar que la solución propuesta fuera viable en el contexto global.                 | **TB1**: <br> Las decisiones tomadas en el desarrollo de la solución fueron guiadas por una visión global y económica, considerando tanto el bienestar social de los usuarios como la sostenibilidad y el impacto económico del proyecto.<br><br>El equipo también fue consciente de los posibles efectos ambientales y sociales, buscando crear una solución que tuviera un impacto positivo a largo plazo para los usuarios y la sociedad.<br> **TP**:<br> El equipo adoptó una perspectiva global y económica en todas las decisiones de diseño e implementación. Se evaluaron y consideraron los impactos sociales, culturales y económicos del producto, con un enfoque en crear una solución inclusiva, accesible y económicamente viable. La sostenibilidad y el impacto positivo en las comunidades globales fueron factores clave para orientar el desarrollo del proyecto, asegurando que las decisiones tomadas favorecieran tanto a los usuarios como al entorno económico y social. |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló la arquitectura de la información y la estructura de navegación de la plataforma, asegurando la inclusión de accesibilidad universal y un diseño ético que respeta la diversidad de usuarios.<br>**Eslander Celis Berrospi :**<br>Realizó un análisis ético en la creación de las user personas y las entrevistas de validación, priorizando la transparencia y la honestidad en el tratamiento de la información de los usuarios.<br>**Valentino Sandoval Paiva :**<br>Implementó las soluciones de autenticación y seguridad del sistema asegurando que las mejores prácticas en términos de privacidad y protección de datos fueran aplicadas.<br>**Diego Fernando Herrera Enriquez :**<br>Gestionó las entrevistas con usuarios y el análisis de competidores, enfocándose en un enfoque ético que asegurara la equidad y respeto en el diseño de la solución.<br> **TP:**<br>**Rodrigo Alya Cabrera**: Desarrolló la arquitectura de la información y la estructura de navegación de la plataforma, asegurando la inclusión de accesibilidad universal y un diseño ético que respeta la diversidad de usuarios.<br> **Eslander Celis Berrospi**: Realizó un análisis ético en la creación de las user personas y las entrevistas de validación, priorizando la transparencia y la honestidad en el tratamiento de la información de los usuarios.<br> **Valentino Sandoval Paiva**: Implementó las soluciones de autenticación y seguridad del sistema asegurando que las mejores prácticas en términos de privacidad y protección de datos fueran aplicadas.<br> **Diego Fernando Herrera Enriquez**: Gestionó las entrevistas con usuarios y el análisis de competidores, enfocándose en un enfoque ético que asegurara la equidad y respeto en el diseño de la solución. TB2: **Diego Fernando Herrera Enriquez**: Contribuí en la sección de Continuous Monitoring, definiendo prácticas que priorizan la transparencia y la confiabilidad del sistema mediante herramientas open source como Micrometer y Lighthouse. También diseñé las métricas de Data Analytics (KPIs y objetivos), asegurando que la recolección de datos fuera precisa. Además, realicé una entrevista de validación siguiendo principios de responsable de la información.  | **TB1**:<br> Durante todo el proceso, se priorizó la ética profesional mediante decisiones técnicas que fomentaron la accesibilidad, la seguridad y la privacidad del usuario.<br><br>Se reconoció la importancia de la transparencia y la responsabilidad en el manejo de datos personales, asegurando que las decisiones tomadas en todas las fases del proyecto fueran alineadas con principios éticos y responsables.<br>**TP1**:<br>  El equipo, en conjunto, priorizó la ética profesional en todas las fases del proyecto, asegurando que la plataforma fuera accesible, segura y respetuosa con la diversidad de usuarios. Las decisiones tomadas en cada etapa del desarrollo reflejaron un enfoque responsable y transparente, especialmente en lo relacionado con la protección de datos y la equidad. La colaboración fue clave para mantener estos principios a lo largo del proyecto.                  |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | TB1: <br> **Rodrigo Alya Cabrera :**<br>Desarrolló el diseño asegurando que fuera inclusivo y accesible globalmente, teniendo en cuenta a diferentes grupos de usuarios y su impacto en diversas culturas.<br>**Eslander Celis Berrospi :**<br>Evaluó cómo las soluciones propuestas afectaban a diferentes contextos sociales, implementando cambios para que el producto fuera útil y accesible para un público global diverso.<br>**Valentino Sandoval Paiva :**<br>La implementación de medidas de seguridad y privacidad consideró el impacto económico, buscando una solución que fuera eficiente en términos de costo y fácil de mantener a largo plazo.<br>**Diego Fernando Herrera Enriquez :**<br>El análisis de competidores y entrevistas incluyó una evaluación del impacto social y económico del producto, para asegurar que la solución propuesta fuera viable en el contexto global.<br> TP1:<br> **Rodrigo Alya Cabrera** :  Desarrolló el diseño asegurando que fuera inclusivo y accesible globalmente, teniendo en cuenta a diferentes grupos de usuarios y su impacto en diversas culturas.<br> **Eslander Celis Berrospi** :Evaluó cómo las soluciones propuestas afectaban a diferentes contextos sociales, implementando cambios para que el producto fuera útil y accesible para un público global diverso.<br> **Valentino Sandoval Paiva** :La implementación de medidas de seguridad y privacidad consideró el impacto económico, buscando una solución que fuera eficiente en términos de costo y fácil de mantener a largo plazo.<br> **Diego Fernando Herrera Enriquez** : El análisis de competidores y entrevistas incluyó una evaluación del impacto social y económico del producto, para asegurar que la solución propuesta fuera viable en el contexto global.         TB2:  **Diego Fernando Herrera Enriquez** :    En la definición del pipeline de monitoreo y analítica, evalué el impacto económico y operativo de las herramientas, priorizando alternativas sostenibles y de bajo costo. Las métricas seleccionadas promueven eficiencia sin comprometer accesibilidad ni aumentar la huella tecnológica. Durante la validación del producto, consideré la diversidad de contextos sociales y económicos de los usuarios, asegurando que la solución sea inclusiva y equitativa.    | **TB1**: <br> Las decisiones tomadas en el desarrollo de la solución fueron guiadas por una visión global y económica, considerando tanto el bienestar social de los usuarios como la sostenibilidad y el impacto económico del proyecto.<br><br>El equipo también fue consciente de los posibles efectos ambientales y sociales, buscando crear una solución que tuviera un impacto positivo a largo plazo para los usuarios y la sociedad.<br> **TP**:<br> El equipo adoptó una perspectiva global y económica en todas las decisiones de diseño e implementación. Se evaluaron y consideraron los impactos sociales, culturales y económicos del producto, con un enfoque en crear una solución inclusiva, accesible y económicamente viable. La sostenibilidad y el impacto positivo en las comunidades globales fueron factores clave para orientar el desarrollo del proyecto, asegurando que las decisiones tomadas favorecieran tanto a los usuarios como al entorno económico y social. |
 
 
 
@@ -3505,6 +3505,22 @@ Durante el proceso de entrevistas con los usuarios finales, se identificaron div
 | **Resumen** | Cristian probó la aplicación y comentó que el diseño le pareció moderno, ordenado y fácil de entender desde el primer momento. Le gustó que todo estuviera claramente identificado y que no sintió confusión al navegar entre las secciones. Mencionó que registrar los gastos y contribuciones fue muy sencillo y que el flujo le pareció bastante intuitivo. También destacó que la información sobre los aportes de cada miembro del hogar genera transparencia y confianza, ayudando a todos a comprender mejor cómo se reparten los gastos. Le agradó recibir notificaciones y recordatorios útiles, que le facilitaron mantener sus pagos al día. Para él, la herramienta transmite organización y equidad, y considera que la usaría con frecuencia porque hace más fácil y justa la gestión de los gastos familiares. |
 
 
+**REGISTRO ENTREVISTA 2:**
+## ENTREVISTA 2
+
+| Campo              | Detalle |
+|---------------------|----------|
+| **Nombre entrevistado** | Denis Paul Requejo |
+| **Edad** | 33 |
+| **Profesión** | Policía |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 13:37 |
+| **Link del video** |    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319027_upc_edu_pe/IQAzMdRYI-SRT7RsVatQ2xigAQaVr13sebi14cPsdpDbQB8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=25IuXv    |
+| **Foto entrevista** | <img src="images/EntrevistaPaulRValidation.png" alt=""  width="250" /> |
+| **Resumen** | El oficial Paul Requejo se ha sentido bastante satisfecho al ver las utilidades y bondades de la plataforma. Resalta la facilidad de uso y el gran potencial útil que ve para la convivencia con su pareja. Observó con buenos ojos la funcionalidad de diferentes estrategias de reparto de gastos y contribuciones, pues él cuenta con un sueldo muy distinto al de su pareja. A grandes rasgos, SplitEasy le ofrece una sensación bastante cómoda y le agrada lo suficiente como para adaptarlo a su estilo de vida. Como recomendación, propone que la plataforma añada una funcionalidad que sirva como un fondo familiar muy aparte de todos los gastos, como una alcancía digital. |
+
+
 
 ### SEGMENTO 2:
 
@@ -3878,6 +3894,50 @@ El objetivo de **Continuous Deployment (CD)** es automatizar el proceso de despl
 
 * **Invalidación de Caché:**
   Netlify gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
+
+## 7.4. Continuous Monitoring
+
+### 7.4.1. Tools and Practices.
+
+**Monitoreo del rendimiento:**
+En el backend de SplitEasy, desarrollado con Spring Boot, utilizamos Micrometer integrado con Spring Boot Actuator para obtener métricas esenciales del sistema. Estas incluyen el uso de CPU y memoria de la JVM, tiempo de respuesta de los endpoints y estado de las conexiones a la base de datos. Actualmente se emplea para monitoreo local y diagnóstico interno, pero el sistema está preparado para integrarse con Prometheus o Grafana si se requiere observabilidad avanzada en entornos de producción.
+
+**Auditoría de calidad web:**
+En el frontend realizamos auditorías periódicas con Google Lighthouse, desde el navegador, para evaluar rendimiento, accesibilidad, SEO y buenas prácticas de desarrollo. Esta herramienta nos permite identificar cuellos de botella visuales o de carga, garantizando una experiencia de usuario fluida y optimizada.
+
+**Supervisión de APIs:**
+Durante las fases de desarrollo e integración, usamos Hoppscotch para validar el correcto funcionamiento de los endpoints del backend. Con esta herramienta comprobamos manualmente los códigos de respuesta, la estructura de los datos y los tiempos de latencia, asegurando la estabilidad y coherencia del API REST.
+
+**Pruebas de carga y disponibilidad:**
+El sistema está diseñado para incorporar JMeter y Uptime Kuma.
+
+* JMeter permitirá realizar pruebas de carga y estrés sobre los endpoints del backend, evaluando su desempeño bajo demanda elevada.
+
+* Uptime Kuma, por su parte, podrá monitorear la disponibilidad y tiempo de actividad de los servicios desplegados, alertando ante posibles caídas o interrupciones.
+
+### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo en SplitEasy se basa actualmente en un enfoque ligero y modular.
+Micrometer y Actuator proporcionan la base de las métricas del backend, las cuales pueden ser consumidas por herramientas externas en el futuro. Este sistema ofrece visibilidad sobre la salud del servidor, los tiempos de respuesta de las APIs y los recursos de la aplicación.
+En el frontend, los reportes de Lighthouse sirven como insumo de control de calidad para detectar degradaciones en el rendimiento visual y la accesibilidad.
+Ambos componentes —backend y frontend— trabajan en conjunto para mantener trazabilidad y control sobre el estado general del sistema.
+
+### 7.4.3. Alerting Pipeline Components
+
+Se prevé incorporar esta funcionalidad cuando la plataforma opere de forma continua. Pues el pipeline de alertas se basará en Alertmanager o servicios equivalentes que puedan conectarse con Prometheus y Micrometer, permitiendo definir reglas de alerta para métricas críticas, como:
+
+* Tiempo de respuesta de endpoints
+* Tasa de errores HTTP
+* Uso excesivo de memoria o CPU.
+
+Mientras tanto, las alertas se gestionan manualmente a través de los logs de Actuator y el monitoreo visual de desempeño, con el objetivo de detectar anomalías tempranas en el comportamiento del sistema.
+
+### 7.4.4. Notification Pipeline Components
+
+El sistema de notificaciones aún se encuentra en fase de planificación, y está pensado para integrarse con el pipeline de alertas en etapas futuras.
+Se plantea la implementación de un servicio como Gotify, una herramienta autoalojada de notificaciones push, que permitiría enviar avisos automáticos al equipo de desarrollo en caso de fallos críticos o caídas del servicio.
+
+En la versión actual, las notificaciones se realizan mediante comunicación interna en el equipo de desarrollo, complementada con el uso de logs y reportes generados por las herramientas de monitoreo existentes.
 
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
@@ -4310,6 +4370,46 @@ Cada herramienta cubre un aspecto clave de la calidad del sistema:
 Con esta selección, **SplitEasy** puede tomar decisiones informadas para optimizar su **rendimiento**, **accesibilidad** y **estabilidad** tanto en entornos de desarrollo como de producción, asegurando una **experiencia fluida y confiable** para todos los usuarios.
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+Aseguraremos que SplitEasy ofrezca una experiencia de buena calidad a todos los usuarios, por lo que realizamos auditorías con la herramienta Google Lighthouse en las vistas principales de la aplicación:
+
+* Landing Page
+* Interfaz de Representante
+* Interfaz de Miembro
+
+Con estos informes definimos objetivos, KPIs y métricas clave, y comprobamos los resultados reales obtenidos tras el despliegue.
+
+
+#### Resumen de resultados de Lighthouse
+| Vista      | Performance | Accessibility | Best Practices | SEO |
+|----------------|-------------|----------------|----------------|-----|
+| Landing     | 70          | 89             | 96             | 91  |
+| Representante    | 89          | 91             | 95             | 86  |
+| Miembro  | 97          | 93             | 98             | 85  |
+
+
+#### Evidencia de auditoría Lighthouse
+
+![Landing](images/PruebaLH.png)
+
+### Objetivos y KPIs
+
+| Objetivo                                   | KPI (meta)           | Resultado (Lighthouse) |
+|--------------------------------------------|----------------------|------------------------|
+| Cargar rápidamente la vista del Landing Page | Performance ≥ 90     | 70                     |
+| Garantizar accesibilidad web         | Accessibility ≥ 95   | 89                     |
+| Cumplir buenas prácticas de desarrollo      | Best Practices ≥ 90  | 96                     |
+| Optimizar visibilidad de contenido          | SEO ≥ 80             | 91                     |
+|                                            |                      |                        |
+| Cargar rápidamente la vista de Representante | Performance ≥ 90     | 89                     |
+| Garantizar accesibilidad web  | Accessibility ≥ 90   | 91                     |
+| Cumplir buenas prácticas de desarrollo      | Best Practices ≥ 90  | 95                     |
+| Optimizar visibilidad de contenido          | SEO ≥ 80             | 86                     |
+|                                            |                      |                        |
+| Cargar rápidamente la vista de Miembro    | Performance ≥ 95     | 97                     |
+| Garantizar accesibilidad web                 | Accessibility ≥ 95   | 93                     |
+| Cumplir buenas prácticas de desarrollo          | Best Practices ≥ 95  | 98                     |
+| Optimizar visibilidad de contenido                         | SEO ≥ 80             | 85                     |
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
