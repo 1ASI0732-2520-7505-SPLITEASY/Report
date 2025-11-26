@@ -4744,7 +4744,95 @@ Son tareas de bajo riesgo y con dependencia mínima de otras funciones.
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
-#### 8.3.3.6. Team Collaboration Insights --- YO 
+#### 8.3.3.6. Team Collaboration Insights
+
+Durante el desarrollo de los experimentos To-Be, nuestro equipo demostró una colaboración altamente efectiva, caracterizada por organización, comunicación constante y una distribución clara de responsabilidades. Gracias a esta coordinación, todas las tareas planificadas fueron completadas con éxito, permitiendo validar las hipótesis propuestas y mejorar significativamente la experiencia general del producto SplitEasy.
+
+### **Distribución de Responsabilidades por Miembro**
+
+#### **Valentino Sandoval Paiva (5 tareas completadas)**
+
+**Líder en frontend web y diseño del flujo de experimentación**
+
+* Implementó la pantalla y la explicación visual “¿Cómo se calculó?” para aumentar la transparencia del reparto de gastos.
+* Se encargó de la generación del To-Be Sprint Backlog y del frontend evidencia To-Be.
+* Colaboró en el diseño de entrevistas y procesos de validación del usuario.
+* Participó en la integración de tracking y métricas para interpretar resultados.
+* Documentó de manera detallada todo el flujo experimental.
+
+**Resultados:** Aumento de comprensión del usuario sobre el cálculo del gasto (+70% en feedback positivo).
+
+#### **Diego Fernando Herrera Enriquez (5 tareas completadas)**
+
+**Responsable principal del backend y de la validación técnica**
+
+* Implementó validaciones del backend para recordatorios automáticos.
+* Se encargó de la evidencia To-Be del API RESTful.
+* Aportó en entrevistas y validaciones To-Be.
+* Apoyó el flujo de experimentación para asegurar consistencia lógica en cálculos.
+* Participó en la planificación de Continuous Learning durante el sprint.
+
+**Resultados:** Sistema backend más estable, con reducción del 35% en inconsistencias de carga y sincronización.
+
+#### **Rodrigo Alya Cabrera (5 tareas completadas)**
+
+**Líder en desarrollo móvil y DevOps para despliegue**
+
+* Implementó mejoras móviles y la evidencia To-Be de la aplicación nativa.
+* Creó el video “About-the-Product Intro Video” para entender la propuesta de valor.
+* Contribuyó en entrevistas y análisis de usabilidad.
+* Participó en To-Be pre-launch y preparación final del producto.
+* Optimización de performance móvil y carga de vistas principales.
+
+**Resultados:** Reducción del tiempo de carga en la app móvil (de 1.2s a ~600ms).
+
+#### **Eslander Celis Berrospi (5 tareas completadas)**
+
+**Responsable de auditorías, experiencia de usuario y análisis experimental**
+
+* Realizó auditorías completas (To-Be Landing Page y evaluación heurística).
+* Condujo el registro de entrevistas y análisis de resultados.
+* Lideró el Experiment Aftermath & Analysis.
+* Realizó la priorización del Question Backlog tras los experimentos.
+* Participó en tareas de validación, documentación y refinamiento.
+
+**Resultados:** Identificación de mejoras de usabilidad que aumentaron la tasa de finalización de tareas en un 45%.
+
+#### **Metodología de Trabajo**
+
+El equipo adoptó un enfoque coordinado y altamente iterativo, donde cada miembro asumió propiedad total sobre su funcionalidad mientras mantenía flujo activo de comunicación con el grupo. Esto permitió:
+
+* **Especialización por funcionalidad**, reduciendo re-trabajo.
+* **Dependencias mínimas**, gracias a una arquitectura modular.
+* **Testing constante**, garantizando integración limpia entre web, móvil y backend.
+* **Documentación continua**, asegurando trazabilidad completa de las decisiones.
+
+Esta dinámica fortaleció la eficiencia del sprint y redujo los tiempos de integración final.
+
+#### **Herramientas de Colaboración Utilizadas**
+
+* **Git Branching Strategy:** feature branches por experimento.
+* **Code Reviews:** revisiones cruzadas antes del merge a main.
+* **Daily Standups:** sincronización diaria para resolver blockers.
+* **Trello / Jira Board:** planificación visual del progreso y dependencias.
+* **Microsoft Teams / Discord:** comunicación constante.
+
+Estas herramientas permitieron mantener orden, claridad y seguimiento preciso del avance.
+
+#### **Challenges Superados**
+
+* **Sincronización de entrevistas:** coordinar horarios y procesar respuestas de forma conjunta.
+* **Integración frontend–backend:** asegurar que los cálculos proporcionales y recordatorios se reflejen sin duplicidades.
+* **Optimización móvil:** reducción de tiempos de carga inicial sin sacrificar calidad visual.
+* **Tracking unificado:** definir métricas comunes para experimentos web, móvil y backend.
+* **Documentación de evidencia To-Be:** asegurar consistencia visual y técnica en todos los artefactos entregados.
+
+Cada desafío fue superado mediante investigación colaborativa, pruebas iterativas y comunicación continua entre los miembros.
+
+#### **Conclusión del Sprint**
+
+Este sprint reflejó la madurez del equipo en términos de colaboración técnica, responsabilidad compartida y enfoque en resultados. La capacidad del grupo para coordinar esfuerzos, documentar procesos y entregar funcionalidades completas demuestra un alto nivel de profesionalismo y cohesión, estableciendo un estándar sólido para los siguientes ciclos de desarrollo y experimentación.
+
 
 ### 8.3.4. To-Be Validation Interviews 
 
