@@ -4681,6 +4681,153 @@ Su desarrollo se concentra en la capa frontend y comunicación en tiempo real co
 (No incluidas en este sprint, pero aplicables a futuras mejoras menores como filtrado avanzado o estadísticas visuales.)
 Son tareas de bajo riesgo y con dependencia mínima de otras funciones.
 
+### Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+| US        | TA    | Título                               | Descripción                                                                              | Author                     | ToBe / Doing / Done |
+|-----------|-------|---------------------------------------|------------------------------------------------------------------------------------------|----------------------------|----------------------|
+| **US-TB-01** | **TA001** | Crear pantalla “¿Cómo se calculó?” | Diseño UI/UX del modal explicativo con el desglose visual del cálculo proporcional.      | Rodrigo Alya Cabrera       | Done                 |
+|           | TA002 | Implementar fórmula visual            | Programar la representación gráfica del cálculo proporcional con datos reales del grupo. | Rodrigo Alya Cabrera       | Done                 |
+|           | TA003 | Integrar valores desde backend        | Conectar con API para obtener aportes, porcentajes y mostrar fórmula aplicada.           | Rodrigo Alya Cabrera       | Done                 |
+|           | TA004 | Registrar interacción                 | Añadir tracking de clics e interacciones para métricas de confianza.                     | Rodrigo Alya Cabrera       | Done                 |
+|           | TA005 | Optimización móvil                    | Mejorar tiempos de carga del modal a menos de 150 ms.                                    | Rodrigo Alya Cabrera       | Done                 |
+| **US-TB-02** | TA006 | Sistema de notificaciones automáticas | Implementar recordatorios basados en deudas pendientes y fechas límite.                  | Diego Fernando Herrera     | Done                 |
+|           | TA007 | Configuración de frecuencia           | Ajustar recordatorios diarios, semanales o personalizados.                               | Diego Fernando Herrera     | Done                 |
+|           | TA008 | Envío inteligente                     | Evitar duplicados y priorizar recordatorios según monto y urgencia.                      | Diego Fernando Herrera     | Done                 |
+|           | TA009 | UI de recordatorios                   | Crear la interfaz para activar, modificar o desactivar recordatorios.                    | Diego Fernando Herrera     | Done                 |
+|           | TA010 | Métricas de efectividad               | Añadir tracking para medir apertura y tasa de pagos tras recordatorios.                  | Diego Fernando Herrera     | Done                 |
+| **US-TB-03** | TA011 | Generación de QR                     | Generar código QR del representante para pagos inmediatos.                               | Valentino Sandoval Paiva   | Done                 |
+|           | TA012 | Validación automática                 | Detectar y validar pagos QR para actualizar el balance automáticamente.                  | Valentino Sandoval Paiva   | Done                 |
+|           | TA013 | Registro de pagos                     | Guardar transacciones QR en la base de datos con trazabilidad.                           | Valentino Sandoval Paiva   | Done                 |
+|           | TA014 | Botón “Pagar con QR”                  | Crear la interfaz y botones en gastos individuales y resumen.                            | Valentino Sandoval Paiva   | Done                 |
+|           | TA015 | Métricas de retención                 | Implementar tracking para medir aumento de retención (>30%).                             | Valentino Sandoval Paiva   | Done                 |
+| **US-TB-04** | TA016 | Definir intents del chatbot          | Registrar preguntas frecuentes como “¿Cuánto debo?” o “¿Cómo se calculó?”.               | Eslander Celis Berrospi    | Done                 |
+|           | TA017 | Integración con API de IA             | Conectar el chatbot con servicios NLP como OpenAI o Dialogflow.                          | Eslander Celis Berrospi    | Done                 |
+|           | TA018 | UI del chatbot                        | Crear el panel de chat integrado en la aplicación (web y móvil).                         | Eslander Celis Berrospi    | Done                 |
+|           | TA019 | Respuestas con datos reales           | Conectar el chatbot a los endpoints de saldos, pagos y estadísticas.                     | Eslander Celis Berrospi    | Done                 |
+|           | TA020 | Métricas de reducción de soporte      | Medir reducción del 50% en consultas.                                                    | Eslander Celis Berrospi    | Done                 |
+| **US-TB-05** | TA021 | Mejorar eventos de sincronización     | Optimizar comunicación entre frontend y backend para reducir latencia.                   | Rodrigo Alya Cabrera       | Done                 |
+|           | TA022 | Caché local inteligente               | Guardar cambios offline y enviarlos al reconectar.                                       | Rodrigo Alya Cabrera       | Done                 |
+|           | TA023 | Sincronización offline                | Aplicar cambios pendientes sin pérdida de datos.                                         | Rodrigo Alya Cabrera       | Done                 |
+|           | TA024 | Feedback visual inmediato             | Mostrar actualización optimista con estado en tiempo real.                               | Rodrigo Alya Cabrera       | Done                 |
+|           | TA025 | Medición de latencia                  | Registrar tiempos para garantizar <0.5 s.                                                | Rodrigo Alya Cabrera       | Done                 |
+| **US-TB-06** | TA026 | Implementar theme switcher           | Crear botón para alternar entre modo claro y oscuro.                                     | Diego Fernando Herrera     | Done                 |
+|           | TA027 | Estilos completos dark/light          | Aplicar estilos globales y componentes adaptados a ambos temas.                          | Diego Fernando Herrera     | Done                 |
+|           | TA028 | Detección automática                  | Cambiar tema según configuración del sistema operativo.                                  | Diego Fernando Herrera     | Done                 |
+|           | TA029 | Persistencia del tema                 | Guardar preferencia de tema en localStorage.                                             | Diego Fernando Herrera     | Done                 |
+|           | TA030 | Validación de contraste               | Asegurar accesibilidad AA/AAA en ambos modos.                                           | Diego Fernando Herrera     | Done                 |
+| **US-TB-07** | TA031 | Configurar i18n                      | Implementar sistema multiidioma para web y móvil.                                        | Valentino Sandoval Paiva   | Done                 |
+|           | TA032 | Crear archivos ES/EN                  | Preparar archivos JSON con traducciones completas.                                       | Valentino Sandoval Paiva   | Done                 |
+|           | TA033 | Selector de idioma                    | Añadir UI para cambiar entre español e inglés.                                           | Valentino Sandoval Paiva   | Done                 |
+|           | TA034 | Detección automática                  | Mostrar app según idioma del dispositivo.                                                | Valentino Sandoval Paiva   | Done                 |
+|           | TA035 | Validación final                      | Ajustar textos, longitudes y contextos.                                                  | Valentino Sandoval Paiva   | Done                 |
+| **US-TB-08** | TA036 | Optimizar carga inicial              | Reducir tiempo de carga del grupo a <800 ms.                                             | Eslander Celis Berrospi    | Done                 |
+|           | TA037 | Lazy loading                          | Implementar carga diferida de módulos secundarios.                                       | Eslander Celis Berrospi    | Done                 |
+|           | TA038 | Optimización de batería               | Reducir procesos en background para uso prolongado.                                      | Eslander Celis Berrospi    | Done                 |
+|           | TA039 | Optimizar imágenes                    | Comprimir imágenes de perfil y gastos.                                                   | Eslander Celis Berrospi    | Done                 |
+|           | TA040 | Pruebas de rendimiento                | Realizar mediciones con Lighthouse Mobile y WebPageTest.                                 | Eslander Celis Berrospi    | Done                 |
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6. Team Collaboration Insights --- YO 
+
+### 8.3.4. To-Be Validation Interviews 
+
+#### 8.3.4.1. Diseño de Entrevistas. 
+
+## **Para la explicación visual de la fórmula (“¿Cómo se calculó?”)**
+
+- ¿Has usado la opción “¿Cómo se calculó?” en el resumen del gasto?
+- ¿La explicación visual te ayudó a entender cómo se repartió el gasto entre los miembros?
+- ¿Consideras clara la fórmula proporcional mostrada en la pantalla?
+- ¿Sientes que esta explicación aumenta tu confianza en los montos asignados?
+- ¿Te gustaría ver más detalles o un desglose más simple?
+
+## **Para los recordatorios automáticos de deuda**
+
+- ¿Has recibido recordatorios automáticos sobre tus deudas pendientes?
+- ¿La frecuencia de los recordatorios te parece adecuada o muy insistente?
+- ¿Los recordatorios hicieron que pagues tus deudas más rápido?
+- ¿Te gustaría personalizar aún más la frecuencia o el horario de los recordatorios?
+- ¿Los consideras una herramienta útil para mantener tus cuentas al día?
+
+## **Para los pagos con QR (Yape/Plin)**
+
+- ¿Has usado la opción de “Pagar con QR” en la aplicación?
+- ¿Qué tan fácil te pareció escanear el QR para realizar el pago?
+- ¿El pago se actualizó correctamente y sin retrasos en tu balance?
+- ¿Preferirías usar QR sobre métodos manuales de pago?
+- ¿Recomendarías esta función a otros miembros de tu grupo?
+
+## **Para el chatbot de asistencia inteligente**
+
+- ¿Has interactuado con el chatbot dentro de la aplicación?
+- ¿Qué tipo de preguntas realizaste y cómo evaluarías la utilidad de las respuestas?
+- ¿Te resultó útil obtener respuestas sin necesidad de contactar a otro integrante del grupo?
+- ¿El chatbot te ayudó a resolver dudas sobre deudas, pagos o cálculos?
+- ¿Lo recomendarías como asistente de ayuda dentro de los grupos?
+
+## **Para la optimización de sincronización y rendimiento**
+
+- ¿Has notado mejoras en la velocidad al actualizar gastos o saldos en tiempo real?
+- ¿Te parece útil que los cambios se sincronicen incluso cuando no tienes buena conexión?
+- ¿Qué tan importante es para ti que la app funcione rápido en momentos de alta actividad (viajes, cenas, grupo grande)?
+- ¿Has experimentado menos retrasos o inconsistencias en los datos?
+- ¿La velocidad actual mejora tu experiencia general con SplitEasy?
+
+## **Para el modo oscuro / modo claro**
+
+- ¿Has utilizado la opción para activar el modo oscuro?
+- ¿Te parece más cómodo el modo oscuro durante la noche?
+- ¿El modo oscuro hace más agradable la navegación en comparación al modo claro?
+- ¿El contraste del tema te parece apropiado para leer los textos?
+- ¿Usarías esta función de manera permanente?
+
+## **Para el soporte multiidioma (Español–Inglés)**
+
+- ¿Has probado cambiar el idioma de la aplicación?
+- ¿Te parecen completas y precisas las traducciones al inglés?
+- ¿Consideras que esta función ayuda a que más personas usen SplitEasy?
+- ¿Preferirías que la app detecte automáticamente el idioma del dispositivo?
+- ¿Recomendarías la app a alguien que no hable español?
+
+## **Para la optimización de carga móvil y desempeño general**
+
+- ¿Has notado diferencias en la rapidez al abrir grupos o gastos?
+- ¿Qué tan importante es para ti que la app cargue rápido, incluso con muchos gastos registrados?
+- ¿La velocidad actual te permite gestionar actividades y deudas sin frustración?
+- ¿La aplicación consume menos batería que antes?
+- ¿Te ha resultado más fluida la experiencia general en el móvil?
+
+
+#### 8.3.4.2. Registro de Entrevistas. --- TODOS
+
+## 8.4. Experiment Aftermath & Analysis --- TODO(ESLANDER)
+
+### 8.4.1. Analysis and Interpretation of Results 
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning  --- TODO (DIEGO)
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch 
+
+### 8.6.1. About-the-Product Intro Video
+
+SplitEasy es una aplicación móvil y web diseñada para simplificar la gestión de gastos compartidos entre amigos, familias y grupos. En este video introductorio, mostramos cómo nuestra plataforma permite dividir cuentas de manera justa utilizando una fórmula visual y fácil de entender, enviar recordatorios automáticos de pago, utilizar códigos QR para cancelar deudas rápidamente y acceder a un chatbot inteligente para resolver dudas en tiempo real. A través de una interfaz intuitiva, fluida y accesible, SplitEasy ayuda a que la organización económica entre grupos sea más transparente, rápida y eficiente, mejorando la experiencia de todos sus usuarios.
+
+![Landing](images/TF/VIDEOP.png)
+
+https://drive.google.com/file/d/1wFAYhizbfD4AZ401VTP5yNhZ0OSn4DdK/view?usp=sharing
 
 # Conclusión
 
