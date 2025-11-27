@@ -4925,6 +4925,46 @@ SplitEasy es una aplicación móvil y web diseñada para simplificar la gestión
 
 https://drive.google.com/file/d/1wFAYhizbfD4AZ401VTP5yNhZ0OSn4DdK/view?usp=sharing
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+#### 8.3.3.1. To-Be Sprint Backlogs 
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence 
+
+**US01  Vista General de beneficios y Funcionalidades**
+
+![Landing](images/TF/LANDING1.png)
+![Landing](images/TF/LANDING2.png)
+![Landing](images/TF/LANDING3.png)
+---
+US02  Resumen de la empresa
+![Landing](images/TF/LANDING4.png)
+---
+US03  Navegación Clara y Directa en la Página
+![Landing](images/TF/LANDING5.png)
+---
+US04  Video de Demostración del Producto
+![Landing](images/TF/LANDING6.png)
+---
+US05  Iniciar Sesión Rápido y Visible
+![Landing](images/TF/LANDING7.png)
+---
+US09  Selección de Idioma
+![Landing](images/TF/LANDING8.png)
+---
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence 
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
+
+#### 8.3.3.6. Team Collaboration Insights  
+### 8.3.4. To-Be Validation Interviews 
+#### 8.3.4.1. Diseño de Entrevistas. 
+#### 8.3.4.2. Registro de Entrevistas. 
+## 8.4. Experiment Aftermath & Analysis 
+### 8.4.1. Analysis and Interpretation of Results 
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+## 8.5. Continuous Learning 
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+## 8.6. To-Be Software Platform Pre-launch 
+### 8.6.1. About-the-Product Intro Video
+
 # Conclusión
 
 El desarrollo de la plataforma **SplitEasy** ha sido un proceso meticuloso y orientado a cubrir las necesidades reales de los usuarios en la gestión financiera compartida dentro de un hogar. A partir de un análisis exhaustivo y una planificación basada en **epics** y **user stories**, se definieron claramente los requisitos funcionales y no funcionales que guían la construcción de un sistema robusto, intuitivo y seguro.
