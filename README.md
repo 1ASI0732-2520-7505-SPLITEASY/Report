@@ -4957,9 +4957,73 @@ US09  Selección de Idioma
 ### 8.3.4. To-Be Validation Interviews 
 #### 8.3.4.1. Diseño de Entrevistas. 
 #### 8.3.4.2. Registro de Entrevistas. 
+
 ## 8.4. Experiment Aftermath & Analysis 
+En la investigación, las preguntas originales utilizadas en las primeras entrevistas fueron reescritas y organizadas con el propósito de obtener respuestas más precisas y útiles para analizar la experiencia de los usuarios con SplitEasy. Esta reformulación permitió comprender mejor las percepciones, preferencias y necesidades de los participantes en relación con las funcionalidades principales de la aplicación.
 ### 8.4.1. Analysis and Interpretation of Results 
+
+**1. Explicación clara del cálculo**
+
+(Objetivo: +40 % confianza)
+
+El 95 % de los participantes afirmó que la explicación de “¿Cómo se calculó?” aumentó su confianza en los montos (50 % “mucho” y 45 % “un poco”).
+Este resultado supera ampliamente el objetivo planteado y confirma que la transparencia en el cálculo es una funcionalidad clave.
+Además, solo un 5 % no notó diferencia y ningún usuario reportó pérdida de confianza, lo que respalda que esta característica es segura, clara y bien aceptada.
+![alt text](image-2.png)
+
+**2. Recordatorios automáticos**
+
+(Objetivo: +35 % cierre de deudas)
+
+El 100 % de los usuarios marcó respuestas positivas (“Sí” 50 % + “A veces” 50 %).
+Esto indica que los recordatorios ayudan consistentemente a acelerar pagos, logrando un impacto directo en reducir deudas pendientes.
+No hubo rechazo (“me resultan molestos” = 0 %), lo que demuestra que el sistema está bien implementado y no genera fricción.
+![alt text](image-3.png)
+
+**3. Pagos por QR**
+
+(Objetivo: +30 % retención)
+
+El 95 % de los usuarios se siente motivado a seguir usando SplitEasy si incluye pagos por QR (75 % definitivamente y 20 % probablemente).
+Solo un 5 % se mantiene indeciso.
+Esto valida fuertemente la hipótesis: integrar pagos QR es un impulsor directo de retención y recompra de uso en nuevas actividades y grupos.
+![alt text](image-4.png)
+**4. Chatbot IA para resolver dudas**
+
+(Objetivo: reducir 50 % dudas)
+
+El 95 % de los encuestados indicó que el chatbot resolvió parcial o totalmente sus dudas (65 % completamente, 30 % parcialmente).
+Solo 5 % necesitó ayuda adicional.
+Esto sugiere que el chatbot puede efectivamente reducir más del 50 % de las dudas humanas, cumpliendo el objetivo y demostrando que es un recurso eficiente para soporte autónomo.
+![alt text](image-5.png)
+
+**5. Nueva sincronización (<0.5 s)**
+(Objetivo: mejorar confiabilidad y percepción de velocidad)
+
+El 90 % de los usuarios percibió una mejora clara en la velocidad de la app (60 % “mucho más rápida” y 30 % “algo más rápida”).
+Esto confirma que el esfuerzo técnico en la optimización es notorio y contribuye a una experiencia más fluida y confiable.
+Solo un 10 % no notó cambios, lo cual es normal por diferencias de dispositivos o percepción personal.
+![alt text](image-6.png)
+
+**6. Modo oscuro + Multiidioma**
+
+(Objetivo: +30 % satisfacción y alcance)
+
+El 100 % de los usuarios reportó un aumento en satisfacción (80 % “mucho” y 20 % “un poco”).
+Este resultado demuestra que ambas funcionalidades son altamente valoradas y aportan a una experiencia más accesible, cómoda y universal.
+Además, refuerza la relevancia del diseño inclusivo para ampliar el alcance internacional.
+
+![alt text](image-7.png)
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+| **Prioridad** | **Pregunta**                                                                                                                                     |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **10**        | ¿Una explicación clara de la fórmula de reparto aumentará en 40% la confianza del usuario en los montos adeudados?                               |
+| **10**        | ¿Un chatbot IA reducirá en 50% las dudas y mensajes de soporte, mejorando la satisfacción del usuario al ofrecer asistencia 24/7?                |
+| **9**         | ¿La integración de pagos por QR (Yape/Plin) aumentará la retención de usuarios en 30%, reduciendo fricción y pasos manuales?                     |
+| **8**         | ¿Los recordatorios automáticos incrementarán en 35% la tasa de cierre de deudas dentro de los grupos, mejorando la puntualidad de pagos?         |
+| **8**         | ¿Optimizar la sincronización a menos de 0.5 segundos aumentará la percepción de confiabilidad del sistema entre los usuarios?                    |
+| **7**         | ¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales? |
+
 ## 8.5. Continuous Learning 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 ## 8.6. To-Be Software Platform Pre-launch 
