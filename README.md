@@ -4926,6 +4926,23 @@ Este sprint reflejó la madurez del equipo en términos de colaboración técnic
 
 #### 8.3.4.2. Registro de Entrevistas. --- TODOS
 
+### SEGMENTO 2:
+
+**REGISTRO ENTREVISTA 1:**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Gianelly Vásquez |
+| **Edad** | 25 |
+| **Profesión** | Estudiante |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 08:49 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBmgAAP8sLrTaD0lz2HmFSWAWqAhbkzfiyByxY4qM8TB-o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Tqpoe4 |
+| **Foto entrevista** | <img src="images/TF/entrevista_tf_1.png" alt=""  width="250" /> |
+| **Resumen** | Gianelly comentó que la explicación visual de la fórmula le resultó muy clara y útil para entender cómo se repartían los gastos, lo que le aumentó la confianza en los montos asignados. Mencionó que los recordatorios automáticos le parecen oportunos y equilibrados, ayudándola a pagar más rápido sin sentirse invadida. También destacó que la función de pago con QR es sencilla y rápida, y que la actualización del balance ocurre sin retrasos, lo que le inspira seguridad. Señaló que el chatbot de asistencia le resolvió dudas de forma práctica, evitando tener que depender de otros miembros del grupo. Además, afirmó notar mejoras importantes en la velocidad de sincronización y en el rendimiento general, incluso con mala conexión, lo que le hace sentir una experiencia más fluida. Finalmente, dijo que el modo oscuro le resulta cómodo, que las traducciones al inglés están bien logradas y que la app ahora carga más rápido y consume menos batería. En conjunto, expresó sentirse satisfecha con la aplicación y consideró que SplitEasy ha mejorado significativamente su experiencia de organización y manejo de gastos compartidos.|
+
+
 ## 8.4. Experiment Aftermath & Analysis 
 
 En la investigación, las preguntas originales utilizadas en las primeras entrevistas fueron reescritas y organizadas con el propósito de obtener respuestas más precisas y útiles para analizar la experiencia de los usuarios con SplitEasy. Esta reformulación permitió comprender mejor las percepciones, preferencias y necesidades de los participantes en relación con las funcionalidades principales de la aplicación.
