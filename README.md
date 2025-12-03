@@ -4737,6 +4737,9 @@ Son tareas de bajo riesgo y con dependencia mínima de otras funciones.
 |           | TA040 | Pruebas de rendimiento                | Realizar mediciones con Lighthouse Mobile y WebPageTest.                                 | Eslander Celis Berrospi    | Done                 |
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+En esta sección mostramos las evidencias visuales de las mejoras realizadas en la landing page de SplitEasy como parte de nuestros experimentos to-be. Estas actualizaciones se centraron en optimizar la experiencia del usuario y aumentar la conversión de visitantes, incorporando elementos visuales más atractivos, información más clara sobre nuestra propuesta de valor y una navegación más intuitiva.
+
 **US01  Vista General de beneficios y Funcionalidades**
 
 ![Landing](images/TF/LANDING1.png)
@@ -4760,6 +4763,83 @@ US09  Selección de Idioma
 ---
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+**LOGIN**
+
+![Landing](images/TF/l1.png)
+
+**US-TB-01	Explicación visual de la fórmula de reparto**
+
+**VISTA DE REPRESENTANTE**
+
+![Landing](images/TF/l2.png)
+
+![Landing](images/TF/l3.png)
+
+**US-TB-02	Recordatorios automáticos de deuda**
+
+**VISTA REPRESENTANTE**
+En la vista del representante se presenta una notificación en la pantalla, si esta a punto de vencer una deuda o si ya vencio.
+
+![Landing](images/TF/DE1.png)
+
+**VISTA MIEMBRO**
+
+![Landing](images/TF/M1.png)
+
+**US-TB-03	Pagos por QR (Yape/Plin)**
+
+**VISTA REPRESENTANTE**
+
+![Landing](images/TF/l4.png)
+
+**VISTA MIEMBRO**
+
+![Landing](images/TF/M2.png)
+
+**US-TB-04	Chatbot de asistencia inteligente**
+
+![Landing](images/TF/l5.png)
+
+![Landing](images/TF/l6.png)
+
+**US-TB-06	Modo oscuro / claro adaptable**
+
+**MODO OSCURO**
+
+![Landing](images/TF/l1.png)
+![Landing](images/TF/ES1.png)
+![Landing](images/TF/ES2.png)
+![Landing](images/TF/ES3.png)
+![Landing](images/TF/ES5.jpg)
+![Landing](images/TF/ES6.jpg)
+
+**MODO CLARO**
+
+![Landing](images/TF/C1.jpg)
+![Landing](images/TF/C2.jpg)
+![Landing](images/TF/C3.jpg)
+![Landing](images/TF/C4.jpg)
+![Landing](images/TF/C5.jpg)
+
+**US-TB-07	Soporte multiidioma (Español-Inglés)**
+
+**ESPAÑOL**
+
+![Landing](images/TF/ES1.png)
+![Landing](images/TF/ES2.png)
+![Landing](images/TF/ES3.png)
+![Landing](images/TF/ES5.jpg)
+![Landing](images/TF/ES6.jpg)
+
+**INGLES**
+
+![Landing](images/TF/IN6.jpg)
+![Landing](images/TF/IN1.jpg)
+![Landing](images/TF/IN2.jpg)
+![Landing](images/TF/IN3.jpg)
+![Landing](images/TF/IN4.jpg)
+![Landing](images/TF/IN5.jpg)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
