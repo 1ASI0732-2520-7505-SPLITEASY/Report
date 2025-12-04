@@ -4845,6 +4845,31 @@ En la vista del representante se presenta una notificación en la pantalla, si e
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+La mayoría de las funcionalidades definidas en las User Stories To-Be de SplitEasy fueron implementadas en el frontend, donde se manejan interacciones visuales, explicaciones, recordatorios, temas y multiidioma, así como la sincronización de datos y la optimización de rendimiento.
+
+En el backend, se realizó un único ajuste relacionado con los pagos mediante QR:
+
+- Pagos por QR (US-TB-03 / E03)
+- Endpoint: POST /api/v1/contributions/
+
+Función: Procesa pagos detectados mediante QR y actualiza balances del grupo automáticamente.
+
+Cambios realizados: Se agregó un nuevo atributo en la petición POST para enviar la imagen del QR y el número asociado, y el GET correspondiente devuelve la misma información para confirmación.
+
+Evidencia: Se realizaron transacciones de prueba en la base de datos con estado paid, mostrando la actualización del balance en tiempo real.
+
+![Landing](images/TF/EndpointPost.jpg)
+
+![Landing](images/TF/EndpointPost2.png)
+
+![Landing](images/TF/EndpointResponse.png)
+
+![Landing](images/TF/GestionE.jpg)
+
+De esta manera, se evidencia que el backend soporta correctamente la funcionalidad de pagos por QR, mientras que el resto de funcionalidades To-Be se gestionan desde el frontend.
+
+
+
 #### 8.3.3.6. Team Collaboration Insights
 
 Durante el desarrollo de los experimentos To-Be, nuestro equipo demostró una colaboración altamente efectiva, caracterizada por organización, comunicación constante y una distribución clara de responsabilidades. Gracias a esta coordinación, todas las tareas planificadas fueron completadas con éxito, permitiendo validar las hipótesis propuestas y mejorar significativamente la experiencia general del producto SplitEasy.
@@ -5004,9 +5029,9 @@ Este sprint reflejó la madurez del equipo en términos de colaboración técnic
 - ¿Te ha resultado más fluida la experiencia general en el móvil?
 
 
-#### 8.3.4.2. Registro de Entrevistas.
+### 8.3.4.2. Registro de Entrevistas.
 
-### SEGMENTO 1:
+#### SEGMENTO 1:
 
 **REGISTRO ENTREVISTA 1:**
 
@@ -5023,7 +5048,23 @@ Este sprint reflejó la madurez del equipo en términos de colaboración técnic
 | **Resumen** | La entrevistada, Vannya Herrera, médica de familia residente en Lima, expresó una alta satisfacción con las nuevas funcionalidades de SplitEasy. Destacó que la explicación visual de la fórmula de cálculo le permitió comprender mejor el reparto y confiar más en los montos. Consideró útiles los recordatorios automáticos, mencionando que la frecuencia es adecuada y que le ayudaron a pagar más rápido. Valoró positivamente los pagos por QR, resaltando su rapidez, facilidad y actualización inmediata. Sobre el chatbot, indicó que le resolvió dudas de forma clara sin necesidad de consultar a otros. También notó mejoras significativas en sincronización y rendimiento, especialmente en situaciones con mala conexión o alta actividad. El modo oscuro le resultó más cómodo visualmente y afirmó usarlo casi siempre. Respecto al soporte multiidioma, consideró las traducciones naturales y útiles para ampliar el alcance de la app. Finalmente, destacó una mejor carga móvil, menor consumo de batería y una experiencia más fluida en general. |
 
 
-### SEGMENTO 2:
+**REGISTRO ENTREVISTA 2:**
+#### ENTREVISTA 2
+
+| Campo              | Detalle |
+|---------------------|----------|
+| **Nombre entrevistado** | Denis Paul Requejo |
+| **Edad** | 33 |
+| **Profesión** | Policía |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 13:37 |
+| **Link del video** |    https://goo.su/RiE3ix   |
+| **Foto entrevista** | <img src="images/EntrevistaPaulRValidation.png" alt=""  width="250" /> |
+| **Resumen** | Denis Paul Requejo, policía de 33 años residente en Lima, comentó que las nuevas mejoras de SplitEasy encajan bien con alguien que vive con horarios irregulares y poco tiempo libre. Señaló que la explicación visual de la fórmula de cálculo le resultó útil porque le permite confirmar rápidamente que todo está bien repartido, sin necesidad de ponerse a revisar números después de un turno largo. Sobre los recordatorios automáticos, dijo que al inicio pensó que podían ser molestos, pero terminó encontrándolos prácticos porque le evitan olvidos cuando está fuera de casa varios días. La función de pagos por QR le pareció una de las mejoras más importantes: lo describió como “rápido, limpio y sin discusiones”, especialmente cuando divide cuentas con compañeros. El chatbot, según él, funciona bien para resolver dudas rápidas, aunque mencionó que en algunos casos aún preferiría buscar directamente en los menús; aun así, lo consideró una adición positiva. Donde notó mayor mejora fue en la sincronización: recalcó que ahora las actualizaciones aparecen sin retraso incluso con mala señal, algo que valoró especialmente porque suele moverse entre distritos. El modo oscuro le pareció cómodo en la noche, y el soporte multiidioma lo vio útil pero no esencial para su rutina. Finalmente, destacó que la app ahora consume menos batería y carga más rápido, algo que agradece porque usa el celular todo el día por trabajo. En resumen, considera que la aplicación se siente más estable, más rápida y más confiable para usarla en el día a día. |
+
+
+#### SEGMENTO 2:
 
 **REGISTRO ENTREVISTA 1:**
 
@@ -5038,6 +5079,21 @@ Este sprint reflejó la madurez del equipo en términos de colaboración técnic
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBmgAAP8sLrTaD0lz2HmFSWAWqAhbkzfiyByxY4qM8TB-o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Tqpoe4 |
 | **Foto entrevista** | <img src="images/TF/entrevista_tf_1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly comentó que la explicación visual de la fórmula le resultó muy clara y útil para entender cómo se repartían los gastos, lo que le aumentó la confianza en los montos asignados. Mencionó que los recordatorios automáticos le parecen oportunos y equilibrados, ayudándola a pagar más rápido sin sentirse invadida. También destacó que la función de pago con QR es sencilla y rápida, y que la actualización del balance ocurre sin retrasos, lo que le inspira seguridad. Señaló que el chatbot de asistencia le resolvió dudas de forma práctica, evitando tener que depender de otros miembros del grupo. Además, afirmó notar mejoras importantes en la velocidad de sincronización y en el rendimiento general, incluso con mala conexión, lo que le hace sentir una experiencia más fluida. Finalmente, dijo que el modo oscuro le resulta cómodo, que las traducciones al inglés están bien logradas y que la app ahora carga más rápido y consume menos batería. En conjunto, expresó sentirse satisfecha con la aplicación y consideró que SplitEasy ha mejorado significativamente su experiencia de organización y manejo de gastos compartidos.|
+
+**REGISTRO ENTREVISTA 2**
+
+| **Campo** | **Detalle** |
+|------------|-------------|
+| **Nombre entrevistado** | Franco García Zuñiga |
+| **Edad** | 21 |
+| **Profesión** | Estudiante |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 09:18 |
+| **Link del video** | https://goo.su/xdK6Y |
+| **Foto entrevista** | <img src="images/TB2/entrevista.png" alt=""  width="250" /> |
+| **Resumen** | Franco García Zuñiga, estudiante de 21 años residente en Lima, comentó que las nuevas funciones de SplitEasy representan una mejora notable frente a la versión anterior. Destacó que la explicación visual de la fórmula le facilitó muchísimo entender cómo se distribuye cada gasto, señalando que para alguien que no quiere perder tiempo con cálculos, la transparencia es clave. Consideró que los recordatorios automáticos son útiles y discretos, especialmente cuando está ocupado con la universidad, pues le permiten mantener sus pagos al día sin estar revisando la app a cada rato. Sobre los pagos por QR, afirmó que se convirtieron en su modo preferido por la rapidez y porque evitan confusiones entre amigos. Respecto al chatbot, dijo que le sorprendió gratamente: obtuvo respuestas claras sin buscar en menús ni molestar a nadie del grupo. También mencionó que notó una mejora fuerte en la sincronización, sobre todo cuando varios editan gastos al mismo tiempo. El modo oscuro le pareció mucho más cómodo para estudiar en la noche, mientras que el soporte multiidioma le resultó práctico para recomendar la aplicación a sus amigos que usan su teléfono en inglés. Finalmente, resaltó que la aplicación ahora carga más rápido y consume menos batería, haciendo que usarla durante salidas o viajes sea mucho más ágil y agradable. |
+
 
 
 ## 8.4. Experiment Aftermath & Analysis 
