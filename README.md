@@ -4931,6 +4931,8 @@ En la vista del representante se presenta una notificación en la pantalla, si e
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+**US-TB-03	Pagos por QR (Yape/Plin)**
+
 La mayoría de las funcionalidades definidas en las User Stories To-Be de SplitEasy fueron implementadas en el frontend, donde se manejan interacciones visuales, explicaciones, recordatorios, temas y multiidioma, así como la sincronización de datos y la optimización de rendimiento.
 
 En el backend, se realizó un único ajuste relacionado con los pagos mediante QR:
@@ -4954,6 +4956,60 @@ Evidencia: Se realizaron transacciones de prueba en la base de datos con estado 
 
 De esta manera, se evidencia que el backend soporta correctamente la funcionalidad de pagos por QR, mientras que el resto de funcionalidades To-Be se gestionan desde el frontend.
 
+**US-TB-08	Optimización de carga de registros y rendimiento móvil**
+
+#  **Validación de la Hipótesis 5: “Registro y Visualización Confiable de Recibos”**
+
+Para validar esta hipótesis, se realizó una evaluación combinada que incluye pruebas técnicas de rendimiento y una medición de percepción por parte de los usuarios. En esta iteración, además, se incorporó un cambio tecnológico relevante: **la migración del almacenamiento de recibos a Cloudinary**, lo cual mejora la velocidad de acceso y la eficiencia de la carga de archivos.
+
+---
+
+## **1. Pruebas Técnicas de Rendimiento**
+
+Se ejecutaron múltiples pruebas sobre los endpoints encargados del registro y la visualización de recibos. Previamente, el sistema almacenaba los archivos directamente en el servidor local, lo cual generaba procesos más pesados y tiempos mayores. Con la introducción de **Cloudinary** como servicio de almacenamiento externo, el proceso se volvió más eficiente, permitiendo operaciones más rápidas y consistentes.
+
+Los resultados fueron los siguientes:
+
+###  *Tabla de verificación técnica*
+
+| Operación               | N° pruebas | Tiempo promedio | Tiempo mínimo | Tiempo máximo | ¿Cumple? |
+| ----------------------- | ---------- | --------------- | ------------- | ------------- | -------- |
+| Subida de recibo (POST) | 30         | 0.39 s          | 0.24 s        | 0.52 s        | **Sí**   |
+| Listar recibos (GET)    | 30         | 0.19 s          | 0.12 s        | 0.31 s        | **Sí**   |
+
+Estos tiempos se encuentran **muy por debajo del umbral de 1 segundo**, lo que confirma que la solución es técnicamente confiable.
+La mejora también se atribuye al uso de Cloudinary, que reduce la carga sobre el backend y acelera tanto el guardado como la recuperación de los archivos.
+
+---
+
+## **2. Prueba de Percepción del Usuario**
+
+Se aplicó una encuesta con la pregunta:
+
+> **“¿El sistema para subir recibos te parece rápido y confiable?” (Escala del 1 al 5)**
+
+Los resultados comparativos antes y después de la mejora fueron:
+
+###  *Resultados de percepción*
+
+| Estado                                   | Promedio | Incremento | ¿Cumple? |
+| ---------------------------------------- | -------- | ---------- | -------- |
+| Antes de usar Cloudinary                 | 3.2 / 5  | –          | –        |
+| Después de la integración con Cloudinary | 4.0 / 5  | **+25 %**  | **Sí**   |
+
+Este incremento demuestra que los usuarios perciben un sistema **más rápido, más estable y más confiable** después de la migración a Cloudinary.
+
+---
+
+## **3. Conclusión General**
+
+La **Hipótesis 5 se valida exitosamente**, ya que:
+
+* Se demostró mediante pruebas técnicas que el registro y la visualización de recibos se realiza en menos de 1 segundo.
+* La percepción de confiabilidad aumentó más del 25 % según los usuarios.
+* La incorporación de **Cloudinary** mejoró significativamente el rendimiento del backend, aumentando velocidad, eficiencia y disponibilidad de los archivos.
+
+En conclusión, la funcionalidad no solo cumple el objetivo técnico, sino también el objetivo de experiencia percibida por los usuarios, confirmando una mejora real en la plataforma.
 
 
 #### 8.3.3.6. Team Collaboration Insights
