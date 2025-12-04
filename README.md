@@ -5358,6 +5358,13 @@ En conclusión, SplitEasy se posiciona como una herramienta innovadora y confiab
 
 ---
 
+### VIDEO ABOUT THE TEAM
+
+![Landing](images\TF\VIDEOABO.png)
+
+URL:https://drive.google.com/file/d/1kBP2M3USLPHBDg0IET8MpN9EXaqOjxMM/view?usp=sharing
+
+
 # Referencias (Normas APA 7)
 
 ## Aplicaciones para dividir gastos
