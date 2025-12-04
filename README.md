@@ -4842,6 +4842,82 @@ En la vista del representante se presenta una notificación en la pantalla, si e
 ![Landing](images/TF/IN5.jpg)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+**LOGIN**
+
+![Landing](images/TF/login-mobile.png)
+
+**US-TB-01	Explicación visual de la fórmula de reparto**
+
+**VISTA DE REPRESENTANTE**
+
+![Landing](images/TF/explicacion-formula1.png)
+
+![Landing](images/TF/explicacion-formula2.png)
+
+**US-TB-02	Recordatorios automáticos de deuda**
+
+**VISTA REPRESENTANTE**
+En la vista del representante se presenta una notificación en la pantalla, si esta a punto de vencer una deuda o si ya vencio.
+
+![Landing](images/TF/noti-re.png)
+
+**VISTA MIEMBRO**
+
+![Landing](images/TF/noti-mi.png)
+
+**US-TB-03	Pagos por QR (Yape/Plin)**
+
+**VISTA REPRESENTANTE**
+
+![Landing](images/TF/yape-re.png)
+
+**VISTA MIEMBRO**
+
+![Landing](images/TF/yape-mi.png)
+
+**US-TB-04	Chatbot de asistencia inteligente**
+
+![Landing](images/TF/chatbot-mobile.png)
+
+**US-TB-06	Modo oscuro / claro adaptable**
+
+**MODO OSCURO**
+
+![Landing](images/TF/oscuro-mobile1.png)
+![Landing](images/TF/oscuro-mobile2.png)
+![Landing](images/TF/oscuro-mobile3.png)
+![Landing](images/TF/oscuro-mobile4.png)
+![Landing](images/TF/oscuro-mobile5.png)
+![Landing](images/TF/oscuro-mobile6.png)
+
+**MODO CLARO**
+
+![Landing](images/TF/claro-mobile1.png)
+![Landing](images/TF/claro-mobile2.png)
+![Landing](images/TF/claro-mobile3.png)
+![Landing](images/TF/claro-mobile4.png)
+![Landing](images/TF/claro-mobile5.png)
+![Landing](images/TF/claro-mobile6.png)
+
+**US-TB-07	Soporte multiidioma (Español-Inglés)**
+
+**ESPAÑOL**
+
+![Landing](images/TF/oscuro-mobile1.png)
+![Landing](images/TF/oscuro-mobile2.png)
+![Landing](images/TF/oscuro-mobile3.png)
+![Landing](images/TF/oscuro-mobile4.png)
+![Landing](images/TF/oscuro-mobile5.png)
+![Landing](images/TF/oscuro-mobile6.png)
+
+**INGLES**
+
+![Landing](images/TF/in-mobile1.png)
+![Landing](images/TF/in-mobile2.png)
+![Landing](images/TF/in-mobile3.png)
+![Landing](images/TF/in-mobile4.png)
+![Landing](images/TF/in-mobile5.png)
+![Landing](images/TF/in-mobile6.png)
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
