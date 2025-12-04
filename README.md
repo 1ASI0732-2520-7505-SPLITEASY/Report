@@ -5004,7 +5004,24 @@ Este sprint reflejó la madurez del equipo en términos de colaboración técnic
 - ¿Te ha resultado más fluida la experiencia general en el móvil?
 
 
-#### 8.3.4.2. Registro de Entrevistas. --- TODOS
+#### 8.3.4.2. Registro de Entrevistas.
+
+### SEGMENTO 1:
+
+**REGISTRO ENTREVISTA 1:**
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Vannya Herrera |
+| **Edad** | 29 |
+| **Profesión** | Médico Familiar |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 09:22 |
+| **Link del video** |  |
+| **Foto entrevista** | <img src="images/TF/To_BeEntrevistaVH.png" alt=""  width="250" /> |
+| **Resumen** | La entrevistada, Vannya Herrera, médica de familia residente en Lima, expresó una alta satisfacción con las nuevas funcionalidades de SplitEasy. Destacó que la explicación visual de la fórmula de cálculo le permitió comprender mejor el reparto y confiar más en los montos. Consideró útiles los recordatorios automáticos, mencionando que la frecuencia es adecuada y que le ayudaron a pagar más rápido. Valoró positivamente los pagos por QR, resaltando su rapidez, facilidad y actualización inmediata. Sobre el chatbot, indicó que le resolvió dudas de forma clara sin necesidad de consultar a otros. También notó mejoras significativas en sincronización y rendimiento, especialmente en situaciones con mala conexión o alta actividad. El modo oscuro le resultó más cómodo visualmente y afirmó usarlo casi siempre. Respecto al soporte multiidioma, consideró las traducciones naturales y útiles para ampliar el alcance de la app. Finalmente, destacó una mejor carga móvil, menor consumo de batería y una experiencia más fluida en general. |
+
 
 ### SEGMENTO 2:
 
@@ -5090,9 +5107,70 @@ Además, refuerza la relevancia del diseño inclusivo para ampliar el alcance in
 | **8**         | ¿Optimizar la sincronización a menos de 0.5 segundos aumentará la percepción de confiabilidad del sistema entre los usuarios?                    |
 | **7**         | ¿La incorporación de modo oscuro y soporte multiidioma incrementará la satisfacción del usuario y permitirá llegar a audiencias internacionales? |
 
-## 8.5. Continuous Learning  --- TODO (DIEGO)
+## 8.5. Continuous Learning 
+
+La experimentación realizada en SplitEasy permitió validar hipótesis funcionales. Permitió aprender cómo ciertas decisiones de diseño, arquitectura y experiencia influyen directamente en confianza, velocidad percibida, retención y eficiencia del soporte. Lo aprendido no se limita a la funcionalidad probada durante el sprint, sino que se extiende a prácticas de desarrollo, observabilidad, modelado de comportamiento del usuario y consistencia entre plataformas.
+
+A continuación, se describen los aprendizajes estructurales obtenidos al analizar los resultados y su impacto técnico en la evolución del producto.
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+#### Aprendizajes derivados de la Transparencia en el Cálculo
+
+El experimento de la pantalla “¿Cómo se calculó?” reveló que la percepción de confianza del usuario puede mejorar significativamente sin modificar la lógica del backend, únicamente optimizando la forma en la que se comunican los datos. Esto enseñó al equipo que **la visualización es una herramienta técnica, no solo estética.**
+
+Representar aportes, porcentajes y montos de forma gráfica estableció un modelo mental claro para los usuarios, reduciendo fricción cognitiva y aumentando credibilidad. Este aprendizaje refuerza la importancia de diseñar interfaces donde lo matemático no debe sentirse abstracto.
+
+También comprobamos que el tracking de interacciones permite medir confianza de manera indirecta: tiempos de lectura, número de aperturas del modal y navegación posterior aportaron insumos valiosos para evaluar impacto.
+
+#### Aprendizajes derivados de la Automatización de Recordatorios
+
+Los recordatorios de deuda demostraron que la automatización bien diseñada mejora el comportamiento de pago sin generar rechazo. Esto enseñó que **la automatización no funciona por su existencia, sino por su calibración.**
+
+La lógica de frecuencia adaptable, la prevención de duplicados y la priorización por monto no solo resolvieron un problema funcional: demostraron que un backend capaz de interpretar estados, plazos y urgencia impacta directamente en métricas de cierre de deuda. También quedó claro que las pruebas unitarias para lógica temporal y recurrencias deben incluir escenarios amplios: días festivos, cambios de zona horaria, cron jobs simultáneos y situaciones de inactividad prolongada del usuario.
+
+Este aprendizaje refuerza la importancia de mantener la automatización como módulo estratégico dentro de la arquitectura.
+
+#### Aprendizajes derivados de la Integración de Pagos por QR
+
+La aceptación casi unánime del flujo de pagos por QR evidenció que las integraciones externas no son solo “features adicionales”, sino catalizadores de retención. Se aprendió que **la eliminación de pasos manuales es una de las mejoras más poderosas para motivar reutilización.**
+
+A nivel técnico, esta funcionalidad obligó al equipo a diseñar:
+
+- Validación automática con tolerancia a fallos.
+- Trazabilidad de transacciones para auditoría.
+- Manejo de estados de pago (pendiente, confirmado, fallido) de forma reactiva en frontend.
+
+Estos desafíos reforzaron la importancia de construir integraciones desacopladas, con módulos claramente definidos para evitar que futuras actualizaciones de APIs externas quiebren todo el sistema.
+
+#### Aprendizajes derivados del Chatbot de Asistencia Inteligente
+
+El chatbot permitió comprender que los usuarios prefieren resolver dudas sin abandonar la aplicación. Esto enseñó que **el autoservicio reduce la carga operacional, pero depende de la claridad y consistencia de los datos que expone el backend.**
+
+El equipo descubrió que mantener endpoints normalizados, estructurados y libres de ambigüedades es clave para que el chatbot entregue respuestas fiables. También fue evidente que los intents deben diseñarse con precisión lingüística y contextual, ya que pequeñas variaciones en la pregunta del usuario pueden modificar por completo la respuesta esperada.
+
+Como aprendizaje adicional, surgió la necesidad de incluir logs específicos para conversaciones, permitiendo detectar patrones de preguntas frecuentes y áreas donde el usuario se confunde.
+
+#### Aprendizajes derivados de la Optimización de Sincronización (<0.5 s)
+
+La mejora en la percepción de velocidad enseñó algo fundamental. **La velocidad percibida depende más del feedback inmediato que del tiempo total de procesamiento.**
+
+Durante el desarrollo se comprobó que el caching local, el estado optimista (mostrar cambios antes de confirmar respuesta), y la reducción del peso de los payloads tienen un impacto mayor que optimizaciones micro en el backend.
+
+Asimismo, se evidenció que diferentes dispositivos muestran variaciones significativas en tiempos de carga, lo que resalta la necesidad futura de monitorear rendimiento por plataforma, y no solo por funcionalidad.
+
+#### Aprendizajes derivados del Modo Oscuro y Multiidioma
+
+La aceptación total del modo oscuro y del sistema multiidioma enseñó que **la accesibilidad, el confort visual y la internacionalización no son mejoras opcionales, sino expectativas estándar de los usuarios modernos.**
+
+El equipo aprendió que:
+
+- El soporte multiidioma debe integrarse desde la estructura inicial del frontend (i18n centralizado).
+- Las traducciones requieren pipeline, versionamiento y pruebas para asegurar consistencia.
+- El modo oscuro debe desarrollarse considerando contraste, accesibilidad (AA/AAA), colores semánticos y adaptabilidad a múltiples componentes.
+
+Estos aprendizajes consolidan el entendimiento de que la expansión internacional y la accesibilidad no pueden diferirse hacia etapas tardías del desarrollo.
+
 
 ## 8.6. To-Be Software Platform Pre-launch 
 
