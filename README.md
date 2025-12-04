@@ -4313,118 +4313,128 @@ El equipo debe definir de manera anticipada todas las métricas del dominio de n
 Ningún experimento podrá incluir métricas no especificadas en esta sección.
 
 ---
-
-#### Métrica 1: Índice de confianza del usuario (User Trust Index)
-
-**Descripción:**  
-Mide el nivel de confianza que los usuarios tienen en la precisión de los cálculos y montos mostrados por la aplicación.
-
-**Fórmula:**  
-> Índice de confianza = (Σ Puntajes de confianza / Número total de respuestas) × 100
-
-**Técnica de recolección:**  
-Encuestas post-interacción (escala Likert 1–5) y análisis semántico de comentarios en soporte.
-
-**Meta:**  
-Incrementar el índice de confianza en ≥ **40%** tras la implementación de la explicación visual de la fórmula de reparto.
-
-**Hipótesis vinculada:**  
-Explicación visual de la fórmula.
+Aquí te las dejo **ya alineadas 1 a 1**, **una métrica por cada hipótesis**, tal como te lo piden.
+Cada hipótesis → exactamente **una Domain Business Metric**.
 
 ---
 
-#### Métrica 2: Tasa de cierre de deudas (Debt Closure Rate)
+# ✅ **8.2.2. Domain Business Metrics (1 métrica por hipótesis)**
 
-**Descripción:**  
-Evalúa la eficiencia del sistema para promover el pago y cierre oportuno de deudas dentro de los grupos.
+A continuación se presentan las métricas de negocio directamente asociadas a cada hipótesis definida en la sección 8.2.1. Cada métrica incluye descripción, fórmula, técnica de recolección y meta. Ningún experimento utilizará métricas no definidas aquí.
 
-**Fórmula:**  
+---
+
+## **Métrica 1 — Para Hipótesis: Explicación visual de la fórmula**
+
+### **Nombre:** Índice de Confianza del Usuario (User Trust Index)
+
+**Descripción:**
+Mide cuánto confían los usuarios en los montos calculados por la aplicación después de entender la fórmula de reparto.
+
+**Fórmula:**
+
+> Índice de confianza = (Σ Puntajes de confianza / N° total de respuestas) × 100
+
+**Técnica de recolección:**
+Encuestas post-interacción (escala Likert 1–5) + análisis semántico de comentarios.
+
+**Meta:**
+Incrementar el índice de confianza en **≥ 40%** tras mostrar la explicación visual de la fórmula.
+
+---
+
+## **Métrica 2 — Para Hipótesis: Recordatorios automáticos**
+
+### **Nombre:** Tasa de Cierre de Deudas (Debt Closure Rate)
+
+**Descripción:**
+Evalúa qué tan eficiente es el sistema para lograr que los usuarios paguen y cierren deudas a tiempo.
+
+**Fórmula:**
+
 > Tasa de cierre de deudas = (Deudas pagadas / Deudas totales generadas) × 100
 
-**Técnica de recolección:**  
-Registros automáticos de transacciones en la base de datos de grupos.
+**Técnica de recolección:**
+Registros automáticos de pagos en la base de datos de grupos.
 
-**Meta:**  
-Aumento de ≥ **35%** en la tasa de cierre de deudas tras implementar recordatorios automáticos.
-
-**Hipótesis vinculada:**  
-Recordatorios automáticos de pago.
+**Meta:**
+Aumentar la tasa de cierre en **≥ 35%** tras activar recordatorios automáticos.
 
 ---
 
-#### Métrica 3: Tasa de retención de usuarios (User Retention Rate)
+## **Métrica 3 — Para Hipótesis: Integración de pagos por QR**
 
-**Descripción:**  
-Mide el porcentaje de usuarios que continúan utilizando la aplicación después de un periodo determinado.
+### **Nombre:** Tasa de Retención de Usuarios (User Retention Rate)
 
-**Fórmula:**  
-> Tasa de retención = (Usuarios activos al final del periodo / Usuarios activos al inicio del periodo) × 100
+**Descripción:**
+Mide qué porcentaje de usuarios sigue usando SplitEasy tras agregar pagos por QR.
 
-**Técnica de recolección:**  
-Seguimiento de eventos de sesión (login/uso) mediante analítica interna (*Firebase Analytics* o *Mixpanel*).
+**Fórmula:**
 
-**Meta:**  
-Incrementar la retención mensual en ≥ **30%** tras la integración de pagos por QR (*Yape/Plin*).
+> Retención = (Usuarios activos al final del período / Usuarios activos al inicio) × 100
 
-**Hipótesis vinculada:**  
-Integración de pagos por QR.
+**Técnica de recolección:**
+Eventos de sesión (login/uso) mediante Firebase Analytics o Mixpanel.
 
----
-
-#### Métrica 4: Volumen de solicitudes de soporte (Support Request Volume)
-
-**Descripción:**  
-Determina la carga de consultas recibidas por el equipo de soporte y mide la efectividad del chatbot IA.
-
-**Fórmula:**  
-> Reducción de soporte = ((Consultas antes - Consultas después) / Consultas antes) × 100
-
-**Técnica de recolección:**  
-Conteo automatizado de tickets o mensajes en la base de datos del centro de soporte.
-
-**Meta:**  
-Reducir las solicitudes de soporte en ≥ **50%** con la introducción del chatbot IA contextual.
-
-**Hipótesis vinculada:**  
-Chatbot IA contextual.
+**Meta:**
+Incrementar la retención mensual en **≥ 30%**.
 
 ---
 
-#### Métrica 5: Tiempo promedio de sincronización (Average Sync Time)
+## **Métrica 4 — Para Hipótesis: Chatbot IA contextual**
 
-**Descripción:**  
-Mide la velocidad de actualización entre el frontend y backend tras operaciones críticas (pagos, cierres, edición de gastos).
+### **Nombre:** Volumen de Solicitudes de Soporte (Support Request Volume)
 
-**Fórmula:**  
-> Tiempo promedio de sincronización = (Σ Tiempos de actualización / Número total de eventos)
+**Descripción:**
+Mide cuántas consultas dejan de llegar al equipo de soporte tras activar el chatbot IA.
 
-**Técnica de recolección:**  
-Logs de performance y mediciones de tiempo de respuesta mediante herramientas de monitoreo de API.
+**Fórmula:**
 
-**Meta:**  
-Reducir el tiempo promedio a < **0.5 segundos** y mejorar la percepción de confiabilidad en ≥ **25%**.
+> Reducción = ((Consultas antes − Consultas después) / Consultas antes) × 100
 
-**Hipótesis vinculada:**  
-Optimización de sincronización.
+**Técnica de recolección:**
+Conteo automatizado de tickets en la base de datos del centro de soporte.
+
+**Meta:**
+Reducir solicitudes en **≥ 50%**.
 
 ---
 
-#### Métrica 6: Índice de satisfacción del usuario (User Satisfaction Index / CSAT)
+## **Métrica 5 — Para Hipótesis: Optimización de sincronización**
 
-**Descripción:**  
-Evalúa la satisfacción general de los usuarios con las funcionalidades visuales y de accesibilidad (modo oscuro, multiidioma).
+### **Nombre:** Tiempo Promedio de Sincronización (Average Sync Time)
 
-**Fórmula:**  
-> CSAT = (Respuestas satisfecho o muy satisfecho / Total de respuestas) × 100
+**Descripción:**
+Mide la rapidez de actualización entre frontend y backend luego de operaciones críticas.
 
-**Técnica de recolección:**  
-Encuestas integradas en la aplicación y análisis de puntuaciones de tienda (*Play Store* / *App Store*).
+**Fórmula:**
 
-**Meta:**  
-Aumentar la satisfacción general en ≥ **25%** y los registros internacionales en ≥ **20%**.
+> Tiempo promedio = (Σ tiempos de actualización / N° total de eventos)
 
-**Hipótesis vinculada:**  
-Modo oscuro y soporte multiidioma.
+**Técnica de recolección:**
+Logs de performance + métricas de respuesta de API.
+
+**Meta:**
+Reducir el tiempo a **< 0.5 segundos** y aumentar percepción de confiabilidad en **≥ 25%**.
+
+---
+
+## **Métrica 6 — Para Hipótesis: Modo oscuro + multiidioma**
+
+### **Nombre:** Índice de Satisfacción del Usuario (CSAT / User Satisfaction Index)
+
+**Descripción:**
+Mide la satisfacción general con las nuevas opciones de accesibilidad (modo oscuro, multiidioma).
+
+**Fórmula:**
+
+> CSAT = (Respuestas “satisfecho” o “muy satisfecho” / Total de respuestas) × 100
+
+**Técnica de recolección:**
+Encuestas internas + puntuaciones en Play Store/App Store.
+
+**Meta:**
+Aumentar la satisfacción en **≥ 25%** y los registros internacionales en **≥ 20%**.
 
 ---
 
